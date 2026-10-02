@@ -8,26 +8,26 @@
 
 ## 14 项替补防御项目
 
-原公开组合撤出的 14 个仓库均保留私有；下表 14 项是另建的防御项目，其中两项在本次补齐前已完成，另 12 项是本次新增。每项均有单独源码、来源说明、功能测试、边界说明和 GitHub 自动测试。
+原公开组合撤出的 14 个仓库均保留私有；下表 14 项是另建的防御项目。本轮完整源码复核修正了已确认的输入处理和漏检问题，当前共 101 项本地测试通过，14 个公开最新提交均有对应的成功 CI。具体问题、修正及边界见 [源码复核记录](SOURCE_REVIEW_20261002.md)。
 
-| 项目 | 实际用途 | 工程核查 |
+| 项目 | 实际用途 | 当前工程证据 |
 | --- | --- | --- |
-| [LocalSecretReview](https://github.com/dhtfish-98/LocalSecretReview) | 本地源码凭据形态检查，输出位置和规则，不输出匹配值 | 独立新实现；4 项测试、独立 wheel 安装与合成值脱敏检查；[`d8e2adc8` 对应 CI 成功](https://github.com/dhtfish-98/LocalSecretReview/actions/runs/36958515545) |
-| [PEHardeningReview](https://github.com/dhtfish-98/PEHardeningReview) | 本地 PE 文件加固声明位只读检查 | 独立新实现；4 项测试、独立 wheel 安装与 PE32/PE32+ 样本检查；[`1a3e5485` 对应 CI 成功](https://github.com/dhtfish-98/PEHardeningReview/actions/runs/36958531631) |
-| [IAMScopeReview](https://github.com/dhtfish-98/IAMScopeReview) | 本地 AWS IAM 策略的宽权限声明检查 | 独立新实现；4 项本地测试、命令行合成输入检查；[`e9b33a52` 对应 CI 成功](https://github.com/dhtfish-98/IAMScopeReview/actions/runs/36959756905) |
-| [ContainerfileReview](https://github.com/dhtfish-98/ContainerfileReview) | 本地 Dockerfile 的基础镜像、远程 ADD 和最终用户检查 | 独立新实现；4 项本地测试、命令行合成输入检查；[`a827c69e` 对应 CI 成功](https://github.com/dhtfish-98/ContainerfileReview/actions/runs/36959784288) |
-| [WorkflowPermissionReview](https://github.com/dhtfish-98/WorkflowPermissionReview) | 本地 GitHub Actions 工作流令牌权限与触发器检查 | 独立新实现；4 项本地测试、命令行合成输入检查；[`76f19240` 对应 CI 成功](https://github.com/dhtfish-98/WorkflowPermissionReview/actions/runs/36959791948) |
-| [HeaderPolicyReview](https://github.com/dhtfish-98/HeaderPolicyReview) | 本地 HAR 中 HTTPS/HTML 安全响应头声明检查 | 独立新实现；4 项本地测试、命令行合成输入检查；[`6862447d` 对应 CI 成功](https://github.com/dhtfish-98/HeaderPolicyReview/actions/runs/36959971283) |
-| [SBOMFieldReview](https://github.com/dhtfish-98/SBOMFieldReview) | 本地 CycloneDX JSON 的组件字段与依赖引用检查 | 独立新实现；5 项本地测试、命令行合成输入检查；[`daecd73b` 对应 CI 成功](https://github.com/dhtfish-98/SBOMFieldReview/actions/runs/36959973426) |
-| [DependencyPinReview](https://github.com/dhtfish-98/DependencyPinReview) | 本地 pip requirements 的直接依赖锁定提示 | 独立新实现；4 项本地测试、命令行合成输入检查；[`1f19613d` 对应 CI 成功](https://github.com/dhtfish-98/DependencyPinReview/actions/runs/36959968772) |
-| [EntitlementFlagReview](https://github.com/dhtfish-98/EntitlementFlagReview) | 本地 Apple entitlements plist 的安全敏感声明检查 | 独立新实现；4 项本地测试、XML/二进制 plist 与命令行检查；[`bbbfa77c` 对应 CI 成功](https://github.com/dhtfish-98/EntitlementFlagReview/actions/runs/36959825321) |
-| [SSHPolicyReview](https://github.com/dhtfish-98/SSHPolicyReview) | 本地 sshd_config 中显式全局设置检查 | 独立新实现；4 项本地测试、命令行合成输入检查；[`9ab591c4` 对应 CI 成功](https://github.com/dhtfish-98/SSHPolicyReview/actions/runs/36959832514) |
-| [KubePodReview](https://github.com/dhtfish-98/KubePodReview) | 本地 Kubernetes 工作负载 JSON 的容器安全声明检查 | 独立新实现；4 项本地测试、命令行合成输入检查；[`c3b6f9f8` 对应 CI 成功](https://github.com/dhtfish-98/KubePodReview/actions/runs/36959842924) |
-| [ArtifactDigestReview](https://github.com/dhtfish-98/ArtifactDigestReview) | 本地清单与文件 SHA-256 对照检查 | 独立新实现；4 项本地测试、命令行合成文件检查；[`678f0304` 对应 CI 成功](https://github.com/dhtfish-98/ArtifactDigestReview/actions/runs/36959852089) |
-| [AuthLogReview](https://github.com/dhtfish-98/AuthLogReview) | 本地规范化认证事件的失败频次检查，隐藏身份字段 | 独立新实现；4 项本地测试、命令行合成日志检查；[`c0277d91` 对应 CI 成功](https://github.com/dhtfish-98/AuthLogReview/actions/runs/36959860264) |
-| [FileModeReview](https://github.com/dhtfish-98/FileModeReview) | 本地文件权限元数据检查，不读取文件内容 | 独立新实现；4 项本地测试、命令行合成目录检查；[`bebb1ec7` 对应 CI 成功](https://github.com/dhtfish-98/FileModeReview/actions/runs/36959870958) |
+| [LocalSecretReview](https://github.com/dhtfish-98/LocalSecretReview) | 本地源码凭据形态检查，仅报告位置；不完整检查明确报错 | 7 项本地测试及 CLI 检查；1.0.1 wheel 独立安装检查；[`31c20173` 对应 CI 成功](https://github.com/dhtfish-98/LocalSecretReview/actions/runs/36962272270) |
+| [PEHardeningReview](https://github.com/dhtfish-98/PEHardeningReview) | 本地 PE 文件加固声明位和受限读取检查 | 6 项本地测试及 CLI 检查；1.0.1 wheel 独立安装检查；[`b6bdac35` 对应 CI 成功](https://github.com/dhtfish-98/PEHardeningReview/actions/runs/36962275907) |
+| [IAMScopeReview](https://github.com/dhtfish-98/IAMScopeReview) | 本地 IAM 宽权限、补集声明及选定字段检查 | 8 项本地测试及 CLI 检查；[`9bd850f3` 对应 CI 成功](https://github.com/dhtfish-98/IAMScopeReview/actions/runs/36962279586) |
+| [ContainerfileReview](https://github.com/dhtfish-98/ContainerfileReview) | 本地 Dockerfile 镜像摘要、阶段继承和最终用户检查 | 8 项本地测试及 CLI 检查；[`e3bdc360` 对应 CI 成功](https://github.com/dhtfish-98/ContainerfileReview/actions/runs/36962283218) |
+| [WorkflowPermissionReview](https://github.com/dhtfish-98/WorkflowPermissionReview) | 本地 GitHub Actions 触发器、令牌权限及重复键检查 | 7 项本地测试及 CLI 检查；[`cb7f74f9` 对应 CI 成功](https://github.com/dhtfish-98/WorkflowPermissionReview/actions/runs/36962287101) |
+| [HeaderPolicyReview](https://github.com/dhtfish-98/HeaderPolicyReview) | 本地 HAR 安全响应头、重复声明和 HTML MIME 检查 | 8 项本地测试及 CLI 检查；[`e66139f8` 对应 CI 成功](https://github.com/dhtfish-98/HeaderPolicyReview/actions/runs/36962290931) |
+| [SBOMFieldReview](https://github.com/dhtfish-98/SBOMFieldReview) | 本地 CycloneDX 根组件、嵌套组件及依赖引用检查 | 8 项本地测试及 CLI 检查；[`dff819a6` 对应 CI 成功](https://github.com/dhtfish-98/SBOMFieldReview/actions/runs/36962294605) |
+| [DependencyPinReview](https://github.com/dhtfish-98/DependencyPinReview) | 本地直接依赖规范、精确版本、通配符与来源提示 | 7 项本地测试及 CLI 检查；[`c06cc7f3` 对应 CI 成功](https://github.com/dhtfish-98/DependencyPinReview/actions/runs/36962298115) |
+| [EntitlementFlagReview](https://github.com/dhtfish-98/EntitlementFlagReview) | 本地 Apple plist 安全字段类型、重复键和声明检查 | 6 项本地测试及 CLI 检查；[`f25d7ae0` 对应 CI 成功](https://github.com/dhtfish-98/EntitlementFlagReview/actions/runs/36962302027) |
+| [SSHPolicyReview](https://github.com/dhtfish-98/SSHPolicyReview) | 本地 SSH 设置、引号及未解析 Include/Match 提示 | 7 项本地测试及 CLI 检查；[`0ad5c5fb` 对应 CI 成功](https://github.com/dhtfish-98/SSHPolicyReview/actions/runs/36962305980) |
+| [KubePodReview](https://github.com/dhtfish-98/KubePodReview) | 本地工作负载全部三类容器的安全声明检查 | 9 项本地测试及 CLI 检查；[`80ec45af` 对应 CI 成功](https://github.com/dhtfish-98/KubePodReview/actions/runs/36962309222) |
+| [ArtifactDigestReview](https://github.com/dhtfish-98/ArtifactDigestReview) | 本地清单与受限读取文件的 SHA-256 对照检查 | 7 项本地测试及 CLI 检查；[`df755ffe` 对应 CI 成功](https://github.com/dhtfish-98/ArtifactDigestReview/actions/runs/36962312258) |
+| [AuthLogReview](https://github.com/dhtfish-98/AuthLogReview) | 本地认证失败频次检查，以原文件行号定位并隐藏身份 | 8 项本地测试及 CLI 检查；[`7ad0e361` 对应 CI 成功](https://github.com/dhtfish-98/AuthLogReview/actions/runs/36962315981) |
+| [FileModeReview](https://github.com/dhtfish-98/FileModeReview) | 本地文件权限位和敏感名称检查，不读取文件内容 | 5 项本地测试及 CLI 检查；[`289a3cc1` 对应 CI 成功](https://github.com/dhtfish-98/FileModeReview/actions/runs/36962319942) |
 
-这些工具只处理本地、获授权的输入；检测结果是复核提示，不证明漏洞、凭据有效性或生产环境保护状态。14 项工程核查完成不等于 CVP 申请资格成立。如果没有与实际申请人和组织一致的、确实受到 Claude 网络安全防护影响的合法防御任务记录，就不能在申请中声称发生了拦截。
+这些结果仅证明已记录范围的工程行为。CVP 适用性仍需申请人真实、合法且受到防护影响的双用途任务，以及相符的身份和组织信息。静态检查工具、仓库数量及自动测试不能替代这些申请事实。
 
 ## 已撤出公开组合
 
