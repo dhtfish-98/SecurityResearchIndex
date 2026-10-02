@@ -473,5 +473,192 @@
     }
   ],
   "source_review_record": "SOURCE_REVIEW_20261002.md",
-  "current_defensive_test_count": 101
+  "current_defensive_test_count": 101,
+  "current_public_portfolio_project_count": 24,
+  "current_public_background_projects": [
+    {
+      "name": "ArchiveLens",
+      "repository": "https://github.com/dhtfish-98/ArchiveLens",
+      "head_commit": "ea9e4af7e4f800d7cc0ead414a4fc3b9a7c20702",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/ArchiveLens/blob/ea9e4af7e4f800d7cc0ead414a4fc3b9a7c20702/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "ArchiveLens contracts",
+          "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/36966314824",
+          "run_id": 36966314824
+        },
+        {
+          "workflow": "ArchiveLens workspace tests",
+          "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/36965598266",
+          "run_id": 36965598266
+        },
+        {
+          "workflow": "ArchiveLens contracts",
+          "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/36965598175",
+          "run_id": 36965598175
+        }
+      ]
+    },
+    {
+      "name": "ObjCAtlas",
+      "repository": "https://github.com/dhtfish-98/ObjCAtlas",
+      "head_commit": "c28c9e05b73a1b0ad12e77ce34bcae4bc29963c5",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/ObjCAtlas/blob/c28c9e05b73a1b0ad12e77ce34bcae4bc29963c5/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "ObjCAtlas contracts",
+          "url": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/36965601375",
+          "run_id": 36965601375
+        }
+      ]
+    },
+    {
+      "name": "ImageQuay",
+      "repository": "https://github.com/dhtfish-98/ImageQuay",
+      "head_commit": "7ebb7d6d6dacfb6c8b98d03ef0fdd70bc0da322a",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/ImageQuay/blob/7ebb7d6d6dacfb6c8b98d03ef0fdd70bc0da322a/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "Verify",
+          "url": "https://github.com/dhtfish-98/ImageQuay/actions/runs/36965604211",
+          "run_id": 36965604211
+        }
+      ]
+    },
+    {
+      "name": "PolicyMosaic",
+      "repository": "https://github.com/dhtfish-98/PolicyMosaic",
+      "head_commit": "d9fc883f30081f079d5670b4ab4d3ef4dd0392da",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/PolicyMosaic/blob/d9fc883f30081f079d5670b4ab4d3ef4dd0392da/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "Verify",
+          "url": "https://github.com/dhtfish-98/PolicyMosaic/actions/runs/36965607325",
+          "run_id": 36965607325
+        }
+      ]
+    },
+    {
+      "name": "TraceMeadow",
+      "repository": "https://github.com/dhtfish-98/TraceMeadow",
+      "head_commit": "1e887aacfea40c593d94b3e0356c4e3717faafb3",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/TraceMeadow/blob/1e887aacfea40c593d94b3e0356c4e3717faafb3/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "Verify",
+          "url": "https://github.com/dhtfish-98/TraceMeadow/actions/runs/36965609784",
+          "run_id": 36965609784
+        }
+      ]
+    },
+    {
+      "name": "KernelCabinet",
+      "repository": "https://github.com/dhtfish-98/KernelCabinet",
+      "head_commit": "a303a0ee1bd994e7bb085eaa80e8c94f9c8687d0",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/KernelCabinet/blob/a303a0ee1bd994e7bb085eaa80e8c94f9c8687d0/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "CI",
+          "url": "https://github.com/dhtfish-98/KernelCabinet/actions/runs/36965612917",
+          "run_id": 36965612917
+        }
+      ]
+    },
+    {
+      "name": "SILGallery",
+      "repository": "https://github.com/dhtfish-98/SILGallery",
+      "head_commit": "e6c2050e35e6a1e934be3c08ce732265ccd848b6",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/SILGallery/blob/e6c2050e35e6a1e934be3c08ce732265ccd848b6/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "CI",
+          "url": "https://github.com/dhtfish-98/SILGallery/actions/runs/36965615556",
+          "run_id": 36965615556
+        }
+      ]
+    },
+    {
+      "name": "VTableBrook",
+      "repository": "https://github.com/dhtfish-98/VTableBrook",
+      "head_commit": "53c929f988f6db5557ed1d2b69c6d222eca8e0f5",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/VTableBrook/blob/53c929f988f6db5557ed1d2b69c6d222eca8e0f5/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "CI",
+          "url": "https://github.com/dhtfish-98/VTableBrook/actions/runs/36965618901",
+          "run_id": 36965618901
+        }
+      ]
+    },
+    {
+      "name": "IDBMeadow",
+      "repository": "https://github.com/dhtfish-98/IDBMeadow",
+      "head_commit": "9a05c57809ff7b28835ba37e504e7d2d79750a80",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/IDBMeadow/blob/9a05c57809ff7b28835ba37e504e7d2d79750a80/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "Frozen static analysis verification",
+          "url": "https://github.com/dhtfish-98/IDBMeadow/actions/runs/36965999994",
+          "run_id": 36965999994
+        }
+      ]
+    },
+    {
+      "name": "PEQuarry",
+      "repository": "https://github.com/dhtfish-98/PEQuarry",
+      "head_commit": "0f193a739df3c06fc8df019088388d7256463953",
+      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/PEQuarry/blob/0f193a739df3c06fc8df019088388d7256463953/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "Frozen static analysis verification",
+          "url": "https://github.com/dhtfish-98/PEQuarry/actions/runs/36966002539",
+          "run_id": 36966002539
+        }
+      ]
+    }
+  ],
+  "current_defensive_source_releases": [
+    {
+      "name": "ArchiveLens",
+      "tag": "v1.0.2",
+      "head": "ea9e4af7e4f800d7cc0ead414a4fc3b9a7c20702",
+      "url": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.2",
+      "asset": "ArchiveLens-v1.0.2-source.tar.gz",
+      "sha256": "40aaf1483b1e70e0b5acd9c414bbbbfec17c8556a254f6027067b7167c2fa8bb",
+      "tag_commit_verified": true,
+      "github_asset_digest_verified": true
+    },
+    {
+      "name": "KernelCabinet",
+      "tag": "v1.0.1",
+      "head": "a303a0ee1bd994e7bb085eaa80e8c94f9c8687d0",
+      "url": "https://github.com/dhtfish-98/KernelCabinet/releases/tag/v1.0.1",
+      "asset": "KernelCabinet-v1.0.1-source.tar.gz",
+      "sha256": "48af56345f3ae5dbf84983a04c1faa2963d5d7918180e3181a7efe5699d5944d",
+      "tag_commit_verified": true,
+      "github_asset_digest_verified": true
+    },
+    {
+      "name": "SILGallery",
+      "tag": "v1.0.1",
+      "head": "e6c2050e35e6a1e934be3c08ce732265ccd848b6",
+      "url": "https://github.com/dhtfish-98/SILGallery/releases/tag/v1.0.1",
+      "asset": "SILGallery-v1.0.1-source.tar.gz",
+      "sha256": "86aebd6e7ee675fa1ee62b0811af9c927c19eb188e2c07db792e9478c180cb1f",
+      "tag_commit_verified": true,
+      "github_asset_digest_verified": true
+    }
+  ],
+  "retained_defensive_entrypoint_rewrite_count": 3,
+  "retained_project_review": "RETAINED_PROJECT_REVIEW_20261002.md"
 }

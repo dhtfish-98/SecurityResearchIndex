@@ -42,6 +42,6 @@
 
 ## 其他公开项目
 
-ArchiveLens、ObjCAtlas、ImageQuay、PolicyMosaic、TraceMeadow、KernelCabinet、SILGallery、VTableBrook、IDBMeadow、PEQuarry 是静态分析或开发研究工具；它们继续公开，但本索引不把它们列为 CVP 核心证据。[SealScope](https://github.com/dhtfish-98/SealScope) 是现有的只读 Mach-O 审计工具，也只作为相关工作背景。历史的 BranchLoom、TabWeave、A64Dispatch、ChromeRelay 等也不因公开而自动成为 CVP 项目。
+ArchiveLens、ObjCAtlas、ImageQuay、PolicyMosaic、TraceMeadow、KernelCabinet、SILGallery、VTableBrook、IDBMeadow、PEQuarry 继续公开。本轮已逐项核对实际能力、来源和许可证，修复其中 3 项的具体问题；最新提交的全部对应 CI 成功。具体修改、历史软件包及仍未完成的边界见 [保留项目复核记录](RETAINED_PROJECT_REVIEW_20261002.md)。这些工具包含各自声明的输出、编辑、脚本或外部助手能力，不能统一描述为纯只读项目。[SealScope](https://github.com/dhtfish-98/SealScope) 是现有的只读 Mach-O 审计工具，也只作为相关工作背景。历史的 BranchLoom、TabWeave、A64Dispatch、ChromeRelay 等也不因公开而自动成为 CVP 项目。
 
-14 项替补项目的代码、说明、来源和自动测试已按各自 `VALIDATION.md` 核查，公开仓库与对应提交的 CI 已核对。其中两项还完成了独立 wheel 安装检查。尚无这些任务受到 Claude 防护拦截的记录，也未核实与申请组织的对应关系；因此这里只能标记项目工程检查完成，不能标记 CVP 申请条件完成。GitHub 结果和申请结果分别记录，绝不以自动测试推断 CVP 审核结论。
+14 项替补项目的代码、说明、来源和自动测试已按各自 `VALIDATION.md` 核查，公开仓库与对应提交的 CI 已核对。其中两项还完成了独立 wheel 安装检查。对本次申请，仍未核实与实际模型、渠道、申请人和组织一致的原始受限任务记录；因此这里只能标记项目工程检查完成，不能标记 CVP 申请条件完成。GitHub 结果和申请结果分别记录，绝不以自动测试推断 CVP 审核结论。
