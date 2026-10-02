@@ -517,52 +517,56 @@
     {
       "name": "ImageQuay",
       "repository": "https://github.com/dhtfish-98/ImageQuay",
-      "head_commit": "86c884f5daec4dca2015824fa52c1129eca8ee93",
+      "head_commit": "9e791f676a24fa788f349ca7b48768960efc963c",
       "status": "PUBLIC_PARTIAL_RUNTIME_REWRITTEN_CVP_ELIGIBILITY_OPEN",
-      "capability_scope": "https://github.com/dhtfish-98/ImageQuay/blob/86c884f5daec4dca2015824fa52c1129eca8ee93/DEFENSIVE_SCOPE.md",
+      "capability_scope": "https://github.com/dhtfish-98/ImageQuay/blob/9e791f676a24fa788f349ca7b48768960efc963c/DEFENSIVE_SCOPE.md",
       "successful_checks": [
         {
-          "workflow": "Verify",
-          "url": "https://github.com/dhtfish-98/ImageQuay/actions/runs/36975795025",
-          "run_id": 36975795025
+          "workflow": "Verified publication workflow",
+          "url": "https://github.com/dhtfish-98/ImageQuay/actions/runs/36985769583",
+          "run_id": 36985769583
         }
       ],
       "current_validation": {
         "status": "PASS",
-        "project_tests_passed": 162,
+        "project_tests_passed": 291,
         "source_observations": 822,
-        "equal_observations": 818,
-        "intentional_checked_changes": 4,
+        "equal_observations": 416,
+        "intentional_checked_changes": 406,
+        "independent_bitfield_corrections": 402,
+        "strict_image_corrections": 4,
+        "macos_primary_oracle_checks": "PASS with exactly two ARM64_32 name discrepancies checked by independent Apple opcode interpretation; source explanation INFERENCE, exact tool build provenance OPEN",
         "installed_consumer": "PASS",
         "whole_project_rewrite": "OPEN",
         "CVP_eligibility": "OPEN",
-        "scope": "有限输入快照、Mach-O/FAT/签名/导出/VM/显式编辑写出和更新入口实改；ObjC/Swift、GUI、plist/record 与绑定完整核心仍待后续阶段。",
-        "macos_primary_oracle_checks": "PASS locally; 4 macOS checks skipped explicitly in Linux CI"
+        "scope": "容器、record/plist、绑定/链式重定位及两阶段加载已实改；ObjC/Swift、头文件/GUI/内核解释等剩余核心继续 OPEN。"
       }
     },
     {
       "name": "PolicyMosaic",
       "repository": "https://github.com/dhtfish-98/PolicyMosaic",
-      "head_commit": "13cb5a496d57ecf6384b0257bcf632ebcf7dc763",
+      "head_commit": "081a6a0ddaa67c33d6f4a59328172a3949ce69f4",
       "status": "PUBLIC_PARTIAL_RUNTIME_REWRITTEN_CVP_ELIGIBILITY_OPEN",
-      "capability_scope": "https://github.com/dhtfish-98/PolicyMosaic/blob/13cb5a496d57ecf6384b0257bcf632ebcf7dc763/DEFENSIVE_SCOPE.md",
+      "capability_scope": "https://github.com/dhtfish-98/PolicyMosaic/blob/081a6a0ddaa67c33d6f4a59328172a3949ce69f4/DEFENSIVE_SCOPE.md",
       "successful_checks": [
         {
-          "workflow": "Verify",
-          "url": "https://github.com/dhtfish-98/PolicyMosaic/actions/runs/36979363086",
-          "run_id": 36979363086
+          "workflow": "Verified publication workflow",
+          "url": "https://github.com/dhtfish-98/PolicyMosaic/actions/runs/36984676178",
+          "run_id": 36984676178
         }
       ],
       "current_validation": {
         "status": "PASS",
-        "project_tests_passed": 150,
+        "project_tests_passed": 466,
         "source_observations": 956,
         "equal_observations": 927,
         "intentional_checked_changes": 29,
+        "independent_language_checks": 21024,
+        "ordinary_reports_equal": 8,
         "installed_consumer": "PASS",
         "whole_project_rewrite": "OPEN",
         "CVP_eligibility": "OPEN",
-        "scope": "策略 profile/string/regex 有限解码、图上下文预算、受限进程与模拟辅助路径实改；完整图归约语义和真实固件全路径仍 OPEN。"
+        "scope": "有限策略/字符串/字节码、隔离模拟及 NFA 正则语言归约实改；操作决策图、完整报告和真实固件路径继续 OPEN。"
       }
     },
     {
@@ -655,46 +659,69 @@
     {
       "name": "IDBMeadow",
       "repository": "https://github.com/dhtfish-98/IDBMeadow",
-      "head_commit": "9a05c57809ff7b28835ba37e504e7d2d79750a80",
-      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
-      "capability_scope": "https://github.com/dhtfish-98/IDBMeadow/blob/9a05c57809ff7b28835ba37e504e7d2d79750a80/DEFENSIVE_SCOPE.md",
-      "successful_checks": [
-        {
-          "workflow": "Frozen static analysis verification",
-          "url": "https://github.com/dhtfish-98/IDBMeadow/actions/runs/36965999994",
-          "run_id": 36965999994
-        }
-      ]
-    },
-    {
-      "name": "PEQuarry",
-      "repository": "https://github.com/dhtfish-98/PEQuarry",
-      "head_commit": "1e74c7d330f7714c696226640eb08774a4ef4cc1",
+      "head_commit": "1060c03345e94a4c09c7a96f2e6b8d99bbf515c2",
       "status": "PUBLIC_PARTIAL_RUNTIME_REWRITTEN_CVP_ELIGIBILITY_OPEN",
-      "capability_scope": "https://github.com/dhtfish-98/PEQuarry/blob/1e74c7d330f7714c696226640eb08774a4ef4cc1/DEFENSIVE_SCOPE.md",
+      "capability_scope": "https://github.com/dhtfish-98/IDBMeadow/blob/1060c03345e94a4c09c7a96f2e6b8d99bbf515c2/DEFENSIVE_SCOPE.md",
       "successful_checks": [
         {
-          "workflow": "Frozen static analysis verification",
-          "url": "https://github.com/dhtfish-98/PEQuarry/actions/runs/36979246175",
-          "run_id": 36979246175
+          "workflow": "Verified publication workflow",
+          "url": "https://github.com/dhtfish-98/IDBMeadow/actions/runs/36986903512",
+          "run_id": 36986903512
         }
       ],
       "current_validation": {
         "status": "PASS",
-        "project_tests_passed": 127,
-        "source_observations": 373,
-        "equal_observations": 373,
-        "intentional_checked_changes": 0,
+        "project_tests_passed": 1767,
+        "strict_xfailed": 1,
+        "complete_local_suite_exit_code": 0,
+        "ci_default_passed": 1608,
+        "ci_explicit_slow_skips": 160,
+        "owned_boundary_tests": 116,
+        "source_observations": 149,
+        "equal_observations": 127,
+        "intentional_checked_changes": 22,
+        "database_observations_equal": 47,
+        "exact_malformed_error_changes": 4,
+        "owned_page_equal": 80,
+        "compressed_type_fixes": 6,
+        "header_validation_fixes": 2,
+        "consumed_page_end_fixes": 10,
         "installed_consumer": "PASS",
         "whole_project_rewrite": "OPEN",
         "CVP_eligibility": "OPEN",
-        "scope": "PE 有限稳定输入、映射/序列化/编辑及签名数据库实改；目录/资源/重定位/异常/别名/格式算法完整重写仍 OPEN。",
+        "scope": "有限稳定输入、容器/节、标志/名称页及 TIL 桶实改；B-tree/游标、netnode/语义/类型语言和脚本接口等继续 OPEN。"
+      }
+    },
+    {
+      "name": "PEQuarry",
+      "repository": "https://github.com/dhtfish-98/PEQuarry",
+      "head_commit": "f4b65ecf119eb5b40d34b42130321b7c41a76c83",
+      "status": "PUBLIC_PARTIAL_RUNTIME_REWRITTEN_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/PEQuarry/blob/f4b65ecf119eb5b40d34b42130321b7c41a76c83/DEFENSIVE_SCOPE.md",
+      "successful_checks": [
+        {
+          "workflow": "Verified publication workflow",
+          "url": "https://github.com/dhtfish-98/PEQuarry/actions/runs/36983578949",
+          "run_id": 36983578949
+        }
+      ],
+      "current_validation": {
+        "status": "PASS",
+        "project_tests_passed": 211,
+        "source_observations": 373,
+        "equal_observations": 373,
+        "intentional_checked_changes": 0,
+        "directory_observations_equal": 149,
         "signature_observations_equal": 1204,
         "upstream_tests_passed": 366,
         "maintained_tests_passed": 366,
         "historical_outcomes_equal": 23,
         "historical_passed_each": 10,
-        "historical_baseline_fixture_failures_each": 13
+        "historical_baseline_fixture_failures_each": 13,
+        "installed_consumer": "PASS",
+        "whole_project_rewrite": "OPEN",
+        "CVP_eligibility": "OPEN",
+        "scope": "输入/映射/编辑/签名、重定位与动态重定位/函数覆盖/异常遍历实改；资源、版本和其余目录算法继续 OPEN。"
       }
     }
   ],
@@ -739,6 +766,141 @@
       "tag_commit_verified": true,
       "github_asset_digest_verified": true
     },
+    {
+      "name": "TraceMeadow",
+      "head": "5fa339ca3200f454b554cd0ced0c899cd16959ac",
+      "tag": "v1.0.3",
+      "url": "https://github.com/dhtfish-98/TraceMeadow/releases/tag/v1.0.3",
+      "assets": [
+        {
+          "name": "tracemeadow-1.0.3-py3-none-any.whl",
+          "url": "https://github.com/dhtfish-98/TraceMeadow/releases/download/v1.0.3/tracemeadow-1.0.3-py3-none-any.whl",
+          "sha256": "d1c585c29f536e3ca678847ae7d188e41c9d741d78fbee15f0f46b0f8290f5f7",
+          "bytes": 170197,
+          "github_digest_verified": true
+        },
+        {
+          "name": "tracemeadow-1.0.3.tar.gz",
+          "url": "https://github.com/dhtfish-98/TraceMeadow/releases/download/v1.0.3/tracemeadow-1.0.3.tar.gz",
+          "sha256": "6d69308ce8105903a0712d9dfbe327ac04c20d1a5c7f2e3ed0eda7d8d130688c",
+          "bytes": 5288933,
+          "github_digest_verified": true
+        }
+      ],
+      "tag_commit_verified": true,
+      "github_asset_digests_verified": true,
+      "installed_consumer": "PASS",
+      "ci": "https://github.com/dhtfish-98/TraceMeadow/actions/runs/36975320669",
+      "source_rewrite_scope": "v2/v3 二进制输入、元数据、代码目录、分组/路径聚合及栈索引实改；事件处理器、其他筛选/格式及通用状态限额仍 OPEN。"
+    },
+    {
+      "name": "ImageQuay",
+      "head": "9e791f676a24fa788f349ca7b48768960efc963c",
+      "tag": "v1.0.3",
+      "url": "https://github.com/dhtfish-98/ImageQuay/releases/tag/v1.0.3",
+      "ci": "https://github.com/dhtfish-98/ImageQuay/actions/runs/36985769583",
+      "assets": [
+        {
+          "name": "imagequay-1.0.3.tar.gz",
+          "sha256": "11028ff69acbeca2c382167d719297e83b17420f5d189df89e9a2c051077c34e",
+          "bytes": 683397,
+          "url": "https://github.com/dhtfish-98/ImageQuay/releases/download/v1.0.3/imagequay-1.0.3.tar.gz"
+        },
+        {
+          "name": "imagequay-1.0.3-py3-none-any.whl",
+          "sha256": "06a1590fb0f006f28c2e35db9452aec46b77db2e51c8221444c915429e13e0f9",
+          "bytes": 198045,
+          "url": "https://github.com/dhtfish-98/ImageQuay/releases/download/v1.0.3/imagequay-1.0.3-py3-none-any.whl"
+        }
+      ],
+      "tag_commit_verified": true,
+      "github_asset_digests_verified": true,
+      "installed_consumer": "PASS",
+      "source_rewrite_scope": "容器、record/plist、绑定/链式重定位及两阶段加载已实改；ObjC/Swift、头文件/GUI/内核解释等剩余核心继续 OPEN。"
+    },
+    {
+      "name": "PEQuarry",
+      "head": "f4b65ecf119eb5b40d34b42130321b7c41a76c83",
+      "tag": "v1.0.2",
+      "url": "https://github.com/dhtfish-98/PEQuarry/releases/tag/v1.0.2",
+      "ci": "https://github.com/dhtfish-98/PEQuarry/actions/runs/36983578949",
+      "assets": [
+        {
+          "name": "pequarry-1.0.2-py3-none-any.whl",
+          "sha256": "db26fc578a813c131a36803988608896cd3c55c61da674c69859678340f79e24",
+          "bytes": 115853,
+          "url": "https://github.com/dhtfish-98/PEQuarry/releases/download/v1.0.2/pequarry-1.0.2-py3-none-any.whl"
+        },
+        {
+          "name": "pequarry-1.0.2.tar.gz",
+          "sha256": "06f838775c69ff6fca9558fff0e3b3712f0ad0f6555bf53437927ab10e523c2f",
+          "bytes": 164627,
+          "url": "https://github.com/dhtfish-98/PEQuarry/releases/download/v1.0.2/pequarry-1.0.2.tar.gz"
+        }
+      ],
+      "tag_commit_verified": true,
+      "github_asset_digests_verified": true,
+      "installed_consumer": "PASS",
+      "source_rewrite_scope": "输入/映射/编辑/签名、重定位与动态重定位/函数覆盖/异常遍历实改；资源、版本和其余目录算法继续 OPEN。"
+    },
+    {
+      "name": "PolicyMosaic",
+      "head": "081a6a0ddaa67c33d6f4a59328172a3949ce69f4",
+      "tag": "v1.0.4",
+      "url": "https://github.com/dhtfish-98/PolicyMosaic/releases/tag/v1.0.4",
+      "ci": "https://github.com/dhtfish-98/PolicyMosaic/actions/runs/36984676178",
+      "assets": [
+        {
+          "name": "policymosaic-1.0.4-py3-none-any.whl",
+          "sha256": "8fa10b1a478958a20abab6a74882057c8b8f936b3d1f1019d3f6964e94daadb8",
+          "bytes": 95284,
+          "url": "https://github.com/dhtfish-98/PolicyMosaic/releases/download/v1.0.4/policymosaic-1.0.4-py3-none-any.whl"
+        },
+        {
+          "name": "policymosaic-1.0.4.tar.gz",
+          "sha256": "e32dc41a8811c385ba638856682034e84b2f10a54f0d4cf6ca18035fff575fba",
+          "bytes": 129387,
+          "url": "https://github.com/dhtfish-98/PolicyMosaic/releases/download/v1.0.4/policymosaic-1.0.4.tar.gz"
+        }
+      ],
+      "tag_commit_verified": true,
+      "github_asset_digests_verified": true,
+      "installed_consumer": "PASS",
+      "source_rewrite_scope": "有限策略/字符串/字节码、隔离模拟及 NFA 正则语言归约实改；操作决策图、完整报告和真实固件路径继续 OPEN。"
+    },
+    {
+      "name": "IDBMeadow",
+      "head": "1060c03345e94a4c09c7a96f2e6b8d99bbf515c2",
+      "tag": "v1.0.2",
+      "url": "https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.2",
+      "ci": "https://github.com/dhtfish-98/IDBMeadow/actions/runs/36986903512",
+      "assets": [
+        {
+          "name": "idbmeadow-1.0.2-py3-none-any.whl",
+          "bytes": 159135,
+          "sha256": "12478b9fe5cb0a3bf8c952b17aef92193ea502106a123ecfe4d1352c2f6bda52",
+          "url": "https://github.com/dhtfish-98/IDBMeadow/releases/download/v1.0.2/idbmeadow-1.0.2-py3-none-any.whl",
+          "downloaded_digest_verified": true
+        },
+        {
+          "name": "idbmeadow-1.0.2.tar.gz",
+          "bytes": 126937812,
+          "sha256": "2dfccc347095dbb529c2ee1c6d2a68e7bcd00597dcb40023c2d9327b11f22720",
+          "url": "https://github.com/dhtfish-98/IDBMeadow/releases/download/v1.0.2/idbmeadow-1.0.2.tar.gz",
+          "downloaded_digest_verified": true
+        }
+      ],
+      "tag_commit_verified": true,
+      "github_asset_digests_verified": true,
+      "installed_consumer": "PASS",
+      "source_rewrite_scope": "有限稳定输入、容器/节、标志/名称页及 TIL 桶实改；B-tree/游标、netnode/语义/类型语言和脚本接口等继续 OPEN。"
+    }
+  ],
+  "retained_defensive_entrypoint_rewrite_count": 9,
+  "retained_project_review": "RETAINED_PROJECT_REVIEW_20261002.md",
+  "retained_whole_project_rewrite_status": "OPEN: nine projects have concrete runtime or entrypoint changes; inherited algorithms and capability-only ObjCAtlas remain explicitly incomplete.",
+  "current_record_scope": "Fixed published commits and versioned release assets reverified on 2026-10-02; subsequent working-tree changes are excluded. Local full-suite results and default CI results are recorded separately. Rebuilt archives may have different container bytes; packaged runtime, source, license and provenance identity is checked independently.",
+  "historical_defensive_rewrite_releases": [
     {
       "name": "ImageQuay",
       "head": "86c884f5daec4dca2015824fa52c1129eca8ee93",
@@ -794,33 +956,6 @@
       "source_rewrite_scope": "策略 profile/string/regex 有限解码、图上下文预算、受限进程与模拟辅助路径实改；完整图归约语义和真实固件全路径仍 OPEN。"
     },
     {
-      "name": "TraceMeadow",
-      "head": "5fa339ca3200f454b554cd0ced0c899cd16959ac",
-      "tag": "v1.0.3",
-      "url": "https://github.com/dhtfish-98/TraceMeadow/releases/tag/v1.0.3",
-      "assets": [
-        {
-          "name": "tracemeadow-1.0.3-py3-none-any.whl",
-          "url": "https://github.com/dhtfish-98/TraceMeadow/releases/download/v1.0.3/tracemeadow-1.0.3-py3-none-any.whl",
-          "sha256": "d1c585c29f536e3ca678847ae7d188e41c9d741d78fbee15f0f46b0f8290f5f7",
-          "bytes": 170197,
-          "github_digest_verified": true
-        },
-        {
-          "name": "tracemeadow-1.0.3.tar.gz",
-          "url": "https://github.com/dhtfish-98/TraceMeadow/releases/download/v1.0.3/tracemeadow-1.0.3.tar.gz",
-          "sha256": "6d69308ce8105903a0712d9dfbe327ac04c20d1a5c7f2e3ed0eda7d8d130688c",
-          "bytes": 5288933,
-          "github_digest_verified": true
-        }
-      ],
-      "tag_commit_verified": true,
-      "github_asset_digests_verified": true,
-      "installed_consumer": "PASS",
-      "ci": "https://github.com/dhtfish-98/TraceMeadow/actions/runs/36975320669",
-      "source_rewrite_scope": "v2/v3 二进制输入、元数据、代码目录、分组/路径聚合及栈索引实改；事件处理器、其他筛选/格式及通用状态限额仍 OPEN。"
-    },
-    {
       "name": "PEQuarry",
       "head": "1e74c7d330f7714c696226640eb08774a4ef4cc1",
       "tag": "v1.0.1",
@@ -847,9 +982,5 @@
       "ci": "https://github.com/dhtfish-98/PEQuarry/actions/runs/36979246175",
       "source_rewrite_scope": "PE 有限稳定输入、映射/序列化/编辑及签名数据库实改；目录/资源/重定位/异常/别名/格式算法完整重写仍 OPEN。"
     }
-  ],
-  "retained_defensive_entrypoint_rewrite_count": 8,
-  "retained_project_review": "RETAINED_PROJECT_REVIEW_20261002.md",
-  "retained_whole_project_rewrite_status": "OPEN: eight projects have concrete runtime or entrypoint changes; remaining inherited algorithms and the two capability-only projects are not reported complete.",
-  "current_record_scope": "Published commits and versioned assets verified on 2026-10-02; parallel later working-tree iterations are not included in this snapshot."
+  ]
 }
