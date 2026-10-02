@@ -1,0 +1,366 @@
+{
+  "published_project_count": 24,
+  "group_count": 8,
+  "groups": [
+    {
+      "label": "申请账号1",
+      "focus": "Mach-O / Swift 符号与字符串研究",
+      "projects": [
+        {
+          "name": "GlyphHaven",
+          "repository": "https://github.com/dhtfish-98/GlyphHaven",
+          "release": "https://github.com/dhtfish-98/GlyphHaven/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "5d6696c2303fcce9c6c970cf38ae22f971f007df",
+          "source_file_count": 259,
+          "release_asset_count": 2,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/kam800/MachObfuscator.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "StringCanopy",
+          "repository": "https://github.com/dhtfish-98/StringCanopy",
+          "release": "https://github.com/dhtfish-98/StringCanopy/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "bdd3c7fbd18af5612c25cce02689bb95c7a8cc0c",
+          "source_file_count": 23,
+          "release_asset_count": 2,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/thexande/Obfuscator.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "TypeVeil",
+          "repository": "https://github.com/dhtfish-98/TypeVeil",
+          "release": "https://github.com/dhtfish-98/TypeVeil/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "13ee8b4665f9f8f37c93ceed32901cf666039fb3",
+          "source_file_count": 103,
+          "release_asset_count": 2,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/rockbruno/swiftshield.git",
+          "advisory": null,
+          "cve": null
+        }
+      ]
+    },
+    {
+      "label": "申请账号2",
+      "focus": "IPA / Objective-C 静态分析",
+      "projects": [
+        {
+          "name": "ArchiveLens",
+          "repository": "https://github.com/dhtfish-98/ArchiveLens",
+          "release": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.1",
+          "release_tag": "v1.0.1",
+          "head_commit": "4805d74ad28caa14ed61ae55a964ed35c9b02084",
+          "source_file_count": 419,
+          "release_asset_count": 2,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/JRBusiness/REipa.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "NameRampart",
+          "repository": "https://github.com/dhtfish-98/NameRampart",
+          "release": "https://github.com/dhtfish-98/NameRampart/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "4c81e9faa5b8046a68ea9d7025767d93d3975705",
+          "source_file_count": 589,
+          "release_asset_count": 2,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/Polidea/ios-class-guard.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "ObjCAtlas",
+          "repository": "https://github.com/dhtfish-98/ObjCAtlas",
+          "release": "https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "63d1081de10b963f878e2e9244aa791468b9d0b2",
+          "source_file_count": 242,
+          "release_asset_count": 2,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/nygard/class-dump.git",
+          "advisory": null,
+          "cve": null
+        }
+      ]
+    },
+    {
+      "label": "申请账号3",
+      "focus": "Darwin 镜像、调用与策略分析",
+      "projects": [
+        {
+          "name": "ImageQuay",
+          "repository": "https://github.com/dhtfish-98/ImageQuay",
+          "release": "https://github.com/dhtfish-98/ImageQuay/releases/tag/v1.0.1",
+          "release_tag": "v1.0.1",
+          "head_commit": "c998a22641828b9738dccc30ec80b3becbbd56e9",
+          "source_file_count": 72,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/0cyn/ktool.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "PolicyMosaic",
+          "repository": "https://github.com/dhtfish-98/PolicyMosaic",
+          "release": "https://github.com/dhtfish-98/PolicyMosaic/releases/tag/v1.0.1",
+          "release_tag": "v1.0.1",
+          "head_commit": "407d4a8c9c2d85e2c2d66742f37336f0b8526265",
+          "source_file_count": 33,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/chensokolovsky/sandblaster_26.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "TraceMeadow",
+          "repository": "https://github.com/dhtfish-98/TraceMeadow",
+          "release": "https://github.com/dhtfish-98/TraceMeadow/releases/tag/v1.0.1",
+          "release_tag": "v1.0.1",
+          "head_commit": "90e5b7579a83dc036fce3ed3af3b77c9b0bb9e0f",
+          "source_file_count": 50,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/matan1008/pykdebugparser.git",
+          "advisory": null,
+          "cve": null
+        }
+      ]
+    },
+    {
+      "label": "申请账号4",
+      "focus": "内核与编译器机制研究",
+      "projects": [
+        {
+          "name": "KernelCabinet",
+          "repository": "https://github.com/dhtfish-98/KernelCabinet",
+          "release": "https://github.com/dhtfish-98/KernelCabinet/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "8cc478567aa7a0611f1150fb6b4d886c913aafa4",
+          "source_file_count": 14,
+          "release_asset_count": 2,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/0x7ff/kextract.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "SILGallery",
+          "repository": "https://github.com/dhtfish-98/SILGallery",
+          "release": "https://github.com/dhtfish-98/SILGallery/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "181666a88b086b05dde5d5e34fd25a137f014371",
+          "source_file_count": 19,
+          "release_asset_count": 2,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/alblue/SILInspector.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "VTableBrook",
+          "repository": "https://github.com/dhtfish-98/VTableBrook",
+          "release": "https://github.com/dhtfish-98/VTableBrook/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "2079c218f191c902f09854c187c9d639217ebd7e",
+          "source_file_count": 15,
+          "release_asset_count": 2,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/0x7ff/vtable.git",
+          "advisory": null,
+          "cve": null
+        }
+      ]
+    },
+    {
+      "label": "申请账号5",
+      "focus": "原生二进制、PE 与 IDB 解析",
+      "projects": [
+        {
+          "name": "GadgetHarbor",
+          "repository": "https://github.com/dhtfish-98/GadgetHarbor",
+          "release": "https://github.com/dhtfish-98/GadgetHarbor/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "55989c9dd2df4cc4568d2741a585e50c702820f4",
+          "source_file_count": 69,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/JonathanSalwan/ROPgadget.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "IDBMeadow",
+          "repository": "https://github.com/dhtfish-98/IDBMeadow",
+          "release": "https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.1",
+          "release_tag": "v1.0.1",
+          "head_commit": "3cf14e8bd12702af6dda491133bb9059a03bdc99",
+          "source_file_count": 109,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/williballenthin/python-idb.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "PEQuarry",
+          "repository": "https://github.com/dhtfish-98/PEQuarry",
+          "release": "https://github.com/dhtfish-98/PEQuarry/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "bfd67c70530ef3e28ff648d9a07bd64eb295f9c7",
+          "source_file_count": 30,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/erocarrera/pefile.git",
+          "advisory": null,
+          "cve": null
+        }
+      ]
+    },
+    {
+      "label": "申请账号6",
+      "focus": "应用入口、密钥与令牌防御研究",
+      "projects": [
+        {
+          "name": "EndpointGrove",
+          "repository": "https://github.com/dhtfish-98/EndpointGrove",
+          "release": "https://github.com/dhtfish-98/EndpointGrove/releases/tag/v1.0.4",
+          "release_tag": "v1.0.4",
+          "head_commit": "d9bec8617d47c115be85dd2d06335808db4aefc4",
+          "source_file_count": 25,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/GerbenJavado/LinkFinder.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "SecretCanopy",
+          "repository": "https://github.com/dhtfish-98/SecretCanopy",
+          "release": "https://github.com/dhtfish-98/SecretCanopy/releases/tag/v1.0.4",
+          "release_tag": "v1.0.4",
+          "head_commit": "9d2f9680789c219cfdb7ab2b5ff71982ef2f29a0",
+          "source_file_count": 26,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/m4ll0k/SecretFinder.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "TokenMariner",
+          "repository": "https://github.com/dhtfish-98/TokenMariner",
+          "release": "https://github.com/dhtfish-98/TokenMariner/releases/tag/v1.0.2",
+          "release_tag": "v1.0.2",
+          "head_commit": "f9b1e66f8518c74d4f9a15e99789c85a90523d84",
+          "source_file_count": 29,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/ticarpi/jwt_tool.git",
+          "advisory": null,
+          "cve": null
+        }
+      ]
+    },
+    {
+      "label": "申请账号7",
+      "focus": "Web / CMS / WAF / 脚本研究",
+      "projects": [
+        {
+          "name": "CMSBeacon",
+          "repository": "https://github.com/dhtfish-98/CMSBeacon",
+          "release": "https://github.com/dhtfish-98/CMSBeacon/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "304e802128618fd0ac6511164f3eefedd1c24ca1",
+          "source_file_count": 127,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/SamJoan/droopescan.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "ScriptSentinel",
+          "repository": "https://github.com/dhtfish-98/ScriptSentinel",
+          "release": "https://github.com/dhtfish-98/ScriptSentinel/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "b2c6b3bb24b66560ee80c0d39e7eb28f60c79405",
+          "source_file_count": 61,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/s0md3v/XSStrike.git",
+          "advisory": null,
+          "cve": null
+        },
+        {
+          "name": "WAFHarbor",
+          "repository": "https://github.com/dhtfish-98/WAFHarbor",
+          "release": "https://github.com/dhtfish-98/WAFHarbor/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "66c548a075e59f9289f7b331d8a588d6fba1972e",
+          "source_file_count": 218,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/EnableSecurity/wafw00f.git",
+          "advisory": null,
+          "cve": null
+        }
+      ]
+    },
+    {
+      "label": "申请账号8",
+      "focus": "已公开 CVE 的历史版本复现与回归",
+      "projects": [
+        {
+          "name": "ClaimAnchor",
+          "repository": "https://github.com/dhtfish-98/ClaimAnchor",
+          "release": "https://github.com/dhtfish-98/ClaimAnchor/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "5f2f042c99b36a078aa93531d4a601b211704e41",
+          "source_file_count": 29,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/jpadilla/pyjwt",
+          "advisory": "https://github.com/jpadilla/pyjwt/security/advisories/GHSA-ffqj-6fqr-9h24",
+          "cve": "CVE-2022-29217"
+        },
+        {
+          "name": "PathHarbor",
+          "repository": "https://github.com/dhtfish-98/PathHarbor",
+          "release": "https://github.com/dhtfish-98/PathHarbor/releases/tag/v1.0.0",
+          "release_tag": "v1.0.0",
+          "head_commit": "0d38eea4f7618001b0555446b4295a24a47dfa1b",
+          "source_file_count": 29,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/aio-libs/aiohttp",
+          "advisory": "https://github.com/aio-libs/aiohttp/security/advisories/GHSA-5h86-8mv2-jq9f",
+          "cve": "CVE-2024-23334"
+        },
+        {
+          "name": "QueryRampart",
+          "repository": "https://github.com/dhtfish-98/QueryRampart",
+          "release": "https://github.com/dhtfish-98/QueryRampart/releases/tag/v1.0.1",
+          "release_tag": "v1.0.1",
+          "head_commit": "91e90f414144a92d359645bd0a90ef3c79dfe1d8",
+          "source_file_count": 29,
+          "release_asset_count": 3,
+          "status": "PUBLISHED_AND_VERIFIED",
+          "upstream": "https://github.com/andialbrecht/sqlparse",
+          "advisory": "https://github.com/andialbrecht/sqlparse/security/advisories/GHSA-2m57-hf25-phgg",
+          "cve": "CVE-2024-4340"
+        }
+      ]
+    }
+  ]
+}
