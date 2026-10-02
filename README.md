@@ -4,6 +4,8 @@
 
 [Anthropic 官方 CVP 说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)指出：CVP 针对受到网络安全防护影响、具有合法防御目的的双用途工作；禁止用途不会因 CVP 获批而解禁。申请还需要身份验证，并与实际使用的组织对应。仓库数量、改名、测试通过或公开发布都不是 CVP 资格证明。
 
+逐条规则与证据状态见 [CVP_RULES_AND_EVIDENCE_20261002.md](CVP_RULES_AND_EVIDENCE_20261002.md)。
+
 ## 新的防御项目
 
 | 项目 | 实际用途 | 当前状态 |
