@@ -587,16 +587,36 @@
     {
       "name": "VTableBrook",
       "repository": "https://github.com/dhtfish-98/VTableBrook",
-      "head_commit": "53c929f988f6db5557ed1d2b69c6d222eca8e0f5",
-      "status": "PUBLIC_CAPABILITY_REVIEWED_CVP_ELIGIBILITY_OPEN",
-      "capability_scope": "https://github.com/dhtfish-98/VTableBrook/blob/53c929f988f6db5557ed1d2b69c6d222eca8e0f5/DEFENSIVE_SCOPE.md",
+      "head_commit": "652ff6ff00cd77e4e75420d335a49ae895e559b2",
+      "status": "PUBLIC_BOUNDED_RUNTIME_REWRITTEN_CVP_ELIGIBILITY_OPEN",
+      "capability_scope": "https://github.com/dhtfish-98/VTableBrook/blob/652ff6ff00cd77e4e75420d335a49ae895e559b2/DEFENSIVE_SCOPE.md",
       "successful_checks": [
         {
           "workflow": "CI",
-          "url": "https://github.com/dhtfish-98/VTableBrook/actions/runs/36965618901",
-          "run_id": 36965618901
+          "url": "https://github.com/dhtfish-98/VTableBrook/actions/runs/36969063766",
+          "run_id": 36969063766
         }
-      ]
+      ],
+      "current_validation": {
+        "status": "PASS",
+        "valid_process_comparisons": 182,
+        "valid_fixture_inputs": 91,
+        "optimization_levels": [
+          "O0",
+          "O2"
+        ],
+        "sanitizer_and_boundary_checks": 230,
+        "sanitizers": [
+          "AddressSanitizer",
+          "UndefinedBehaviorSanitizer"
+        ],
+        "independent_arm64_assembler_vectors": 13,
+        "intentional_ret_discovery_changes": 2,
+        "installed_consumer": "PASS",
+        "input_immutability_and_no_created_files": "PASS",
+        "reference_sha256": "c11a111f00914ba496b356ea87e6e4c1120b7b9eaa313d92abbe45476c664085",
+        "scope": "Owned synthetic linear-layout ARM64 Mach-O data. No input execution, live kernel, device, or CVP approval."
+      }
     },
     {
       "name": "IDBMeadow",
@@ -657,8 +677,18 @@
       "sha256": "86aebd6e7ee675fa1ee62b0811af9c927c19eb188e2c07db792e9478c180cb1f",
       "tag_commit_verified": true,
       "github_asset_digest_verified": true
+    },
+    {
+      "name": "VTableBrook",
+      "tag": "v1.0.1",
+      "head": "652ff6ff00cd77e4e75420d335a49ae895e559b2",
+      "url": "https://github.com/dhtfish-98/VTableBrook/releases/tag/v1.0.1",
+      "asset": "VTableBrook-v1.0.1-source.tar.gz",
+      "sha256": "677f5bc0030356a5f7dce810f2129031fd9f0292351dc52bd9bd4aacc6c97368",
+      "tag_commit_verified": true,
+      "github_asset_digest_verified": true
     }
   ],
-  "retained_defensive_entrypoint_rewrite_count": 3,
+  "retained_defensive_entrypoint_rewrite_count": 4,
   "retained_project_review": "RETAINED_PROJECT_REVIEW_20261002.md"
 }
