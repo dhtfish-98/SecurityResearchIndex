@@ -5,7 +5,7 @@
   "current_private_withdrawn_project_count": 14,
   "current_public_background_project_count": 10,
   "defensive_replacement_project_count": 14,
-  "snapshot_note": "Legacy grouped counts, replacements and current_* fields below are scoped to the 2026-10-02 portfolio subset. They are historical, not today's total or official CVP eligibility. Current public scope/material roles are in 项目文档/CVP_REVIEW_20261004.json; current rules are in 项目文档/CVP_RULES_AND_EVIDENCE_20261004.md.",
+  "snapshot_note": "The grouped release/source counts and commit hashes below describe the earlier 24-project publication snapshot. They are not current CVP evidence. Current private/public status was verified on 2026-10-02. README.md and CVP_RULES_AND_EVIDENCE_20261002.md govern the new portfolio.",
   "current_defensive_replacements": [
     {
       "name": "LocalSecretReview",
@@ -982,26 +982,5 @@
       "ci": "https://github.com/dhtfish-98/PEQuarry/actions/runs/36979246175",
       "source_rewrite_scope": "PE 有限稳定输入、映射/序列化/编辑及签名数据库实改；目录/资源/重定位/异常/别名/格式算法完整重写仍 OPEN。"
     }
-  ],
-  "current_review": {
-    "date_jst": "2026-10-04",
-    "scope_cutoff_utc": "2026-10-03T23:49:16.384155+00:00",
-    "public_repositories": 94,
-    "software_projects": 91,
-    "document_repositories": 3,
-    "material_role_counts": {
-      "防御工作附件候选": 75,
-      "研究背景，需具体任务限定": 12,
-      "普通背景工具": 4,
-      "资料仓库": 3
-    },
-    "CI_counts": {
-      "FAIL_CURRENT_CI": 1,
-      "NOT_APPLICABLE_NO_TRACKED_WORKFLOW_CONFIG": 3,
-      "PASS_CURRENT_CI": 90
-    },
-    "qualification": "OPEN_FOR_ALL_PROJECTS",
-    "provider_approval": "NOT_ESTABLISHED",
-    "path": "项目文档/CVP_REVIEW_20261004.json"
-  }
+  ]
 }

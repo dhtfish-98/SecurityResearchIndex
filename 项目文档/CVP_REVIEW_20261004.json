@@ -1,0 +1,3419 @@
+{
+  "schema": "cvp.public-documentary-review.v1",
+  "date_jst": "2026-10-04",
+  "scope_cutoff_utc": "2026-10-03T23:49:16.384155+00:00",
+  "public_repositories": 94,
+  "software_projects": 91,
+  "document_repositories": 3,
+  "material_role_counts": {
+    "防御工作附件候选": 75,
+    "研究背景，需具体任务限定": 12,
+    "普通背景工具": 4,
+    "资料仓库": 3
+  },
+  "CI_counts": {
+    "FAIL_CURRENT_CI": 1,
+    "NOT_APPLICABLE_NO_TRACKED_WORKFLOW_CONFIG": 3,
+    "PASS_CURRENT_CI": 90
+  },
+  "qualification": "OPEN_FOR_ALL_PROJECTS",
+  "provider_approval": "NOT_ESTABLISHED",
+  "classification_boundary": "These are project-material roles, not an official whitelist, approval or determination of prohibited use.",
+  "official_sources": [
+    {
+      "id": "cyber_safeguards",
+      "url": "https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet",
+      "title": "Real-time cyber safeguards on Claude Opus and Sonnet"
+    },
+    {
+      "id": "console_program",
+      "url": "https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console",
+      "title": "Assign a program to workspaces in Claude Console"
+    },
+    {
+      "id": "workspace_retention",
+      "url": "https://support.claude.com/en/articles/16824617-turn-on-data-retention-for-a-workspace-in-a-zero-data-retention-organization",
+      "title": "Turn on data retention for a Workspace in a zero data retention organization"
+    },
+    {
+      "id": "identity",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "title": "Identity verification on Claude"
+    },
+    {
+      "id": "usage_policy",
+      "url": "https://www.anthropic.com/legal/aup",
+      "title": "Anthropic Usage Policy"
+    }
+  ],
+  "real_applicant_facts_verified": false,
+  "new_project_or_security_code_audit": false,
+  "user_reported_application_channel": "Claude.ai / Claude Code",
+  "channel_confirmation_basis": "User statement; account and admin state not inspected",
+  "original_block_record_required_by_this_project_review": false,
+  "new_releases_or_version_bumps": false,
+  "projects": [
+    {
+      "name": ".github",
+      "repository": "https://github.com/dhtfish-98/.github",
+      "head_sha": "4aaa99adc2bfc32d83c6b05d6150ab54d6e437ec",
+      "repository_role": "DOCUMENTATION",
+      "material_role": "资料仓库",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "资料、导航或社区默认文件",
+      "declared_limits": "不能计为独立软件项目",
+      "CI_status_at_cutoff": "NOT_APPLICABLE_NO_TRACKED_WORKFLOW_CONFIG",
+      "CI_run_urls": [],
+      "CI_observed_from_utc": "2026-10-03T21:54:01.620959+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:03.250721+00:00",
+      "CI_runs": [],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/.github/blob/4aaa99adc2bfc32d83c6b05d6150ab54d6e437ec/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "4aaa99adc2bfc32d83c6b05d6150ab54d6e437ec",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "A64Dispatch",
+      "repository": "https://github.com/dhtfish-98/A64Dispatch",
+      "head_sha": "6205f08490ce89e41c999d286a4e92372df326f2",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "兼容 AArch64 文件的控制流/分派分析及有门禁的同尺寸分支改写",
+      "declared_limits": "含本地仿真、IDA 适配器和写入路径；有限向量不证明任意二进制等价或真实 IDA 状态",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/A64Dispatch/actions/runs/37138495199"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:01.621059+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:04.736981+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/A64Dispatch/actions/runs/37138495199",
+          "head_sha": "6205f08490ce89e41c999d286a4e92372df326f2",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/A64Dispatch/blob/6205f08490ce89e41c999d286a4e92372df326f2/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "6205f08490ce89e41c999d286a4e92372df326f2",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "AdvisoryOfflineReview",
+      "repository": "https://github.com/dhtfish-98/AdvisoryOfflineReview",
+      "head_sha": "ab3f422b814aacaa2d130e2ead06564fef22f5a1",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "将本地 PyPI 清单与调用者提供的 OSV 快照作限定 PEP440 版本匹配",
+      "declared_limits": "不拉取公告、不安装包、不证明当前漏洞可利用性或清单真实性",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/AdvisoryOfflineReview/actions/runs/37133758548"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:01.621140+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:05.094824+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/AdvisoryOfflineReview/actions/runs/37133758548",
+          "head_sha": "ab3f422b814aacaa2d130e2ead06564fef22f5a1",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/AdvisoryOfflineReview/blob/ab3f422b814aacaa2d130e2ead06564fef22f5a1/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "ab3f422b814aacaa2d130e2ead06564fef22f5a1",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "AliasRecordReview",
+      "repository": "https://github.com/dhtfish-98/AliasRecordReview",
+      "head_sha": "509b1f926e9855e669d2c5ec5fae195b6cc7df4f",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 Finder Alias v2/v3 记录与受限标签证据审阅",
+      "declared_limits": "不解析真实目标或证明路径现仍有效；未知标签与平台行为有限",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/AliasRecordReview/actions/runs/37133758547"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:01.621225+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:05.272951+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/AliasRecordReview/actions/runs/37133758547",
+          "head_sha": "509b1f926e9855e669d2c5ec5fae195b6cc7df4f",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/AliasRecordReview/blob/509b1f926e9855e669d2c5ec5fae195b6cc7df4f/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "509b1f926e9855e669d2c5ec5fae195b6cc7df4f",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "AptSourceTrustAudit",
+      "repository": "https://github.com/dhtfish-98/AptSourceTrustAudit",
+      "head_sha": "7c9cff909dba5558554c96c738d8b3cb8f97f3ed",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 APT list/Deb822 来源与信任配置快照审阅",
+      "declared_limits": "声明配置不是实际签名信任、更新行为或软件安全的证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/AptSourceTrustAudit/actions/runs/37133758713"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:03.250872+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:06.458782+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/AptSourceTrustAudit/actions/runs/37133758713",
+          "head_sha": "7c9cff909dba5558554c96c738d8b3cb8f97f3ed",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/AptSourceTrustAudit/blob/7c9cff909dba5558554c96c738d8b3cb8f97f3ed/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "7c9cff909dba5558554c96c738d8b3cb8f97f3ed",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "ArchiveLens",
+      "repository": "https://github.com/dhtfish-98/ArchiveLens",
+      "head_sha": "3c0dccf52307fbfc7b1c7860b745898eb78f322c",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 IPA/Mach-O 元数据、反汇编和报告导出；带可选外部助手聊天入口",
+      "declared_limits": "不是全部只读或始终离线；有六项已记录未修反例，GUI和较大核心审查仍 OPEN",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37133498010",
+        "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37133498044"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:04.737204+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:09.532972+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37133498010",
+          "head_sha": "3c0dccf52307fbfc7b1c7860b745898eb78f322c",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        },
+        {
+          "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37133498044",
+          "head_sha": "3c0dccf52307fbfc7b1c7860b745898eb78f322c",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 6,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/ArchiveLens/blob/3c0dccf52307fbfc7b1c7860b745898eb78f322c/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "3c0dccf52307fbfc7b1c7860b745898eb78f322c",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "ArtifactDigestReview",
+      "repository": "https://github.com/dhtfish-98/ArtifactDigestReview",
+      "head_sha": "2ce8e23dc40b5877a48baa0516e8e075bcf44171",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "将本地文件摘要与给定 SHA 清单核对",
+      "declared_limits": "清单本身未经认证；摘要一致不证明作者、来源或安全性",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/ArtifactDigestReview/actions/runs/37132157752"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:05.095051+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:08.468633+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/ArtifactDigestReview/actions/runs/37132157752",
+          "head_sha": "2ce8e23dc40b5877a48baa0516e8e075bcf44171",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/ArtifactDigestReview/blob/2ce8e23dc40b5877a48baa0516e8e075bcf44171/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "2ce8e23dc40b5877a48baa0516e8e075bcf44171",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "AuditEventReview",
+      "repository": "https://github.com/dhtfish-98/AuditEventReview",
+      "head_sha": "4ad9392e07c01285b138a7c35a78efceb935b8e7",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 Linux audit 记录的限定事务、参数和事件证据整理",
+      "declared_limits": "不执行日志中的命令；候选关联不证明完整进程祖先或事件真实性",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/AuditEventReview/actions/runs/37133758723"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:05.273158+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:08.889810+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/AuditEventReview/actions/runs/37133758723",
+          "head_sha": "4ad9392e07c01285b138a7c35a78efceb935b8e7",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/AuditEventReview/blob/4ad9392e07c01285b138a7c35a78efceb935b8e7/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "4ad9392e07c01285b138a7c35a78efceb935b8e7",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "AuditRuleCoverage",
+      "repository": "https://github.com/dhtfish-98/AuditRuleCoverage",
+      "head_sha": "6c522e46e50115e7434b185f7ac0b10e6b9d7f1b",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "冻结的字面 audit 基线与限定类型规则覆盖核对",
+      "declared_limits": "不是完整内核审计语言或真实系统已加载规则的证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/AuditRuleCoverage/actions/runs/37133763233"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:06.458991+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:09.724353+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/AuditRuleCoverage/actions/runs/37133763233",
+          "head_sha": "6c522e46e50115e7434b185f7ac0b10e6b9d7f1b",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/AuditRuleCoverage/blob/6c522e46e50115e7434b185f7ac0b10e6b9d7f1b/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "6c522e46e50115e7434b185f7ac0b10e6b9d7f1b",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "AuthLogReview",
+      "repository": "https://github.com/dhtfish-98/AuthLogReview",
+      "head_sha": "10e9f10233957f7be4456b826a5fd5ca7735ddb8",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定 JSONL 认证日志的重复失败时间窗提示",
+      "declared_limits": "静态阈值不是入侵结论或真实账号授权证据",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/AuthLogReview/actions/runs/37132162019"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:08.468800+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:11.817735+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/AuthLogReview/actions/runs/37132162019",
+          "head_sha": "10e9f10233957f7be4456b826a5fd5ca7735ddb8",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/AuthLogReview/blob/10e9f10233957f7be4456b826a5fd5ca7735ddb8/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "10e9f10233957f7be4456b826a5fd5ca7735ddb8",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "BodyfileTimelineReview",
+      "repository": "https://github.com/dhtfish-98/BodyfileTimelineReview",
+      "head_sha": "0c8fa7ae313a25c0d121d7c9dc72935613fc583b",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 bodyfile 11 字段记录与声明时间线检查",
+      "declared_limits": "不是完整取证套件或磁盘事实真实性验证",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/BodyfileTimelineReview/actions/runs/37133763535"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:08.890126+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:12.502984+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/BodyfileTimelineReview/actions/runs/37133763535",
+          "head_sha": "0c8fa7ae313a25c0d121d7c9dc72935613fc583b",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/BodyfileTimelineReview/blob/0c8fa7ae313a25c0d121d7c9dc72935613fc583b/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "0c8fa7ae313a25c0d121d7c9dc72935613fc583b",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "BranchLoom",
+      "repository": "https://github.com/dhtfish-98/BranchLoom",
+      "head_sha": "0b14fac951c65f2d0c426a4296419978b74cbbee",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "IDA/AArch64 分派与控制流研究，含分析、计划、应用和回退等入口",
+      "declared_limits": "可执行仿真/调用者代码及修改 IDB；已记录未修执行完成判定反例，IDA平台和继承核心 OPEN",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/BranchLoom/actions/runs/37147448111"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:09.533503+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:12.978626+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/BranchLoom/actions/runs/37147448111",
+          "head_sha": "0b14fac951c65f2d0c426a4296419978b74cbbee",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 1,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": "0.2.1",
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/BranchLoom/blob/0b14fac951c65f2d0c426a4296419978b74cbbee/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "fe5fad4a8971de20941e68b62b84c9a6e4822a87",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "CDTranslator",
+      "repository": "https://github.com/dhtfish-98/CDTranslator",
+      "head_sha": "113a44f79a6c7d50e68bf25ef7ad1abe71e549cf",
+      "repository_role": "SOFTWARE",
+      "material_role": "普通背景工具",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "macOS 翻译与 OCR 桌面工具",
+      "declared_limits": "主要用途非网络安全；翻译可能向外部服务发送文本，UI/真实 OCR 与服务行为边界仍需核对",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/CDTranslator/actions/runs/37133508565"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:09.724686+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:13.678035+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/CDTranslator/actions/runs/37133508565",
+          "head_sha": "113a44f79a6c7d50e68bf25ef7ad1abe71e549cf",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/CDTranslator/blob/113a44f79a6c7d50e68bf25ef7ad1abe71e549cf/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "113a44f79a6c7d50e68bf25ef7ad1abe71e549cf",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "CITrustBoundaryReview",
+      "repository": "https://github.com/dhtfish-98/CITrustBoundaryReview",
+      "head_sha": "40ed13a4fddcc616e460472e0abcf59af4808391",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地工作流 YAML 与表达式的限定信任边界规则审阅",
+      "declared_limits": "不运行工作流、不拉取 action、不证明 CI 中实际攻击路径",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/CITrustBoundaryReview/actions/runs/37133769240"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:12.978782+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:16.712675+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/CITrustBoundaryReview/actions/runs/37133769240",
+          "head_sha": "40ed13a4fddcc616e460472e0abcf59af4808391",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/CITrustBoundaryReview/blob/40ed13a4fddcc616e460472e0abcf59af4808391/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "40ed13a4fddcc616e460472e0abcf59af4808391",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "CSPPolicyLens",
+      "repository": "https://github.com/dhtfish-98/CSPPolicyLens",
+      "head_sha": "4414f49a3e0b69255a53c8ed2c683d424fb3798a",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线声明 CSP2/3 策略的定位与有效策略证据",
+      "declared_limits": "不浏览目标、不试验绕过，不能替代实际浏览器执行验证",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/CSPPolicyLens/actions/runs/37133774176"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:17.699355+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:21.628793+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/CSPPolicyLens/actions/runs/37133774176",
+          "head_sha": "4414f49a3e0b69255a53c8ed2c683d424fb3798a",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/CSPPolicyLens/blob/4414f49a3e0b69255a53c8ed2c683d424fb3798a/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "4414f49a3e0b69255a53c8ed2c683d424fb3798a",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "CertificateNamePolicy",
+      "repository": "https://github.com/dhtfish-98/CertificateNamePolicy",
+      "head_sha": "9f34fa8b025b8be793807c90dfb503a715a51df7",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 X.509 DNS/IP SAN 与给定名称政策核对",
+      "declared_limits": "不握手、不查询 DNS、不建立完整根信任链或真实服务身份",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/CertificateNamePolicy/actions/runs/37135852250"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:11.817972+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:15.370182+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/CertificateNamePolicy/actions/runs/37135852250",
+          "head_sha": "9f34fa8b025b8be793807c90dfb503a715a51df7",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/CertificateNamePolicy/blob/9f34fa8b025b8be793807c90dfb503a715a51df7/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "9f34fa8b025b8be793807c90dfb503a715a51df7",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "ChromeRelay",
+      "repository": "https://github.com/dhtfish-98/ChromeRelay",
+      "head_sha": "d55bd987de3c70486ed669da311bf37943fc0e97",
+      "repository_role": "SOFTWARE",
+      "material_role": "普通背景工具",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "经 CDP 操作调用者的本地浏览器，用于受控页面自动化",
+      "declared_limits": "可导航、读写页面、表单和浏览器状态；网页/账号权限和隐私必须按真实任务核对",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/ChromeRelay/actions/runs/37138495537"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:12.503213+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:16.096886+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/ChromeRelay/actions/runs/37138495537",
+          "head_sha": "d55bd987de3c70486ed669da311bf37943fc0e97",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/ChromeRelay/blob/d55bd987de3c70486ed669da311bf37943fc0e97/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "d55bd987de3c70486ed669da311bf37943fc0e97",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "CompoundDocumentReview",
+      "repository": "https://github.com/dhtfish-98/CompoundDocumentReview",
+      "head_sha": "cef5e5676eaca3615c354b33ceb8e0709c785d53",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 CFB 分配与目录结构的有界审阅",
+      "declared_limits": "不运行宏/OLE或证明文档内容安全",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/CompoundDocumentReview/actions/runs/37133768803"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:13.678255+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:17.699138+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/CompoundDocumentReview/actions/runs/37133768803",
+          "head_sha": "cef5e5676eaca3615c354b33ceb8e0709c785d53",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/CompoundDocumentReview/blob/cef5e5676eaca3615c354b33ceb8e0709c785d53/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "cef5e5676eaca3615c354b33ceb8e0709c785d53",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "ContainerfileReview",
+      "repository": "https://github.com/dhtfish-98/ContainerfileReview",
+      "head_sha": "ec15c69d066eab3c26d781a48670b8fa1eb4eb90",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "静态检查镜像来源、remote ADD 与最终 USER 声明",
+      "declared_limits": "不构建镜像、不证明实际容器隔离或镜像可信",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/ContainerfileReview/actions/runs/37132162114"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:15.370275+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:19.059542+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/ContainerfileReview/actions/runs/37132162114",
+          "head_sha": "ec15c69d066eab3c26d781a48670b8fa1eb4eb90",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/ContainerfileReview/blob/ec15c69d066eab3c26d781a48670b8fa1eb4eb90/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "ec15c69d066eab3c26d781a48670b8fa1eb4eb90",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "CrlRevocationReview",
+      "repository": "https://github.com/dhtfish-98/CrlRevocationReview",
+      "head_sha": "633e4b344219dc736023c52e390f0c8364873ae6",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "固定 issuer 与目标证书的离线完整 CRL 签名、时间及吊销证据",
+      "declared_limits": "不是通用根链验证或网络吊销查询",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/CrlRevocationReview/actions/runs/37133768877"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:16.097035+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:19.578159+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/CrlRevocationReview/actions/runs/37133768877",
+          "head_sha": "633e4b344219dc736023c52e390f0c8364873ae6",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/CrlRevocationReview/blob/633e4b344219dc736023c52e390f0c8364873ae6/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "633e4b344219dc736023c52e390f0c8364873ae6",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "CryptoRegressionBench",
+      "repository": "https://github.com/dhtfish-98/CryptoRegressionBench",
+      "head_sha": "be12bb5166b93d4568f3e7faa620e2d60419780a",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "固定公开 Wycheproof AES-GCM 语料的真实密码库回归",
+      "declared_limits": "不是密钥恢复、伪造或在线认证测试；范围受冻结语料和库版本限制",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/CryptoRegressionBench/actions/runs/37133769196"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:16.712830+00:00",
+      "CI_observed_to_utc": "2026-10-03T21:54:20.075352+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/CryptoRegressionBench/actions/runs/37133769196",
+          "head_sha": "be12bb5166b93d4568f3e7faa620e2d60419780a",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/CryptoRegressionBench/blob/be12bb5166b93d4568f3e7faa620e2d60419780a/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "be12bb5166b93d4568f3e7faa620e2d60419780a",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "DOMSinkReview",
+      "repository": "https://github.com/dhtfish-98/DOMSinkReview",
+      "head_sha": "e74f1ac7c704ae6994fe529163a3c4aa7ff48343",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 JavaScript AST 的来源、sink 和 sanitizer 政策证据",
+      "declared_limits": "不启动浏览器、不生成攻击、不证明漏洞可利用性",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/DOMSinkReview/actions/runs/37132170311"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:47.260898+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:51.317862+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/DOMSinkReview/actions/runs/37132170311",
+          "head_sha": "e74f1ac7c704ae6994fe529163a3c4aa7ff48343",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/DOMSinkReview/blob/e74f1ac7c704ae6994fe529163a3c4aa7ff48343/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "e74f1ac7c704ae6994fe529163a3c4aa7ff48343",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "DependencyPinReview",
+      "repository": "https://github.com/dhtfish-98/DependencyPinReview",
+      "head_sha": "3b6415b7a40c538382799252be4866b5a5cdf268",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "requirements 直接依赖的固定版本与限定来源声明检查",
+      "declared_limits": "不解析完整传递依赖或证明依赖内容安全",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/DependencyPinReview/actions/runs/37132166200"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:19.059670+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:47.260668+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/DependencyPinReview/actions/runs/37132166200",
+          "head_sha": "3b6415b7a40c538382799252be4866b5a5cdf268",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/DependencyPinReview/blob/3b6415b7a40c538382799252be4866b5a5cdf268/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "3b6415b7a40c538382799252be4866b5a5cdf268",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "DeserializeCallReview",
+      "repository": "https://github.com/dhtfish-98/DeserializeCallReview",
+      "head_sha": "81354b9e67468bec04c7f1b00d09d26ba11901ef",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 Python AST 中选定反序列化调用的静态审阅",
+      "declared_limits": "不反序列化输入或执行其代码；定位不等于漏洞成立",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/DeserializeCallReview/actions/runs/37133775297"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:19.578365+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:48.121098+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/DeserializeCallReview/actions/runs/37133775297",
+          "head_sha": "81354b9e67468bec04c7f1b00d09d26ba11901ef",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/DeserializeCallReview/blob/81354b9e67468bec04c7f1b00d09d26ba11901ef/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "81354b9e67468bec04c7f1b00d09d26ba11901ef",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "DfxmlExtentReview",
+      "repository": "https://github.com/dhtfish-98/DfxmlExtentReview",
+      "head_sha": "509023033747eccead8559ff137a3bd610a8d86b",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "DFXML 声明的文件与 extent 关系审阅",
+      "declared_limits": "不验证真实磁盘映射或文件内容来源",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/DfxmlExtentReview/actions/runs/37133774494"
+      ],
+      "CI_observed_from_utc": "2026-10-03T21:54:20.075670+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:47.748469+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/DfxmlExtentReview/actions/runs/37133774494",
+          "head_sha": "509023033747eccead8559ff137a3bd610a8d86b",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/DfxmlExtentReview/blob/509023033747eccead8559ff137a3bd610a8d86b/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "509023033747eccead8559ff137a3bd610a8d86b",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "DjangoSessionGuard",
+      "repository": "https://github.com/dhtfish-98/DjangoSessionGuard",
+      "head_sha": "04de12f8699bedd5b86b7f85b6542f1a8d150b7e",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定 Django5.2 设置投影的 session/CSRF 静态检查",
+      "declared_limits": "不启动网站、不测试账号或证明生产环境生效",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/DjangoSessionGuard/actions/runs/37133775192"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:45.647201+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:50.010655+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/DjangoSessionGuard/actions/runs/37133775192",
+          "head_sha": "04de12f8699bedd5b86b7f85b6542f1a8d150b7e",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/DjangoSessionGuard/blob/04de12f8699bedd5b86b7f85b6542f1a8d150b7e/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "04de12f8699bedd5b86b7f85b6542f1a8d150b7e",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "DsseEnvelopeReview",
+      "repository": "https://github.com/dhtfish-98/DsseEnvelopeReview",
+      "head_sha": "469010b5bcf13cac994e258dcc05e1c112de4def",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定固定公钥、payload type 和阈值的离线 DSSEv1 验证",
+      "declared_limits": "不签名、不导出私钥；固定信任输入不代表整个供应链可信",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/DsseEnvelopeReview/actions/runs/37133779142"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:47.748588+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:51.715150+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/DsseEnvelopeReview/actions/runs/37133779142",
+          "head_sha": "469010b5bcf13cac994e258dcc05e1c112de4def",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/DsseEnvelopeReview/blob/469010b5bcf13cac994e258dcc05e1c112de4def/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "469010b5bcf13cac994e258dcc05e1c112de4def",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "EntitlementFlagReview",
+      "repository": "https://github.com/dhtfish-98/EntitlementFlagReview",
+      "head_sha": "646c9ded351173c6abc413313d599879a8850a64",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 plist 的调试、JIT 和其他权限标志声明审阅",
+      "declared_limits": "声明不是 macOS 已授予权限或完整代码签名验证",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/EntitlementFlagReview/actions/runs/37132166760"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:48.121251+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:51.642641+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/EntitlementFlagReview/actions/runs/37132166760",
+          "head_sha": "646c9ded351173c6abc413313d599879a8850a64",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/EntitlementFlagReview/blob/646c9ded351173c6abc413313d599879a8850a64/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "646c9ded351173c6abc413313d599879a8850a64",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "EvtxRecordReview",
+      "repository": "https://github.com/dhtfish-98/EvtxRecordReview",
+      "head_sha": "3474cf5545c6b857728f6a6cf0e93bcd54c7d1ca",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 EVTX 完整性、BinXML 与原位置事件证据整理",
+      "declared_limits": "不收集在线主机、不注入日志、不加载消息 DLL",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/EvtxRecordReview/actions/runs/37135851909"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:50.010904+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:54.022110+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/EvtxRecordReview/actions/runs/37135851909",
+          "head_sha": "3474cf5545c6b857728f6a6cf0e93bcd54c7d1ca",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/EvtxRecordReview/blob/3474cf5545c6b857728f6a6cf0e93bcd54c7d1ca/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "3474cf5545c6b857728f6a6cf0e93bcd54c7d1ca",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "EvtxRecoveryReview",
+      "repository": "https://github.com/dhtfish-98/EvtxRecoveryReview",
+      "head_sha": "b78807fe00c998bf392d749901b30c551eabef36",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定本地 EVTX 镜像中块/记录恢复与模板推断证据",
+      "declared_limits": "不写回输入、不从外部取模板，恢复候选不代表原事件完全真实",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/EvtxRecoveryReview/actions/runs/37138018545"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:51.317998+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:54.722737+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/EvtxRecoveryReview/actions/runs/37138018545",
+          "head_sha": "b78807fe00c998bf392d749901b30c551eabef36",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/EvtxRecoveryReview/blob/b78807fe00c998bf392d749901b30c551eabef36/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "b78807fe00c998bf392d749901b30c551eabef36",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "FileModeReview",
+      "repository": "https://github.com/dhtfish-98/FileModeReview",
+      "head_sha": "8b7dba9e7a0342280a3a60b0913171e1f363a33e",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "授权本地路径的选定文件权限位审阅",
+      "declared_limits": "不读取内容；权限位不能证明实际访问路径或完整 ACL 策略",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/FileModeReview/actions/runs/37132170723"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:51.642942+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:54.883793+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/FileModeReview/actions/runs/37132170723",
+          "head_sha": "8b7dba9e7a0342280a3a60b0913171e1f363a33e",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/FileModeReview/blob/8b7dba9e7a0342280a3a60b0913171e1f363a33e/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "8b7dba9e7a0342280a3a60b0913171e1f363a33e",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "FinderStoreReview",
+      "repository": "https://github.com/dhtfish-98/FinderStoreReview",
+      "head_sha": "9721715980d91afd1b7ecce36b18345d0fa8ce61",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 DS_Store Bud1/DSDB 受限 B-tree 结构审阅",
+      "declared_limits": "不遍历真实 Finder 目标或证明全部格式语义",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/FinderStoreReview/actions/runs/37133779912"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:51.715254+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:59.327986+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/FinderStoreReview/actions/runs/37133779912",
+          "head_sha": "9721715980d91afd1b7ecce36b18345d0fa8ce61",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/FinderStoreReview/blob/9721715980d91afd1b7ecce36b18345d0fa8ce61/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "9721715980d91afd1b7ecce36b18345d0fa8ce61",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "FirewalldZoneAudit",
+      "repository": "https://github.com/dhtfish-98/FirewalldZoneAudit",
+      "head_sha": "d23b7a813c878dbc0f3f50b038863f1516fd237b",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 zone/service XML 暴露面快照审阅",
+      "declared_limits": "不启动/修改防火墙或证明流量实际获准",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/FirewalldZoneAudit/actions/runs/37133783541"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:54.022228+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:57.160463+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/FirewalldZoneAudit/actions/runs/37133783541",
+          "head_sha": "d23b7a813c878dbc0f3f50b038863f1516fd237b",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/FirewalldZoneAudit/blob/d23b7a813c878dbc0f3f50b038863f1516fd237b/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "d23b7a813c878dbc0f3f50b038863f1516fd237b",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "GoCryptoPolicyReview",
+      "repository": "https://github.com/dhtfish-98/GoCryptoPolicyReview",
+      "head_sha": "aed3cca5fd9f95288c476bb37f28f1a8093d3461",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 Go 源码中选定密码算法/用法政策检查",
+      "declared_limits": "不运行源码、编译或验证真实攻击与密钥安全",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/GoCryptoPolicyReview/actions/runs/37132171638"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:54.722900+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:57.999876+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/GoCryptoPolicyReview/actions/runs/37132171638",
+          "head_sha": "aed3cca5fd9f95288c476bb37f28f1a8093d3461",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/GoCryptoPolicyReview/blob/aed3cca5fd9f95288c476bb37f28f1a8093d3461/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "aed3cca5fd9f95288c476bb37f28f1a8093d3461",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "HandshakeEvidenceReview",
+      "repository": "https://github.com/dhtfish-98/HandshakeEvidenceReview",
+      "head_sha": "cfcdf3dfe992c98d329ded1de859448c608c1aff",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "已保存 PCAP/PCAPNG 的限定 TLS hello 指纹证据",
+      "declared_limits": "不捕获/拦截流量、不发起握手；录制来源真实性仍需单独证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/HandshakeEvidenceReview/actions/runs/37133783874"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:54.883977+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:04:58.344318+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/HandshakeEvidenceReview/actions/runs/37133783874",
+          "head_sha": "cfcdf3dfe992c98d329ded1de859448c608c1aff",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/HandshakeEvidenceReview/blob/cfcdf3dfe992c98d329ded1de859448c608c1aff/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "cfcdf3dfe992c98d329ded1de859448c608c1aff",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "HeaderPolicyReview",
+      "repository": "https://github.com/dhtfish-98/HeaderPolicyReview",
+      "head_sha": "d88aeba131e58762e1e7f8c91b2e4c72f458bdc3",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "HAR 中 HSTS、CSP、nosniff 等选定响应头声明审阅",
+      "declared_limits": "不请求目标或证明浏览器执行；已有有限修正准备但尚未公开发布",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/HeaderPolicyReview/actions/runs/37132171468"
+      ],
+      "CI_observed_from_utc": "2026-10-03T23:49:05.173604+00:00",
+      "CI_observed_to_utc": "2026-10-03T23:49:08.843458+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/HeaderPolicyReview/actions/runs/37132171468",
+          "head_sha": "d88aeba131e58762e1e7f8c91b2e4c72f458bdc3",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": "0.1.1",
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/HeaderPolicyReview/blob/d88aeba131e58762e1e7f8c91b2e4c72f458bdc3/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "d88aeba131e58762e1e7f8c91b2e4c72f458bdc3",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "IAMScopeReview",
+      "repository": "https://github.com/dhtfish-98/IAMScopeReview",
+      "head_sha": "8a1f2ea0eba6e7812ecb37307257e362aeb8b93d",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 IAM JSON 的宽泛 Allow、action/resource/principal 声明审阅",
+      "declared_limits": "不访问 AWS 或证明真实有效权限与可利用路径",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/IAMScopeReview/actions/runs/37132174793"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:58.000120+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:01.417182+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/IAMScopeReview/actions/runs/37132174793",
+          "head_sha": "8a1f2ea0eba6e7812ecb37307257e362aeb8b93d",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/IAMScopeReview/blob/8a1f2ea0eba6e7812ecb37307257e362aeb8b93d/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "8a1f2ea0eba6e7812ecb37307257e362aeb8b93d",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "IDBMeadow",
+      "repository": "https://github.com/dhtfish-98/IDBMeadow",
+      "head_sha": "a17fe17c247040814d2b7f60c38e6c16e0c60dc5",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 IDB 解析与导出，附带可执行调用者 Python 的脚本入口",
+      "declared_limits": "脚本入口不是沙箱；IDB可能含敏感用户信息，完整核心/平台 OPEN",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/IDBMeadow/actions/runs/37133784015"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:58.344522+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:01.931333+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/IDBMeadow/actions/runs/37133784015",
+          "head_sha": "a17fe17c247040814d2b7f60c38e6c16e0c60dc5",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/IDBMeadow/blob/a17fe17c247040814d2b7f60c38e6c16e0c60dc5/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "a17fe17c247040814d2b7f60c38e6c16e0c60dc5",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "ImageQuay",
+      "repository": "https://github.com/dhtfish-98/ImageQuay",
+      "head_sha": "11e876ff7ddb815badd8c1ce69baaa4a76c329d5",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 Mach-O 解析及编辑、lipo、header/stub 生成等开发分析",
+      "declared_limits": "不是全部只读；当前 CI 保留 ARM64_32 失败，拟修版本未发布，继承语义仍有限",
+      "CI_status_at_cutoff": "FAIL_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/ImageQuay/actions/runs/37135858315"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:04:59.328196+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:03.138173+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/ImageQuay/actions/runs/37135858315",
+          "head_sha": "11e876ff7ddb815badd8c1ce69baaa4a76c329d5",
+          "run_attempt": 1,
+          "conclusion": "failure",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": "1.0.5",
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/ImageQuay/blob/11e876ff7ddb815badd8c1ce69baaa4a76c329d5/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "11e876ff7ddb815badd8c1ce69baaa4a76c329d5",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "JksTrustStoreReview",
+      "repository": "https://github.com/dhtfish-98/JksTrustStoreReview",
+      "head_sha": "beaabee1e8947a98dfc9f7d312cf35509d55e9a1",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "有界 JKSv2 公共 truststore、证书和给定摘要审阅",
+      "declared_limits": "不解密/导出私钥；审阅不等于根信任来源已被认证",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/JksTrustStoreReview/actions/runs/37133788242"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:01.417431+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:04.884684+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/JksTrustStoreReview/actions/runs/37133788242",
+          "head_sha": "beaabee1e8947a98dfc9f7d312cf35509d55e9a1",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/JksTrustStoreReview/blob/beaabee1e8947a98dfc9f7d312cf35509d55e9a1/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "beaabee1e8947a98dfc9f7d312cf35509d55e9a1",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "JwkSetReview",
+      "repository": "https://github.com/dhtfish-98/JwkSetReview",
+      "head_sha": "c4df2f393548dbcf1b4819ce62ba8891229805a0",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "公共 RSA/NIST EC/Ed25519 JWK 的结构、算法与材料政策审阅",
+      "declared_limits": "不处理私钥；本地 key profile 通过不证明组织对密钥的所有权",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/JwkSetReview/actions/runs/37133788412"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:01.931726+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:05.218916+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/JwkSetReview/actions/runs/37133788412",
+          "head_sha": "c4df2f393548dbcf1b4819ce62ba8891229805a0",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/JwkSetReview/blob/c4df2f393548dbcf1b4819ce62ba8891229805a0/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "c4df2f393548dbcf1b4819ce62ba8891229805a0",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "KernelCabinet",
+      "repository": "https://github.com/dhtfish-98/KernelCabinet",
+      "head_sha": "05aafef650d1e786aad1618ec95e00408ac95fd8",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "授权兼容内核文件中的嵌入扩展元数据与原始 TEXT_EXEC 片段复制",
+      "declared_limits": "会新建原始片段输出；不是可加载 kext，也不执行输入或证明所有内核布局",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/KernelCabinet/actions/runs/37132175454"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:03.138468+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:06.471165+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/KernelCabinet/actions/runs/37132175454",
+          "head_sha": "05aafef650d1e786aad1618ec95e00408ac95fd8",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/KernelCabinet/blob/05aafef650d1e786aad1618ec95e00408ac95fd8/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "05aafef650d1e786aad1618ec95e00408ac95fd8",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "KubePodReview",
+      "repository": "https://github.com/dhtfish-98/KubePodReview",
+      "head_sha": "a120b06a46cf151a3f2ce44c697a481b65b89d58",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 Kubernetes Pod securityContext 声明审阅",
+      "declared_limits": "不访问集群或证明实际 CNI、准入与运行时隔离",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/KubePodReview/actions/runs/37132175778"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:04.884969+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:08.553686+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/KubePodReview/actions/runs/37132175778",
+          "head_sha": "a120b06a46cf151a3f2ce44c697a481b65b89d58",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/KubePodReview/blob/a120b06a46cf151a3f2ce44c697a481b65b89d58/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "a120b06a46cf151a3f2ce44c697a481b65b89d58",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "LifecyclePolicyReview",
+      "repository": "https://github.com/dhtfish-98/LifecyclePolicyReview",
+      "head_sha": "745f8227e174ad5dbf34ce5acb636b8fa2cb90b7",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定依赖清单和显式允许项的安装生命周期政策审阅",
+      "declared_limits": "不安装、执行 hook 或自动修复；静态清单不证明来源真实性",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/LifecyclePolicyReview/actions/runs/37133788418"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:05.219171+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:08.887438+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/LifecyclePolicyReview/actions/runs/37133788418",
+          "head_sha": "745f8227e174ad5dbf34ce5acb636b8fa2cb90b7",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/LifecyclePolicyReview/blob/745f8227e174ad5dbf34ce5acb636b8fa2cb90b7/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "745f8227e174ad5dbf34ce5acb636b8fa2cb90b7",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "LnkEvidenceReview",
+      "repository": "https://github.com/dhtfish-98/LnkEvidenceReview",
+      "head_sha": "dc9cb4d8b6de319c51ea76c7a72baa4994e160df",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 Shell Link 元数据证据审阅",
+      "declared_limits": "不解析或运行记录的目标；元数据不是程序真实执行证据",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/LnkEvidenceReview/actions/runs/37133789439"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:06.471315+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:10.238281+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/LnkEvidenceReview/actions/runs/37133789439",
+          "head_sha": "dc9cb4d8b6de319c51ea76c7a72baa4994e160df",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/LnkEvidenceReview/blob/dc9cb4d8b6de319c51ea76c7a72baa4994e160df/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "dc9cb4d8b6de319c51ea76c7a72baa4994e160df",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "LocalSecretReview",
+      "repository": "https://github.com/dhtfish-98/LocalSecretReview",
+      "head_sha": "4c4d8f19185de13045d03187a18e8474776a68c1",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "授权本地文本中的常见凭据形态定位与脱敏提示",
+      "declared_limits": "不测试凭据、不导出内容、不证明所有秘密均被发现",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/LocalSecretReview/actions/runs/37133792286"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:08.553884+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:12.113435+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/LocalSecretReview/actions/runs/37133792286",
+          "head_sha": "4c4d8f19185de13045d03187a18e8474776a68c1",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/LocalSecretReview/blob/4c4d8f19185de13045d03187a18e8474776a68c1/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "4c4d8f19185de13045d03187a18e8474776a68c1",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "MachOInspect",
+      "repository": "https://github.com/dhtfish-98/MachOInspect",
+      "head_sha": "0972f7ff334be4d2a8a1ac1b8e2167ea089f6bf4",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "Mach-O 签名结构、声明 entitlement 与加固元数据审阅",
+      "declared_limits": "不验证 CMS/根链/代码页真实性或已授予权限；较大核心深审 OPEN",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/MachOInspect/actions/runs/37140045111"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:08.887735+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:13.008848+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/MachOInspect/actions/runs/37140045111",
+          "head_sha": "0972f7ff334be4d2a8a1ac1b8e2167ea089f6bf4",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/MachOInspect/blob/0972f7ff334be4d2a8a1ac1b8e2167ea089f6bf4/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "0972f7ff334be4d2a8a1ac1b8e2167ea089f6bf4",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "MailEvidenceReview",
+      "repository": "https://github.com/dhtfish-98/MailEvidenceReview",
+      "head_sha": "d15162fe7d46cc9b031831e7d5bac1d8667cc249",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 EML 头、MIME 摘要与声明时间证据整理",
+      "declared_limits": "不登录邮箱、不发邮件、不运行或写出附件；内容可能含个人信息",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/MailEvidenceReview/actions/runs/37133792612"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:10.238435+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:15.212957+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/MailEvidenceReview/actions/runs/37133792612",
+          "head_sha": "d15162fe7d46cc9b031831e7d5bac1d8667cc249",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/MailEvidenceReview/blob/d15162fe7d46cc9b031831e7d5bac1d8667cc249/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "d15162fe7d46cc9b031831e7d5bac1d8667cc249",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "MinisignFileReview",
+      "repository": "https://github.com/dhtfish-98/MinisignFileReview",
+      "head_sha": "8e233197c5412bb7cacc890f6f7f6b0620ef01df",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "固定公共 key 的文件签名与受信注释离线验证",
+      "declared_limits": "不联网、签名或导出私钥；key真实性由调用者提供",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/MinisignFileReview/actions/runs/37133792562"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:11.960890+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:16.007462+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/MinisignFileReview/actions/runs/37133792562",
+          "head_sha": "8e233197c5412bb7cacc890f6f7f6b0620ef01df",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/MinisignFileReview/blob/8e233197c5412bb7cacc890f6f7f6b0620ef01df/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "8e233197c5412bb7cacc890f6f7f6b0620ef01df",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "ModelOpcodeReview",
+      "repository": "https://github.com/dhtfish-98/ModelOpcodeReview",
+      "head_sha": "542d79772e94a761dd98cca08a3222b038e5abbf",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "静态 pickle/ZIP32/NPY 模型容器与符号 opcode 检查",
+      "declared_limits": "不加载模型、框架或执行输入代码；拒绝边界不是所有模型格式证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/ModelOpcodeReview/actions/runs/37133793408"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:12.113547+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:15.870472+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/ModelOpcodeReview/actions/runs/37133793408",
+          "head_sha": "542d79772e94a761dd98cca08a3222b038e5abbf",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/ModelOpcodeReview/blob/542d79772e94a761dd98cca08a3222b038e5abbf/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "542d79772e94a761dd98cca08a3222b038e5abbf",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "ModprobePolicyAudit",
+      "repository": "https://github.com/dhtfish-98/ModprobePolicyAudit",
+      "head_sha": "d91704a925a052766c839359eba89965b7688faf",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 modprobe alias、依赖与禁用声明审阅",
+      "declared_limits": "不加载内核模块；未建模复杂 glob 保持 OPEN",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/ModprobePolicyAudit/actions/runs/37133796713"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:13.009186+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:16.337990+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/ModprobePolicyAudit/actions/runs/37133796713",
+          "head_sha": "d91704a925a052766c839359eba89965b7688faf",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/ModprobePolicyAudit/blob/d91704a925a052766c839359eba89965b7688faf/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "d91704a925a052766c839359eba89965b7688faf",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "NetworkPolicyReachabilityReview",
+      "repository": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview",
+      "head_sha": "10072426a97570863a488b22675d855216c62007",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定 Kubernetes 网络政策与离线拓扑的限定连通性推导",
+      "declared_limits": "不是实际 CNI 流量、全部集群语义或在线扫描",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/actions/runs/37133797097"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:15.213175+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:18.884367+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/actions/runs/37133797097",
+          "head_sha": "10072426a97570863a488b22675d855216c62007",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/blob/10072426a97570863a488b22675d855216c62007/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "10072426a97570863a488b22675d855216c62007",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "NftIngressAudit",
+      "repository": "https://github.com/dhtfish-98/NftIngressAudit",
+      "head_sha": "031b9d053b85f29ead285a85cbd506f794a4f817",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 nft 原生 JSON 的选定 ingress 政策与终止动作顺序审阅",
+      "declared_limits": "不加载规则、不探测端口；只支持声明的有限规则语义",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/NftIngressAudit/actions/runs/37133796705"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:15.870584+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:19.230331+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/NftIngressAudit/actions/runs/37133796705",
+          "head_sha": "031b9d053b85f29ead285a85cbd506f794a4f817",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/NftIngressAudit/blob/031b9d053b85f29ead285a85cbd506f794a4f817/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "031b9d053b85f29ead285a85cbd506f794a4f817",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "NginxConfigGuard",
+      "repository": "https://github.com/dhtfish-98/NginxConfigGuard",
+      "head_sha": "a850a60d33b499c9c7c2dcd821d3c80a4c9073e1",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定 Nginx 配置的四类限定 HTTP 安全政策审阅",
+      "declared_limits": "不启动服务、展开真实 include 或应用配置",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/NginxConfigGuard/actions/runs/37133797779"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:16.007601+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:19.284930+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/NginxConfigGuard/actions/runs/37133797779",
+          "head_sha": "a850a60d33b499c9c7c2dcd821d3c80a4c9073e1",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/NginxConfigGuard/blob/a850a60d33b499c9c7c2dcd821d3c80a4c9073e1/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "a850a60d33b499c9c7c2dcd821d3c80a4c9073e1",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "ObjCAtlas",
+      "repository": "https://github.com/dhtfish-98/ObjCAtlas",
+      "head_sha": "e8605aab3c253a62ba2b328561737fadaf75348e",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 ObjC 元数据与声明导出，保留解码及 deprotect 写出辅助能力",
+      "declared_limits": "整个仓库不能声称只读；继承能力、畸形输入和真实平台审查 OPEN",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37133503102"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:16.338292+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:19.746351+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37133503102",
+          "head_sha": "e8605aab3c253a62ba2b328561737fadaf75348e",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/ObjCAtlas/blob/e8605aab3c253a62ba2b328561737fadaf75348e/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "e8605aab3c253a62ba2b328561737fadaf75348e",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "OcspStapleReview",
+      "repository": "https://github.com/dhtfish-98/OcspStapleReview",
+      "head_sha": "b7f649218038dbffe9cab5e4843e0e8f1199a07f",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "固定 issuer/serial、nonce 与时间契约的离线 OCSP 回应校验",
+      "declared_limits": "不查询网络或证明通用根链，信任输入仍需来源证据",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/OcspStapleReview/actions/runs/37133801079"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:18.884657+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:22.190078+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/OcspStapleReview/actions/runs/37133801079",
+          "head_sha": "b7f649218038dbffe9cab5e4843e0e8f1199a07f",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/OcspStapleReview/blob/b7f649218038dbffe9cab5e4843e0e8f1199a07f/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "b7f649218038dbffe9cab5e4843e0e8f1199a07f",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "PDFActionReview",
+      "repository": "https://github.com/dhtfish-98/PDFActionReview",
+      "head_sha": "11fff568b58c76760c234d9cd934637e26092253",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 PDF 语法上下文中的动作名称与结构标记审阅",
+      "declared_limits": "不运行 JavaScript、渲染、下载或提取执行附件",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/PDFActionReview/actions/runs/37133807223"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:19.746910+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:23.153001+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/PDFActionReview/actions/runs/37133807223",
+          "head_sha": "11fff568b58c76760c234d9cd934637e26092253",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/PDFActionReview/blob/11fff568b58c76760c234d9cd934637e26092253/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "11fff568b58c76760c234d9cd934637e26092253",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "PEHardeningReview",
+      "repository": "https://github.com/dhtfish-98/PEHardeningReview",
+      "head_sha": "52e3d511cb69b9eebead293e9415dbe9865032b0",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 PE 的声明缓解标志审阅",
+      "declared_limits": "不运行样本；声明不证明操作系统已实施防护",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/PEHardeningReview/actions/runs/37133806887"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:22.190303+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:25.584408+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/PEHardeningReview/actions/runs/37133806887",
+          "head_sha": "52e3d511cb69b9eebead293e9415dbe9865032b0",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/PEHardeningReview/blob/52e3d511cb69b9eebead293e9415dbe9865032b0/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "52e3d511cb69b9eebead293e9415dbe9865032b0",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "PEQuarry",
+      "repository": "https://github.com/dhtfish-98/PEQuarry",
+      "head_sha": "ba8cda8ed53a0d5c0eda4d7a6e9578e6d0f3d8be",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 PE 解析、静态签名匹配及保留的序列化/编辑能力",
+      "declared_limits": "可能写出字节且显式可选 URL 载入；不执行输入，但完整继承/平台语义 OPEN",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/PEQuarry/actions/runs/37133806725"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:22.632997+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:26.057635+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/PEQuarry/actions/runs/37133806725",
+          "head_sha": "ba8cda8ed53a0d5c0eda4d7a6e9578e6d0f3d8be",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/PEQuarry/blob/ba8cda8ed53a0d5c0eda4d7a6e9578e6d0f3d8be/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "ba8cda8ed53a0d5c0eda4d7a6e9578e6d0f3d8be",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "PackageOriginReview",
+      "repository": "https://github.com/dhtfish-98/PackageOriginReview",
+      "head_sha": "edb6f3150fe5677223da9e9f07c1b3fb5076a50e",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "npm lock v2/v3 依赖声明的 host/HTTPS/route 政策审阅",
+      "declared_limits": "不下载包、安装或证明实际包内容可信",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/PackageOriginReview/actions/runs/37133800889"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:19.230686+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:22.632745+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/PackageOriginReview/actions/runs/37133800889",
+          "head_sha": "edb6f3150fe5677223da9e9f07c1b3fb5076a50e",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/PackageOriginReview/blob/edb6f3150fe5677223da9e9f07c1b3fb5076a50e/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "edb6f3150fe5677223da9e9f07c1b3fb5076a50e",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "PamStackAudit",
+      "repository": "https://github.com/dhtfish-98/PamStackAudit",
+      "head_sha": "1d1809dbf548f2b69c9989d9a79a05e65d657c79",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 PAM include 与锁定策略快照审阅",
+      "declared_limits": "不改变认证栈或验证真实登录/锁定行为",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/PamStackAudit/actions/runs/37133801229"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:19.285139+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:22.732652+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/PamStackAudit/actions/runs/37133801229",
+          "head_sha": "1d1809dbf548f2b69c9989d9a79a05e65d657c79",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/PamStackAudit/blob/1d1809dbf548f2b69c9989d9a79a05e65d657c79/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "1d1809dbf548f2b69c9989d9a79a05e65d657c79",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "PngStreamReview",
+      "repository": "https://github.com/dhtfish-98/PngStreamReview",
+      "head_sha": "7392fd6501a7a4d40bd9658162c7d7a7cf439f3f",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "限定非隔行 PNG 的 chunk/CRC/zlib/filter 结构审阅",
+      "declared_limits": "不是图像真实性、版权或全部解码器安全证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/PngStreamReview/actions/runs/37133806785"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:22.732936+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:26.039524+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/PngStreamReview/actions/runs/37133806785",
+          "head_sha": "7392fd6501a7a4d40bd9658162c7d7a7cf439f3f",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/PngStreamReview/blob/7392fd6501a7a4d40bd9658162c7d7a7cf439f3f/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "7392fd6501a7a4d40bd9658162c7d7a7cf439f3f",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "PolicyMosaic",
+      "repository": "https://github.com/dhtfish-98/PolicyMosaic",
+      "head_sha": "2a9a8966ef73b39d54e2bfbf554f08b28d1a9975",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "授权 sandbox profile 的解码与 SBPL/C 草稿导出",
+      "declared_limits": "可选 clang 编译和开发固件 helper 不全离线；不应用政策，真实设备效果 OPEN",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/PolicyMosaic/actions/runs/37133810944"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:23.153257+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:26.807331+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/PolicyMosaic/actions/runs/37133810944",
+          "head_sha": "2a9a8966ef73b39d54e2bfbf554f08b28d1a9975",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/PolicyMosaic/blob/2a9a8966ef73b39d54e2bfbf554f08b28d1a9975/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "2a9a8966ef73b39d54e2bfbf554f08b28d1a9975",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "PrefetchEvidenceReview",
+      "repository": "https://github.com/dhtfish-98/PrefetchEvidenceReview",
+      "head_sha": "98f57f2c413522bf584b85a1776535106ce56100",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "未压缩 Windows Prefetch17/23/26 结构与声明时间/计数证据",
+      "declared_limits": "不运行记录程序、不在线采集或解压 MAM；结构不是执行事实真实性证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/PrefetchEvidenceReview/actions/runs/37138018017"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:25.584665+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:29.539076+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/PrefetchEvidenceReview/actions/runs/37138018017",
+          "head_sha": "98f57f2c413522bf584b85a1776535106ce56100",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/PrefetchEvidenceReview/blob/98f57f2c413522bf584b85a1776535106ce56100/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "98f57f2c413522bf584b85a1776535106ce56100",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "RecycleRecordReview",
+      "repository": "https://github.com/dhtfish-98/RecycleRecordReview",
+      "head_sha": "e10c8625ac18044b02491c1b04202c0775237ba1",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定 Windows 回收站 I 记录的限定字段审阅",
+      "declared_limits": "不恢复真实目标或遍历系统盘",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/RecycleRecordReview/actions/runs/37133811188"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:26.039699+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:29.255960+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/RecycleRecordReview/actions/runs/37133811188",
+          "head_sha": "e10c8625ac18044b02491c1b04202c0775237ba1",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/RecycleRecordReview/blob/e10c8625ac18044b02491c1b04202c0775237ba1/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "e10c8625ac18044b02491c1b04202c0775237ba1",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "RegistryHiveReview",
+      "repository": "https://github.com/dhtfish-98/RegistryHiveReview",
+      "head_sha": "f247bfe129c14da3b5621c12eac3d5e4a56bfa23",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "限定 primary SOFTWARE/NTUSER/USRCLASS Hive 与持久化值证据",
+      "declared_limits": "排除 SAM/SECURITY 凭据域及在线 API、事务恢复；不修改 Registry",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/RegistryHiveReview/actions/runs/37133811583"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:26.057849+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:29.747839+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/RegistryHiveReview/actions/runs/37133811583",
+          "head_sha": "f247bfe129c14da3b5621c12eac3d5e4a56bfa23",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/RegistryHiveReview/blob/f247bfe129c14da3b5621c12eac3d5e4a56bfa23/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "f247bfe129c14da3b5621c12eac3d5e4a56bfa23",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SBOMFieldReview",
+      "repository": "https://github.com/dhtfish-98/SBOMFieldReview",
+      "head_sha": "d10eca75952e5640b98371d769bfabbaad83070c",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "CycloneDX 字段、ref 与依赖声明关系审阅",
+      "declared_limits": "不解析漏洞可利用性或证明 SBOM 完整来源",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/SBOMFieldReview/actions/runs/37132179598"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:29.539241+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:31.175910+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/SBOMFieldReview/actions/runs/37132179598",
+          "head_sha": "d10eca75952e5640b98371d769bfabbaad83070c",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SBOMFieldReview/blob/d10eca75952e5640b98371d769bfabbaad83070c/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "d10eca75952e5640b98371d769bfabbaad83070c",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SILGallery",
+      "repository": "https://github.com/dhtfish-98/SILGallery",
+      "head_sha": "fff3fb06a01b18516445503ae824811f7f6fe5f5",
+      "repository_role": "SOFTWARE",
+      "material_role": "普通背景工具",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "Swift 编译输出的 SIL/AST/IR/assembly 开发查看工具",
+      "declared_limits": "可调用固定编译器；主要是开发辅助，不证明网络安全防护受限需求",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/SILGallery/actions/runs/37133806875"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:31.703621+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:34.124805+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/SILGallery/actions/runs/37133806875",
+          "head_sha": "fff3fb06a01b18516445503ae824811f7f6fe5f5",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SILGallery/blob/fff3fb06a01b18516445503ae824811f7f6fe5f5/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "fff3fb06a01b18516445503ae824811f7f6fe5f5",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SSHPolicyReview",
+      "repository": "https://github.com/dhtfish-98/SSHPolicyReview",
+      "head_sha": "45bf028abb27d521397ce3b62297f647ddba1879",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定 sshd 全局 root/password/empty/X11 选定配置审阅",
+      "declared_limits": "不连接 SSH、展开全部规则或证明运行服务实际政策",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/SSHPolicyReview/actions/runs/37132183574"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:31.178539+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:34.881390+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/SSHPolicyReview/actions/runs/37132183574",
+          "head_sha": "45bf028abb27d521397ce3b62297f647ddba1879",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SSHPolicyReview/blob/45bf028abb27d521397ce3b62297f647ddba1879/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "45bf028abb27d521397ce3b62297f647ddba1879",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SamlMetadataReview",
+      "repository": "https://github.com/dhtfish-98/SamlMetadataReview",
+      "head_sha": "fd0e2dd8af12428fad37beeffcde826211909c7a",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线 SAML 身份、角色、绑定、端点与公共证书配置审阅",
+      "declared_limits": "不验证完整 XML 签名/联邦信任，不进行在线登录",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/SamlMetadataReview/actions/runs/37133816169"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:26.807708+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:30.046067+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/SamlMetadataReview/actions/runs/37133816169",
+          "head_sha": "fd0e2dd8af12428fad37beeffcde826211909c7a",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SamlMetadataReview/blob/fd0e2dd8af12428fad37beeffcde826211909c7a/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "fd0e2dd8af12428fad37beeffcde826211909c7a",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SarifLinkReview",
+      "repository": "https://github.com/dhtfish-98/SarifLinkReview",
+      "head_sha": "2297930222c00474e55a74238afc4647473d975b",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "SARIF driver/rule/artifact 的声明链接关系审阅",
+      "declared_limits": "不证明原扫描结果、漏洞或修复真实性",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/SarifLinkReview/actions/runs/37133816144"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:29.256248+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:31.178403+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/SarifLinkReview/actions/runs/37133816144",
+          "head_sha": "2297930222c00474e55a74238afc4647473d975b",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SarifLinkReview/blob/2297930222c00474e55a74238afc4647473d975b/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "2297930222c00474e55a74238afc4647473d975b",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SealScope",
+      "repository": "https://github.com/dhtfish-98/SealScope",
+      "head_sha": "81f8bc7370a5631426c6143f6fa43988f9344af9",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "Mach-O 签名结构、声明 entitlement 与加固设置审阅",
+      "declared_limits": "不验证密码学签名或 OS 权限；有限修正0.2.1尚未公开发布",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/SealScope/actions/runs/37147451091"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:05:29.748092+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:32.078317+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/SealScope/actions/runs/37147451091",
+          "head_sha": "81f8bc7370a5631426c6143f6fa43988f9344af9",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": "0.2.1",
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SealScope/blob/81f8bc7370a5631426c6143f6fa43988f9344af9/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "ac67949ff771f1c1f21fe690b8566ef4cb07ce7f",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SecurityResearchIndex",
+      "repository": "https://github.com/dhtfish-98/SecurityResearchIndex",
+      "head_sha": "3f829d4da634a1473148fa6207feb7322c5c26b4",
+      "repository_role": "DOCUMENTATION",
+      "material_role": "资料仓库",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "资料、导航或社区默认文件",
+      "declared_limits": "不能计为独立软件项目",
+      "CI_status_at_cutoff": "NOT_APPLICABLE_NO_TRACKED_WORKFLOW_CONFIG",
+      "CI_run_urls": [],
+      "CI_observed_from_utc": "2026-10-03T22:05:30.046268+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:05:31.703457+00:00",
+      "CI_runs": [],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SecurityResearchIndex/blob/3f829d4da634a1473148fa6207feb7322c5c26b4/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "3f829d4da634a1473148fa6207feb7322c5c26b4",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SourceReleaseReview",
+      "repository": "https://github.com/dhtfish-98/SourceReleaseReview",
+      "head_sha": "b06ddf21eb2be5f43bf1721e68a08e84d3d393fd",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "源 archive 与可信路径清单的离线成员/字节核对",
+      "declared_limits": "不解包执行、构建、import 或访问 VCS；清单真实性由调用者证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/SourceReleaseReview/actions/runs/37133816208"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:31.176056+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:34.641119+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/SourceReleaseReview/actions/runs/37133816208",
+          "head_sha": "b06ddf21eb2be5f43bf1721e68a08e84d3d393fd",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SourceReleaseReview/blob/b06ddf21eb2be5f43bf1721e68a08e84d3d393fd/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "b06ddf21eb2be5f43bf1721e68a08e84d3d393fd",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SudoScopeAudit",
+      "repository": "https://github.com/dhtfish-98/SudoScopeAudit",
+      "head_sha": "c6779b7e1a507193c3da69dcc403fd268d1282e9",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 sudoers include 与 alias 的限定授权范围审阅",
+      "declared_limits": "不使用提权或修改 sudo 配置；不是完整 sudo 语义或实际权限证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/SudoScopeAudit/actions/runs/37133821010"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:32.078422+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:35.680561+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/SudoScopeAudit/actions/runs/37133821010",
+          "head_sha": "c6779b7e1a507193c3da69dcc403fd268d1282e9",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SudoScopeAudit/blob/c6779b7e1a507193c3da69dcc403fd268d1282e9/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "c6779b7e1a507193c3da69dcc403fd268d1282e9",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "SysctlSnapshotAudit",
+      "repository": "https://github.com/dhtfish-98/SysctlSnapshotAudit",
+      "head_sha": "8974a9f791f1f063a9c8c89f5beb5157209b35a5",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定持久配置与观测 sysctl 值的漂移审阅",
+      "declared_limits": "不改变内核值；观测快照来源与时效不是程序可自证",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/SysctlSnapshotAudit/actions/runs/37133820990"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:34.124915+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:37.111468+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/SysctlSnapshotAudit/actions/runs/37133820990",
+          "head_sha": "8974a9f791f1f063a9c8c89f5beb5157209b35a5",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/SysctlSnapshotAudit/blob/8974a9f791f1f063a9c8c89f5beb5157209b35a5/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "8974a9f791f1f063a9c8c89f5beb5157209b35a5",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "TLSProfileForge",
+      "repository": "https://github.com/dhtfish-98/TLSProfileForge",
+      "head_sha": "7e50d2b30590a99ac4eabe3aaf535dcb9c0ec9de",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "固定五种服务的 TLS 配置草稿与人工审阅证据",
+      "declared_limits": "CLI可新建草稿；不应用服务，开发语法校验并非全部离线或生产效果证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/TLSProfileForge/actions/runs/37140045189"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:34.881484+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:38.164697+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/TLSProfileForge/actions/runs/37140045189",
+          "head_sha": "7e50d2b30590a99ac4eabe3aaf535dcb9c0ec9de",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/TLSProfileForge/blob/7e50d2b30590a99ac4eabe3aaf535dcb9c0ec9de/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "7e50d2b30590a99ac4eabe3aaf535dcb9c0ec9de",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "TabWeave",
+      "repository": "https://github.com/dhtfish-98/TabWeave",
+      "head_sha": "a00bbbb65f85f5bf078eb7acce1b64388a25864d",
+      "repository_role": "SOFTWARE",
+      "material_role": "普通背景工具",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "经 CDP 操作浏览器、页面与浏览器状态的 MCP 自动化",
+      "declared_limits": "真实站点权限和隐私需具体核对；已记录未修 JSON 边界反例，完整浏览器平台 OPEN",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/TabWeave/actions/runs/37147454562"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:34.641214+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:38.102685+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/TabWeave/actions/runs/37147454562",
+          "head_sha": "a00bbbb65f85f5bf078eb7acce1b64388a25864d",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 1,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": "4.3.1",
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/TabWeave/blob/a00bbbb65f85f5bf078eb7acce1b64388a25864d/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "159f0b40ec563bad79857dc0e74164c7d52a79e9",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "TraceMeadow",
+      "repository": "https://github.com/dhtfish-98/TraceMeadow",
+      "head_sha": "af2f4f66264055c13f48745344a6066bb090ec64",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "已采集 Darwin kdebug 文件的离线事件、线程与调用栈整理",
+      "declared_limits": "不主动采集或执行事件；输入可含敏感信息，继承解析核心仍有限",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/TraceMeadow/actions/runs/37133820576"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:35.680671+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:39.136816+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/TraceMeadow/actions/runs/37133820576",
+          "head_sha": "af2f4f66264055c13f48745344a6066bb090ec64",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/TraceMeadow/blob/af2f4f66264055c13f48745344a6066bb090ec64/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "af2f4f66264055c13f48745344a6066bb090ec64",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "TransparencyProofCheck",
+      "repository": "https://github.com/dhtfish-98/TransparencyProofCheck",
+      "head_sha": "fae9548eac53d9aa6d5e4331539d208c0a1968d2",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定 roots 的 SHA256 Merkle inclusion/consistency 关系校验",
+      "declared_limits": "不证明根真实性、日志运营者身份或整个 transparency 服务",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/TransparencyProofCheck/actions/runs/37133825349"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:37.111733+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:40.442690+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/TransparencyProofCheck/actions/runs/37133825349",
+          "head_sha": "fae9548eac53d9aa6d5e4331539d208c0a1968d2",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/TransparencyProofCheck/blob/fae9548eac53d9aa6d5e4331539d208c0a1968d2/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "fae9548eac53d9aa6d5e4331539d208c0a1968d2",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "TufTopLevelReview",
+      "repository": "https://github.com/dhtfish-98/TufTopLevelReview",
+      "head_sha": "0e43fde0429d30714e5af3bac3fa00633b7fa5cc",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "固定 root 的传统 TUF1.x 顶层链、root轮转、阈值与 target 字节核对",
+      "declared_limits": "不在线获取或支持全部 TUF 平台；完整信任来源和回滚 floor 由调用者给定",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/TufTopLevelReview/actions/runs/37133825645"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:38.102949+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:41.307656+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/TufTopLevelReview/actions/runs/37133825645",
+          "head_sha": "0e43fde0429d30714e5af3bac3fa00633b7fa5cc",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/TufTopLevelReview/blob/0e43fde0429d30714e5af3bac3fa00633b7fa5cc/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "0e43fde0429d30714e5af3bac3fa00633b7fa5cc",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "UnicodeSourceReview",
+      "repository": "https://github.com/dhtfish-98/UnicodeSourceReview",
+      "head_sha": "395ed7624f95f17c3f209ad6a6fc3c50fe87eb91",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "离线源码 Unicode 控制/不可见字符位置证据",
+      "declared_limits": "不执行、插入或重写源码；提示不证明恶意意图",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/UnicodeSourceReview/actions/runs/37133825163"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:38.164856+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:41.664874+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/UnicodeSourceReview/actions/runs/37133825163",
+          "head_sha": "395ed7624f95f17c3f209ad6a6fc3c50fe87eb91",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/UnicodeSourceReview/blob/395ed7624f95f17c3f209ad6a6fc3c50fe87eb91/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "395ed7624f95f17c3f209ad6a6fc3c50fe87eb91",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "UnitSandboxAudit",
+      "repository": "https://github.com/dhtfish-98/UnitSandboxAudit",
+      "head_sha": "51c654a71f4bcd5c7bce093e3737baa0eb1c100e",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "本地 systemd service 片段的限定 sandbox 设置审阅",
+      "declared_limits": "不启动服务；未支持的引号/反斜线词法 OPEN，不能推断生产安全",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/UnitSandboxAudit/actions/runs/37133825417"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:39.136997+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:42.315687+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/UnitSandboxAudit/actions/runs/37133825417",
+          "head_sha": "51c654a71f4bcd5c7bce093e3737baa0eb1c100e",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/UnitSandboxAudit/blob/51c654a71f4bcd5c7bce093e3737baa0eb1c100e/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "51c654a71f4bcd5c7bce093e3737baa0eb1c100e",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "UsnRecordReview",
+      "repository": "https://github.com/dhtfish-98/UsnRecordReview",
+      "head_sha": "a1702c9ad4052035ed8ba85a7dfeda68f8946e89",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "已提取 USN2/3/4 记录流的限定证据整理",
+      "declared_limits": "不采集在线卷或证明事件未被修改",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/UsnRecordReview/actions/runs/37133830020"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:40.442913+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:43.701506+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/UsnRecordReview/actions/runs/37133830020",
+          "head_sha": "a1702c9ad4052035ed8ba85a7dfeda68f8946e89",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/UsnRecordReview/blob/a1702c9ad4052035ed8ba85a7dfeda68f8946e89/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "a1702c9ad4052035ed8ba85a7dfeda68f8946e89",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "VTableBrook",
+      "repository": "https://github.com/dhtfish-98/VTableBrook",
+      "head_sha": "86a0a17ebda72a0d14b337f3324c004c5fef8909",
+      "repository_role": "SOFTWARE",
+      "material_role": "研究背景，需具体任务限定",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "授权兼容 ARM64 Mach-O 内核的类/虚表模式候选审阅",
+      "declared_limits": "只支持声明布局与有限模式；不模拟所有控制流或证明真实设备状态",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/VTableBrook/actions/runs/37132184209"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:41.307800+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:44.603912+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/VTableBrook/actions/runs/37132184209",
+          "head_sha": "86a0a17ebda72a0d14b337f3324c004c5fef8909",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": true,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/VTableBrook/blob/86a0a17ebda72a0d14b337f3324c004c5fef8909/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "86a0a17ebda72a0d14b337f3324c004c5fef8909",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "WalFrameReview",
+      "repository": "https://github.com/dhtfish-98/WalFrameReview",
+      "head_sha": "5a859a7d23244139ca75e4b1b9d8b827ed522478",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "SQLite WAL 头、frame checksum/salt 与已提交尾部结构检查",
+      "declared_limits": "不是完整数据库引擎、数据真实性或全部 SQL 事务语义验证",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/WalFrameReview/actions/runs/37133829715"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:41.665058+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:45.295543+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/WalFrameReview/actions/runs/37133829715",
+          "head_sha": "5a859a7d23244139ca75e4b1b9d8b827ed522478",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/WalFrameReview/blob/5a859a7d23244139ca75e4b1b9d8b827ed522478/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "5a859a7d23244139ca75e4b1b9d8b827ed522478",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "WebAuthnAssertionReview",
+      "repository": "https://github.com/dhtfish-98/WebAuthnAssertionReview",
+      "head_sha": "df635ffd6ec2622038d8ae3d19ed18b1990daadc",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "已保存 assertion 与固定注册/挑战契约的离线验证",
+      "declared_limits": "不注册、在线登录或导出凭据；输入来源和账号授权仍待真实证据",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/WebAuthnAssertionReview/actions/runs/37133829931"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:42.315957+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:45.668266+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/WebAuthnAssertionReview/actions/runs/37133829931",
+          "head_sha": "df635ffd6ec2622038d8ae3d19ed18b1990daadc",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/WebAuthnAssertionReview/blob/df635ffd6ec2622038d8ae3d19ed18b1990daadc/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "df635ffd6ec2622038d8ae3d19ed18b1990daadc",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "WheelNamespaceReview",
+      "repository": "https://github.com/dhtfish-98/WheelNamespaceReview",
+      "head_sha": "f337a3a49dfe2836606c28b7aef4e14e940b2b10",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "wheel 名称空间、安装路径与启动入口声明的安装前审阅",
+      "declared_limits": "不执行 wheel、目标安装或证明包代码安全",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/WheelNamespaceReview/actions/runs/37133829778"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:43.701855+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:47.298048+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/WheelNamespaceReview/actions/runs/37133829778",
+          "head_sha": "f337a3a49dfe2836606c28b7aef4e14e940b2b10",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/WheelNamespaceReview/blob/f337a3a49dfe2836606c28b7aef4e14e940b2b10/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "f337a3a49dfe2836606c28b7aef4e14e940b2b10",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "WindowsBaselineSnapshot",
+      "repository": "https://github.com/dhtfish-98/WindowsBaselineSnapshot",
+      "head_sha": "b1f6fd1f675ac0e438425774d9e02154f6a3030d",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定 Windows observations 与完整冻结 finding 清单核对",
+      "declared_limits": "不读取实际主机或应用 baseline；声明值不是已生效控制证明",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/WindowsBaselineSnapshot/actions/runs/37133833950"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:44.604218+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:48.427133+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/WindowsBaselineSnapshot/actions/runs/37133833950",
+          "head_sha": "b1f6fd1f675ac0e438425774d9e02154f6a3030d",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/WindowsBaselineSnapshot/blob/b1f6fd1f675ac0e438425774d9e02154f6a3030d/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "b1f6fd1f675ac0e438425774d9e02154f6a3030d",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "WorkflowPermissionReview",
+      "repository": "https://github.com/dhtfish-98/WorkflowPermissionReview",
+      "head_sha": "a18842e7dd97f3eb7fa57dc561c5383a948a092c",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "GitHub workflow 的 token 权限与 trigger 声明审阅",
+      "declared_limits": "不 dispatch 或运行 workflow；静态声明不能证明真实权限利用",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/WorkflowPermissionReview/actions/runs/37132184337"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:45.295999+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:48.725145+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/WorkflowPermissionReview/actions/runs/37132184337",
+          "head_sha": "a18842e7dd97f3eb7fa57dc561c5383a948a092c",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/WorkflowPermissionReview/blob/a18842e7dd97f3eb7fa57dc561c5383a948a092c/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "a18842e7dd97f3eb7fa57dc561c5383a948a092c",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "YaraCompileReview",
+      "repository": "https://github.com/dhtfish-98/YaraCompileReview",
+      "head_sha": "e45b70bada457fde9f2bb1f37218c98931da34ca",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "授权本地 YARA 规则的真实编译和定位证据",
+      "declared_limits": "使用固定外部编译原语；不运行样本或检测证明真实威胁",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/YaraCompileReview/actions/runs/37133834167"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:45.668669+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:49.059897+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/YaraCompileReview/actions/runs/37133834167",
+          "head_sha": "e45b70bada457fde9f2bb1f37218c98931da34ca",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/YaraCompileReview/blob/e45b70bada457fde9f2bb1f37218c98931da34ca/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "e45b70bada457fde9f2bb1f37218c98931da34ca",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "YaraRuleDraftReview",
+      "repository": "https://github.com/dhtfish-98/YaraRuleDraftReview",
+      "head_sha": "aa37ffc763946e4c41fa94a469bd9ce75d96dc51",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "授权离线字节语料的差分字面 YARA 检测草稿与编译",
+      "declared_limits": "不执行/反汇编样本或生成载荷；草稿不保证检测率、误报率与真实恶意性",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/YaraRuleDraftReview/actions/runs/37133833921"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:47.298367+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:50.948899+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/YaraRuleDraftReview/actions/runs/37133833921",
+          "head_sha": "aa37ffc763946e4c41fa94a469bd9ce75d96dc51",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/YaraRuleDraftReview/blob/aa37ffc763946e4c41fa94a469bd9ce75d96dc51/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "aa37ffc763946e4c41fa94a469bd9ce75d96dc51",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "ZoneGraphGuard",
+      "repository": "https://github.com/dhtfish-98/ZoneGraphGuard",
+      "head_sha": "919bdeff1b70377fad718b271005158e663e8741",
+      "repository_role": "SOFTWARE",
+      "material_role": "防御工作附件候选",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "给定 DNS master-file 快照的 alias/delegation 图审阅",
+      "declared_limits": "不查询 DNS、探测站点或证明在线解析实际生效",
+      "CI_status_at_cutoff": "PASS_CURRENT_CI",
+      "CI_run_urls": [
+        "https://github.com/dhtfish-98/ZoneGraphGuard/actions/runs/37135858402"
+      ],
+      "CI_observed_from_utc": "2026-10-03T22:20:48.427410+00:00",
+      "CI_observed_to_utc": "2026-10-03T22:20:51.775721+00:00",
+      "CI_runs": [
+        {
+          "url": "https://github.com/dhtfish-98/ZoneGraphGuard/actions/runs/37135858402",
+          "head_sha": "919bdeff1b70377fad718b271005158e663e8741",
+          "run_attempt": 1,
+          "conclusion": "success",
+          "status": "completed"
+        }
+      ],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/ZoneGraphGuard/blob/919bdeff1b70377fad718b271005158e663e8741/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "919bdeff1b70377fad718b271005158e663e8741",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    },
+    {
+      "name": "dhtfish-98",
+      "repository": "https://github.com/dhtfish-98/dhtfish-98",
+      "head_sha": "236ce32bf879187969a9212b4cbd9b3b9beb1185",
+      "repository_role": "DOCUMENTATION",
+      "material_role": "资料仓库",
+      "classification_is_review_inference_not_official_qualification": true,
+      "declared_purpose": "资料、导航或社区默认文件",
+      "declared_limits": "不能计为独立软件项目",
+      "CI_status_at_cutoff": "NOT_APPLICABLE_NO_TRACKED_WORKFLOW_CONFIG",
+      "CI_run_urls": [],
+      "CI_observed_from_utc": "2026-10-03T23:49:05.172150+00:00",
+      "CI_observed_to_utc": "2026-10-03T23:49:07.292484+00:00",
+      "CI_runs": [],
+      "saved_unfixed_issue_count": 0,
+      "saved_deeper_review_OPEN": false,
+      "previous_prepared_version_not_published": null,
+      "CVP_qualification": "OPEN",
+      "CVP_approval": "NOT_ESTABLISHED",
+      "real_task_authorization_safeguards_impact": "OPEN",
+      "original_block_or_downgrade_record": "OPTIONAL_SUPPORTING_EVIDENCE_NOT_A_PROJECT_GATE",
+      "absence_of_original_block_record_implies_ineligibility": false,
+      "source_scope_document": "https://github.com/dhtfish-98/dhtfish-98/blob/236ce32bf879187969a9212b4cbd9b3b9beb1185/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "source_metadata_review_at_prior_head": "236ce32bf879187969a9212b4cbd9b3b9beb1185",
+      "review_boundary": "Documentary scope/provenance and saved engineering evidence; no new security implementation audit."
+    }
+  ]
+}
