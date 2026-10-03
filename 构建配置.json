@@ -1,0 +1,30 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "SecurityResearchIndex",
+  "author": "dhtfish98",
+  "kind": "manual",
+  "base_public_commit": "b9d966fd4d3b3b931ed783eb1063e81643cd4d1d",
+  "restored_inputs": [
+    {
+      "original": "CVP_RULES_AND_EVIDENCE_20261002.md",
+      "stored": "项目文档/CVP_RULES_AND_EVIDENCE_20261002.md",
+      "sha256": "fbd56d24e6ae30922e3fac4c4c91c5154e3093266e864cebe11b7bbc1d606fe9"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "45387123417a9e72ac78f66191256ef02f684f0dabdd007a10de5ffa0d0d3c3e"
+    },
+    {
+      "original": "RETAINED_PROJECT_REVIEW_20261002.md",
+      "stored": "项目文档/RETAINED_PROJECT_REVIEW_20261002.md",
+      "sha256": "9e6e758bd04796f69693a39188e55af39e75ef67d9c045dacdf55ad0f9dde03e"
+    },
+    {
+      "original": "SOURCE_REVIEW_20261002.md",
+      "stored": "项目文档/SOURCE_REVIEW_20261002.md",
+      "sha256": "077d4ceee49300438c9512d386afe69d9efa355c888945525b67c32283baf731"
+    }
+  ],
+  "platform_entries": []
+}
