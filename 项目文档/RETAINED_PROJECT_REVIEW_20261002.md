@@ -56,6 +56,6 @@ ObjCAtlas 当前发布阶段仍只有能力与来源复核，没有全部运行�
 
 ## 来源与申请边界
 
-保留全部原作者和许可证：ArchiveLens/ImageQuay/TraceMeadow/SILGallery/PEQuarry 为 MIT 衍生维护，ObjCAtlas 为 GPL-2.0-or-later，KernelCabinet/VTableBrook 为 GPL-3.0，PolicyMosaic 为 BSD-3-Clause，IDBMeadow 为 Apache-2.0。固定来源提交和不同样本的归属以各仓库 ORIGIN.md 与许可证为准。本轮 Codex 辅助修改不证明申请人独立编写了上游算法。
+保留全部原作者和许可证：ArchiveLens/ImageQuay/TraceMeadow/SILGallery/PEQuarry 为 MIT 衍生维护，ObjCAtlas 为 GPL-2.0-or-later，KernelCabinet/VTableBrook 为 GPL-3.0，PolicyMosaic 为 BSD-3-Clause，IDBMeadow 为 Apache-2.0。固定来源提交和不同样本的归属以各仓库 ORIGIN.md 与许可证为准。本轮维护修改不证明申请人独立编写了上游算法。
 
 当前组合是 14 项新防御工具加 10 项保留研究工具，共 24 项公开仓库；另 14 个撤出的旧仓库均存在且保持私有。合法防御使用仍须与实际授权、受限任务、产品渠道、身份和组织对应。CVP 的适用性和申请结果均为 OPEN，任何构建、来源说明或 CI 都不能替代这些事实。

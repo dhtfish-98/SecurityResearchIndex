@@ -22,8 +22,8 @@
 
 本地 Python 3.14.6 的当前测试共 101 项通过，各仓库的 VALIDATION.md 记录各自范围。LocalSecretReview 和 PEHardeningReview 的 1.0.1 wheel 还在独立 Python 3.12 环境中安装并运行；包内五个源码文件与当前源码逐字节一致。凭据样本全部为合成值，PE32/PE32+ 样本只读未执行。每个公开提交与相应 GitHub 工作流的结果在项目索引中记录。
 
-本轮代码和文档由 Codex 按仓库所有者的指示辅助编写与修改，个人贡献仍须由实际申请人核实。
+本轮代码和文档按仓库所有者的指示整理与修改；个人贡献范围仍须由实际申请人核实。
 
 本轮检查确认这些实现用于本地防御复核，没有加入攻击目标访问、凭据验证、漏洞利用或攻击载荷生成。它们仍有明确的静态检查边界，测试通过不能证明生产系统安全。
 
-[Anthropic 官方 CVP 规则](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)要求合法防御用途确实受到网络安全防护影响，并与实际申请人和组织相符。当前未收到与申请人和组织一致的实际受限任务记录，因此 CVP 申请条件仍为 OPEN。源码改写、仓库数量和自动测试不能替代这一事实，也不能保证模型永远不触发防护。
+[Anthropic 官方 CVP 说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)面向实际从事合法防御工作且受到网络安全防护影响的用户。公开说明没有规定必须提交原始拦截或降级记录；实际任务、授权范围、申请人和组织尚未在本记录中核实，因此申请层面的状态仍为 OPEN。源码改写、仓库数量和自动测试不能替代这些事实，也不能保证模型永远不触发防护。
