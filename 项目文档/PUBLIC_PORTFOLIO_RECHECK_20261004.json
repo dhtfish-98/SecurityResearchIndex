@@ -2,8 +2,8 @@
   "schema": "public-portfolio-recheck/v1",
   "owner": "dhtfish-98",
   "observation_window_utc": {
-    "start": "2026-10-04T07:40:20.868082+00:00",
-    "end": "2026-10-04T07:41:02.300734+00:00",
+    "start": "2026-10-04T09:00:45.873727+00:00",
+    "end": "2026-10-04T09:01:33.338953+00:00",
     "atomic": false
   },
   "scope": "GitHub public default HEAD, exact-head Actions, tracked tree, latest formal Release; no runtime or CVP approval claim.",
@@ -13,7 +13,7 @@
     "information_repositories_without_workflow": 3,
     "current_head_display_name": "dhtfish98",
     "current_head_github_login": "dhtfish-98",
-    "tracked_files": 3893,
+    "tracked_files": 3895,
     "release_repositories": 77,
     "truncated_trees": 0,
     "root_documents_left_due_publication_gate": [
@@ -29,7 +29,7 @@
     {
       "name": ".github",
       "head": "4aaa99adc2bfc32d83c6b05d6150ab54d6e437ec",
-      "observed_at_utc": "2026-10-04T07:40:22.139004+00:00",
+      "observed_at_utc": "2026-10-04T09:00:46.925382+00:00",
       "tracked_files": 13,
       "exact_head_ci": "NOT_APPLICABLE_NO_WORKFLOW",
       "exact_head_runs": [],
@@ -38,7 +38,7 @@
     {
       "name": "A64Dispatch",
       "head": "a351853c406f04cfb020561ec9e1acf64289600d",
-      "observed_at_utc": "2026-10-04T07:40:22.140608+00:00",
+      "observed_at_utc": "2026-10-04T09:00:46.926901+00:00",
       "tracked_files": 102,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -57,7 +57,7 @@
     {
       "name": "AdvisoryOfflineReview",
       "head": "d0bbb865a799971eefb0ee91284f38da9b604853",
-      "observed_at_utc": "2026-10-04T07:40:22.140782+00:00",
+      "observed_at_utc": "2026-10-04T09:00:46.928937+00:00",
       "tracked_files": 30,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -102,7 +102,7 @@
     {
       "name": "AliasRecordReview",
       "head": "f7cb952d38e93a00f91934f6839d1cd1aaf898fe",
-      "observed_at_utc": "2026-10-04T07:40:22.141816+00:00",
+      "observed_at_utc": "2026-10-04T09:00:46.930829+00:00",
       "tracked_files": 28,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -142,7 +142,7 @@
     {
       "name": "AptSourceTrustAudit",
       "head": "ba4077441e78e659a6e7888e21588fa50eaa777a",
-      "observed_at_utc": "2026-10-04T07:40:22.143666+00:00",
+      "observed_at_utc": "2026-10-04T09:00:46.932981+00:00",
       "tracked_files": 32,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -182,7 +182,7 @@
     {
       "name": "ArchiveLens",
       "head": "c80a3ae964c2c37f82381c838d57af443fcbd8ba",
-      "observed_at_utc": "2026-10-04T07:40:22.143783+00:00",
+      "observed_at_utc": "2026-10-04T09:00:46.935028+00:00",
       "tracked_files": 425,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -221,7 +221,7 @@
     {
       "name": "ArtifactDigestReview",
       "head": "d9611c45ab619b18c29bd111234ae518ce6cbff8",
-      "observed_at_utc": "2026-10-04T07:40:24.658609+00:00",
+      "observed_at_utc": "2026-10-04T09:00:49.873703+00:00",
       "tracked_files": 18,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -240,7 +240,7 @@
     {
       "name": "AuditEventReview",
       "head": "e2b4437ef76f5edfd640a4c819f5023fa5f2bd88",
-      "observed_at_utc": "2026-10-04T07:40:24.659526+00:00",
+      "observed_at_utc": "2026-10-04T09:00:49.898649+00:00",
       "tracked_files": 26,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -285,7 +285,7 @@
     {
       "name": "AuditRuleCoverage",
       "head": "0b13db2324216f97406308001ac5e74826395a7c",
-      "observed_at_utc": "2026-10-04T07:40:24.663687+00:00",
+      "observed_at_utc": "2026-10-04T09:00:49.943337+00:00",
       "tracked_files": 38,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -325,7 +325,7 @@
     {
       "name": "AuthLogReview",
       "head": "6f244428364b86ab909c90e6068f776a1ed571b7",
-      "observed_at_utc": "2026-10-04T07:40:24.666773+00:00",
+      "observed_at_utc": "2026-10-04T09:00:49.962496+00:00",
       "tracked_files": 18,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -344,7 +344,7 @@
     {
       "name": "BodyfileTimelineReview",
       "head": "7699eef7e129c0fca8fc4ce60e51fcc3539924e5",
-      "observed_at_utc": "2026-10-04T07:40:24.700883+00:00",
+      "observed_at_utc": "2026-10-04T09:00:50.040087+00:00",
       "tracked_files": 27,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -384,7 +384,7 @@
     {
       "name": "BranchLoom",
       "head": "a8c25c70fef160a3659e2ee3a1196f2354a06f54",
-      "observed_at_utc": "2026-10-04T07:40:24.854487+00:00",
+      "observed_at_utc": "2026-10-04T09:00:50.423970+00:00",
       "tracked_files": 86,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -424,7 +424,7 @@
     {
       "name": "CDTranslator",
       "head": "c57928148903bf8932316f6e661427147a74413a",
-      "observed_at_utc": "2026-10-04T07:40:27.117991+00:00",
+      "observed_at_utc": "2026-10-04T09:00:52.721153+00:00",
       "tracked_files": 26,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -457,7 +457,7 @@
     {
       "name": "CertificateNamePolicy",
       "head": "18a4f55cb9c40714289bb77ba011235ba4d59ac3",
-      "observed_at_utc": "2026-10-04T07:40:27.139693+00:00",
+      "observed_at_utc": "2026-10-04T09:00:52.833534+00:00",
       "tracked_files": 43,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -502,7 +502,7 @@
     {
       "name": "ChromeRelay",
       "head": "73a896d141e0dfecdfcd2fe744154272bf9e54f2",
-      "observed_at_utc": "2026-10-04T07:40:27.148743+00:00",
+      "observed_at_utc": "2026-10-04T09:00:52.835930+00:00",
       "tracked_files": 166,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -521,7 +521,7 @@
     {
       "name": "CITrustBoundaryReview",
       "head": "b43d7a493246caf50cca9d7ad7dd33d73f92c279",
-      "observed_at_utc": "2026-10-04T07:40:27.199379+00:00",
+      "observed_at_utc": "2026-10-04T09:00:52.836220+00:00",
       "tracked_files": 31,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -566,7 +566,7 @@
     {
       "name": "CompoundDocumentReview",
       "head": "e16f76fa5894e44b9d178c906f2ce06a6d7a925c",
-      "observed_at_utc": "2026-10-04T07:40:27.277453+00:00",
+      "observed_at_utc": "2026-10-04T09:00:52.848001+00:00",
       "tracked_files": 34,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -611,7 +611,7 @@
     {
       "name": "ContainerfileReview",
       "head": "32e2c4cb751c1c9d963df36764b79809bd89a65b",
-      "observed_at_utc": "2026-10-04T07:40:27.331991+00:00",
+      "observed_at_utc": "2026-10-04T09:00:53.414860+00:00",
       "tracked_files": 17,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -630,7 +630,7 @@
     {
       "name": "CrlRevocationReview",
       "head": "2afff37fbb274cc98e88f2090a73631dc40f5874",
-      "observed_at_utc": "2026-10-04T07:40:29.801700+00:00",
+      "observed_at_utc": "2026-10-04T09:00:55.855197+00:00",
       "tracked_files": 29,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -670,7 +670,7 @@
     {
       "name": "CryptoRegressionBench",
       "head": "faae2cd746968fecf5e05348fa376d83e7b146fe",
-      "observed_at_utc": "2026-10-04T07:40:29.899084+00:00",
+      "observed_at_utc": "2026-10-04T09:00:55.869479+00:00",
       "tracked_files": 31,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -715,7 +715,7 @@
     {
       "name": "CSPPolicyLens",
       "head": "25740e6caed456c7623bc74c47c58b8d36cb9b1a",
-      "observed_at_utc": "2026-10-04T07:40:29.940605+00:00",
+      "observed_at_utc": "2026-10-04T09:00:55.872747+00:00",
       "tracked_files": 33,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -760,7 +760,7 @@
     {
       "name": "DependencyPinReview",
       "head": "acb428dff5681e69041cb009754f22ff73b52121",
-      "observed_at_utc": "2026-10-04T07:40:29.946045+00:00",
+      "observed_at_utc": "2026-10-04T09:00:55.979635+00:00",
       "tracked_files": 18,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -779,7 +779,7 @@
     {
       "name": "DeserializeCallReview",
       "head": "393867c01d9e702933be486d389a7351e4aa8340",
-      "observed_at_utc": "2026-10-04T07:40:29.985752+00:00",
+      "observed_at_utc": "2026-10-04T09:00:55.979882+00:00",
       "tracked_files": 39,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -824,7 +824,7 @@
     {
       "name": "DfxmlExtentReview",
       "head": "837eb926c8a7baaf0884f969dfc3f443720e8e4e",
-      "observed_at_utc": "2026-10-04T07:40:30.179837+00:00",
+      "observed_at_utc": "2026-10-04T09:00:56.710787+00:00",
       "tracked_files": 29,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -864,7 +864,7 @@
     {
       "name": "dhtfish-98",
       "head": "236ce32bf879187969a9212b4cbd9b3b9beb1185",
-      "observed_at_utc": "2026-10-04T07:40:32.263753+00:00",
+      "observed_at_utc": "2026-10-04T09:00:58.695122+00:00",
       "tracked_files": 7,
       "exact_head_ci": "NOT_APPLICABLE_NO_WORKFLOW",
       "exact_head_runs": [],
@@ -873,7 +873,7 @@
     {
       "name": "DjangoSessionGuard",
       "head": "3f0947e4b2c76cd8966aac91f6be543116b5eb71",
-      "observed_at_utc": "2026-10-04T07:40:32.390124+00:00",
+      "observed_at_utc": "2026-10-04T09:00:58.700227+00:00",
       "tracked_files": 28,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -918,7 +918,7 @@
     {
       "name": "DOMSinkReview",
       "head": "105bb4f14d7d6aff44704ced23072a0e2bc6552c",
-      "observed_at_utc": "2026-10-04T07:40:32.392884+00:00",
+      "observed_at_utc": "2026-10-04T09:00:58.749342+00:00",
       "tracked_files": 35,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -968,7 +968,7 @@
     {
       "name": "DsseEnvelopeReview",
       "head": "7b9c9c60d2e4869fa0fe437697caa4b88abbadde",
-      "observed_at_utc": "2026-10-04T07:40:32.441828+00:00",
+      "observed_at_utc": "2026-10-04T09:00:58.759510+00:00",
       "tracked_files": 29,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1008,7 +1008,7 @@
     {
       "name": "EntitlementFlagReview",
       "head": "dbb4bd92ba4c6d4b2ba3455c65d711274c958250",
-      "observed_at_utc": "2026-10-04T07:40:32.518432+00:00",
+      "observed_at_utc": "2026-10-04T09:00:59.134006+00:00",
       "tracked_files": 17,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1027,7 +1027,7 @@
     {
       "name": "EvtxRecordReview",
       "head": "51a51fde69a75323dc93f80b07ab5b3d5f3e8e24",
-      "observed_at_utc": "2026-10-04T07:40:32.641843+00:00",
+      "observed_at_utc": "2026-10-04T09:00:59.543744+00:00",
       "tracked_files": 43,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1072,7 +1072,7 @@
     {
       "name": "EvtxRecoveryReview",
       "head": "f7d54e72fa943d7b2b2766223fab54bba3581abe",
-      "observed_at_utc": "2026-10-04T07:40:34.740238+00:00",
+      "observed_at_utc": "2026-10-04T09:01:01.442792+00:00",
       "tracked_files": 53,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1117,7 +1117,7 @@
     {
       "name": "FileModeReview",
       "head": "1911d0875056c2ddbcc976e2faf58e05cdc86302",
-      "observed_at_utc": "2026-10-04T07:40:34.819435+00:00",
+      "observed_at_utc": "2026-10-04T09:01:01.497774+00:00",
       "tracked_files": 15,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1136,7 +1136,7 @@
     {
       "name": "FinderStoreReview",
       "head": "69eaa8d2814d9fe7b7421c83b295a770f252bb90",
-      "observed_at_utc": "2026-10-04T07:40:34.861772+00:00",
+      "observed_at_utc": "2026-10-04T09:01:01.617748+00:00",
       "tracked_files": 28,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1176,7 +1176,7 @@
     {
       "name": "FirewalldZoneAudit",
       "head": "1423c2d5e377e0216693c2794b4f15dd712a877a",
-      "observed_at_utc": "2026-10-04T07:40:34.947337+00:00",
+      "observed_at_utc": "2026-10-04T09:01:01.646913+00:00",
       "tracked_files": 33,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1216,7 +1216,7 @@
     {
       "name": "GoCryptoPolicyReview",
       "head": "c2db104b5f4845ad29bc3961cd6cf51ec5017940",
-      "observed_at_utc": "2026-10-04T07:40:34.949706+00:00",
+      "observed_at_utc": "2026-10-04T09:01:02.098817+00:00",
       "tracked_files": 41,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1271,7 +1271,7 @@
     {
       "name": "HandshakeEvidenceReview",
       "head": "9b88f5412b78a7e7389909b1414cc0b05d20e566",
-      "observed_at_utc": "2026-10-04T07:40:35.168593+00:00",
+      "observed_at_utc": "2026-10-04T09:01:02.489588+00:00",
       "tracked_files": 39,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1316,7 +1316,7 @@
     {
       "name": "HeaderPolicyReview",
       "head": "fc1f66e49f27d469575fd7061ba51991dd8e8aa7",
-      "observed_at_utc": "2026-10-04T07:40:37.284340+00:00",
+      "observed_at_utc": "2026-10-04T09:01:04.371874+00:00",
       "tracked_files": 18,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1340,7 +1340,7 @@
     {
       "name": "IAMScopeReview",
       "head": "0bb6f8b0075950239221459363ce75ff1a3f5253",
-      "observed_at_utc": "2026-10-04T07:40:37.294504+00:00",
+      "observed_at_utc": "2026-10-04T09:01:04.377583+00:00",
       "tracked_files": 18,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1359,7 +1359,7 @@
     {
       "name": "IDBMeadow",
       "head": "c6cd087a085bf7f3110d610331e16448fbb69c11",
-      "observed_at_utc": "2026-10-04T07:40:37.300688+00:00",
+      "observed_at_utc": "2026-10-04T09:01:04.698641+00:00",
       "tracked_files": 119,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1394,7 +1394,7 @@
     {
       "name": "ImageQuay",
       "head": "090e4d02492cce74d6fe9f123c8d9166259223f3",
-      "observed_at_utc": "2026-10-04T07:40:37.328615+00:00",
+      "observed_at_utc": "2026-10-04T09:01:04.766809+00:00",
       "tracked_files": 96,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1429,7 +1429,7 @@
     {
       "name": "JksTrustStoreReview",
       "head": "bb8c8d7115296cf82b53d404425fb3eb14c33137",
-      "observed_at_utc": "2026-10-04T07:40:37.472050+00:00",
+      "observed_at_utc": "2026-10-04T09:01:05.048398+00:00",
       "tracked_files": 30,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1469,7 +1469,7 @@
     {
       "name": "JwkSetReview",
       "head": "0f828abb0e757e58d3c2e7c014c21fde05e57a31",
-      "observed_at_utc": "2026-10-04T07:40:37.766349+00:00",
+      "observed_at_utc": "2026-10-04T09:01:05.812048+00:00",
       "tracked_files": 29,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1509,7 +1509,7 @@
     {
       "name": "KernelCabinet",
       "head": "7cd05089810b2c3ad35e48a4989c56e9c0648a85",
-      "observed_at_utc": "2026-10-04T07:40:39.687287+00:00",
+      "observed_at_utc": "2026-10-04T09:01:07.191964+00:00",
       "tracked_files": 20,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1539,7 +1539,7 @@
     {
       "name": "KubePodReview",
       "head": "528638980d37a80dbab8fc38894af3b4283370f8",
-      "observed_at_utc": "2026-10-04T07:40:39.752921+00:00",
+      "observed_at_utc": "2026-10-04T09:01:07.280685+00:00",
       "tracked_files": 18,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1558,7 +1558,7 @@
     {
       "name": "LifecyclePolicyReview",
       "head": "d9b54869656c4a690f3dfba86133a2bae067d21b",
-      "observed_at_utc": "2026-10-04T07:40:39.859573+00:00",
+      "observed_at_utc": "2026-10-04T09:01:07.670722+00:00",
       "tracked_files": 37,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1603,7 +1603,7 @@
     {
       "name": "LnkEvidenceReview",
       "head": "985357e374b64a7783e71ae1a6f6425c3e52348c",
-      "observed_at_utc": "2026-10-04T07:40:39.943711+00:00",
+      "observed_at_utc": "2026-10-04T09:01:07.693639+00:00",
       "tracked_files": 41,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1658,7 +1658,7 @@
     {
       "name": "LocalSecretReview",
       "head": "0debdcd194041321c7471849fafb80702b4b347e",
-      "observed_at_utc": "2026-10-04T07:40:39.954110+00:00",
+      "observed_at_utc": "2026-10-04T09:01:07.897462+00:00",
       "tracked_files": 20,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1682,7 +1682,7 @@
     {
       "name": "MachOInspect",
       "head": "ad8ac0482dbfd0e41becc227df4b817d4b983199",
-      "observed_at_utc": "2026-10-04T07:40:40.385314+00:00",
+      "observed_at_utc": "2026-10-04T09:01:08.566754+00:00",
       "tracked_files": 73,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1701,7 +1701,7 @@
     {
       "name": "MailEvidenceReview",
       "head": "7f1414cc557a50ef92d5b8abaf34a2637aa7b887",
-      "observed_at_utc": "2026-10-04T07:40:42.074347+00:00",
+      "observed_at_utc": "2026-10-04T09:01:10.040701+00:00",
       "tracked_files": 35,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1746,7 +1746,7 @@
     {
       "name": "MinisignFileReview",
       "head": "794a1c6b46bc51a280562cf306c73d8804c57c03",
-      "observed_at_utc": "2026-10-04T07:40:42.234421+00:00",
+      "observed_at_utc": "2026-10-04T09:01:10.133223+00:00",
       "tracked_files": 30,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1786,7 +1786,7 @@
     {
       "name": "ModelOpcodeReview",
       "head": "5a14ca4b22af095fb379ec13cfb2400a6b7dcc5c",
-      "observed_at_utc": "2026-10-04T07:40:42.306292+00:00",
+      "observed_at_utc": "2026-10-04T09:01:10.517589+00:00",
       "tracked_files": 42,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1831,7 +1831,7 @@
     {
       "name": "ModprobePolicyAudit",
       "head": "0564f81e98d695d6bacdc03a0931c4cc05df5eab",
-      "observed_at_utc": "2026-10-04T07:40:42.329890+00:00",
+      "observed_at_utc": "2026-10-04T09:01:10.569423+00:00",
       "tracked_files": 33,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1871,7 +1871,7 @@
     {
       "name": "NetworkPolicyReachabilityReview",
       "head": "450c86b065636852bdc116824696b44b53d4b86f",
-      "observed_at_utc": "2026-10-04T07:40:42.480501+00:00",
+      "observed_at_utc": "2026-10-04T09:01:10.974044+00:00",
       "tracked_files": 28,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1911,7 +1911,7 @@
     {
       "name": "NftIngressAudit",
       "head": "45ddde56f4e35012135f1036ce3721dfc88c0d6a",
-      "observed_at_utc": "2026-10-04T07:40:43.254936+00:00",
+      "observed_at_utc": "2026-10-04T09:01:11.706413+00:00",
       "tracked_files": 37,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -1956,7 +1956,7 @@
     {
       "name": "NginxConfigGuard",
       "head": "966701d2d9e03ab456322408155b4ce595de4abc",
-      "observed_at_utc": "2026-10-04T07:40:44.476266+00:00",
+      "observed_at_utc": "2026-10-04T09:01:12.840785+00:00",
       "tracked_files": 26,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2001,7 +2001,7 @@
     {
       "name": "ObjCAtlas",
       "head": "e8605aab3c253a62ba2b328561737fadaf75348e",
-      "observed_at_utc": "2026-10-04T07:40:44.657656+00:00",
+      "observed_at_utc": "2026-10-04T09:01:12.934896+00:00",
       "tracked_files": 247,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2036,7 +2036,7 @@
     {
       "name": "OcspStapleReview",
       "head": "e4bfd6565ffcc5dcb91f0b211bf7ceec80e1ecd4",
-      "observed_at_utc": "2026-10-04T07:40:44.747399+00:00",
+      "observed_at_utc": "2026-10-04T09:01:13.284624+00:00",
       "tracked_files": 29,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2076,7 +2076,7 @@
     {
       "name": "PackageOriginReview",
       "head": "df880e6d8de678192735ed55830fdc2ff11b988d",
-      "observed_at_utc": "2026-10-04T07:40:44.807027+00:00",
+      "observed_at_utc": "2026-10-04T09:01:13.556440+00:00",
       "tracked_files": 24,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2121,7 +2121,7 @@
     {
       "name": "PamStackAudit",
       "head": "fe3cd84a51e37ac30210c5a6a6a8eba8903361a8",
-      "observed_at_utc": "2026-10-04T07:40:44.933624+00:00",
+      "observed_at_utc": "2026-10-04T09:01:13.708459+00:00",
       "tracked_files": 33,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2161,7 +2161,7 @@
     {
       "name": "PDFActionReview",
       "head": "9235b969c83f1cef3ba409f9c0cca4526cc236b6",
-      "observed_at_utc": "2026-10-04T07:40:45.669979+00:00",
+      "observed_at_utc": "2026-10-04T09:01:14.589175+00:00",
       "tracked_files": 27,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2206,7 +2206,7 @@
     {
       "name": "PEHardeningReview",
       "head": "94e266085f99b3265ad865b2a2915cedf6b5604d",
-      "observed_at_utc": "2026-10-04T07:40:46.923769+00:00",
+      "observed_at_utc": "2026-10-04T09:01:15.729392+00:00",
       "tracked_files": 20,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2230,7 +2230,7 @@
     {
       "name": "PEQuarry",
       "head": "ba8cda8ed53a0d5c0eda4d7a6e9578e6d0f3d8be",
-      "observed_at_utc": "2026-10-04T07:40:47.034529+00:00",
+      "observed_at_utc": "2026-10-04T09:01:15.774899+00:00",
       "tracked_files": 56,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2265,7 +2265,7 @@
     {
       "name": "PngStreamReview",
       "head": "3972caedf3c01ebeed8f767c832d7dc6a9dcad44",
-      "observed_at_utc": "2026-10-04T07:40:47.282882+00:00",
+      "observed_at_utc": "2026-10-04T09:01:16.069880+00:00",
       "tracked_files": 28,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2305,7 +2305,7 @@
     {
       "name": "PolicyMosaic",
       "head": "14c144592c10ba895aed5c1a19cf0f89c520b544",
-      "observed_at_utc": "2026-10-04T07:40:47.294419+00:00",
+      "observed_at_utc": "2026-10-04T09:01:16.482492+00:00",
       "tracked_files": 50,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2340,7 +2340,7 @@
     {
       "name": "PrefetchEvidenceReview",
       "head": "9f82edfa2d1c8b58cf904593aa08a5a9e1d9f52a",
-      "observed_at_utc": "2026-10-04T07:40:47.352385+00:00",
+      "observed_at_utc": "2026-10-04T09:01:16.531241+00:00",
       "tracked_files": 43,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2385,7 +2385,7 @@
     {
       "name": "RecycleRecordReview",
       "head": "b27d0a6cfb46feed11c740b102d001cc494b6318",
-      "observed_at_utc": "2026-10-04T07:40:47.972900+00:00",
+      "observed_at_utc": "2026-10-04T09:01:17.476004+00:00",
       "tracked_files": 27,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2425,7 +2425,7 @@
     {
       "name": "RegistryHiveReview",
       "head": "c4a4370b91af8def96aabebdbf5866cbe3e2f5d9",
-      "observed_at_utc": "2026-10-04T07:40:49.395652+00:00",
+      "observed_at_utc": "2026-10-04T09:01:18.419388+00:00",
       "tracked_files": 36,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2470,7 +2470,7 @@
     {
       "name": "SamlMetadataReview",
       "head": "7dd007dd33554a27fc52644f0c12784c8567a638",
-      "observed_at_utc": "2026-10-04T07:40:49.503801+00:00",
+      "observed_at_utc": "2026-10-04T09:01:18.434893+00:00",
       "tracked_files": 29,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2510,7 +2510,7 @@
     {
       "name": "SarifLinkReview",
       "head": "ef4b51d3b4d6a279fe30f09c444471010c43052d",
-      "observed_at_utc": "2026-10-04T07:40:49.640365+00:00",
+      "observed_at_utc": "2026-10-04T09:01:18.744832+00:00",
       "tracked_files": 27,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2550,7 +2550,7 @@
     {
       "name": "SBOMFieldReview",
       "head": "6225e96e2e514fb8733ffd485c78e019f2bd1ac1",
-      "observed_at_utc": "2026-10-04T07:40:49.727113+00:00",
+      "observed_at_utc": "2026-10-04T09:01:19.232437+00:00",
       "tracked_files": 18,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2569,7 +2569,7 @@
     {
       "name": "SealScope",
       "head": "ae0a8fab8d5e95a554b2d6abb9d858e3a49adc9a",
-      "observed_at_utc": "2026-10-04T07:40:49.839272+00:00",
+      "observed_at_utc": "2026-10-04T09:01:19.444335+00:00",
       "tracked_files": 37,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2592,39 +2592,39 @@
     },
     {
       "name": "SecurityResearchIndex",
-      "head": "5337372fa187fd3104d3445cfecae853a3eba60a",
-      "observed_at_utc": "2026-10-04T07:40:50.482108+00:00",
-      "tracked_files": 21,
+      "head": "4b0eb7417f9c09b9f64dd6deac319a9bf332803f",
+      "observed_at_utc": "2026-10-04T09:01:20.226541+00:00",
+      "tracked_files": 23,
       "exact_head_ci": "NOT_APPLICABLE_NO_WORKFLOW",
       "exact_head_runs": [],
       "latest_release": null
     },
     {
       "name": "SILGallery",
-      "head": "f869b2116aab03295764cc58e359ef8769693f33",
-      "observed_at_utc": "2026-10-04T07:40:51.828007+00:00",
+      "head": "dfd37c2ca4cd10b83f1a78a7406a690eec86a323",
+      "observed_at_utc": "2026-10-04T09:01:21.267892+00:00",
       "tracked_files": 26,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
         {
-          "id": 37184742012,
+          "id": 37190510007,
           "workflow_id": 372528984,
           "name": "CI",
           "status": "completed",
           "conclusion": "success",
-          "url": "https://github.com/dhtfish-98/SILGallery/actions/runs/37184742012",
+          "url": "https://github.com/dhtfish-98/SILGallery/actions/runs/37190510007",
           "event": "push"
         }
       ],
       "latest_release": {
-        "tag_name": "v1.0.2",
-        "target_commitish": "9813d3d995955c75157d0b4d07f0dd61a883948c",
-        "url": "https://github.com/dhtfish-98/SILGallery/releases/tag/v1.0.2",
+        "tag_name": "v1.0.3",
+        "target_commitish": "main",
+        "url": "https://github.com/dhtfish-98/SILGallery/releases/tag/v1.0.3",
         "assets": [
           {
-            "name": "SILGallery-v1.0.2-source.tar.gz",
-            "digest": "sha256:02ce92f63045823572a963cba1df2a42310ead2db1e6e87f44a1f2db83ff8a52",
-            "size": 30820
+            "name": "SILGallery-v1.0.3-source.tar.gz",
+            "digest": "sha256:8f8580aff3fda6e350cb917099d8e7a06d5e95341c63a23f5f82d81225a982d8",
+            "size": 33454
           }
         ]
       }
@@ -2632,7 +2632,7 @@
     {
       "name": "SourceReleaseReview",
       "head": "e3326693d8bf18742c6796f6a86a263ba6868c24",
-      "observed_at_utc": "2026-10-04T07:40:51.948883+00:00",
+      "observed_at_utc": "2026-10-04T09:01:21.553440+00:00",
       "tracked_files": 42,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2677,7 +2677,7 @@
     {
       "name": "SSHPolicyReview",
       "head": "94ec6928430dd710faa03842462dc571abc97c0a",
-      "observed_at_utc": "2026-10-04T07:40:52.152969+00:00",
+      "observed_at_utc": "2026-10-04T09:01:21.577516+00:00",
       "tracked_files": 17,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2696,7 +2696,7 @@
     {
       "name": "SudoScopeAudit",
       "head": "b72ed42fb0105090ac353e20234e7592a2f793e1",
-      "observed_at_utc": "2026-10-04T07:40:52.294923+00:00",
+      "observed_at_utc": "2026-10-04T09:01:21.957028+00:00",
       "tracked_files": 34,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2736,7 +2736,7 @@
     {
       "name": "SysctlSnapshotAudit",
       "head": "585b45727f1e30b4e3123a2ec82000432f684de0",
-      "observed_at_utc": "2026-10-04T07:40:52.333887+00:00",
+      "observed_at_utc": "2026-10-04T09:01:22.311609+00:00",
       "tracked_files": 34,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2776,7 +2776,7 @@
     {
       "name": "TabWeave",
       "head": "bf5d50985c78f88ff1d348ab22d9f1cfe687f5dd",
-      "observed_at_utc": "2026-10-04T07:40:52.837270+00:00",
+      "observed_at_utc": "2026-10-04T09:01:22.959206+00:00",
       "tracked_files": 28,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2811,7 +2811,7 @@
     {
       "name": "TLSProfileForge",
       "head": "ae46f920f9ab30254a097d4d83d860cf1bd22189",
-      "observed_at_utc": "2026-10-04T07:40:54.409532+00:00",
+      "observed_at_utc": "2026-10-04T09:01:24.040114+00:00",
       "tracked_files": 37,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2856,7 +2856,7 @@
     {
       "name": "TraceMeadow",
       "head": "30d64ac7cfa1188b61e89b073683ae7e870f35cc",
-      "observed_at_utc": "2026-10-04T07:40:54.540795+00:00",
+      "observed_at_utc": "2026-10-04T09:01:24.450519+00:00",
       "tracked_files": 59,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2891,7 +2891,7 @@
     {
       "name": "TransparencyProofCheck",
       "head": "69c6a1db4acc7510723f41080ebe5fd4e5df7d3d",
-      "observed_at_utc": "2026-10-04T07:40:54.742001+00:00",
+      "observed_at_utc": "2026-10-04T09:01:24.484573+00:00",
       "tracked_files": 31,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2936,7 +2936,7 @@
     {
       "name": "TufTopLevelReview",
       "head": "5fd5249c03f4b660cf46d408264652d55b8895d1",
-      "observed_at_utc": "2026-10-04T07:40:54.795580+00:00",
+      "observed_at_utc": "2026-10-04T09:01:24.815869+00:00",
       "tracked_files": 30,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -2976,7 +2976,7 @@
     {
       "name": "UnicodeSourceReview",
       "head": "395ed7624f95f17c3f209ad6a6fc3c50fe87eb91",
-      "observed_at_utc": "2026-10-04T07:40:55.136726+00:00",
+      "observed_at_utc": "2026-10-04T09:01:25.343570+00:00",
       "tracked_files": 23,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3021,7 +3021,7 @@
     {
       "name": "UnitSandboxAudit",
       "head": "b7ddbbf239d55ad6bdf815a0b5a2820f96c83c4b",
-      "observed_at_utc": "2026-10-04T07:40:55.221248+00:00",
+      "observed_at_utc": "2026-10-04T09:01:25.671110+00:00",
       "tracked_files": 37,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3066,7 +3066,7 @@
     {
       "name": "UsnRecordReview",
       "head": "803046d826d6781fa0c3a4cdc4223cacd1052967",
-      "observed_at_utc": "2026-10-04T07:40:57.041484+00:00",
+      "observed_at_utc": "2026-10-04T09:01:26.797518+00:00",
       "tracked_files": 29,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3106,7 +3106,7 @@
     {
       "name": "VTableBrook",
       "head": "b146eb21568323ff4f7ba1c1b3ea72cc317fa5ed",
-      "observed_at_utc": "2026-10-04T07:40:57.209981+00:00",
+      "observed_at_utc": "2026-10-04T09:01:27.105430+00:00",
       "tracked_files": 22,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3136,7 +3136,7 @@
     {
       "name": "WalFrameReview",
       "head": "276f46b7c19c54097194777810f455468116e899",
-      "observed_at_utc": "2026-10-04T07:40:57.259532+00:00",
+      "observed_at_utc": "2026-10-04T09:01:27.135965+00:00",
       "tracked_files": 28,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3176,7 +3176,7 @@
     {
       "name": "WebAuthnAssertionReview",
       "head": "8c9794614a17a980ecf080a535907c50c189443d",
-      "observed_at_utc": "2026-10-04T07:40:57.288712+00:00",
+      "observed_at_utc": "2026-10-04T09:01:27.884042+00:00",
       "tracked_files": 29,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3216,7 +3216,7 @@
     {
       "name": "WheelNamespaceReview",
       "head": "ced50093fe78c708531c159ee4a95199e9d9acc5",
-      "observed_at_utc": "2026-10-04T07:40:57.555375+00:00",
+      "observed_at_utc": "2026-10-04T09:01:28.117929+00:00",
       "tracked_files": 24,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3261,7 +3261,7 @@
     {
       "name": "WindowsBaselineSnapshot",
       "head": "012057aa6da9e330fae20285a621baa5726b3f33",
-      "observed_at_utc": "2026-10-04T07:40:57.740321+00:00",
+      "observed_at_utc": "2026-10-04T09:01:28.489399+00:00",
       "tracked_files": 36,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3301,7 +3301,7 @@
     {
       "name": "WorkflowPermissionReview",
       "head": "0d4dc85f2e573b6ee595083e245990e3b087898c",
-      "observed_at_utc": "2026-10-04T07:40:59.484936+00:00",
+      "observed_at_utc": "2026-10-04T09:01:29.565705+00:00",
       "tracked_files": 18,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3320,7 +3320,7 @@
     {
       "name": "YaraCompileReview",
       "head": "ea458c637d9ffd1c773debacfc0860f122383084",
-      "observed_at_utc": "2026-10-04T07:40:59.515109+00:00",
+      "observed_at_utc": "2026-10-04T09:01:29.903223+00:00",
       "tracked_files": 28,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3360,7 +3360,7 @@
     {
       "name": "YaraRuleDraftReview",
       "head": "4fa6b4e44dc53dbe14f8183ebb5e8f87d38db63b",
-      "observed_at_utc": "2026-10-04T07:40:59.647300+00:00",
+      "observed_at_utc": "2026-10-04T09:01:29.916867+00:00",
       "tracked_files": 38,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
@@ -3405,7 +3405,7 @@
     {
       "name": "ZoneGraphGuard",
       "head": "e3efb8b3e0fae588e3312e76a0e07976e0db97ca",
-      "observed_at_utc": "2026-10-04T07:40:59.805912+00:00",
+      "observed_at_utc": "2026-10-04T09:01:30.582324+00:00",
       "tracked_files": 34,
       "exact_head_ci": "PASS_EXACT_HEAD",
       "exact_head_runs": [
