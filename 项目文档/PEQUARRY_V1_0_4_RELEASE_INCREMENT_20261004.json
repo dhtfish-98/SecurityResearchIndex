@@ -1,0 +1,59 @@
+{
+  "schema": "public-release-increment.v1",
+  "recorded_at_utc": "2026-10-04T12:45:02Z",
+  "repository": "https://github.com/dhtfish-98/PEQuarry",
+  "version": "1.0.4",
+  "default_branch": "main",
+  "main_commit": "84d6342f68894657b7d89395aea9faecd4f989ac",
+  "tag": "v1.0.4",
+  "tag_commit": "84d6342f68894657b7d89395aea9faecd4f989ac",
+  "release": {
+    "id": 403016003,
+    "url": "https://github.com/dhtfish-98/PEQuarry/releases/tag/v1.0.4",
+    "published_at_utc": "2026-10-04T12:41:58Z",
+    "draft": false,
+    "prerelease": false
+  },
+  "exact_commit_ci": [
+    {
+      "ref": "main",
+      "run_url": "https://github.com/dhtfish-98/PEQuarry/actions/runs/37202437270",
+      "head_sha": "84d6342f68894657b7d89395aea9faecd4f989ac",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "ref": "v1.0.4",
+      "run_url": "https://github.com/dhtfish-98/PEQuarry/actions/runs/37202793004",
+      "head_sha": "84d6342f68894657b7d89395aea9faecd4f989ac",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "downloaded_release_assets": [
+    {
+      "name": "pequarry-1.0.4-py3-none-any.whl",
+      "url": "https://github.com/dhtfish-98/PEQuarry/releases/download/v1.0.4/pequarry-1.0.4-py3-none-any.whl",
+      "bytes": 135552,
+      "sha256": "ebd87499804be30cb88b70fa426f0850fb6d286c44fa488533b666105e2021af",
+      "release_api_digest_matches_download": true
+    },
+    {
+      "name": "pequarry-1.0.4.tar.gz",
+      "url": "https://github.com/dhtfish-98/PEQuarry/releases/download/v1.0.4/pequarry-1.0.4.tar.gz",
+      "bytes": 231535,
+      "sha256": "88692337f4ce445b5524ddcf2099cf8e28be06a3f7787ee76ad925e7cac6373b",
+      "release_api_digest_matches_download": true
+    }
+  ],
+  "downloaded_package_inspection": {
+    "wheel_metadata_version": "1.0.4",
+    "wheel_current_review_version": "1.0.4",
+    "wheel_runtime_python_files": 14,
+    "wheel_includes_license": true,
+    "source_distribution_manifest_files": 55,
+    "source_distribution_includes_build_cleanup_test": true,
+    "source_distribution_build_paths": 0
+  },
+  "scope": "This increment records a published verifier cleanup patch and its exact-commit CI and release assets. It does not change historical 09:57 or 10:53 UTC portfolio snapshots, v1.0.3 assets, the unpublished 1.0.21 stage-3 boundary, the interrupted deep-12 audit, or CVP application status."
+}
