@@ -1,0 +1,69 @@
+{
+  "schema": "public-maintenance-release-increment.v1",
+  "recorded_at_utc": "2026-10-04T15:46:54Z",
+  "historical_snapshots_unchanged": true,
+  "releases": [
+    {
+      "repository": "https://github.com/dhtfish-98/ArchiveLens",
+      "version": "1.0.4",
+      "main_and_tag_commit": "908c5bd9d3bf0f9b26cfd5e7d4b252bea81f7482",
+      "release_url": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.4",
+      "published_at_utc": "2026-10-04T15:45:25Z",
+      "release_draft": false,
+      "release_prerelease": false,
+      "exact_commit_ci": [
+        {"run_url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37213739998", "status": "completed", "conclusion": "success"},
+        {"run_url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37213739976", "status": "completed", "conclusion": "success"}
+      ],
+      "downloaded_assets": [
+        {"name": "ArchiveLens-v1.0.4-source.tar.gz", "bytes": 22100106, "sha256": "85d2015d60ba709256f889234add7cfa74f55f80d651d2af2dabe3ed4945c719", "source_tree_files": 425, "release_digest_and_prepared_bytes_match": true}
+      ],
+      "local_validation": "107 workspace tests passed; synthetic 1 KiB and 1 MiB stderr cases passed; full Release build passed but local strip tool failed to load libLLVM",
+      "closed_scope": "ARCHIVELENS-EXISTING-CHAT-PIPE in the tested local GUI child-process path",
+      "open_scope": "Five other recorded issues, interactive assistant use, Windows, nonzero-exit diagnostics, and complete deep audit",
+      "rights": "Original license, source lineage, and third-party notices retained; current maintenance dhtfish98"
+    },
+    {
+      "repository": "https://github.com/dhtfish-98/TabWeave",
+      "version": "4.3.1",
+      "main_and_tag_commit": "ad738a0ede9f3ff8e274ed092935eb2e9ae22507",
+      "release_url": "https://github.com/dhtfish-98/TabWeave/releases/tag/v4.3.1",
+      "published_at_utc": "2026-10-04T15:45:22Z",
+      "release_draft": false,
+      "release_prerelease": false,
+      "exact_commit_ci": [
+        {"run_url": "https://github.com/dhtfish-98/TabWeave/actions/runs/37213907710", "status": "completed", "conclusion": "success"}
+      ],
+      "downloaded_assets": [
+        {"name": "tabweave-mcp-4.3.1.tgz", "bytes": 40972, "sha256": "be1cb76a064064ef640e9a6c01c79634abab212e96e3517848fd568a4d8175b8", "package_files": 30, "release_digest_and_prepared_bytes_match": true},
+        {"name": "TabWeave-source.zip", "bytes": 52755, "sha256": "edab9947964ec2f794a91967423c1e2d5cb12a019d0ff537d07f914e5d68ae7b", "source_tree_files": 29, "release_digest_and_prepared_bytes_match": true}
+      ],
+      "local_validation": "30 tests passed using an in-memory browser stub",
+      "closed_scope": "Missing-id tools/call notification emits no invalid JSON response or browser connection",
+      "open_scope": "Live browser behavior for this version, broader protocol review, and complete deep audit",
+      "rights": "Original MIT and source-lineage notices retained; package author dhtfish98; inherited LICENSE contains an unresolved historical dhtfish988 name"
+    },
+    {
+      "repository": "https://github.com/dhtfish-98/BranchLoom",
+      "version": "0.2.1",
+      "main_and_tag_commit": "dd94ae1b8916f5404ec77c26586d805876610b78",
+      "release_url": "https://github.com/dhtfish-98/BranchLoom/releases/tag/v0.2.1",
+      "published_at_utc": "2026-10-04T15:45:22Z",
+      "release_draft": false,
+      "release_prerelease": false,
+      "exact_commit_ci": [
+        {"run_url": "https://github.com/dhtfish-98/BranchLoom/actions/runs/37213907953", "status": "completed", "conclusion": "success"}
+      ],
+      "downloaded_assets": [
+        {"name": "branchloom-0.2.1-py3-none-any.whl", "bytes": 126253, "sha256": "e33378e9510c6d016dada510fdbf13fde7f7c3e8255c6124311baeaafbf01cd1", "release_digest_and_prepared_bytes_match": true},
+        {"name": "branchloom-0.2.1.tar.gz", "bytes": 193909, "sha256": "0c2d789cd6799ab1f2bee02605a3d2ee4eb533d27fb936fb552480cb78b8b08b", "release_digest_and_prepared_bytes_match": true},
+        {"name": "BranchLoom-source.zip", "bytes": 200575, "sha256": "63f07c267c1960518584765a95cc7571b9651767c5bf770d5e0dab35d48e17ac", "source_tree_files": 87, "release_digest_and_prepared_bytes_match": true}
+      ],
+      "local_validation": "94 pytest cases with Unicorn and 92 dependency-free cases passed on synthetic code; installed wheel metadata and module version 0.2.1",
+      "closed_scope": "The verifier rejects instruction-budget completion without reaching its configured return sentinel",
+      "open_scope": "Live IDA, real target behavior, patched-byte equivalence, end-to-end restore/rerun, and complete deep audit",
+      "rights": "Original MIT and source-lineage notices retained; package author dhtfish98; inherited LICENSE contains historical names"
+    }
+  ],
+  "scope": "This dated increment records three narrowly verified public maintenance releases. It does not revise earlier frozen snapshots, establish full independent rewrites or complete semantic audits, or establish CVP eligibility or approval."
+}
