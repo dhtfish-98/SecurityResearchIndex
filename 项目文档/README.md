@@ -2,7 +2,7 @@
 
 # 防御安全项目与 CVP 证据索引
 
-更新日期：2026-10-04 04:56 UTC。逐仓 GitHub 状态冻结于 04:51 UTC；较早的工程矩阵仍保留其 2026-10-03 23:49 UTC 原时点。
+更新日期：2026-10-04 05:30 UTC。逐仓 GitHub 状态冻结于 04:51 UTC；较早的工程矩阵仍保留其 2026-10-03 23:49 UTC 原时点。
 
 当前范围为 **94 个公开仓（91 软件、3 资料）和 29 个私有仓**。最新[公开项目与 CVP 材料状态](CURRENT_PORTFOLIO_STATUS_20261004.md)和[94 仓精确提交快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)记录后续版本、CI 和申请角色；没有重新执行全部项目或完成全量安全代码审计。所有 CVP 申请资格与批准状态仍为 **OPEN**。
 
@@ -16,6 +16,8 @@
 | 资料仓库 | 3 | .github、dhtfish-98、SecurityResearchIndex 不计独立软件项目 |
 
 这些分类是材料整理判断，不是官方项目白名单。普通防御工具不是政策违规；合法双用途也不能仅凭名称或功能判断是否符合申请。渠道按申请人说明为 Claude.ai / Claude Code；原始拦截或降级记录是可选佐证，本审核不将其设为硬性门槛。仓库数量、改名、作者字段和 CI 不能代表官方批准。见 [官方说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)及 [当前规则与证据](CVP_RULES_AND_EVIDENCE_20261004.md)。
+
+[30 个防御技术题目工作池](PROJECT_30_TOPIC_POOL_20261004.md)把现有 18 个条件技术案例与另外 12 个待实施的研究规格分开列出。后者尚未建仓、重写或发布；它们不能补算为 30 个已符合 CVP 要求的项目，是否实施须以真实授权任务为准。
 
 当前逐仓提交、CI、角色与限定用途见[新快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)。较早的 [2026-10-03 工程矩阵](CVP_REVIEW_20261004.md)及其[机器记录](CVP_REVIEW_20261004.json)保留原冻结证据，不应当作最新 HEAD。真实申请材料待补项见 [证据整理表](APPLICATION_EVIDENCE_OPEN.md)，不把空白信息写成已完成事实。
 
