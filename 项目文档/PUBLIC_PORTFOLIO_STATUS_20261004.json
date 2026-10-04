@@ -1,0 +1,1337 @@
+{
+  "schema": "public-portfolio-status-20261004-v1",
+  "frozen_at_utc": "2026-10-04T04:51:35.302600Z",
+  "public_repository_count": 94,
+  "public_software_count": 91,
+  "private_repository_count_only": 29,
+  "classification_counts": {
+    "DOCUMENT_REPOSITORY": 3,
+    "DEFERRED_TECH_REVIEW": 8,
+    "DEFENSIVE_BACKGROUND": 61,
+    "CONDITIONAL_TECH_CASE": 18,
+    "NON_CYBER_BACKGROUND": 2,
+    "GENERIC_BROWSER_AUTOMATION_BACKGROUND": 2
+  },
+  "public_software_exact_head_actions_success": 91,
+  "public_software_exact_head_actions_failure": 0,
+  "status_kind": "engineering-and-application-role-snapshot-not-CVP-approval",
+  "unverified_application_facts": [
+    "actual authorized defensive task",
+    "actual cyber safeguards impact",
+    "applicant identity and organization/admin context",
+    "official CVP decision"
+  ],
+  "repositories": [
+    {
+      "name": ".github",
+      "repository_url": "https://github.com/dhtfish-98/.github",
+      "head_sha_at_snapshot": "4aaa99adc2bfc32d83c6b05d6150ab54d6e437ec",
+      "classification": "DOCUMENT_REPOSITORY",
+      "function_summary_from_frozen_record": "资料、导航或账号默认文件",
+      "evidence_url": "https://github.com/dhtfish-98/.github/blob/4aaa99adc2bfc32d83c6b05d6150ab54d6e437ec/README.md",
+      "head_actions_state": "NO_EXACT_HEAD_RUN",
+      "exact_head_action_urls": [],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "A64Dispatch",
+      "repository_url": "https://github.com/dhtfish-98/A64Dispatch",
+      "head_sha_at_snapshot": "a351853c406f04cfb020561ec9e1acf64289600d",
+      "classification": "DEFERRED_TECH_REVIEW",
+      "function_summary_from_frozen_record": "兼容 AArch64 文件的控制流/分派分析及有门禁的同尺寸分支改写",
+      "evidence_url": "https://github.com/dhtfish-98/A64Dispatch/blob/a351853c406f04cfb020561ec9e1acf64289600d/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/THIRD_PARTY_NOTICES.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/A64Dispatch/actions/runs/37177152089"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "AdvisoryOfflineReview",
+      "repository_url": "https://github.com/dhtfish-98/AdvisoryOfflineReview",
+      "head_sha_at_snapshot": "ab3f422b814aacaa2d130e2ead06564fef22f5a1",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "依赖版本与已知漏洞快照匹配",
+      "evidence_url": "https://github.com/dhtfish-98/AdvisoryOfflineReview/blob/87105e9a97ea429eedf071bc094acac81a199cf5/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/AdvisoryOfflineReview/actions/runs/37133758548"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/AdvisoryOfflineReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "87105e9a97ea429eedf071bc094acac81a199cf5"
+    },
+    {
+      "name": "AliasRecordReview",
+      "repository_url": "https://github.com/dhtfish-98/AliasRecordReview",
+      "head_sha_at_snapshot": "509b1f926e9855e669d2c5ec5fae195b6cc7df4f",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Highlights malformed alias declarations and network-mount indicators without resolving targets or disclosing paths. Nested aliases and unknown tags remain OPEN.",
+      "evidence_url": "https://github.com/dhtfish-98/AliasRecordReview/tree/bc3b16e7313242c6bdbad9fd174d771b3f6ddeac",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/AliasRecordReview/actions/runs/37133758547"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/AliasRecordReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "bc3b16e7313242c6bdbad9fd174d771b3f6ddeac"
+    },
+    {
+      "name": "AptSourceTrustAudit",
+      "repository_url": "https://github.com/dhtfish-98/AptSourceTrustAudit",
+      "head_sha_at_snapshot": "7c9cff909dba5558554c96c738d8b3cb8f97f3ed",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "APT source format and repository trust configuration audit",
+      "evidence_url": "https://github.com/dhtfish-98/AptSourceTrustAudit/tree/47b0074afe49fdc3802946c3ae9077c396b33a16",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/AptSourceTrustAudit/actions/runs/37133758713"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/AptSourceTrustAudit/releases/tag/v0.1.2",
+      "latest_public_release_commit": "47b0074afe49fdc3802946c3ae9077c396b33a16"
+    },
+    {
+      "name": "ArchiveLens",
+      "repository_url": "https://github.com/dhtfish-98/ArchiveLens",
+      "head_sha_at_snapshot": "3c0dccf52307fbfc7b1c7860b745898eb78f322c",
+      "classification": "DEFERRED_TECH_REVIEW",
+      "function_summary_from_frozen_record": "本地 IPA/Mach-O 元数据、反汇编和报告导出；带可选外部助手聊天入口",
+      "evidence_url": "https://github.com/dhtfish-98/ArchiveLens/blob/3c0dccf52307fbfc7b1c7860b745898eb78f322c/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37133498010",
+        "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37133498044"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.2",
+      "latest_public_release_commit": "ea9e4af7e4f800d7cc0ead414a4fc3b9a7c20702"
+    },
+    {
+      "name": "ArtifactDigestReview",
+      "repository_url": "https://github.com/dhtfish-98/ArtifactDigestReview",
+      "head_sha_at_snapshot": "d9611c45ab619b18c29bd111234ae518ce6cbff8",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "将本地文件摘要与给定 SHA 清单核对",
+      "evidence_url": "https://github.com/dhtfish-98/ArtifactDigestReview/blob/cb4f549240a926f72d7e0bbc96cc1920bed00c4b/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/ArtifactDigestReview/actions/runs/37177849199"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "AuditEventReview",
+      "repository_url": "https://github.com/dhtfish-98/AuditEventReview",
+      "head_sha_at_snapshot": "4ad9392e07c01285b138a7c35a78efceb935b8e7",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Linux审计多记录关联与事件证据",
+      "evidence_url": "https://github.com/dhtfish-98/AuditEventReview/blob/800dc81540694a33fb57d1112a79796f4c50181a/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/AuditEventReview/actions/runs/37133758723"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/AuditEventReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "800dc81540694a33fb57d1112a79796f4c50181a"
+    },
+    {
+      "name": "AuditRuleCoverage",
+      "repository_url": "https://github.com/dhtfish-98/AuditRuleCoverage",
+      "head_sha_at_snapshot": "6c522e46e50115e7434b185f7ac0b10e6b9d7f1b",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "Selected typed audit rule syntax and complete frozen literal baseline coverage",
+      "evidence_url": "https://github.com/dhtfish-98/AuditRuleCoverage/tree/151c5c090afe8709c016291c50b6dda502b2a425",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/AuditRuleCoverage/actions/runs/37133763233"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/AuditRuleCoverage/releases/tag/v0.1.2",
+      "latest_public_release_commit": "151c5c090afe8709c016291c50b6dda502b2a425"
+    },
+    {
+      "name": "AuthLogReview",
+      "repository_url": "https://github.com/dhtfish-98/AuthLogReview",
+      "head_sha_at_snapshot": "6f244428364b86ab909c90e6068f776a1ed571b7",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "给定 JSONL 认证日志的重复失败时间窗提示",
+      "evidence_url": "https://github.com/dhtfish-98/AuthLogReview/blob/46f8407af813b585ae06e181c5384f0bfb833d6b/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/AuthLogReview/actions/runs/37177849241"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "BodyfileTimelineReview",
+      "repository_url": "https://github.com/dhtfish-98/BodyfileTimelineReview",
+      "head_sha_at_snapshot": "0c8fa7ae313a25c0d121d7c9dc72935613fc583b",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Validates input declarations before building a private-safe incident-response timeline; it is a new format-focused project, not a rewrite of SleuthKit.",
+      "evidence_url": "https://github.com/dhtfish-98/BodyfileTimelineReview/tree/4a5b6b049d13abc710c4dffe195bb93cc34d4c70",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/BodyfileTimelineReview/actions/runs/37133763535"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/BodyfileTimelineReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "4a5b6b049d13abc710c4dffe195bb93cc34d4c70"
+    },
+    {
+      "name": "BranchLoom",
+      "repository_url": "https://github.com/dhtfish-98/BranchLoom",
+      "head_sha_at_snapshot": "a8c25c70fef160a3659e2ee3a1196f2354a06f54",
+      "classification": "DEFERRED_TECH_REVIEW",
+      "function_summary_from_frozen_record": "IDA/AArch64 分派与控制流研究，含分析、计划、应用和回退等入口",
+      "evidence_url": "https://github.com/dhtfish-98/BranchLoom/blob/a8c25c70fef160a3659e2ee3a1196f2354a06f54/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/BranchLoom/actions/runs/37177151693"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/BranchLoom/releases/tag/v0.2.0",
+      "latest_public_release_commit": "63540d7c432eb41513bbdab783681ebbb466edc7"
+    },
+    {
+      "name": "CDTranslator",
+      "repository_url": "https://github.com/dhtfish-98/CDTranslator",
+      "head_sha_at_snapshot": "113a44f79a6c7d50e68bf25ef7ad1abe71e549cf",
+      "classification": "NON_CYBER_BACKGROUND",
+      "function_summary_from_frozen_record": "macOS 翻译与 OCR 桌面工具",
+      "evidence_url": "https://github.com/dhtfish-98/CDTranslator/blob/113a44f79a6c7d50e68bf25ef7ad1abe71e549cf/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/CDTranslator/actions/runs/37133508565"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "CITrustBoundaryReview",
+      "repository_url": "https://github.com/dhtfish-98/CITrustBoundaryReview",
+      "head_sha_at_snapshot": "40ed13a4fddcc616e460472e0abcf59af4808391",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "CI事件输入到脚本的信任边界",
+      "evidence_url": "https://github.com/dhtfish-98/CITrustBoundaryReview/blob/83980d9e81b399ae3403613ae403a71089105c32/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/CITrustBoundaryReview/actions/runs/37133769240"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/CITrustBoundaryReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "83980d9e81b399ae3403613ae403a71089105c32"
+    },
+    {
+      "name": "CSPPolicyLens",
+      "repository_url": "https://github.com/dhtfish-98/CSPPolicyLens",
+      "head_sha_at_snapshot": "4414f49a3e0b69255a53c8ed2c683d424fb3798a",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "CSP指令、nonce/hash与严格策略",
+      "evidence_url": "https://github.com/dhtfish-98/CSPPolicyLens/blob/1b68d9e7463624c3994239add2a14b46782e12d4/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/CSPPolicyLens/actions/runs/37133774176"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/CSPPolicyLens/releases/tag/v0.1.2",
+      "latest_public_release_commit": "1b68d9e7463624c3994239add2a14b46782e12d4"
+    },
+    {
+      "name": "CertificateNamePolicy",
+      "repository_url": "https://github.com/dhtfish-98/CertificateNamePolicy",
+      "head_sha_at_snapshot": "9f34fa8b025b8be793807c90dfb503a715a51df7",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "本地证书DNS/IP SAN服务名称匹配",
+      "evidence_url": "https://github.com/dhtfish-98/CertificateNamePolicy/blob/38ffdb31e99bbd80acad081b41dd91a7b3b3b4e9/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/CertificateNamePolicy/actions/runs/37135852250"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/CertificateNamePolicy/releases/tag/v0.1.2",
+      "latest_public_release_commit": "38ffdb31e99bbd80acad081b41dd91a7b3b3b4e9"
+    },
+    {
+      "name": "ChromeRelay",
+      "repository_url": "https://github.com/dhtfish-98/ChromeRelay",
+      "head_sha_at_snapshot": "73a896d141e0dfecdfcd2fe744154272bf9e54f2",
+      "classification": "GENERIC_BROWSER_AUTOMATION_BACKGROUND",
+      "function_summary_from_frozen_record": "经 CDP 操作调用者的本地浏览器，用于受控页面自动化",
+      "evidence_url": "https://github.com/dhtfish-98/ChromeRelay/blob/73a896d141e0dfecdfcd2fe744154272bf9e54f2/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/THIRD_PARTY_NOTICES.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/ChromeRelay/actions/runs/37177151844"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "CompoundDocumentReview",
+      "repository_url": "https://github.com/dhtfish-98/CompoundDocumentReview",
+      "head_sha_at_snapshot": "cef5e5676eaca3615c354b33ceb8e0709c785d53",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "OLE/CFB目录、FAT链与流结构",
+      "evidence_url": "https://github.com/dhtfish-98/CompoundDocumentReview/blob/af8292493cc6f335ca36c59acd12c08b04e2c413/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/CompoundDocumentReview/actions/runs/37133768803"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/CompoundDocumentReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "af8292493cc6f335ca36c59acd12c08b04e2c413"
+    },
+    {
+      "name": "ContainerfileReview",
+      "repository_url": "https://github.com/dhtfish-98/ContainerfileReview",
+      "head_sha_at_snapshot": "32e2c4cb751c1c9d963df36764b79809bd89a65b",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "静态检查镜像来源、remote ADD 与最终 USER 声明",
+      "evidence_url": "https://github.com/dhtfish-98/ContainerfileReview/blob/f27e825b02bee0731f720167901bdf5b055a2acb/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/ContainerfileReview/actions/runs/37177849410"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "CrlRevocationReview",
+      "repository_url": "https://github.com/dhtfish-98/CrlRevocationReview",
+      "head_sha_at_snapshot": "633e4b344219dc736023c52e390f0c8364873ae6",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Direct-issuer full CRL signature and freshness verification for one pinned issuer and one explicitly supplied target certificate.",
+      "evidence_url": "https://github.com/dhtfish-98/CrlRevocationReview/tree/84e17807497249bc67995f6a40bfee368b4b09ee",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/CrlRevocationReview/actions/runs/37133768877"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/CrlRevocationReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "84e17807497249bc67995f6a40bfee368b4b09ee"
+    },
+    {
+      "name": "CryptoRegressionBench",
+      "repository_url": "https://github.com/dhtfish-98/CryptoRegressionBench",
+      "head_sha_at_snapshot": "be12bb5166b93d4568f3e7faa620e2d60419780a",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "固定密码学语料的实际库回归报告",
+      "evidence_url": "https://github.com/dhtfish-98/CryptoRegressionBench/blob/2b4e4f422b15e7775dd66a67bbfb371180a44c61/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/CryptoRegressionBench/actions/runs/37133769196"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/CryptoRegressionBench/releases/tag/v0.1.3",
+      "latest_public_release_commit": "2b4e4f422b15e7775dd66a67bbfb371180a44c61"
+    },
+    {
+      "name": "DOMSinkReview",
+      "repository_url": "https://github.com/dhtfish-98/DOMSinkReview",
+      "head_sha_at_snapshot": "e74f1ac7c704ae6994fe529163a3c4aa7ff48343",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "DOM HTML赋值与清洗证据",
+      "evidence_url": "https://github.com/dhtfish-98/DOMSinkReview/blob/73eb703b49f8a20976a65a024e52580d85121e39/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/DOMSinkReview/actions/runs/37132170311"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/DOMSinkReview/releases/tag/v0.1.3",
+      "latest_public_release_commit": "73eb703b49f8a20976a65a024e52580d85121e39"
+    },
+    {
+      "name": "DependencyPinReview",
+      "repository_url": "https://github.com/dhtfish-98/DependencyPinReview",
+      "head_sha_at_snapshot": "acb428dff5681e69041cb009754f22ff73b52121",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "requirements 直接依赖的固定版本与限定来源声明检查",
+      "evidence_url": "https://github.com/dhtfish-98/DependencyPinReview/blob/6a2898d177c3e43b1b27306c0338458076e7558b/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/DependencyPinReview/actions/runs/37177849200"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "DeserializeCallReview",
+      "repository_url": "https://github.com/dhtfish-98/DeserializeCallReview",
+      "head_sha_at_snapshot": "81354b9e67468bec04c7f1b00d09d26ba11901ef",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "Python对象反序列化调用边界",
+      "evidence_url": "https://github.com/dhtfish-98/DeserializeCallReview/blob/a8b59883b0f293f046142d7b9f7f8031d45fe454/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/DeserializeCallReview/actions/runs/37133775297"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/DeserializeCallReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "a8b59883b0f293f046142d7b9f7f8031d45fe454"
+    },
+    {
+      "name": "DfxmlExtentReview",
+      "repository_url": "https://github.com/dhtfish-98/DfxmlExtentReview",
+      "head_sha_at_snapshot": "509023033747eccead8559ff137a3bd610a8d86b",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Checks inconsistent exported forensic mappings; unsupported namespace extensions/facets/digests remain OPEN rather than being interpreted as verified evidence.",
+      "evidence_url": "https://github.com/dhtfish-98/DfxmlExtentReview/tree/d48f568160c2f29036c2ffd7965be0d91a489123",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/DfxmlExtentReview/actions/runs/37133774494"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/DfxmlExtentReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "d48f568160c2f29036c2ffd7965be0d91a489123"
+    },
+    {
+      "name": "DjangoSessionGuard",
+      "repository_url": "https://github.com/dhtfish-98/DjangoSessionGuard",
+      "head_sha_at_snapshot": "04de12f8699bedd5b86b7f85b6542f1a8d150b7e",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "会话/CSRF设置与中间件依赖检查",
+      "evidence_url": "https://github.com/dhtfish-98/DjangoSessionGuard/blob/a468e4db84a2bdebbf4d603fe3e44c795050c834/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/DjangoSessionGuard/actions/runs/37133775192"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/DjangoSessionGuard/releases/tag/v0.1.2",
+      "latest_public_release_commit": "a468e4db84a2bdebbf4d603fe3e44c795050c834"
+    },
+    {
+      "name": "DsseEnvelopeReview",
+      "repository_url": "https://github.com/dhtfish-98/DsseEnvelopeReview",
+      "head_sha_at_snapshot": "469010b5bcf13cac994e258dcc05e1c112de4def",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Ed25519 DSSE v1 envelope verification against explicit pinned public keys, expected payload type and independent-key threshold.",
+      "evidence_url": "https://github.com/dhtfish-98/DsseEnvelopeReview/tree/67b24e41e8adf2b28d49c2011acfdef171400e70",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/DsseEnvelopeReview/actions/runs/37133779142"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/DsseEnvelopeReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "67b24e41e8adf2b28d49c2011acfdef171400e70"
+    },
+    {
+      "name": "EntitlementFlagReview",
+      "repository_url": "https://github.com/dhtfish-98/EntitlementFlagReview",
+      "head_sha_at_snapshot": "dbb4bd92ba4c6d4b2ba3455c65d711274c958250",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "本地 plist 的调试、JIT 和其他权限标志声明审阅",
+      "evidence_url": "https://github.com/dhtfish-98/EntitlementFlagReview/blob/c659cc2a451b13f97179a489ee131ae8e9f8c16d/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/EntitlementFlagReview/actions/runs/37177850883"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "EvtxRecordReview",
+      "repository_url": "https://github.com/dhtfish-98/EvtxRecordReview",
+      "head_sha_at_snapshot": "3474cf5545c6b857728f6a6cf0e93bcd54c7d1ca",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Windows事件结构、CRC与BinXML记录",
+      "evidence_url": "https://github.com/dhtfish-98/EvtxRecordReview/blob/b0cd52d5f5e547f2cb8ac9e64a3de10fcf42ba4e/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/EvtxRecordReview/actions/runs/37135851909"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/EvtxRecordReview/releases/tag/v0.1.3",
+      "latest_public_release_commit": "b0cd52d5f5e547f2cb8ac9e64a3de10fcf42ba4e"
+    },
+    {
+      "name": "EvtxRecoveryReview",
+      "repository_url": "https://github.com/dhtfish-98/EvtxRecoveryReview",
+      "head_sha_at_snapshot": "b78807fe00c998bf392d749901b30c551eabef36",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "损坏EVTX残片恢复与恢复证据",
+      "evidence_url": "https://github.com/dhtfish-98/EvtxRecoveryReview/blob/3c79929ea3fb43862bc360056f5bf38cb5adccda/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/EvtxRecoveryReview/actions/runs/37138018545"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/EvtxRecoveryReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "3c79929ea3fb43862bc360056f5bf38cb5adccda"
+    },
+    {
+      "name": "FileModeReview",
+      "repository_url": "https://github.com/dhtfish-98/FileModeReview",
+      "head_sha_at_snapshot": "1911d0875056c2ddbcc976e2faf58e05cdc86302",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "授权本地路径的选定文件权限位审阅",
+      "evidence_url": "https://github.com/dhtfish-98/FileModeReview/blob/8b7dba9e7a0342280a3a60b0913171e1f363a33e/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/FileModeReview/actions/runs/37177850592"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "FinderStoreReview",
+      "repository_url": "https://github.com/dhtfish-98/FinderStoreReview",
+      "head_sha_at_snapshot": "9721715980d91afd1b7ecce36b18345d0fa8ce61",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Verifies the reachable Finder metadata structure in an explicitly supplied artifact and detects cyclic or truncated trees without leaking filenames.",
+      "evidence_url": "https://github.com/dhtfish-98/FinderStoreReview/tree/578cd6238a9f8e94ddd6148a78e97a5543bbb9f0",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/FinderStoreReview/actions/runs/37133779912"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/FinderStoreReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "578cd6238a9f8e94ddd6148a78e97a5543bbb9f0"
+    },
+    {
+      "name": "FirewalldZoneAudit",
+      "repository_url": "https://github.com/dhtfish-98/FirewalldZoneAudit",
+      "head_sha_at_snapshot": "d23b7a813c878dbc0f3f50b038863f1516fd237b",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Zone XML and service exposure snapshot audit",
+      "evidence_url": "https://github.com/dhtfish-98/FirewalldZoneAudit/tree/6fe7eed46bf5a503c60987afcf6b51262909d7e3",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/FirewalldZoneAudit/actions/runs/37133783541"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/FirewalldZoneAudit/releases/tag/v0.1.2",
+      "latest_public_release_commit": "6fe7eed46bf5a503c60987afcf6b51262909d7e3"
+    },
+    {
+      "name": "GoCryptoPolicyReview",
+      "repository_url": "https://github.com/dhtfish-98/GoCryptoPolicyReview",
+      "head_sha_at_snapshot": "aed3cca5fd9f95288c476bb37f28f1a8093d3461",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "Go源码TLS/随机数/密钥参数误用",
+      "evidence_url": "https://github.com/dhtfish-98/GoCryptoPolicyReview/blob/a7bbf1904a990b3d511cbc649bf883f1ffdd2769/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/GoCryptoPolicyReview/actions/runs/37132171638"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/GoCryptoPolicyReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "a7bbf1904a990b3d511cbc649bf883f1ffdd2769"
+    },
+    {
+      "name": "HandshakeEvidenceReview",
+      "repository_url": "https://github.com/dhtfish-98/HandshakeEvidenceReview",
+      "head_sha_at_snapshot": "cfcdf3dfe992c98d329ded1de859448c608c1aff",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "授权PCAP的TLS握手与JA3/JA3S证据",
+      "evidence_url": "https://github.com/dhtfish-98/HandshakeEvidenceReview/blob/538a6a10d49d3797827dbbf2362446d334f8ac31/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/HandshakeEvidenceReview/actions/runs/37133783874"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/HandshakeEvidenceReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "538a6a10d49d3797827dbbf2362446d334f8ac31"
+    },
+    {
+      "name": "HeaderPolicyReview",
+      "repository_url": "https://github.com/dhtfish-98/HeaderPolicyReview",
+      "head_sha_at_snapshot": "fc1f66e49f27d469575fd7061ba51991dd8e8aa7",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "HAR 中 HSTS、CSP、nosniff 等选定响应头声明审阅",
+      "evidence_url": "https://github.com/dhtfish-98/HeaderPolicyReview/blob/a0caac59b644d6f8a126f1be354e1e276ab6f25a/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/HeaderPolicyReview/actions/runs/37177850705"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/HeaderPolicyReview/releases/tag/v0.1.3",
+      "latest_public_release_commit": "a0caac59b644d6f8a126f1be354e1e276ab6f25a"
+    },
+    {
+      "name": "IAMScopeReview",
+      "repository_url": "https://github.com/dhtfish-98/IAMScopeReview",
+      "head_sha_at_snapshot": "0bb6f8b0075950239221459363ce75ff1a3f5253",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "本地 IAM JSON 的宽泛 Allow、action/resource/principal 声明审阅",
+      "evidence_url": "https://github.com/dhtfish-98/IAMScopeReview/blob/3254110beb5c1ed538608506e1b212b27388aa4e/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/IAMScopeReview/actions/runs/37177850630"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "IDBMeadow",
+      "repository_url": "https://github.com/dhtfish-98/IDBMeadow",
+      "head_sha_at_snapshot": "a17fe17c247040814d2b7f60c38e6c16e0c60dc5",
+      "classification": "DEFERRED_TECH_REVIEW",
+      "function_summary_from_frozen_record": "离线 IDB 解析与导出，附带可执行调用者 Python 的脚本入口",
+      "evidence_url": "https://github.com/dhtfish-98/IDBMeadow/blob/a17fe17c247040814d2b7f60c38e6c16e0c60dc5/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/IDBMeadow/actions/runs/37133784015"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.2",
+      "latest_public_release_commit": "1060c03345e94a4c09c7a96f2e6b8d99bbf515c2"
+    },
+    {
+      "name": "ImageQuay",
+      "repository_url": "https://github.com/dhtfish-98/ImageQuay",
+      "head_sha_at_snapshot": "30619167cac87c6520f97b68f4401fd4316d105a",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "本地 Mach-O 解析及编辑、lipo、header/stub 生成等开发分析",
+      "evidence_url": "https://github.com/dhtfish-98/ImageQuay/blob/30619167cac87c6520f97b68f4401fd4316d105a/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/ImageQuay/actions/runs/37175907608"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/ImageQuay/releases/tag/v1.0.5",
+      "latest_public_release_commit": "30619167cac87c6520f97b68f4401fd4316d105a"
+    },
+    {
+      "name": "JksTrustStoreReview",
+      "repository_url": "https://github.com/dhtfish-98/JksTrustStoreReview",
+      "head_sha_at_snapshot": "beaabee1e8947a98dfc9f7d312cf35509d55e9a1",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Bounded JKS v2 public truststore inventory, Java modified UTF-8 decoding, certificate parsing and validity/CA/key policy, with explicit externally pinned file digest.",
+      "evidence_url": "https://github.com/dhtfish-98/JksTrustStoreReview/tree/3e61a8781275a2605890ddaf4a44eed6656f8d63",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/JksTrustStoreReview/actions/runs/37133788242"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/JksTrustStoreReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "3e61a8781275a2605890ddaf4a44eed6656f8d63"
+    },
+    {
+      "name": "JwkSetReview",
+      "repository_url": "https://github.com/dhtfish-98/JwkSetReview",
+      "head_sha_at_snapshot": "c4df2f393548dbcf1b4819ce62ba8891229805a0",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Full public-only JWK set structural, semantic, key-material, algorithm and distinct-identity audit for RSA, NIST EC and Ed25519.",
+      "evidence_url": "https://github.com/dhtfish-98/JwkSetReview/tree/3d45482dcae4c868a1bb2bf34b36fc86e780cef7",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/JwkSetReview/actions/runs/37133788412"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/JwkSetReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "3d45482dcae4c868a1bb2bf34b36fc86e780cef7"
+    },
+    {
+      "name": "KernelCabinet",
+      "repository_url": "https://github.com/dhtfish-98/KernelCabinet",
+      "head_sha_at_snapshot": "7cd05089810b2c3ad35e48a4989c56e9c0648a85",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "授权兼容内核文件中的嵌入扩展元数据与原始 TEXT_EXEC 片段复制",
+      "evidence_url": "https://github.com/dhtfish-98/KernelCabinet/blob/7cd05089810b2c3ad35e48a4989c56e9c0648a85/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/KernelCabinet/actions/runs/37176533605"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/KernelCabinet/releases/tag/v1.0.2",
+      "latest_public_release_commit": "7cd05089810b2c3ad35e48a4989c56e9c0648a85"
+    },
+    {
+      "name": "KubePodReview",
+      "repository_url": "https://github.com/dhtfish-98/KubePodReview",
+      "head_sha_at_snapshot": "528638980d37a80dbab8fc38894af3b4283370f8",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "本地 Kubernetes Pod securityContext 声明审阅",
+      "evidence_url": "https://github.com/dhtfish-98/KubePodReview/blob/51398f588ccbf696715708300978730b88b755cc/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/KubePodReview/actions/runs/37177852425"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "LifecyclePolicyReview",
+      "repository_url": "https://github.com/dhtfish-98/LifecyclePolicyReview",
+      "head_sha_at_snapshot": "745f8227e174ad5dbf34ce5acb636b8fa2cb90b7",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "依赖安装生命周期允许策略审查",
+      "evidence_url": "https://github.com/dhtfish-98/LifecyclePolicyReview/blob/59634815f0633cda0c39e9d6ce612cd9275f7b3f/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/LifecyclePolicyReview/actions/runs/37133788418"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/LifecyclePolicyReview/releases/tag/v0.1.3",
+      "latest_public_release_commit": "df2f25b78ca5dc3929d412879dc079bc24d60e42"
+    },
+    {
+      "name": "LnkEvidenceReview",
+      "repository_url": "https://github.com/dhtfish-98/LnkEvidenceReview",
+      "head_sha_at_snapshot": "dc9cb4d8b6de319c51ea76c7a72baa4994e160df",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Windows快捷方式结构与引用路径证据",
+      "evidence_url": "https://github.com/dhtfish-98/LnkEvidenceReview/blob/a3bb46d2b91e4c932508bdf4db020bac11d4767e/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/LnkEvidenceReview/actions/runs/37133789439"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/LnkEvidenceReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "a3bb46d2b91e4c932508bdf4db020bac11d4767e"
+    },
+    {
+      "name": "LocalSecretReview",
+      "repository_url": "https://github.com/dhtfish-98/LocalSecretReview",
+      "head_sha_at_snapshot": "0debdcd194041321c7471849fafb80702b4b347e",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "授权本地文本中的常见凭据形态定位与脱敏提示",
+      "evidence_url": "https://github.com/dhtfish-98/LocalSecretReview/blob/1717c6443c677a8196a24eb7763d99f44e89f0c4/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/LocalSecretReview/actions/runs/37177786815"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/LocalSecretReview/releases/tag/v1.0.3",
+      "latest_public_release_commit": "0debdcd194041321c7471849fafb80702b4b347e"
+    },
+    {
+      "name": "MachOInspect",
+      "repository_url": "https://github.com/dhtfish-98/MachOInspect",
+      "head_sha_at_snapshot": "ad8ac0482dbfd0e41becc227df4b817d4b983199",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Mach-O 签名结构、声明 entitlement 与加固元数据审阅",
+      "evidence_url": "https://github.com/dhtfish-98/MachOInspect/blob/ad8ac0482dbfd0e41becc227df4b817d4b983199/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/THIRD_PARTY_NOTICES.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/MachOInspect/actions/runs/37177151994"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "MailEvidenceReview",
+      "repository_url": "https://github.com/dhtfish-98/MailEvidenceReview",
+      "head_sha_at_snapshot": "d15162fe7d46cc9b031831e7d5bac1d8667cc249",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "EML邮件MIME层级与附件元数据取证",
+      "evidence_url": "https://github.com/dhtfish-98/MailEvidenceReview/blob/c9a986b3ecd451c59618c320f1343dea5ed685a5/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/MailEvidenceReview/actions/runs/37133792612"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/MailEvidenceReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "c9a986b3ecd451c59618c320f1343dea5ed685a5"
+    },
+    {
+      "name": "MinisignFileReview",
+      "repository_url": "https://github.com/dhtfish-98/MinisignFileReview",
+      "head_sha_at_snapshot": "8e233197c5412bb7cacc890f6f7f6b0620ef01df",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Minisign prehashed ED detached file and trusted-comment signatures, explicit pinned public key; legacy Ed only with explicit opt-in.",
+      "evidence_url": "https://github.com/dhtfish-98/MinisignFileReview/tree/e46a410b6c740a1a19099ef4eed8383aaa852ad9",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/MinisignFileReview/actions/runs/37133792562"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/MinisignFileReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "e46a410b6c740a1a19099ef4eed8383aaa852ad9"
+    },
+    {
+      "name": "ModelOpcodeReview",
+      "repository_url": "https://github.com/dhtfish-98/ModelOpcodeReview",
+      "head_sha_at_snapshot": "542d79772e94a761dd98cca08a3222b038e5abbf",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "模型序列化操作码与对象引用静态审查",
+      "evidence_url": "https://github.com/dhtfish-98/ModelOpcodeReview/blob/78ed97beb1b40150745dfd9e223afe3f3227ebb9/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/ModelOpcodeReview/actions/runs/37133793408"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/ModelOpcodeReview/releases/tag/v0.1.4",
+      "latest_public_release_commit": "52079c921cda7f6e7b14afca0dd85b3e9b771819"
+    },
+    {
+      "name": "ModprobePolicyAudit",
+      "repository_url": "https://github.com/dhtfish-98/ModprobePolicyAudit",
+      "head_sha_at_snapshot": "d91704a925a052766c839359eba89965b7688faf",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Module policy aliases, dependencies and disablement audit",
+      "evidence_url": "https://github.com/dhtfish-98/ModprobePolicyAudit/tree/1748a0448911951c46e554ed5e5a4c520e6f2502",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/ModprobePolicyAudit/actions/runs/37133796713"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/ModprobePolicyAudit/releases/tag/v0.1.2",
+      "latest_public_release_commit": "1748a0448911951c46e554ed5e5a4c520e6f2502"
+    },
+    {
+      "name": "NetworkPolicyReachabilityReview",
+      "repository_url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview",
+      "head_sha_at_snapshot": "10072426a97570863a488b22675d855216c62007",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "Complete declared Kubernetes networking.k8s.io/v1 NetworkPolicy profile evaluated offline against a bounded topology and explicit directional connection questions.",
+      "evidence_url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/tree/485dfb92a9fb21eb6a56afeea8ab21c4b1c3e3a2",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/actions/runs/37133797097"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "485dfb92a9fb21eb6a56afeea8ab21c4b1c3e3a2"
+    },
+    {
+      "name": "NftIngressAudit",
+      "repository_url": "https://github.com/dhtfish-98/NftIngressAudit",
+      "head_sha_at_snapshot": "031b9d053b85f29ead285a85cbd506f794a4f817",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "Offline nftables ingress policy structure audit",
+      "evidence_url": "https://github.com/dhtfish-98/NftIngressAudit/tree/ff0a41d992ff0334c158c81ae7e844dd7aa057ee",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/NftIngressAudit/actions/runs/37133796705"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/NftIngressAudit/releases/tag/v0.1.3",
+      "latest_public_release_commit": "c4ee320a8bc821186c4168b811921d9961f2fdf2"
+    },
+    {
+      "name": "NginxConfigGuard",
+      "repository_url": "https://github.com/dhtfish-98/NginxConfigGuard",
+      "head_sha_at_snapshot": "a850a60d33b499c9c7c2dcd821d3c80a4c9073e1",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "服务器配置继承、路径映射与代理变量",
+      "evidence_url": "https://github.com/dhtfish-98/NginxConfigGuard/blob/c1036a1a7fff48a5cf325b4703b3adaae5c750cd/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/NginxConfigGuard/actions/runs/37133797779"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/NginxConfigGuard/releases/tag/v0.1.3",
+      "latest_public_release_commit": "c1036a1a7fff48a5cf325b4703b3adaae5c750cd"
+    },
+    {
+      "name": "ObjCAtlas",
+      "repository_url": "https://github.com/dhtfish-98/ObjCAtlas",
+      "head_sha_at_snapshot": "e8605aab3c253a62ba2b328561737fadaf75348e",
+      "classification": "DEFERRED_TECH_REVIEW",
+      "function_summary_from_frozen_record": "本地 ObjC 元数据与声明导出，保留解码及 deprotect 写出辅助能力",
+      "evidence_url": "https://github.com/dhtfish-98/ObjCAtlas/blob/e8605aab3c253a62ba2b328561737fadaf75348e/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37133503102"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.0",
+      "latest_public_release_commit": "63d1081de10b963f878e2e9244aa791468b9d0b2"
+    },
+    {
+      "name": "OcspStapleReview",
+      "repository_url": "https://github.com/dhtfish-98/OcspStapleReview",
+      "head_sha_at_snapshot": "b7f649218038dbffe9cab5e4843e0e8f1199a07f",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Offline RFC 6960 single-response signature, issuer/serial binding, responder authorization, nonce and freshness verification with a pinned direct issuer.",
+      "evidence_url": "https://github.com/dhtfish-98/OcspStapleReview/tree/77b5e6fff94e3e4fb10baf54697c12358cd85702",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/OcspStapleReview/actions/runs/37133801079"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/OcspStapleReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "77b5e6fff94e3e4fb10baf54697c12358cd85702"
+    },
+    {
+      "name": "PDFActionReview",
+      "repository_url": "https://github.com/dhtfish-98/PDFActionReview",
+      "head_sha_at_snapshot": "11fff568b58c76760c234d9cd934637e26092253",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "PDF活动动作名称与编码结构计数",
+      "evidence_url": "https://github.com/dhtfish-98/PDFActionReview/blob/a820960b57e28d042f4bf330b651deb048bffdaa/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/PDFActionReview/actions/runs/37133807223"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/PDFActionReview/releases/tag/v0.1.3",
+      "latest_public_release_commit": "a820960b57e28d042f4bf330b651deb048bffdaa"
+    },
+    {
+      "name": "PEHardeningReview",
+      "repository_url": "https://github.com/dhtfish-98/PEHardeningReview",
+      "head_sha_at_snapshot": "94e266085f99b3265ad865b2a2915cedf6b5604d",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "本地 PE 的声明缓解标志审阅",
+      "evidence_url": "https://github.com/dhtfish-98/PEHardeningReview/blob/dea64d2eb61bbf6b2329c856af3a98868b3fa4ee/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/PEHardeningReview/actions/runs/37177786827"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/PEHardeningReview/releases/tag/v1.0.3",
+      "latest_public_release_commit": "94e266085f99b3265ad865b2a2915cedf6b5604d"
+    },
+    {
+      "name": "PEQuarry",
+      "repository_url": "https://github.com/dhtfish-98/PEQuarry",
+      "head_sha_at_snapshot": "ba8cda8ed53a0d5c0eda4d7a6e9578e6d0f3d8be",
+      "classification": "DEFERRED_TECH_REVIEW",
+      "function_summary_from_frozen_record": "本地 PE 解析、静态签名匹配及保留的序列化/编辑能力",
+      "evidence_url": "https://github.com/dhtfish-98/PEQuarry/blob/ba8cda8ed53a0d5c0eda4d7a6e9578e6d0f3d8be/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/PEQuarry/actions/runs/37133806725"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/PEQuarry/releases/tag/v1.0.2",
+      "latest_public_release_commit": "f4b65ecf119eb5b40d34b42130321b7c41a76c83"
+    },
+    {
+      "name": "PackageOriginReview",
+      "repository_url": "https://github.com/dhtfish-98/PackageOriginReview",
+      "head_sha_at_snapshot": "edb6f3150fe5677223da9e9f07c1b3fb5076a50e",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "锁文件包来源URL信任策略",
+      "evidence_url": "https://github.com/dhtfish-98/PackageOriginReview/blob/ed5de9373b899b04ebd9dd4274ac82ed76cce94f/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/PackageOriginReview/actions/runs/37133800889"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/PackageOriginReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "ed5de9373b899b04ebd9dd4274ac82ed76cce94f"
+    },
+    {
+      "name": "PamStackAudit",
+      "repository_url": "https://github.com/dhtfish-98/PamStackAudit",
+      "head_sha_at_snapshot": "1d1809dbf548f2b69c9989d9a79a05e65d657c79",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "PAM stack and lockout policy snapshot audit",
+      "evidence_url": "https://github.com/dhtfish-98/PamStackAudit/tree/6e9aef19909bddec10e4831d0be90dae820b5a1f",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/PamStackAudit/actions/runs/37133801229"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/PamStackAudit/releases/tag/v0.1.2",
+      "latest_public_release_commit": "6e9aef19909bddec10e4831d0be90dae820b5a1f"
+    },
+    {
+      "name": "PngStreamReview",
+      "repository_url": "https://github.com/dhtfish-98/PngStreamReview",
+      "head_sha_at_snapshot": "7392fd6501a7a4d40bd9658162c7d7a7cf439f3f",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Checks file integrity before an evidence image reaches a decoder, while reporting unsupported image layouts OPEN. CRC and syntax do not establish image authenticity.",
+      "evidence_url": "https://github.com/dhtfish-98/PngStreamReview/tree/8ec12287c3e9240cd599d53dfb0b69878ecf9b6d",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/PngStreamReview/actions/runs/37133806785"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/PngStreamReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "8ec12287c3e9240cd599d53dfb0b69878ecf9b6d"
+    },
+    {
+      "name": "PolicyMosaic",
+      "repository_url": "https://github.com/dhtfish-98/PolicyMosaic",
+      "head_sha_at_snapshot": "2a9a8966ef73b39d54e2bfbf554f08b28d1a9975",
+      "classification": "DEFERRED_TECH_REVIEW",
+      "function_summary_from_frozen_record": "授权 sandbox profile 的解码与 SBPL/C 草稿导出",
+      "evidence_url": "https://github.com/dhtfish-98/PolicyMosaic/blob/2a9a8966ef73b39d54e2bfbf554f08b28d1a9975/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/PolicyMosaic/actions/runs/37133810944"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/PolicyMosaic/releases/tag/v1.0.6",
+      "latest_public_release_commit": "f22d159c00d9a38ac843efde4a0b1f3afcebfb4d"
+    },
+    {
+      "name": "PrefetchEvidenceReview",
+      "repository_url": "https://github.com/dhtfish-98/PrefetchEvidenceReview",
+      "head_sha_at_snapshot": "98f57f2c413522bf584b85a1776535106ce56100",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Windows运行痕迹结构与时间证据",
+      "evidence_url": "https://github.com/dhtfish-98/PrefetchEvidenceReview/blob/6b8ad2b08f36091b4b1c03940c353ae91b2138cb/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/PrefetchEvidenceReview/actions/runs/37138018017"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/PrefetchEvidenceReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "6b8ad2b08f36091b4b1c03940c353ae91b2138cb"
+    },
+    {
+      "name": "RecycleRecordReview",
+      "repository_url": "https://github.com/dhtfish-98/RecycleRecordReview",
+      "head_sha_at_snapshot": "e10c8625ac18044b02491c1b04202c0775237ba1",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Enables an analyst to identify truncated or malformed deletion records without exposing the deleted filename.",
+      "evidence_url": "https://github.com/dhtfish-98/RecycleRecordReview/tree/dbd67a811781812f1d988ceda5d77cee81c8d1ee",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/RecycleRecordReview/actions/runs/37133811188"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/RecycleRecordReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "dbd67a811781812f1d988ceda5d77cee81c8d1ee"
+    },
+    {
+      "name": "RegistryHiveReview",
+      "repository_url": "https://github.com/dhtfish-98/RegistryHiveReview",
+      "head_sha_at_snapshot": "f247bfe129c14da3b5621c12eac3d5e4a56bfa23",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "注册表hive值、时间与来源定位",
+      "evidence_url": "https://github.com/dhtfish-98/RegistryHiveReview/blob/c993447b3813f07918872ae035e31f850970d1a5/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/RegistryHiveReview/actions/runs/37133811583"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/RegistryHiveReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "c993447b3813f07918872ae035e31f850970d1a5"
+    },
+    {
+      "name": "SBOMFieldReview",
+      "repository_url": "https://github.com/dhtfish-98/SBOMFieldReview",
+      "head_sha_at_snapshot": "6225e96e2e514fb8733ffd485c78e019f2bd1ac1",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "CycloneDX 字段、ref 与依赖声明关系审阅",
+      "evidence_url": "https://github.com/dhtfish-98/SBOMFieldReview/blob/79ed21b0d61af2df21270a4702e18d97b7921e77/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/SBOMFieldReview/actions/runs/37177852855"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "SILGallery",
+      "repository_url": "https://github.com/dhtfish-98/SILGallery",
+      "head_sha_at_snapshot": "fff3fb06a01b18516445503ae824811f7f6fe5f5",
+      "classification": "NON_CYBER_BACKGROUND",
+      "function_summary_from_frozen_record": "Swift 编译输出的 SIL/AST/IR/assembly 开发查看工具",
+      "evidence_url": "https://github.com/dhtfish-98/SILGallery/blob/fff3fb06a01b18516445503ae824811f7f6fe5f5/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/SILGallery/actions/runs/37133806875"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/SILGallery/releases/tag/v1.0.1",
+      "latest_public_release_commit": "e6c2050e35e6a1e934be3c08ce732265ccd848b6"
+    },
+    {
+      "name": "SSHPolicyReview",
+      "repository_url": "https://github.com/dhtfish-98/SSHPolicyReview",
+      "head_sha_at_snapshot": "94ec6928430dd710faa03842462dc571abc97c0a",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "给定 sshd 全局 root/password/empty/X11 选定配置审阅",
+      "evidence_url": "https://github.com/dhtfish-98/SSHPolicyReview/blob/9d735bc1d2f756250b252179970d127f22dd9e73/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/SSHPolicyReview/actions/runs/37177853090"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "SamlMetadataReview",
+      "repository_url": "https://github.com/dhtfish-98/SamlMetadataReview",
+      "head_sha_at_snapshot": "fd0e2dd8af12428fad37beeffcde826211909c7a",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Local SAML 2.0 metadata identity, role, binding, endpoint and public signing-certificate configuration audit, across bounded entities and inherited expiration.",
+      "evidence_url": "https://github.com/dhtfish-98/SamlMetadataReview/tree/8e4580351f8efbf57792bc864c95f99259a15b84",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/SamlMetadataReview/actions/runs/37133816169"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/SamlMetadataReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "8e4580351f8efbf57792bc864c95f99259a15b84"
+    },
+    {
+      "name": "SarifLinkReview",
+      "repository_url": "https://github.com/dhtfish-98/SarifLinkReview",
+      "head_sha_at_snapshot": "2297930222c00474e55a74238afc4647473d975b",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Checks unusable or inconsistent scanner reports before incident triage while suppressing messages and artifact paths. External/unresolved rule metadata stays OPEN.",
+      "evidence_url": "https://github.com/dhtfish-98/SarifLinkReview/tree/5d26dadd7563b7adda602f8775842ed90d39176d",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/SarifLinkReview/actions/runs/37133816144"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/SarifLinkReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "5d26dadd7563b7adda602f8775842ed90d39176d"
+    },
+    {
+      "name": "SealScope",
+      "repository_url": "https://github.com/dhtfish-98/SealScope",
+      "head_sha_at_snapshot": "ae0a8fab8d5e95a554b2d6abb9d858e3a49adc9a",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Mach-O 签名结构、声明 entitlement 与加固设置审阅",
+      "evidence_url": "https://github.com/dhtfish-98/SealScope/blob/ae0a8fab8d5e95a554b2d6abb9d858e3a49adc9a/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/SealScope/actions/runs/37177151999"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/SealScope/releases/tag/v0.2.1",
+      "latest_public_release_commit": "f0b64b0ee9fc6f3715f7149a7d42bd1c4429205e"
+    },
+    {
+      "name": "SecurityResearchIndex",
+      "repository_url": "https://github.com/dhtfish-98/SecurityResearchIndex",
+      "head_sha_at_snapshot": "1ecd78107cef88014e2626d86e1cbd40d5da2c7d",
+      "classification": "DOCUMENT_REPOSITORY",
+      "function_summary_from_frozen_record": "资料、导航或账号默认文件",
+      "evidence_url": "https://github.com/dhtfish-98/SecurityResearchIndex/blob/1ecd78107cef88014e2626d86e1cbd40d5da2c7d/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/README.md",
+      "head_actions_state": "NO_EXACT_HEAD_RUN",
+      "exact_head_action_urls": [],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "SourceReleaseReview",
+      "repository_url": "https://github.com/dhtfish-98/SourceReleaseReview",
+      "head_sha_at_snapshot": "b06ddf21eb2be5f43bf1721e68a08e84d3d393fd",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "源码发布包与可信清单一致性",
+      "evidence_url": "https://github.com/dhtfish-98/SourceReleaseReview/blob/c4c6b96b8b968649f356b00ce6ae9c558208ac8c/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/SourceReleaseReview/actions/runs/37133816208"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/SourceReleaseReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "c4c6b96b8b968649f356b00ce6ae9c558208ac8c"
+    },
+    {
+      "name": "SudoScopeAudit",
+      "repository_url": "https://github.com/dhtfish-98/SudoScopeAudit",
+      "head_sha_at_snapshot": "c6779b7e1a507193c3da69dcc403fd268d1282e9",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "Snapshot sudoers include and alias scope audit",
+      "evidence_url": "https://github.com/dhtfish-98/SudoScopeAudit/tree/76c018bcf8559c31b6fb2bb3059433b0f5880047",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/SudoScopeAudit/actions/runs/37133821010"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/SudoScopeAudit/releases/tag/v0.1.2",
+      "latest_public_release_commit": "76c018bcf8559c31b6fb2bb3059433b0f5880047"
+    },
+    {
+      "name": "SysctlSnapshotAudit",
+      "repository_url": "https://github.com/dhtfish-98/SysctlSnapshotAudit",
+      "head_sha_at_snapshot": "8974a9f791f1f063a9c8c89f5beb5157209b35a5",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Persistent and observed sysctl snapshot drift audit",
+      "evidence_url": "https://github.com/dhtfish-98/SysctlSnapshotAudit/tree/b3ef5a4d83c9dd89a44ceb5291e425abdfb17842",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/SysctlSnapshotAudit/actions/runs/37133820990"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/SysctlSnapshotAudit/releases/tag/v0.1.2",
+      "latest_public_release_commit": "b3ef5a4d83c9dd89a44ceb5291e425abdfb17842"
+    },
+    {
+      "name": "TLSProfileForge",
+      "repository_url": "https://github.com/dhtfish-98/TLSProfileForge",
+      "head_sha_at_snapshot": "7e50d2b30590a99ac4eabe3aaf535dcb9c0ec9de",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "固定TLS策略的配置生成与兼容检查",
+      "evidence_url": "https://github.com/dhtfish-98/TLSProfileForge/blob/f45351915c63c538392f17e126f8fe4384ece9fc/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/TLSProfileForge/actions/runs/37140045189"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/TLSProfileForge/releases/tag/v0.1.3",
+      "latest_public_release_commit": "f45351915c63c538392f17e126f8fe4384ece9fc"
+    },
+    {
+      "name": "TabWeave",
+      "repository_url": "https://github.com/dhtfish-98/TabWeave",
+      "head_sha_at_snapshot": "bf5d50985c78f88ff1d348ab22d9f1cfe687f5dd",
+      "classification": "GENERIC_BROWSER_AUTOMATION_BACKGROUND",
+      "function_summary_from_frozen_record": "经 CDP 操作浏览器、页面与浏览器状态的 MCP 自动化",
+      "evidence_url": "https://github.com/dhtfish-98/TabWeave/blob/bf5d50985c78f88ff1d348ab22d9f1cfe687f5dd/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/TabWeave/actions/runs/37173106737"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/TabWeave/releases/tag/v4.3.0",
+      "latest_public_release_commit": "3b579d82dd63cb9919b5679f22b84d27d8e0dc55"
+    },
+    {
+      "name": "TraceMeadow",
+      "repository_url": "https://github.com/dhtfish-98/TraceMeadow",
+      "head_sha_at_snapshot": "af2f4f66264055c13f48745344a6066bb090ec64",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "已采集 Darwin kdebug 文件的离线事件、线程与调用栈整理",
+      "evidence_url": "https://github.com/dhtfish-98/TraceMeadow/blob/af2f4f66264055c13f48745344a6066bb090ec64/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/TraceMeadow/actions/runs/37133820576"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/TraceMeadow/releases/tag/v1.0.3",
+      "latest_public_release_commit": "5fa339ca3200f454b554cd0ced0c899cd16959ac"
+    },
+    {
+      "name": "TransparencyProofCheck",
+      "repository_url": "https://github.com/dhtfish-98/TransparencyProofCheck",
+      "head_sha_at_snapshot": "fae9548eac53d9aa6d5e4331539d208c0a1968d2",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Merkle树包含及一致性证明验证",
+      "evidence_url": "https://github.com/dhtfish-98/TransparencyProofCheck/blob/3e0baaa6718eb3bc427f21f71c709e2d42b9a8ce/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/TransparencyProofCheck/actions/runs/37133825349"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/TransparencyProofCheck/releases/tag/v0.1.2",
+      "latest_public_release_commit": "3e0baaa6718eb3bc427f21f71c709e2d42b9a8ce"
+    },
+    {
+      "name": "TufTopLevelReview",
+      "repository_url": "https://github.com/dhtfish-98/TufTopLevelReview",
+      "head_sha_at_snapshot": "0e43fde0429d30714e5af3bac3fa00633b7fa5cc",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Offline pinned-root Ed25519 TUF 1.x traditional top-level metadata chain, sequential root rotation, independent-key thresholds, expiry, caller-supplied rollback floors, byte hashes and every declared target.",
+      "evidence_url": "https://github.com/dhtfish-98/TufTopLevelReview/tree/c96b7d831020062cd8a751821f5532d7c4d691db",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/TufTopLevelReview/actions/runs/37133825645"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/TufTopLevelReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "c96b7d831020062cd8a751821f5532d7c4d691db"
+    },
+    {
+      "name": "UnicodeSourceReview",
+      "repository_url": "https://github.com/dhtfish-98/UnicodeSourceReview",
+      "head_sha_at_snapshot": "395ed7624f95f17c3f209ad6a6fc3c50fe87eb91",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "双向/不可见Unicode源码审查",
+      "evidence_url": "https://github.com/dhtfish-98/UnicodeSourceReview/blob/8b615902d0147b1e5b7cc46862f5efbdb936fa1f/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/UnicodeSourceReview/actions/runs/37133825163"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/UnicodeSourceReview/releases/tag/v1.0.3",
+      "latest_public_release_commit": "8b615902d0147b1e5b7cc46862f5efbdb936fa1f"
+    },
+    {
+      "name": "UnitSandboxAudit",
+      "repository_url": "https://github.com/dhtfish-98/UnitSandboxAudit",
+      "head_sha_at_snapshot": "51c654a71f4bcd5c7bce093e3737baa0eb1c100e",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Systemd service sandbox configuration audit",
+      "evidence_url": "https://github.com/dhtfish-98/UnitSandboxAudit/tree/32a5c7eb3eb9e3a40e41034d3ff00d6d729072dd",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/UnitSandboxAudit/actions/runs/37133825417"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/UnitSandboxAudit/releases/tag/v0.1.3",
+      "latest_public_release_commit": "b84da7b82ae14cec6e63ba039514ea8e4a9224f2"
+    },
+    {
+      "name": "UsnRecordReview",
+      "repository_url": "https://github.com/dhtfish-98/UsnRecordReview",
+      "head_sha_at_snapshot": "a1702c9ad4052035ed8ba85a7dfeda68f8946e89",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Detects incomplete change journal evidence and keeps unresolved v4 continuation evidence OPEN.",
+      "evidence_url": "https://github.com/dhtfish-98/UsnRecordReview/tree/73bef9038689414dbbad08622be29cc68e6b83e6",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/UsnRecordReview/actions/runs/37133830020"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/UsnRecordReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "73bef9038689414dbbad08622be29cc68e6b83e6"
+    },
+    {
+      "name": "VTableBrook",
+      "repository_url": "https://github.com/dhtfish-98/VTableBrook",
+      "head_sha_at_snapshot": "86a0a17ebda72a0d14b337f3324c004c5fef8909",
+      "classification": "DEFERRED_TECH_REVIEW",
+      "function_summary_from_frozen_record": "授权兼容 ARM64 Mach-O 内核的类/虚表模式候选审阅",
+      "evidence_url": "https://github.com/dhtfish-98/VTableBrook/blob/86a0a17ebda72a0d14b337f3324c004c5fef8909/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/VTableBrook/actions/runs/37132184209"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/VTableBrook/releases/tag/v1.0.1",
+      "latest_public_release_commit": "652ff6ff00cd77e4e75420d335a49ae895e559b2"
+    },
+    {
+      "name": "WalFrameReview",
+      "repository_url": "https://github.com/dhtfish-98/WalFrameReview",
+      "head_sha_at_snapshot": "5a859a7d23244139ca75e4b1b9d8b827ed522478",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Checks whether exported WAL frames form a complete committed evidence sequence; valid uncommitted tails remain OPEN. This is a standalone format validator, not a SQLite engine rewrite.",
+      "evidence_url": "https://github.com/dhtfish-98/WalFrameReview/tree/502f224889ecf2243154602a66c7fae105881498",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/WalFrameReview/actions/runs/37133829715"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/WalFrameReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "502f224889ecf2243154602a66c7fae105881498"
+    },
+    {
+      "name": "WebAuthnAssertionReview",
+      "repository_url": "https://github.com/dhtfish-98/WebAuthnAssertionReview",
+      "head_sha_at_snapshot": "df635ffd6ec2622038d8ae3d19ed18b1990daadc",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Offline WebAuthn get assertion verification from a saved ceremony plus explicit trusted registration record; PEM Ed25519/ES256 key profile.",
+      "evidence_url": "https://github.com/dhtfish-98/WebAuthnAssertionReview/tree/e5523734c47c6926a023ff7300af0d79a50021bf",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/WebAuthnAssertionReview/actions/runs/37133829931"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/WebAuthnAssertionReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "e5523734c47c6926a023ff7300af0d79a50021bf"
+    },
+    {
+      "name": "WheelNamespaceReview",
+      "repository_url": "https://github.com/dhtfish-98/WheelNamespaceReview",
+      "head_sha_at_snapshot": "f337a3a49dfe2836606c28b7aef4e14e940b2b10",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "Python安装包命名空间与记录一致性",
+      "evidence_url": "https://github.com/dhtfish-98/WheelNamespaceReview/blob/6babb2b514e1d200d1f5bd538ad8a2dc087fcf23/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/WheelNamespaceReview/actions/runs/37133829778"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/WheelNamespaceReview/releases/tag/v0.1.3",
+      "latest_public_release_commit": "6babb2b514e1d200d1f5bd538ad8a2dc087fcf23"
+    },
+    {
+      "name": "WindowsBaselineSnapshot",
+      "repository_url": "https://github.com/dhtfish-98/WindowsBaselineSnapshot",
+      "head_sha_at_snapshot": "b1f6fd1f675ac0e438425774d9e02154f6a3030d",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Complete finding-list comparison against supplied Windows observations",
+      "evidence_url": "https://github.com/dhtfish-98/WindowsBaselineSnapshot/tree/03d3f903e39327af0621532130f3178fd65511dc",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/WindowsBaselineSnapshot/actions/runs/37133833950"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/WindowsBaselineSnapshot/releases/tag/v0.1.2",
+      "latest_public_release_commit": "03d3f903e39327af0621532130f3178fd65511dc"
+    },
+    {
+      "name": "WorkflowPermissionReview",
+      "repository_url": "https://github.com/dhtfish-98/WorkflowPermissionReview",
+      "head_sha_at_snapshot": "0d4dc85f2e573b6ee595083e245990e3b087898c",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "GitHub workflow 的 token 权限与 trigger 声明审阅",
+      "evidence_url": "https://github.com/dhtfish-98/WorkflowPermissionReview/blob/77cdcdf785d08b77d0db08d604b83459f5150bc1/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/ORIGIN.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/WorkflowPermissionReview/actions/runs/37177852592"
+      ],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    },
+    {
+      "name": "YaraCompileReview",
+      "repository_url": "https://github.com/dhtfish-98/YaraCompileReview",
+      "head_sha_at_snapshot": "e45b70bada457fde9f2bb1f37218c98931da34ca",
+      "classification": "DEFENSIVE_BACKGROUND",
+      "function_summary_from_frozen_record": "Validates defensive detection rule deployment inputs without scanning or executing target content. yara-python remains an attributed external compiler dependency, not a rewritten compiler.",
+      "evidence_url": "https://github.com/dhtfish-98/YaraCompileReview/tree/9351ad2c4c5d88f3db8997c43b560f3e937e4850",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/YaraCompileReview/actions/runs/37133834167"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/YaraCompileReview/releases/tag/v1.0.2",
+      "latest_public_release_commit": "9351ad2c4c5d88f3db8997c43b560f3e937e4850"
+    },
+    {
+      "name": "YaraRuleDraftReview",
+      "repository_url": "https://github.com/dhtfish-98/YaraRuleDraftReview",
+      "head_sha_at_snapshot": "aa37ffc763946e4c41fa94a469bd9ce75d96dc51",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "离线YARA检测规则草稿与良性对照",
+      "evidence_url": "https://github.com/dhtfish-98/YaraRuleDraftReview/blob/ce09c281acd8881e68d1046dc3e9ab13e8c9c937/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/YaraRuleDraftReview/actions/runs/37133833921"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/YaraRuleDraftReview/releases/tag/v0.1.2",
+      "latest_public_release_commit": "ce09c281acd8881e68d1046dc3e9ab13e8c9c937"
+    },
+    {
+      "name": "ZoneGraphGuard",
+      "repository_url": "https://github.com/dhtfish-98/ZoneGraphGuard",
+      "head_sha_at_snapshot": "919bdeff1b70377fad718b271005158e663e8741",
+      "classification": "CONDITIONAL_TECH_CASE",
+      "function_summary_from_frozen_record": "离线DNS区域、委派与别名图约束",
+      "evidence_url": "https://github.com/dhtfish-98/ZoneGraphGuard/blob/69d211f8413d323f4b1b27def87b4a011144c3c1/DEFENSIVE_SCOPE.md",
+      "head_actions_state": "SUCCESS",
+      "exact_head_action_urls": [
+        "https://github.com/dhtfish-98/ZoneGraphGuard/actions/runs/37135858402"
+      ],
+      "latest_public_release": "https://github.com/dhtfish-98/ZoneGraphGuard/releases/tag/v0.1.2",
+      "latest_public_release_commit": "69d211f8413d323f4b1b27def87b4a011144c3c1"
+    },
+    {
+      "name": "dhtfish-98",
+      "repository_url": "https://github.com/dhtfish-98/dhtfish-98",
+      "head_sha_at_snapshot": "236ce32bf879187969a9212b4cbd9b3b9beb1185",
+      "classification": "DOCUMENT_REPOSITORY",
+      "function_summary_from_frozen_record": "资料、导航或账号默认文件",
+      "evidence_url": "https://github.com/dhtfish-98/dhtfish-98/blob/236ce32bf879187969a9212b4cbd9b3b9beb1185/README.md",
+      "head_actions_state": "NO_EXACT_HEAD_RUN",
+      "exact_head_action_urls": [],
+      "latest_public_release": null,
+      "latest_public_release_commit": null
+    }
+  ]
+}

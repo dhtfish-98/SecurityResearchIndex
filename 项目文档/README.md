@@ -2,23 +2,25 @@
 
 # 防御安全项目与 CVP 证据索引
 
-更新日期：2026-10-04。工程元数据冻结截止：2026-10-03T23:49:16.384155+00:00。
+更新日期：2026-10-04 04:56 UTC。逐仓 GitHub 状态冻结于 04:51 UTC；较早的工程矩阵仍保留其 2026-10-03 23:49 UTC 原时点。
 
-当前公开范围为 **91 个软件项目和 3 个资料仓库**。本轮逐项核对公开用途、来源和保存的工程证据，修正旧索引的范围和时点；没有重新执行项目或完成全量安全代码审计。所有 CVP 申请资格与批准状态仍为 **OPEN**。
+当前范围为 **94 个公开仓（91 软件、3 资料）和 29 个私有仓**。最新[公开项目与 CVP 材料状态](CURRENT_PORTFOLIO_STATUS_20261004.md)和[94 仓精确提交快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)记录后续版本、CI 和申请角色；没有重新执行全部项目或完成全量安全代码审计。所有 CVP 申请资格与批准状态仍为 **OPEN**。
 
 | 材料角色 | 数量 | 使用方式 |
 | --- | --- | --- |
-| 防御工作附件候选 | 75 | 可证明有限工作产物；实际任务、授权和防护影响待核实 |
-| 研究背景，需具体任务限定 | 12 | 说明真实任务使用了哪些功能及允许范围 |
-| 普通背景工具 | 4 | CDTranslator、ChromeRelay、SILGallery、TabWeave 不作为主 CVP 资格证据 |
+| 条件技术案例 | 18 | 仅在真实授权双用途任务匹配时优先说明；尚不能称为已符合资格 |
+| 技术研究暂缓 | 8 | 已记录问题、审计或发布边界仍开放 |
+| 防御工程背景 | 61 | 限定防御工程用途，单独不足以说明高风险双用途防护影响 |
+| 通用浏览器自动化背景 | 2 | ChromeRelay、TabWeave 不作为主 CVP 资格证据 |
+| 非网络安全背景 | 2 | CDTranslator、SILGallery 不作为主 CVP 资格证据 |
 | 资料仓库 | 3 | .github、dhtfish-98、SecurityResearchIndex 不计独立软件项目 |
 
 这些分类是材料整理判断，不是官方项目白名单。普通防御工具不是政策违规；合法双用途也不能仅凭名称或功能判断是否符合申请。渠道按申请人说明为 Claude.ai / Claude Code；原始拦截或降级记录是可选佐证，本审核不将其设为硬性门槛。仓库数量、改名、作者字段和 CI 不能代表官方批准。见 [官方说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)及 [当前规则与证据](CVP_RULES_AND_EVIDENCE_20261004.md)。
 
-全部软件及资料仓的逐项用途、提交、CI 和限制见 [2026-10-04 复核矩阵](CVP_REVIEW_20261004.md)与 [机器记录](CVP_REVIEW_20261004.json)。真实申请材料待补项见 [证据整理表](APPLICATION_EVIDENCE_OPEN.md)，不把空白信息写成已完成事实。
+当前逐仓提交、CI、角色与限定用途见[新快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)。较早的 [2026-10-03 工程矩阵](CVP_REVIEW_20261004.md)及其[机器记录](CVP_REVIEW_20261004.json)保留原冻结证据，不应当作最新 HEAD。真实申请材料待补项见 [证据整理表](APPLICATION_EVIDENCE_OPEN.md)，不把空白信息写成已完成事实。
 
-截至上述时点，软件仓对应 HEAD 的 CI 为 **90 项 PASS，ImageQuay 1 项 FAIL**；3 个资料仓没有适用的已跟踪工作流。CI 只验证所执行范围。ArchiveLens 6 项、BranchLoom 1 项、TabWeave 1 项已保存未修观察继续标注，12 个核心、GUI 或平台完整审核仍 OPEN。目录和署名维护没有修复这些行为。
+截至 04:51 UTC 新快照，91 个软件仓各自精确 HEAD 的 Actions **91 项成功、0 项失败或运行中**；3 个资料仓没有相应运行。ImageQuay 旧失败已在 `v1.0.5` 的独立修订中解决。CI 只验证所执行范围；ArchiveLens 6 项、BranchLoom 1 项、TabWeave 1 项已保存未修观察继续标注，12 个深层项目的完整审核仍 OPEN。
 
-HeaderPolicyReview 0.1.1、ImageQuay 1.0.5、BranchLoom 0.2.1、TabWeave 4.3.1、SealScope 0.2.1 仍为旧记录中的未发布准备版本；本轮不把它们计作公开修复或新 Release。BranchLoom、SealScope、TabWeave 仅更新当期包维护名为 dhtfish98，保留既有版本、历史来源、真正原作者和第三方许可。
+HeaderPolicyReview 已发布 `v0.1.3`，ImageQuay 已发布 `v1.0.5`，SealScope 已发布 `v0.2.1`，KernelCabinet 已发布 `v1.0.2`；LocalSecretReview 与 PEHardeningReview 的作者字段修订各发布 `v1.0.3`。BranchLoom `0.2.1` 和 TabWeave `4.3.1` 的旧准备包仍不是已发布的新修复。14 个小仓的自有版权显示名与两处安装包作者字段更新为 `dhtfish98`；真实第三方作者、许可证和来源仍保留。文档或署名提交之后，软件 Release 标签不必等于最新文档 HEAD，应按对应程序提交核验。
 
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。
