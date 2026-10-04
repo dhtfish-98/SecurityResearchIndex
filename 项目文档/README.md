@@ -34,4 +34,6 @@
 
 **13:25 UTC IDBMeadow 发版增量：**[v1.0.3 正式 Release](https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.3)从提交 `9967db5328c042a2a71f9a27624589603197fdfb` 发布，主线及标签 CI 均成功；两份附件已回下载核对，版本、字节数和摘要见[独立发行增量记录](IDBMEADOW_V1_0_3_RELEASE_INCREMENT_20261004.json)。本版修复同类条件性 `Build` 清理风险，运行源码不变。最终包默认验证通过；完整慢速套件在最终打包前候选通过，旧测试中 13 处恒真断言仍 OPEN，CVP 资格不因此改变。旧逐仓快照不倒填。
 
+**14:48 UTC IDBMeadow 发版增量：**[v1.0.4 正式 Release](https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.4)在公开提交 `1528dda445af89b20be9ba9b18d8a388755a7b14` 修正了 v1.0.3 报告中的 13 处恒真断言及一处由固定上游核实的旧夹具预期，并让直接从根目录运行验证时的生成物留在 `Build`。22 个运行时 Python 文件未变。主线与标签精确 CI 成功，两个附件回下载与终验包逐字节一致；版本、摘要和限定范围见[独立发行增量记录](IDBMEADOW_V1_0_4_RELEASE_INCREMENT_20261004.json)。原上游署名、Apache-2.0 许可继续保留。该修订关闭这 13 处测试断言缺口，不构成整个衍生项目独立重写、完整深审或 CVP 获批。旧快照和 v1.0.3 的时点记录保留。
+
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。

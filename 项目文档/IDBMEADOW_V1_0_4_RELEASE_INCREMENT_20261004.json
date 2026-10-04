@@ -1,0 +1,67 @@
+{
+  "schema": "public-release-increment.v1",
+  "recorded_at_utc": "2026-10-04T14:50:52Z",
+  "repository": "https://github.com/dhtfish-98/IDBMeadow",
+  "version": "1.0.4",
+  "default_branch": "main",
+  "main_commit": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+  "tag": "v1.0.4",
+  "tag_commit": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+  "release": {
+    "id": 403064697,
+    "url": "https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.4",
+    "published_at_utc": "2026-10-04T14:48:38Z",
+    "draft": false,
+    "prerelease": false
+  },
+  "exact_commit_ci": [
+    {
+      "ref": "main",
+      "run_url": "https://github.com/dhtfish-98/IDBMeadow/actions/runs/37209742371",
+      "head_sha": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "ref": "v1.0.4",
+      "run_url": "https://github.com/dhtfish-98/IDBMeadow/actions/runs/37210241877",
+      "head_sha": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "downloaded_release_assets": [
+    {
+      "name": "idbmeadow-1.0.4-py3-none-any.whl",
+      "url": "https://github.com/dhtfish-98/IDBMeadow/releases/download/v1.0.4/idbmeadow-1.0.4-py3-none-any.whl",
+      "bytes": 170168,
+      "sha256": "b1d4973119cbcc9ad514b93d93e104f773c0718769aeae5a4acff96a4dc42591",
+      "release_api_digest_matches_download": true,
+      "download_matches_prepared_artifact": true
+    },
+    {
+      "name": "idbmeadow-1.0.4.tar.gz",
+      "url": "https://github.com/dhtfish-98/IDBMeadow/releases/download/v1.0.4/idbmeadow-1.0.4.tar.gz",
+      "bytes": 126960796,
+      "sha256": "8b338eada1d61f29ed2399f4ef06db2c2aeeca2dec55b9a1b09a7257ac555d4e",
+      "release_api_digest_matches_download": true,
+      "download_matches_prepared_artifact": true
+    }
+  ],
+  "downloaded_package_inspection": {
+    "wheel_metadata_version": "1.0.4",
+    "wheel_metadata_maintainer": "dhtfish98",
+    "wheel_current_validation_version": "1.0.4",
+    "wheel_runtime_python_files": 22,
+    "wheel_includes_apache_license": true,
+    "wheel_includes_historical_1_0_3_validation": true,
+    "source_distribution_manifest_files": 120,
+    "source_distribution_build_paths": 0
+  },
+  "verification_scope": {
+    "final_default_verifier": "PASS: 1,612 tests passed, 160 intentional slow skips, zero warnings; 120 source entries, pinned upstream comparisons, package identity and five isolated wheel-consumer checks passed",
+    "pre_final_complete_slow_source_suite": "PASS: 1,771 tests passed, one strict XFAIL, zero warnings; the test and 22 runtime source files did not change after this run, but it was not a final wheel execution",
+    "known_test_gap": "CLOSED_FOR_13_ASSERTIONS: all 13 truthy singleton tuple assertions were replaced by real comparisons; one fixture-specific expected signature was corrected against the pinned upstream"
+  },
+  "scope": "This increment records a published test reliability and Build-only verifier patch with exact-commit CI and downloaded release assets. It does not alter historical portfolio snapshots, claim a complete independent rewrite or semantic audit, close the interrupted deep review, or establish CVP eligibility or approval. Original python-idb attribution and Apache-2.0 license remain."
+}
