@@ -1,5 +1,7 @@
 # 原30题目工作池复核（6 条件候选 + 10 背景 + 2 移出 + 12 待实施）
 
+**后续版本：**现行[30题目研究池 R2](PROJECT_30_RESEARCH_POOL_R2_20261004.md)为 6 个已有条件候选与 24 个未实现规格；本页保留原30条复核轨迹，其中10背景、2移出主池不再计入现行主池。
+
 固定资料时间：2026-10-04 05:17 UTC；已有仓的 HEAD/Actions 状态来源于 04:56 UTC 的账号冻结。此清单用于保留原 30 题目的审查轨迹，**不是 30 个已达到 CVP 申请门槛的项目**。代码级再筛将原 18 个“条件案例”收紧为 6 个条件候选、10 个背景备用及 2 个移出独立重写主池；详见[逐仓代码证据](CVP_CODE_SCOPE_RECHECK_20261004.md)。
 
 依据 [Anthropic 官方 CVP 说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)，合法防御的高风险双用途任务须实际受网络安全防护影响；Claude.ai / Claude Code 由有权限管理员走 Verification Portal。官方公开说明没有规定 30 仓数量，也没有列每仓拦截截图为必附。申请人身份、组织、目标授权、任务与决定未核实，下面全部 CVP 资格为 **OPEN**。
