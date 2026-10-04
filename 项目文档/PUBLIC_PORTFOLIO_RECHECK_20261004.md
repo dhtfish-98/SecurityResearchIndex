@@ -18,6 +18,6 @@
 
 77 个仓有正式 Release。其中 72 个可独立读取标签内产品版本的仓，其标签内源码版本均与 Release 版本一致；另 5 个缺少可直接提取的独立产品版本字段，保持版本验证边界。ArchiveLens 的 [v1.0.3 源码发行](https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.3)和 SILGallery 的 [v1.0.2 源码发行](https://github.com/dhtfish-98/SILGallery/releases/tag/v1.0.2)已分别核对标签、源码资产与构建范围；后续仅整理文档的主线提交没有虚增软件版本。SILGallery v1.0.2 标签提交曾被 GitHub 关联到另一个名为 `dhtfish98` 的账号，发行说明已勘误，当前主线作者账号正确；历史标签和资产未改。PEQuarry 的 v1.0.3 未正式发行，不能把 main 的版本字符串当成发布。
 
-原始第三方版权、许可证和来源继续随项目保存；只对确属当前自有维护内容的显示名使用 `dhtfish98`。构建、打包、CI、GitHub 发布、合法授权任务、实际防护影响和 Anthropic 审核属于不同证据层级。按[Anthropic 当前 CVP 说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)，Claude.ai / Claude Code 可走第一方验证门户，但真实防御用途、适用组织与管理员身份、身份验证、模型和官方决定仍须申请人实际核对；没有逐仓拦截截图不构成本报告所设的硬性门槛，也不能虚构“已受影响”。
+本轮已识别的第三方版权、许可证和来源继续随项目保存；潜在未识别权利仍需逐文件核查。只对确属当前自有维护内容的显示名使用 `dhtfish98`。构建、打包、CI、GitHub 发布、合法授权任务、实际防护影响和 Anthropic 审核属于不同证据层级。按[Anthropic 当前 CVP 说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)，Claude.ai / Claude Code 可走第一方验证门户，但仅授权管理员可见申请入口，提交需要身份验证；ZDR 组织当前不符合参与资格。真实防御用途、适用组织、模型和官方决定仍须申请人实际核对。该说明当前还明确**不适用于 Opus 5.5 与 Sonnet 5.5**，未来扩展不能当作已生效；没有逐仓拦截截图不构成本报告所设的硬性门槛，也不能虚构“已受影响”。
 
 ArchiveLens 的六项、BranchLoom 的一项、TabWeave 的一项旧程序观察，以及 12 个较大项目被中断的完整深审继续 OPEN。普通 CI 成功并未关闭这些事项。

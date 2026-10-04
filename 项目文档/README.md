@@ -2,7 +2,7 @@
 
 # 防御安全项目与 CVP 证据索引
 
-更新日期：2026-10-04 07:41 UTC。最新逐仓 GitHub 状态冻结于 07:40–07:41 UTC；较早的 04:51 UTC 快照及 2026-10-03 23:49 UTC 工程矩阵均保留原时点。
+更新日期：2026-10-04 08:23 UTC。逐仓 GitHub 状态冻结于 07:40–07:41 UTC；较早的 04:51 UTC 快照及 2026-10-03 23:49 UTC 工程矩阵均保留原时点。08:23 UTC 的申请门槛文字勘误不改变上述项目冻结时点。
 
 当前范围为 **94 个公开仓（91 软件、3 资料）和 29 个私有仓**。最新[公开项目再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)及其[94 仓逐仓冻结记录](PUBLIC_PORTFOLIO_RECHECK_20261004.json)核对目录、当前提交、CI、署名与发布边界；较早的[公开项目与 CVP 材料状态](CURRENT_PORTFOLIO_STATUS_20261004.md)和[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)保留原证据时间。没有重新执行全部项目或完成全量安全代码审计。所有 CVP 申请资格与批准状态仍为 **OPEN**。
 
@@ -16,7 +16,7 @@
 | 非网络安全背景 | 2 | CDTranslator、SILGallery 不作为主 CVP 资格证据 |
 | 资料仓库 | 3 | .github、dhtfish-98、SecurityResearchIndex 不计独立软件项目 |
 
-这些分类是材料整理判断，不是官方项目白名单。普通防御工具不是政策违规；合法双用途也不能仅凭名称或功能判断是否符合申请。渠道按申请人说明为 Claude.ai / Claude Code；原始拦截或降级记录是可选佐证，本审核不将其设为硬性门槛。仓库数量、改名、作者字段和 CI 不能代表官方批准。见 [官方说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)及 [当前规则与证据](CVP_RULES_AND_EVIDENCE_20261004.md)。
+这些分类是材料整理判断，不是官方项目白名单。普通防御工具不是政策违规；合法双用途也不能仅凭名称或功能判断是否符合申请。渠道按申请人说明为 Claude.ai / Claude Code；原始拦截或降级记录是可选佐证，本审核不将其设为硬性门槛。当前官方说明明确不适用于 Opus 5.5 和 Sonnet 5.5，ZDR 组织也暂不符合资格；第一方门户申请仅授权管理员可见，提交需身份验证。未来扩展不能当作已生效。仓库数量、改名、作者字段和 CI 不能代表官方批准。见 [官方说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)及 [当前规则与证据](CVP_RULES_AND_EVIDENCE_20261004.md)。
 
 [现行30题目研究池 R2](PROJECT_30_RESEARCH_POOL_R2_20261004.md)列出 6 个已有条件候选和 24 个未实现规格；[代码级再筛](CVP_CODE_SCOPE_RECHECK_20261004.md)把原 18 初筛案例中的 10 个降为工程背景、2 个派生工具移出主案例。30 只是选题数量，不是 30 个已重写或已符合 CVP 要求的项目；实施须以真实授权任务为准。
 
