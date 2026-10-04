@@ -1,33 +1,33 @@
-# 30 个防御技术题目工作池（18 已有 + 12 待实施）
+# 原30题目工作池复核（6 条件候选 + 10 背景 + 2 移出 + 12 待实施）
 
-固定资料时间：2026-10-04 05:17 UTC；已有仓的 HEAD/Actions 状态来源于 04:56 UTC 的账号冻结。此清单用于选择与申请人真实任务相符的技术工作，**不是 30 个已达到 CVP 申请门槛的项目**。
+固定资料时间：2026-10-04 05:17 UTC；已有仓的 HEAD/Actions 状态来源于 04:56 UTC 的账号冻结。此清单用于保留原 30 题目的审查轨迹，**不是 30 个已达到 CVP 申请门槛的项目**。代码级再筛将原 18 个“条件案例”收紧为 6 个条件候选、10 个背景备用及 2 个移出独立重写主池；详见[逐仓代码证据](CVP_CODE_SCOPE_RECHECK_20261004.md)。
 
 依据 [Anthropic 官方 CVP 说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)，合法防御的高风险双用途任务须实际受网络安全防护影响；Claude.ai / Claude Code 由有权限管理员走 Verification Portal。官方公开说明没有规定 30 仓数量，也没有列每仓拦截截图为必附。申请人身份、组织、目标授权、任务与决定未核实，下面全部 CVP 资格为 **OPEN**。
 
-## 已有公开实现：18 个条件技术案例
+## 已有公开实现：6 个条件候选、10 个背景备用、2 个移出主池
 
-这些仓只是在当前功能记录中与防御双用途任务更可能相关，具体能力与限制见各仓；公开、CI 成功不证明运行时安全。
+下表保留 04:56 UTC 的原始 HEAD 锚点，分类按后续代码级再筛修正；公开、CI 成功不证明运行时安全。
 
 | 项目 | 04:56 UTC 冻结提交 | CVP 状态 |
 |---|---|---|
-| [WheelNamespaceReview](https://github.com/dhtfish-98/WheelNamespaceReview) | [`f337a3a49dfe`](https://github.com/dhtfish-98/WheelNamespaceReview/tree/f337a3a49dfe2836606c28b7aef4e14e940b2b10) | OPEN：需任务匹配与申请事实 |
-| [CITrustBoundaryReview](https://github.com/dhtfish-98/CITrustBoundaryReview) | [`40ed13a4fddc`](https://github.com/dhtfish-98/CITrustBoundaryReview/tree/40ed13a4fddcc616e460472e0abcf59af4808391) | OPEN：需任务匹配与申请事实 |
-| [DeserializeCallReview](https://github.com/dhtfish-98/DeserializeCallReview) | [`81354b9e6746`](https://github.com/dhtfish-98/DeserializeCallReview/tree/81354b9e67468bec04c7f1b00d09d26ba11901ef) | OPEN：需任务匹配与申请事实 |
-| [GoCryptoPolicyReview](https://github.com/dhtfish-98/GoCryptoPolicyReview) | [`aed3cca5fd9f`](https://github.com/dhtfish-98/GoCryptoPolicyReview/tree/aed3cca5fd9f95288c476bb37f28f1a8093d3461) | OPEN：需任务匹配与申请事实 |
-| [DOMSinkReview](https://github.com/dhtfish-98/DOMSinkReview) | [`e74f1ac7c704`](https://github.com/dhtfish-98/DOMSinkReview/tree/e74f1ac7c704ae6994fe529163a3c4aa7ff48343) | OPEN：需任务匹配与申请事实 |
-| [LifecyclePolicyReview](https://github.com/dhtfish-98/LifecyclePolicyReview) | [`745f8227e174`](https://github.com/dhtfish-98/LifecyclePolicyReview/tree/745f8227e174ad5dbf34ce5acb636b8fa2cb90b7) | OPEN：需任务匹配与申请事实 |
-| [YaraRuleDraftReview](https://github.com/dhtfish-98/YaraRuleDraftReview) | [`aa37ffc76394`](https://github.com/dhtfish-98/YaraRuleDraftReview/tree/aa37ffc763946e4c41fa94a469bd9ce75d96dc51) | OPEN：需任务匹配与申请事实 |
-| [NginxConfigGuard](https://github.com/dhtfish-98/NginxConfigGuard) | [`a850a60d33b4`](https://github.com/dhtfish-98/NginxConfigGuard/tree/a850a60d33b499c9c7c2dcd821d3c80a4c9073e1) | OPEN：需任务匹配与申请事实 |
-| [CSPPolicyLens](https://github.com/dhtfish-98/CSPPolicyLens) | [`4414f49a3e0b`](https://github.com/dhtfish-98/CSPPolicyLens/tree/4414f49a3e0b69255a53c8ed2c683d424fb3798a) | OPEN：需任务匹配与申请事实 |
-| [ZoneGraphGuard](https://github.com/dhtfish-98/ZoneGraphGuard) | [`919bdeff1b70`](https://github.com/dhtfish-98/ZoneGraphGuard/tree/919bdeff1b70377fad718b271005158e663e8741) | OPEN：需任务匹配与申请事实 |
-| [DjangoSessionGuard](https://github.com/dhtfish-98/DjangoSessionGuard) | [`04de12f8699b`](https://github.com/dhtfish-98/DjangoSessionGuard/tree/04de12f8699bedd5b86b7f85b6542f1a8d150b7e) | OPEN：需任务匹配与申请事实 |
-| [ModelOpcodeReview](https://github.com/dhtfish-98/ModelOpcodeReview) | [`542d79772e94`](https://github.com/dhtfish-98/ModelOpcodeReview/tree/542d79772e94a761dd98cca08a3222b038e5abbf) | OPEN：需任务匹配与申请事实 |
-| [SudoScopeAudit](https://github.com/dhtfish-98/SudoScopeAudit) | [`c6779b7e1a50`](https://github.com/dhtfish-98/SudoScopeAudit/tree/c6779b7e1a507193c3da69dcc403fd268d1282e9) | OPEN：需任务匹配与申请事实 |
-| [AuditRuleCoverage](https://github.com/dhtfish-98/AuditRuleCoverage) | [`6c522e46e501`](https://github.com/dhtfish-98/AuditRuleCoverage/tree/6c522e46e50115e7434b185f7ac0b10e6b9d7f1b) | OPEN：需任务匹配与申请事实 |
-| [NftIngressAudit](https://github.com/dhtfish-98/NftIngressAudit) | [`031b9d053b85`](https://github.com/dhtfish-98/NftIngressAudit/tree/031b9d053b85f29ead285a85cbd506f794a4f817) | OPEN：需任务匹配与申请事实 |
-| [NetworkPolicyReachabilityReview](https://github.com/dhtfish-98/NetworkPolicyReachabilityReview) | [`10072426a975`](https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/tree/10072426a97570863a488b22675d855216c62007) | OPEN：需任务匹配与申请事实 |
-| [ImageQuay](https://github.com/dhtfish-98/ImageQuay) | [`30619167cac8`](https://github.com/dhtfish-98/ImageQuay/tree/30619167cac87c6520f97b68f4401fd4316d105a) | OPEN：需任务匹配与申请事实 |
-| [KernelCabinet](https://github.com/dhtfish-98/KernelCabinet) | [`7cd05089810b`](https://github.com/dhtfish-98/KernelCabinet/tree/7cd05089810b2c3ad35e48a4989c56e9c0648a85) | OPEN：需任务匹配与申请事实 |
+| [WheelNamespaceReview](https://github.com/dhtfish-98/WheelNamespaceReview) | [`f337a3a49dfe`](https://github.com/dhtfish-98/WheelNamespaceReview/tree/f337a3a49dfe2836606c28b7aef4e14e940b2b10) | 条件候选；CVP OPEN |
+| [CITrustBoundaryReview](https://github.com/dhtfish-98/CITrustBoundaryReview) | [`40ed13a4fddc`](https://github.com/dhtfish-98/CITrustBoundaryReview/tree/40ed13a4fddcc616e460472e0abcf59af4808391) | 条件候选；CVP OPEN |
+| [DeserializeCallReview](https://github.com/dhtfish-98/DeserializeCallReview) | [`81354b9e6746`](https://github.com/dhtfish-98/DeserializeCallReview/tree/81354b9e67468bec04c7f1b00d09d26ba11901ef) | 条件候选；CVP OPEN |
+| [GoCryptoPolicyReview](https://github.com/dhtfish-98/GoCryptoPolicyReview) | [`aed3cca5fd9f`](https://github.com/dhtfish-98/GoCryptoPolicyReview/tree/aed3cca5fd9f95288c476bb37f28f1a8093d3461) | 背景备用；CVP OPEN |
+| [DOMSinkReview](https://github.com/dhtfish-98/DOMSinkReview) | [`e74f1ac7c704`](https://github.com/dhtfish-98/DOMSinkReview/tree/e74f1ac7c704ae6994fe529163a3c4aa7ff48343) | 条件候选；CVP OPEN |
+| [LifecyclePolicyReview](https://github.com/dhtfish-98/LifecyclePolicyReview) | [`745f8227e174`](https://github.com/dhtfish-98/LifecyclePolicyReview/tree/745f8227e174ad5dbf34ce5acb636b8fa2cb90b7) | 背景备用；CVP OPEN |
+| [YaraRuleDraftReview](https://github.com/dhtfish-98/YaraRuleDraftReview) | [`aa37ffc76394`](https://github.com/dhtfish-98/YaraRuleDraftReview/tree/aa37ffc763946e4c41fa94a469bd9ce75d96dc51) | 条件候选；CVP OPEN |
+| [NginxConfigGuard](https://github.com/dhtfish-98/NginxConfigGuard) | [`a850a60d33b4`](https://github.com/dhtfish-98/NginxConfigGuard/tree/a850a60d33b499c9c7c2dcd821d3c80a4c9073e1) | 背景备用；CVP OPEN |
+| [CSPPolicyLens](https://github.com/dhtfish-98/CSPPolicyLens) | [`4414f49a3e0b`](https://github.com/dhtfish-98/CSPPolicyLens/tree/4414f49a3e0b69255a53c8ed2c683d424fb3798a) | 背景备用；CVP OPEN |
+| [ZoneGraphGuard](https://github.com/dhtfish-98/ZoneGraphGuard) | [`919bdeff1b70`](https://github.com/dhtfish-98/ZoneGraphGuard/tree/919bdeff1b70377fad718b271005158e663e8741) | 背景备用；CVP OPEN |
+| [DjangoSessionGuard](https://github.com/dhtfish-98/DjangoSessionGuard) | [`04de12f8699b`](https://github.com/dhtfish-98/DjangoSessionGuard/tree/04de12f8699bedd5b86b7f85b6542f1a8d150b7e) | 背景备用；CVP OPEN |
+| [ModelOpcodeReview](https://github.com/dhtfish-98/ModelOpcodeReview) | [`542d79772e94`](https://github.com/dhtfish-98/ModelOpcodeReview/tree/542d79772e94a761dd98cca08a3222b038e5abbf) | 条件候选；CVP OPEN |
+| [SudoScopeAudit](https://github.com/dhtfish-98/SudoScopeAudit) | [`c6779b7e1a50`](https://github.com/dhtfish-98/SudoScopeAudit/tree/c6779b7e1a507193c3da69dcc403fd268d1282e9) | 背景备用；CVP OPEN |
+| [AuditRuleCoverage](https://github.com/dhtfish-98/AuditRuleCoverage) | [`6c522e46e501`](https://github.com/dhtfish-98/AuditRuleCoverage/tree/6c522e46e50115e7434b185f7ac0b10e6b9d7f1b) | 背景备用；CVP OPEN |
+| [NftIngressAudit](https://github.com/dhtfish-98/NftIngressAudit) | [`031b9d053b85`](https://github.com/dhtfish-98/NftIngressAudit/tree/031b9d053b85f29ead285a85cbd506f794a4f817) | 背景备用；CVP OPEN |
+| [NetworkPolicyReachabilityReview](https://github.com/dhtfish-98/NetworkPolicyReachabilityReview) | [`10072426a975`](https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/tree/10072426a97570863a488b22675d855216c62007) | 背景备用；CVP OPEN |
+| [ImageQuay](https://github.com/dhtfish-98/ImageQuay) | [`30619167cac8`](https://github.com/dhtfish-98/ImageQuay/tree/30619167cac87c6520f97b68f4401fd4316d105a) | 移出独立重写主池；CVP OPEN |
+| [KernelCabinet](https://github.com/dhtfish-98/KernelCabinet) | [`7cd05089810b`](https://github.com/dhtfish-98/KernelCabinet/tree/7cd05089810b2c3ad35e48a4989c56e9c0648a85) | 移出独立重写主池；CVP OPEN |
 
 ## 新增待实施：12 个独立题目
 
