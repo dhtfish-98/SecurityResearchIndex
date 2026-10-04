@@ -38,4 +38,6 @@
 
 **15:45 UTC 三项程序修复增量：**[ArchiveLens v1.0.4](https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.4)修正 GUI 子进程 stderr 填满管道造成的本地停滞路径，源包 425 个跟踪文件已与标签提交逐字节对照；另五项旧观察仍 OPEN。[TabWeave v4.3.1](https://github.com/dhtfish-98/TabWeave/releases/tag/v4.3.1)修正无 `id` 的 `tools/call` 通知产生非法 JSON 回复，浏览器外的 30 项测试通过，真实浏览器未重测。[BranchLoom v0.2.1](https://github.com/dhtfish-98/BranchLoom/releases/tag/v0.2.1)要求 Unicorn 验证器实际到达返回哨兵，合成循环不再仅凭匹配输出通过；本地 94 项完整测试和 92 项无依赖测试通过，真实 IDA/目标仍 OPEN。三仓最终 `main`/标签同提交、对应 GitHub CI 成功、正式 Release 附件回下载与准备品逐字节相同；版本、精确提交、工作流和摘要见[三项发行增量记录](MAINTENANCE_RELEASES_20261004T1545Z.json)。原第三方许可、来源和历史署名保留。这只关闭各自一项明确问题；中断的 12 项完整深审和 CVP 资格仍 OPEN。
 
+**16:10–16:12 UTC 旧目标状态增量：**本工作区此前记录的 22 个公开仓的**具体旧维护目标**，按各仓当时的公开默认分支 HEAD 与如有的最新正式 Release 重新核对，现为 14 仓独立覆盖、3 仓部分覆盖、5 仓仍 OPEN；相对早前 14／2／6 的记录，只有 ArchiveLens 因 v1.0.4 修复旧六项观察中的一项，转为部分覆盖。其余五项观察及该仓的核心重写仍 OPEN。这是 22 个特定目标的状态，不代表旧提交对象均已发布、22 个项目整体完成、12 仓完整深审通过或 CVP 获批；早期 94 仓冻结记录不因此改写。
+
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。
