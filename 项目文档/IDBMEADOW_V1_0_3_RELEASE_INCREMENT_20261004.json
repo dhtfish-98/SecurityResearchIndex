@@ -1,0 +1,67 @@
+{
+  "schema": "public-release-increment.v1",
+  "recorded_at_utc": "2026-10-04T13:27:51Z",
+  "repository": "https://github.com/dhtfish-98/IDBMeadow",
+  "version": "1.0.3",
+  "default_branch": "main",
+  "main_commit": "9967db5328c042a2a71f9a27624589603197fdfb",
+  "tag": "v1.0.3",
+  "tag_commit": "9967db5328c042a2a71f9a27624589603197fdfb",
+  "release": {
+    "id": 403032773,
+    "url": "https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.3",
+    "published_at_utc": "2026-10-04T13:25:31Z",
+    "draft": false,
+    "prerelease": false
+  },
+  "exact_commit_ci": [
+    {
+      "ref": "main",
+      "run_url": "https://github.com/dhtfish-98/IDBMeadow/actions/runs/37204576953",
+      "head_sha": "9967db5328c042a2a71f9a27624589603197fdfb",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "ref": "v1.0.3",
+      "run_url": "https://github.com/dhtfish-98/IDBMeadow/actions/runs/37205105606",
+      "head_sha": "9967db5328c042a2a71f9a27624589603197fdfb",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "downloaded_release_assets": [
+    {
+      "name": "idbmeadow-1.0.3-py3-none-any.whl",
+      "url": "https://github.com/dhtfish-98/IDBMeadow/releases/download/v1.0.3/idbmeadow-1.0.3-py3-none-any.whl",
+      "bytes": 164367,
+      "sha256": "3bd86578fb46efa71d5481fee39b9940cd82243a350452c242cee8ee7b0c57c5",
+      "release_api_digest_matches_download": true,
+      "download_matches_prepared_artifact": true
+    },
+    {
+      "name": "idbmeadow-1.0.3.tar.gz",
+      "url": "https://github.com/dhtfish-98/IDBMeadow/releases/download/v1.0.3/idbmeadow-1.0.3.tar.gz",
+      "bytes": 126966234,
+      "sha256": "cc17ecf35fac97598556b5a71f340a937c0709dfdfe38bcb262c215fdd8459b6",
+      "release_api_digest_matches_download": true,
+      "download_matches_prepared_artifact": true
+    }
+  ],
+  "downloaded_package_inspection": {
+    "wheel_metadata_version": "1.0.3",
+    "wheel_current_validation_version": "1.0.3",
+    "wheel_runtime_python_files": 22,
+    "wheel_includes_apache_license": true,
+    "wheel_includes_historical_1_0_2_validation": true,
+    "source_distribution_manifest_files": 119,
+    "source_distribution_includes_build_cleanup_test": true,
+    "source_distribution_build_paths": 0
+  },
+  "verification_scope": {
+    "final_default_verifier": "PASS: 1,612 tests passed, 160 slow tests skipped, 13 warnings; pinned upstream comparisons, package identity and five isolated wheel-consumer checks passed",
+    "pre_final_slow_verifier": "PASS on a pre-final staged candidate: 1,771 tests passed, one strict XFAIL and 13 warnings; this run did not verify final wheel bytes",
+    "known_test_gap": "OPEN: 13 pre-existing assert (condition,) expressions in checks/test_meadow_analysis.py do not establish the intended signature equalities"
+  },
+  "scope": "This increment records a published verifier cleanup patch and its exact-commit CI and release assets. It does not alter the historical portfolio snapshots, claim a final-artifact slow-suite run, close the existing test gap or interrupted deep audit, or establish CVP eligibility or approval."
+}

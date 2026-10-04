@@ -32,4 +32,6 @@
 
 **12:45 UTC PEQuarry 发版增量：**[v1.0.4 正式 Release](https://github.com/dhtfish-98/PEQuarry/releases/tag/v1.0.4)的 `main` 与标签均指向提交 `84d6342f68894657b7d89395aea9faecd4f989ac`；[主线 CI](https://github.com/dhtfish-98/PEQuarry/actions/runs/37202437270)和[标签 CI](https://github.com/dhtfish-98/PEQuarry/actions/runs/37202793004)均在该精确提交成功。wheel 与源码包回下载摘要、字节数及包内版本见[独立发行增量记录](PEQUARRY_V1_0_4_RELEASE_INCREMENT_20261004.json)。本补丁处理直接从含 `Build` 的根目录运行完整验证时，在大小写不敏感文件系统上可能误删暂存目录的条件风险；正常暂存与既有 CI 路径未观察到删除。该发行没有关闭旧 1.0.21 阶段 3 的发布门槛、12 个项目被中断的深审或 CVP 申请资格。旧时点 JSON 与 v1.0.3 资产均未倒填或改写。
 
+**13:25 UTC IDBMeadow 发版增量：**[v1.0.3 正式 Release](https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.3)从提交 `9967db5328c042a2a71f9a27624589603197fdfb` 发布，主线及标签 CI 均成功；两份附件已回下载核对，版本、字节数和摘要见[独立发行增量记录](IDBMEADOW_V1_0_3_RELEASE_INCREMENT_20261004.json)。本版修复同类条件性 `Build` 清理风险，运行源码不变。最终包默认验证通过；完整慢速套件在最终打包前候选通过，旧测试中 13 处恒真断言仍 OPEN，CVP 资格不因此改变。旧逐仓快照不倒填。
+
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。
