@@ -46,4 +46,6 @@
 
 **2026-10-05 冻结后的发行增量：**6 个条件技术案例已各发目录/构建补丁版，ImageQuay、TraceMeadow、ArchiveLens 的 12 份旧文档素材已原字节移入「项目文档」并发行新版；此前 14 个无正式 Release 的项目中，11 个小型工具已逐仓发布 `v0.1.0` 源码版。各仓准确提交、精确 CI、资产范围与开放问题见[发行增量](PUBLIC_RELEASE_INCREMENT_20261005_AFTER_SNAPSHOT.md)及[11 仓机器收据](SOURCE_ONLY_FIRST_RELEASES_20261005.json)。这不改变旧快照计数，也不增加 CVP 已获批项目数。
 
+**2026-10-05 12:10 UTC 后续读取：**91 个软件仓均已有正式 Release，其中 40 个最新标签与逐仓读取时 HEAD 相同、51 个落后；94/94 仓仍有「项目文档」与只跟踪 `.gitignore` 的 Build。旧撤出组 14/14 保持 private。ChromeRelay、MachOInspect 的同 SHA 较早取消运行会使原始 check rollup 显示失败；较新完整运行成功。读取窗口、逐仓表与局限见[后续再审计](PUBLIC_POSTRELEASE_RECHECK_20261005.md)及[机器快照](PUBLIC_POSTRELEASE_SNAPSHOT_20261005T1210Z.json)。该读取为非原子快照，之后的发行需单列增量。
+
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。

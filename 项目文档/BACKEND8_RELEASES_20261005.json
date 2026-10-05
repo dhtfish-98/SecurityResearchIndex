@@ -1,0 +1,162 @@
+[
+  {
+    "repository": "AptSourceTrustAudit",
+    "tag": "v0.1.3",
+    "expected_commit": "961d1c4f02da7bc031f760996bf6dcfe5fcadda3",
+    "release_url": "https://github.com/dhtfish-98/AptSourceTrustAudit/releases/tag/v0.1.3",
+    "status": "PASS",
+    "assets": {
+      "RELEASE_MANIFEST.json": "c3a6cf91157f29c95c1ef1a7f6c8b3430f44b37081743afe3ca4fb4afe56143d",
+      "apt_source_trust_audit-0.1.3-py3-none-any.whl": "52556cc1a3ec9b96d7d4b95b84fc1914598b5e29eaff4b98f14e22fc6efcbd7a",
+      "SHA256SUMS.txt": "efe22cbece45f0d3e32dcd07c03257aa2877986a1f82429b64dc70f259baa6c5"
+    },
+    "asset_count": 3,
+    "release_id": 403672720,
+    "main_sha": "961d1c4f02da7bc031f760996bf6dcfe5fcadda3",
+    "tag_commit_sha": "961d1c4f02da7bc031f760996bf6dcfe5fcadda3",
+    "main_ci": 37307098235,
+    "tag_ci": 37307281241,
+    "test_count": 17,
+    "example_count": 4
+  },
+  {
+    "repository": "AuditRuleCoverage",
+    "tag": "v0.1.3",
+    "expected_commit": "9fe75f1c8ca8914a3353a9f035bc130eb9f827b3",
+    "release_url": "https://github.com/dhtfish-98/AuditRuleCoverage/releases/tag/v0.1.3",
+    "status": "PASS",
+    "assets": {
+      "RELEASE_MANIFEST.json": "13caa2adc59c8e67ebcac11f85cf4ffe0eece8fe94a3168bebd181abfb611450",
+      "SHA256SUMS.txt": "f4a823591e25cdba827d07db1f6013c01b47bd89937944f4146dd47af552f883",
+      "audit_rule_coverage-0.1.3-py3-none-any.whl": "bdd35c3d66e9f1785d5b00c8e12efe5a61609c5698f7da859980677999645aa3"
+    },
+    "asset_count": 3,
+    "release_id": 403672721,
+    "main_sha": "9fe75f1c8ca8914a3353a9f035bc130eb9f827b3",
+    "tag_commit_sha": "9fe75f1c8ca8914a3353a9f035bc130eb9f827b3",
+    "main_ci": 37307107588,
+    "tag_ci": 37307288115,
+    "test_count": 38,
+    "example_count": 6
+  },
+  {
+    "repository": "FirewalldZoneAudit",
+    "tag": "v0.1.3",
+    "expected_commit": "01aa08ae248ce717bffbb9d8c90cc87ef9815eff",
+    "release_url": "https://github.com/dhtfish-98/FirewalldZoneAudit/releases/tag/v0.1.3",
+    "status": "PASS",
+    "assets": {
+      "firewalld_zone_audit-0.1.3-py3-none-any.whl": "f3a026686d31eb21bb3be5c2be83829ddd452fc0a91beef4d486306986bfaef2",
+      "RELEASE_MANIFEST.json": "71ace014023d3f49c6aca0f0cb3af6e0f463ce5db8211eddabd8427ec94e23f7",
+      "SHA256SUMS.txt": "07167902d2dd410bd837949fe2f38afdfdea373cb61c3f56ae263f60474a2cc1"
+    },
+    "asset_count": 3,
+    "release_id": 403672722,
+    "main_sha": "01aa08ae248ce717bffbb9d8c90cc87ef9815eff",
+    "tag_commit_sha": "01aa08ae248ce717bffbb9d8c90cc87ef9815eff",
+    "main_ci": 37307113676,
+    "tag_ci": 37307293983,
+    "test_count": 16,
+    "example_count": 4
+  },
+  {
+    "repository": "ModprobePolicyAudit",
+    "tag": "v0.1.3",
+    "expected_commit": "7cacd72aaac883a640a5f24c2555c0c97fa07d39",
+    "release_url": "https://github.com/dhtfish-98/ModprobePolicyAudit/releases/tag/v0.1.3",
+    "status": "PASS",
+    "assets": {
+      "RELEASE_MANIFEST.json": "c74e3a37839c4f00f6d201b44cf0095feb1e204d843999f7e7fa93ac29e0caf9",
+      "SHA256SUMS.txt": "2cbbb3ee75791bf765df7308f0117774455e96fa137cf7afcdad0ac67245f111",
+      "modprobe_policy_audit-0.1.3-py3-none-any.whl": "e0e13bccd9cea85cfd4096a6d88face782e9b650fae1e42a10f4da431feed095"
+    },
+    "asset_count": 3,
+    "release_id": 403672781,
+    "main_sha": "7cacd72aaac883a640a5f24c2555c0c97fa07d39",
+    "tag_commit_sha": "7cacd72aaac883a640a5f24c2555c0c97fa07d39",
+    "main_ci": 37307120800,
+    "tag_ci": 37307299794,
+    "test_count": 18,
+    "example_count": 4
+  },
+  {
+    "repository": "PamStackAudit",
+    "tag": "v0.1.3",
+    "expected_commit": "edb12bbee95a9415e2127a4aed40196f1e842b4f",
+    "release_url": "https://github.com/dhtfish-98/PamStackAudit/releases/tag/v0.1.3",
+    "status": "PASS",
+    "assets": {
+      "RELEASE_MANIFEST.json": "b4e5b64e4b838a7952ee30d2a7a11ffd6f6d384335d26ecac1b461a5ff175e52",
+      "pam_stack_audit-0.1.3-py3-none-any.whl": "5af7aff2c27ff01d3fddc3b624fbbf81115aac5e7c8c5c393f26e2df3df00291",
+      "SHA256SUMS.txt": "e50bd05719d2cf8fbe778c43b8e2286e5af2f1d24323901eb9b4c29858776209"
+    },
+    "asset_count": 3,
+    "release_id": 403672791,
+    "main_sha": "edb12bbee95a9415e2127a4aed40196f1e842b4f",
+    "tag_commit_sha": "edb12bbee95a9415e2127a4aed40196f1e842b4f",
+    "main_ci": 37307127356,
+    "tag_ci": 37307306495,
+    "test_count": 15,
+    "example_count": 4
+  },
+  {
+    "repository": "SudoScopeAudit",
+    "tag": "v0.1.3",
+    "expected_commit": "1a21b76d266f909bac4e7075bbf79a9269d94348",
+    "release_url": "https://github.com/dhtfish-98/SudoScopeAudit/releases/tag/v0.1.3",
+    "status": "PASS",
+    "assets": {
+      "sudo_scope_audit-0.1.3-py3-none-any.whl": "920d361b0801b9e492da479bb1a4c7446334e2c9c4299a9d93a649a6ae6635df",
+      "RELEASE_MANIFEST.json": "12580ed509afa9bd87354f44b79981a09316f4a733e47533b6841a0a1ea96e16",
+      "SHA256SUMS.txt": "f198756f68afc88ee42e928f2f117d4180b83678baa54ad0f89d5a3562938b3d"
+    },
+    "asset_count": 3,
+    "release_id": 403672780,
+    "main_sha": "1a21b76d266f909bac4e7075bbf79a9269d94348",
+    "tag_commit_sha": "1a21b76d266f909bac4e7075bbf79a9269d94348",
+    "main_ci": 37307137044,
+    "tag_ci": 37307313468,
+    "test_count": 23,
+    "example_count": 4
+  },
+  {
+    "repository": "SysctlSnapshotAudit",
+    "tag": "v0.1.3",
+    "expected_commit": "bee34a7f1cbfcd3b41649c37030e1e54aa0d42e2",
+    "release_url": "https://github.com/dhtfish-98/SysctlSnapshotAudit/releases/tag/v0.1.3",
+    "status": "PASS",
+    "assets": {
+      "sysctl_snapshot_audit-0.1.3-py3-none-any.whl": "e3c214f6cd922e680585309881b99d0f358057a58e37a2a206800c6bf0083a0c",
+      "RELEASE_MANIFEST.json": "df1c7f7a1a9c71754d10c600d5f16648882fc5ffa5415172d1ee9acc7abc58ea",
+      "SHA256SUMS.txt": "cd3f3a5b57975fda47d5e74cc3573466e8667c1a30be7ac1e5caeda533068387"
+    },
+    "asset_count": 3,
+    "release_id": 403672843,
+    "main_sha": "bee34a7f1cbfcd3b41649c37030e1e54aa0d42e2",
+    "tag_commit_sha": "bee34a7f1cbfcd3b41649c37030e1e54aa0d42e2",
+    "main_ci": 37307143252,
+    "tag_ci": 37307320582,
+    "test_count": 18,
+    "example_count": 5
+  },
+  {
+    "repository": "WindowsBaselineSnapshot",
+    "tag": "v0.1.3",
+    "expected_commit": "05857746cc136978e0e4faf288eee27646ab51a2",
+    "release_url": "https://github.com/dhtfish-98/WindowsBaselineSnapshot/releases/tag/v0.1.3",
+    "status": "PASS",
+    "assets": {
+      "RELEASE_MANIFEST.json": "f182cdee84b8f9a22c8b855547ace16f8780494faa43aad0a0bd2462f5869e0c",
+      "SHA256SUMS.txt": "b8775ec86c8d387e4ebd7d8089a81e858cba10609f3265c4f178c26c8dfa40a6",
+      "windows_baseline_snapshot-0.1.3-py3-none-any.whl": "7a99f19e1d32d82e57e518eb3eb5371c94df1f4a6c1d22552c5a76213d9d2e00"
+    },
+    "asset_count": 3,
+    "release_id": 403672845,
+    "main_sha": "05857746cc136978e0e4faf288eee27646ab51a2",
+    "tag_commit_sha": "05857746cc136978e0e4faf288eee27646ab51a2",
+    "main_ci": 37307151640,
+    "tag_ci": 37307327531,
+    "test_count": 14,
+    "example_count": 4
+  }
+]

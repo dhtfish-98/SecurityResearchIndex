@@ -1,0 +1,196 @@
+{
+  "captured_at_utc": "2026-10-05T12:12:16.171845+00:00",
+  "repositories": [
+    {
+      "archive_build": "PASS_BUILD_COMMANDS",
+      "archive_ctest_programs_passed": 10,
+      "archives": {
+        "commit": {
+          "byte_identical_to_commit": true,
+          "files": 102,
+          "git_metadata": false,
+          "sha256": "ea839677de2b0bb49ae562799c6098ef881ac9fb2ea2274d54883df81dd668f1"
+        },
+        "release_tag": {
+          "byte_identical_to_commit": true,
+          "files": 102,
+          "git_metadata": false,
+          "sha256": "9d08dc2f8cd30df2574ec27a9eb843d0fcd7de7977dc51902975b12fb194f397"
+        }
+      },
+      "author_current_commit": "dhtfish98|109978225+dhtfish-98@users.noreply.github.com|dhtfish98|109978225+dhtfish-98@users.noreply.github.com",
+      "ci": {
+        "active_workflows": 1,
+        "all_same_sha_check_runs": [
+          {
+            "conclusion": "success",
+            "id": 111750851621,
+            "name": "release",
+            "url": "https://github.com/dhtfish-98/A64Dispatch/actions/runs/37306351818/job/111750851621"
+          }
+        ],
+        "branch_protection_required_checks": "none; REST 404 Branch not protected",
+        "conclusion": "success",
+        "exact_commit": "ac8ca8c66b2927e386ea404630b0b20d4ad4535e",
+        "rulesets": "none; REST []",
+        "run_id": 37306351818,
+        "run_url": "https://github.com/dhtfish-98/A64Dispatch/actions/runs/37306351818"
+      },
+      "installed_consumer": "PASS: seven sites, graph transaction and exact restore",
+      "latest_release": true,
+      "main_and_peeled_tag_sha": "ac8ca8c66b2927e386ea404630b0b20d4ad4535e",
+      "name": "A64Dispatch",
+      "old_alias_hits_in_current_git_tree": 0,
+      "open": [
+        "finite rewrite checks",
+        "historical owned-fixture IDA evidence",
+        "Linux and Windows execution"
+      ],
+      "release_manual_asset_count": 0,
+      "release_url": "https://github.com/dhtfish-98/A64Dispatch/releases/tag/v1.0.1",
+      "repository": "https://github.com/dhtfish-98/A64Dispatch",
+      "rights": "GPL and true third-party notices retained; own deflat64 alias changed to dhtfish98, DumpA1n copyright retained",
+      "source_only": true,
+      "tracked_Build": [
+        "Build/.gitignore"
+      ],
+      "tracked_files": 102,
+      "version": "1.0.1"
+    },
+    {
+      "archive_build": "PASS_BUILD_COMMANDS",
+      "archive_ctest_programs_passed": 5,
+      "archives": {
+        "commit": {
+          "byte_identical_to_commit": true,
+          "files": 166,
+          "git_metadata": false,
+          "sha256": "e92846d825a7ce071e74015c4bb42d2fb9888d9c92defb7d4e62a9c3013252da"
+        },
+        "release_tag": {
+          "byte_identical_to_commit": true,
+          "files": 166,
+          "git_metadata": false,
+          "sha256": "353068eff381ec09464aa8cfdd7f243a12fff9ad8bc5706daadd9675a0adfe9f"
+        }
+      },
+      "author_current_commit": "dhtfish98|109978225+dhtfish-98@users.noreply.github.com|dhtfish98|109978225+dhtfish-98@users.noreply.github.com",
+      "ci": {
+        "active_workflows": 1,
+        "all_same_sha_check_runs": [
+          {
+            "conclusion": "success",
+            "id": 111751320975,
+            "name": "release",
+            "url": "https://github.com/dhtfish-98/ChromeRelay/actions/runs/37306426521/job/111751320975"
+          },
+          {
+            "conclusion": "cancelled",
+            "id": 111750856585,
+            "name": "release",
+            "url": "https://github.com/dhtfish-98/ChromeRelay/actions/runs/37306353376/job/111750856585"
+          }
+        ],
+        "branch_protection_required_checks": "none; REST 404 Branch not protected",
+        "conclusion": "success",
+        "exact_commit": "53f3479a654f7b0011a2c831792bedce5449cd64",
+        "rulesets": "none; REST []",
+        "run_id": 37306426521,
+        "run_url": "https://github.com/dhtfish-98/ChromeRelay/actions/runs/37306426521"
+      },
+      "installed_cli_checks": 28,
+      "installed_consumer": "PASS: catalog 54 canonical and 75 compatibility names",
+      "latest_release": true,
+      "main_and_peeled_tag_sha": "53f3479a654f7b0011a2c831792bedce5449cd64",
+      "name": "ChromeRelay",
+      "old_alias_hits_in_current_git_tree": 0,
+      "open": [
+        "intermittent transformed-frame hover timeout cause and fix",
+        "arbitrary websites/personal profiles"
+      ],
+      "owned_browser_archive_suite": {
+        "failed_programs": [],
+        "fault_checks": 63,
+        "profile_cleaned": true,
+        "programs": 23,
+        "wire_checks": 169
+      },
+      "release_manual_asset_count": 0,
+      "release_url": "https://github.com/dhtfish-98/ChromeRelay/releases/tag/v1.0.1",
+      "repository": "https://github.com/dhtfish-98/ChromeRelay",
+      "rights": "Own UltimateBrowserJS alias changed to dhtfish98; Playwright Apache-2.0 and true third-party notices retained",
+      "source_only": true,
+      "tracked_Build": [
+        "Build/.gitignore"
+      ],
+      "tracked_files": 166,
+      "version": "1.0.1"
+    },
+    {
+      "archive_build": "PASS_BUILD_COMMANDS",
+      "archive_ctest_programs_passed": 5,
+      "archives": {
+        "commit": {
+          "byte_identical_to_commit": true,
+          "files": 73,
+          "git_metadata": false,
+          "sha256": "14afd287254b14d16e9211427d6d49667bbe02483b7c7010ec10fed59c6e7b71"
+        },
+        "release_tag": {
+          "byte_identical_to_commit": true,
+          "files": 73,
+          "git_metadata": false,
+          "sha256": "5e75bdd92515ff5a5bc14c6303d98a3398aacacbcbcabef5a6c165e7650fb85e"
+        }
+      },
+      "author_current_commit": "dhtfish98|109978225+dhtfish-98@users.noreply.github.com|dhtfish98|109978225+dhtfish-98@users.noreply.github.com",
+      "ci": {
+        "active_workflows": 1,
+        "all_same_sha_check_runs": [
+          {
+            "conclusion": "success",
+            "id": 111750863476,
+            "name": "release",
+            "url": "https://github.com/dhtfish-98/MachOInspect/actions/runs/37306354420/job/111750863476"
+          },
+          {
+            "conclusion": "cancelled",
+            "id": 111750855509,
+            "name": "release",
+            "url": "https://github.com/dhtfish-98/MachOInspect/actions/runs/37306353110/job/111750855509"
+          }
+        ],
+        "branch_protection_required_checks": "none; REST 404 Branch not protected",
+        "conclusion": "success",
+        "exact_commit": "0df36ecba4279496951cbaeda8dd594aa5ba6ba3",
+        "rulesets": "none; REST []",
+        "run_id": 37306354420,
+        "run_url": "https://github.com/dhtfish-98/MachOInspect/actions/runs/37306354420"
+      },
+      "installed_consumer": "PASS: inspected /usr/bin/otool; JSON tool version 1.0.1 and zero failed inputs",
+      "latest_release": true,
+      "main_and_peeled_tag_sha": "0df36ecba4279496951cbaeda8dd594aa5ba6ba3",
+      "name": "MachOInspect",
+      "old_alias_hits_in_current_git_tree": 0,
+      "open": [
+        "CMS authentication",
+        "certificate-chain trust",
+        "code-page verification",
+        "Linux execution"
+      ],
+      "release_manual_asset_count": 0,
+      "release_url": "https://github.com/dhtfish-98/MachOInspect/releases/tag/v1.0.1",
+      "repository": "https://github.com/dhtfish-98/MachOInspect",
+      "rights": "Own dhtfish988 alias normalized to dhtfish98 after identity match at GitHub numeric ID 109978225; true OpenSSL, PCRE2, libplist notices retained",
+      "source_only": true,
+      "tracked_Build": [
+        "Build/.gitignore"
+      ],
+      "tracked_files": 73,
+      "version": "1.0.1"
+    }
+  ],
+  "rollup_caveat": "ChromeRelay and MachOInspect each have an earlier cancelled run and a later success run on the same SHA; aggregate check rollup can label these as FAILURE despite no failed test job. Both runs are retained below.",
+  "schema": "cvp-native3-source-release.v1",
+  "scope": "Current public main/tag/release, exact-commit GitHub Actions, downloaded source archives and local archive consumers. No CVP eligibility or approval claim."
+}

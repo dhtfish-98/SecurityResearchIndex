@@ -1,0 +1,42 @@
+[
+  {
+    "repository": "NftIngressAudit",
+    "release_url": "https://github.com/dhtfish-98/NftIngressAudit/releases/tag/v0.1.4",
+    "expected_commit": "a1e485d3cf24410332467f69812acbd2eb6e08ed",
+    "status": "PASS",
+    "asset_count": 4,
+    "assets": {
+      "nft_ingress_audit-0.1.4-py3-none-any.whl": "8776a04279dccdf08930ac7c7f31f4b5401425279f5f9fb1fbc76a7aa4ec0425",
+      "NftIngressAudit-0.1.4-source.tar.gz": "310711891d5287eb9f3d70950a4bb04e42a05425c0588afe2dee5244db02d826",
+      "RELEASE_MANIFEST.json": "06dd4e04d959bba4c99ba5029633853cb20603a2791070848040eedfd3604e02",
+      "SHA256SUMS.txt": "42da6bf658137354a6c9587b9ba06790e38a4081fd7b44649e1d180d125949d6"
+    },
+    "release_id": 403678784,
+    "main_sha": "a1e485d3cf24410332467f69812acbd2eb6e08ed",
+    "tag_commit_sha": "a1e485d3cf24410332467f69812acbd2eb6e08ed",
+    "main_ci": 37307974556,
+    "tag_ci": 37308129565,
+    "test_count": 26,
+    "example_count": 4
+  },
+  {
+    "repository": "UnitSandboxAudit",
+    "release_url": "https://github.com/dhtfish-98/UnitSandboxAudit/releases/tag/v0.1.4",
+    "expected_commit": "1c24f333a3995d3ec95807b30bdffe0f0595af85",
+    "status": "PASS",
+    "asset_count": 4,
+    "assets": {
+      "UnitSandboxAudit-0.1.4-source.tar.gz": "ae7c6ff07529240afa014238205d845a3a8ec2b8c9b301ba00d3351263cc57d3",
+      "unit_sandbox_audit-0.1.4-py3-none-any.whl": "38366efc8494b07c02ff54a11f6ba71c9c2250a39fb9a4dd653c8bfe5fb26f47",
+      "RELEASE_MANIFEST.json": "eadbe803d949e98450537443905907584c5dd47e0ec50d9fd5a7b42804797d46",
+      "SHA256SUMS.txt": "7231db30b0b993a6c4151a289ad9ec10cb980db538833aebdcec0aa154710a88"
+    },
+    "release_id": 403678842,
+    "main_sha": "1c24f333a3995d3ec95807b30bdffe0f0595af85",
+    "tag_commit_sha": "1c24f333a3995d3ec95807b30bdffe0f0595af85",
+    "main_ci": 37307984006,
+    "tag_ci": 37308137839,
+    "test_count": 24,
+    "example_count": 4
+  }
+]

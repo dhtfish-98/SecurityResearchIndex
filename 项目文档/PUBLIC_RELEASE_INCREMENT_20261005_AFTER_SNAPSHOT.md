@@ -15,9 +15,20 @@
 | [ImageQuay](https://github.com/dhtfish-98/ImageQuay/releases/tag/v1.0.6) | `v1.0.6` · `613c7760dbcffb389a0179a48e6b2c259678e49a` | [主线 CI](https://github.com/dhtfish-98/ImageQuay/actions/runs/37305026459)、[标签 CI](https://github.com/dhtfish-98/ImageQuay/actions/runs/37305341457) 通过；386 项测试、wheel/sdist 回下载一致。8 份旧文档素材原字节移入「项目文档」。 |
 | [TraceMeadow](https://github.com/dhtfish-98/TraceMeadow/releases/tag/v1.0.4) | `v1.0.4` · `7d502d29e653b3a36b945ba8044893e1ecc0d895` | [主线 CI](https://github.com/dhtfish-98/TraceMeadow/actions/runs/37305046500)、[标签 CI](https://github.com/dhtfish-98/TraceMeadow/actions/runs/37305234819) 通过；459 项测试、wheel/sdist 回下载一致。2 份 GIF 原字节移入「项目文档」。 |
 | [ArchiveLens](https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.5) | `v1.0.5` · `6ba34b4f0f6212dd77c88b6d5d512b4488b83656` | [主线工作区 CI](https://github.com/dhtfish-98/ArchiveLens/actions/runs/37305058373)、[主线合同 CI](https://github.com/dhtfish-98/ArchiveLens/actions/runs/37305058262)、[标签合同 CI](https://github.com/dhtfish-98/ArchiveLens/actions/runs/37305495323) 通过；107 项测试、源码包回下载一致。2 张旧文档图片原字节移入「项目文档」。 |
+| [A64Dispatch](https://github.com/dhtfish-98/A64Dispatch/releases/tag/v1.0.1) | `v1.0.1` · `ac8ca8c66b2927e386ea404630b0b20d4ad4535e` | [精确 CI](https://github.com/dhtfish-98/A64Dispatch/actions/runs/37306351818) 通过，自动源码包与提交的 102 份文件一致，归档重建/安装/CTest 10/10/独立消费者通过。无手工二进制资产。 |
+| [ChromeRelay](https://github.com/dhtfish-98/ChromeRelay/releases/tag/v1.0.1) | `v1.0.1` · `53f3479a654f7b0011a2c831792bedce5449cd64` | [较新精确 CI](https://github.com/dhtfish-98/ChromeRelay/actions/runs/37306426521) 通过，自动源码包与 166 份提交文件一致，归档重建/安装/CTest 5/5、真实浏览器 23 项程序通过。较早同 SHA 取消运行与间歇悬停超时另记 OPEN。 |
+| [MachOInspect](https://github.com/dhtfish-98/MachOInspect/releases/tag/v1.0.1) | `v1.0.1` · `0df36ecba4279496951cbaeda8dd594aa5ba6ba3` | [较新精确 CI](https://github.com/dhtfish-98/MachOInspect/actions/runs/37306354420) 通过，自动源码包与 73 份提交文件一致，归档重建/安装/CTest 5/5/消费者通过。较早同 SHA 取消运行单独保留。 |
 
 这 6 个 Review 仓仍只是[有条件技术案例](PROJECT_30_FIT_RECHECK_20261005.md)：其新版修正目录、构建和发布证据，不增加已证实的 CVP 资格数量。项目自身的真实第三方许可和来源继续保留，`Claude` 等名称如出现在功能或申请范围说明中也不是作者署名。
+
+三个原生仓的逐仓源码包摘要、版本、来源文件和历史取消运行见[源码版机器摘要](NATIVE3_SOURCE_RELEASES_20261005.json)。A64Dispatch 只验证了本轮 macOS arm64 路径；ChromeRelay 的变换 frame 悬停偶发超时与任意网站/个人浏览器配置未关闭；MachOInspect 不把文件解析测试写成 CMS 认证或完整证书链信任。
 
 ## 此前无正式 Release 的 11 个小型 Review 仓
 
 [逐仓公开收据](SOURCE_ONLY_FIRST_RELEASES_20261005.json)列出 ArtifactDigestReview、AuthLogReview、ContainerfileReview、DependencyPinReview、EntitlementFlagReview、FileModeReview、IAMScopeReview、KubePodReview、SBOMFieldReview、SSHPolicyReview、WorkflowPermissionReview 的新提交、CI、Release URL 和自动源码归档 SHA-256。11 仓均正式发布 `v0.1.0` **源码版**，各自 `main` 与标签同提交、精确提交 CI 成功，自动源码归档与相应提交的跟踪文件逐字节相同；共 100 项本地单测通过。它们没有手工 wheel 或二进制资产，也不计作 11 个新的 CVP 主案例。真实许可与来源文件保持，版本字段和说明没有把合成输入测试写成实际部署验证。
+
+## 冻结时 20 个验证/构建代码差异的复核
+
+其中 10 仓的 `backend.py` 已改为从「项目文档」读取权利与来源文件，属于实际打包行为变化。[8 仓 v0.1.3 逐仓收据](BACKEND8_RELEASES_20261005.json)记录 AptSourceTrustAudit、AuditRuleCoverage、FirewalldZoneAudit、ModprobePolicyAudit、PamStackAudit、SudoScopeAudit、SysctlSnapshotAudit、WindowsBaselineSnapshot；8 个新 `main`/标签同提交、精确 CI 成功、24 个上传资产回下载摘要与字节数一致，安装测试共 159 项、样例退出契约 35 项通过。另 [NftIngressAudit v0.1.4 与 UnitSandboxAudit v0.1.4](BACKEND2_RELEASES_20261005.json)也各自满足精确 main/tag CI、source tar 中 37 个提交文件逐字节核验、wheel/安装态/权利文件一致及 4 个资产回下载；安装测试分别 26、24 项，样例契约各 4 项通过。10 个打包后端差异仓均已补发。
+
+另 9 仓 CertificateNamePolicy、CompoundDocumentReview、EvtxRecordReview、EvtxRecoveryReview、HandshakeEvidenceReview、LifecyclePolicyReview、PrefetchEvidenceReview、RegistryHiveReview、SourceReleaseReview 的主要运行源码未见变化，但当前 HEAD 的 `pyproject.toml`、`MANIFEST.in` 已调整文档/许可证或 sdist 路径，部分 wheel 元数据也会变化。原 Release 对原标签仍有效，**当前 HEAD 的包发行同步仍 OPEN**，需逐仓完成新包与许可核对后才能补发。ObjCAtlas 的对应差异只见验证合同名称适配，但此前完整深审被系统中断，保持 OPEN，不用一次浅层差异判断替代深审或发布结论。
