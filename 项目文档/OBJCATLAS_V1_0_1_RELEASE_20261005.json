@@ -1,0 +1,144 @@
+{
+  "anonymous_release_api_public": true,
+  "anonymous_source_zip_download_exact": true,
+  "archives": {
+    "github_auto_tar": {
+      "byte_mismatches": 0,
+      "bytes": 283067,
+      "extra": 0,
+      "files_exact_to_commit": 247,
+      "missing": 0,
+      "sha256": "2540b1a69944051db284cdc99eedfcc32eeb9831467bbc464ecbe33daa3ea005"
+    },
+    "github_auto_zip": {
+      "byte_mismatches": 0,
+      "bytes": 391269,
+      "extra": 0,
+      "files_exact_to_commit": 247,
+      "missing": 0,
+      "sha256": "a81a4143ee58176404b286114f361bb4cf7192c29442b228e219f3780bbf7aaf"
+    },
+    "release_source_zip": {
+      "byte_mismatches": 0,
+      "bytes": 388137,
+      "extra": 0,
+      "files_exact_to_commit": 247,
+      "missing": 0,
+      "sha256": "638d3cc464cc3e841335f4ab1234bbd265434429c4fe29b9a74dd3c84a70d1a1"
+    }
+  },
+  "captured_at_utc": "2026-10-05T14:34:29.897143+00:00",
+  "changed_paths_since_old_release": [
+    ".github/workflows/contracts.yml",
+    ".gitignore",
+    "Build/.gitignore",
+    "ObjCAtlas.xcodeproj/project.pbxproj",
+    "SOURCE_MANIFEST.json",
+    "verification/atlas_contract.py",
+    "构建.py",
+    "构建配置.json",
+    "项目文档/CHANGELOG.md",
+    "项目文档/DEFENSIVE_SCOPE.md",
+    "项目文档/LICENSE",
+    "项目文档/ORIGIN.md",
+    "项目文档/README.md",
+    "项目文档/UPSTREAM_GUIDE.md",
+    "项目文档/VALIDATION.md",
+    "项目文档/目录与构建.md"
+  ],
+  "ci": {
+    "main": {
+      "artifact_sha256": "ebce19d39dfffe86bcb6e8e1fac88bd835efdaf8bc27e7b2a6a2f1f405aa9082",
+      "checks": 21,
+      "conclusion": "success",
+      "derivative_xctest": 39,
+      "head_sha": "4290eba9442cec4521ab93aeaa585127e7669383",
+      "original_xctest": 39,
+      "run_id": 37324888318,
+      "status": "completed",
+      "url": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37324888318"
+    },
+    "tag": {
+      "artifact_sha256": "ebce19d39dfffe86bcb6e8e1fac88bd835efdaf8bc27e7b2a6a2f1f405aa9082",
+      "checks": 21,
+      "conclusion": "success",
+      "derivative_xctest": 39,
+      "head_sha": "4290eba9442cec4521ab93aeaa585127e7669383",
+      "original_xctest": 39,
+      "run_id": 37325173751,
+      "status": "completed",
+      "url": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37325173751"
+    }
+  },
+  "commit": "4290eba9442cec4521ab93aeaa585127e7669383",
+  "local_validation": {
+    "consumer_log_sha256": "4c56d97b55ad355c5c20ec0ef3bd0b37125f0f80c8ab3a1b534166fbf35d3856",
+    "contract_checks": 21,
+    "contract_report_sha256": "ebce19d39dfffe86bcb6e8e1fac88bd835efdaf8bc27e7b2a6a2f1f405aa9082",
+    "derivative_xctest": 39,
+    "extracted_source_zip_independent_build": "PASS",
+    "manual_log_sha256": "14754b31d8289e2dc7d4e548a3343ea96c0057ee40537cab77586f0a73111b79",
+    "manual_universal_xcodebuild": "PASS",
+    "original_xctest": 39
+  },
+  "open": [
+    "Previously interrupted deep source/security audit is not completed.",
+    "Archived SenTestingKit runner, full Xcode/Pods/CoreData/dSYM application integration, and device runtime remain unverified.",
+    "CVP applicant/project eligibility remains OPEN; pinned GPL-2.0-or-later upstream derivation is disclosed."
+  ],
+  "prior_release_sha": "63d1081de10b963f878e2e9244aa791468b9d0b2",
+  "prior_release_tag": "v1.0.0",
+  "release_assets": [
+    {
+      "bytes": 388137,
+      "github_api_digest": "sha256:638d3cc464cc3e841335f4ab1234bbd265434429c4fe29b9a74dd3c84a70d1a1",
+      "name": "ObjCAtlas-source.zip",
+      "public_url": "https://github.com/dhtfish-98/ObjCAtlas/releases/download/v1.0.1/ObjCAtlas-source.zip",
+      "redownload_exact": true,
+      "sha256": "638d3cc464cc3e841335f4ab1234bbd265434429c4fe29b9a74dd3c84a70d1a1"
+    },
+    {
+      "bytes": 2060,
+      "github_api_digest": "sha256:03716698b24987c22f02819eece5c0b370f81e651426b08fce68db8db4a045f5",
+      "name": "RELEASE_MANIFEST.json",
+      "public_url": "https://github.com/dhtfish-98/ObjCAtlas/releases/download/v1.0.1/RELEASE_MANIFEST.json",
+      "redownload_exact": true,
+      "sha256": "03716698b24987c22f02819eece5c0b370f81e651426b08fce68db8db4a045f5"
+    },
+    {
+      "bytes": 175,
+      "github_api_digest": "sha256:b1d488f2d8793668443a66dc32d04371b43306cf2b47447661bcc9dc01f6582b",
+      "name": "SHA256SUMS.txt",
+      "public_url": "https://github.com/dhtfish-98/ObjCAtlas/releases/download/v1.0.1/SHA256SUMS.txt",
+      "redownload_exact": true,
+      "sha256": "b1d488f2d8793668443a66dc32d04371b43306cf2b47447661bcc9dc01f6582b"
+    }
+  ],
+  "release_url": "https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.1",
+  "remote_main_tag_exact": true,
+  "repository": "https://github.com/dhtfish-98/ObjCAtlas",
+  "rights_preserved": {
+    "项目文档/LICENSE": {
+      "identical_to_v1_0_0": true,
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    "项目文档/ORIGIN.md": {
+      "identical_to_v1_0_0": true,
+      "sha256": "422bcee907ca4e52b55884c6432b93772b53ddaae42a24b2a46c7a24aeb018c7"
+    },
+    "项目文档/UPSTREAM_GUIDE.md": {
+      "identical_to_v1_0_0": true,
+      "sha256": "61b5df666a04b853d0d75dc46d359086d771f9b1e0ee467e12bf01fb19ecec06"
+    }
+  },
+  "runtime_objective_c_c_h_mm_paths_changed": 0,
+  "schema": "objc-atlas-v1.0.1-public-source-release-final.v1",
+  "scope": "Source-only maintenance release: public main directory and verification changes plus two corrected current documentation statements. No Objective-C/C runtime source change and no new binary release asset.",
+  "source_manifest": {
+    "listed": 246,
+    "mismatches": 0,
+    "tracked_except_self": 246
+  },
+  "tag": "v1.0.1",
+  "version": "1.0.1"
+}

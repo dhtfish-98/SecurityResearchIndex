@@ -1,0 +1,132 @@
+{
+  "status": "PASS_FIVE_BOUNDED_OBSERVATIONS",
+  "repository": "https://github.com/dhtfish-98/ArchiveLens",
+  "base_commit": "6ba34b4f0f6212dd77c88b6d5d512b4488b83656",
+  "fixed_commit": "6107b618d3dab2c205ce0e364f90a818cdade9cf",
+  "version": "v1.0.6",
+  "issues": [
+    {
+      "id": "ARCHIVELENS-EXISTING-ENCRYPTION-COMMAND",
+      "base": "reproduced",
+      "fixed": "PASS: truncated command rejected"
+    },
+    {
+      "id": "ARCHIVELENS-EXISTING-FUNCTION-STARTS-SPAN",
+      "base": "reproduced",
+      "fixed": "PASS: declared member bound enforced"
+    },
+    {
+      "id": "ARCHIVELENS-EXISTING-GUI-SYMLINK",
+      "base": "reproduced",
+      "fixed": "PASS: private exclusive extraction and cleanup"
+    },
+    {
+      "id": "ARCHIVELENS-EXISTING-LOAD-COMMAND-AREA",
+      "base": "reproduced",
+      "fixed": "PASS: sizeofcmds bound enforced"
+    },
+    {
+      "id": "ARCHIVELENS-EXISTING-ULEB-OVERFLOW",
+      "base": "reproduced",
+      "fixed": "PASS: overflow rejected; u64 maximum accepted"
+    }
+  ],
+  "local": {
+    "workspace_tests_passed": 113,
+    "workspace_tests_failed": 0,
+    "release_build": "PASS",
+    "pinned_upstream_contract_checks": 54,
+    "source_stage": "PASS",
+    "manifest_entries": 424
+  },
+  "remote": {
+    "main": "6107b618d3dab2c205ce0e364f90a818cdade9cf",
+    "tag_object": "6d1b97690a5254225d2abc8975f560f2b09cb1da",
+    "tag_peeled": "6107b618d3dab2c205ce0e364f90a818cdade9cf",
+    "ci": [
+      {
+        "conclusion": "success",
+        "databaseId": 37325460895,
+        "event": "push",
+        "headBranch": "v1.0.6",
+        "headSha": "6107b618d3dab2c205ce0e364f90a818cdade9cf",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37325460895",
+        "workflowName": "ArchiveLens contracts"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 37324846621,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "6107b618d3dab2c205ce0e364f90a818cdade9cf",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37324846621",
+        "workflowName": "ArchiveLens workspace tests"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 37324846544,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "6107b618d3dab2c205ce0e364f90a818cdade9cf",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37324846544",
+        "workflowName": "ArchiveLens contracts"
+      }
+    ],
+    "release_url": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.6",
+    "release_published_at": "2026-10-05T14:37:06Z",
+    "release_formal_latest": true,
+    "asset_url": "https://github.com/dhtfish-98/ArchiveLens/releases/download/v1.0.6/ArchiveLens-v1.0.6-source.tar.gz",
+    "asset_sha256": "b6881ded0d1c855d503f7ef088b8758de128cd27685aa9cc415e1b017a0b3b61",
+    "asset_bytes": 22087649,
+    "asset_public_download": "PASS_BYTE_IDENTICAL",
+    "auto_source_archive_sha256": "e2b316d9aeaebe077c421fd1c11f8a12a31533113014ada8b01d3c03383ab1f8",
+    "auto_source_archive": "PASS_425_FILES_BYTE_IDENTICAL"
+  },
+  "package": {
+    "tracked_files": 425,
+    "attachment_files": 425,
+    "missing": [],
+    "extra": [],
+    "altered": [],
+    "build_outputs": []
+  },
+  "attribution": {
+    "commit_author": "dhtfish98",
+    "github_author_login": "dhtfish-98",
+    "unchanged_notice_sha256": {
+      "项目文档/LICENSE": "b235dbb468f854d4900cc197ae470e051cce3f12fc5eba9a16062394d10a4e19",
+      "项目文档/ORIGIN.md": "d43d26574f6d13f8faf0491e765770013c227dfd7975e40f7984d7d85b7826f8",
+      "项目文档/THIRD_PARTY_NOTICES.json": "91063ed9668857b08c0952a4e4048f57484b1db0ec988d600c70f88c3e3269ab"
+    }
+  },
+  "workspace": {
+    "git_clean": true,
+    "tracked_build_files": [
+      "Build/.gitignore"
+    ],
+    "generated_outputs_in_ignored_Build": true
+  },
+  "limits": [
+    "Five recorded observations only; not a complete deep12 audit.",
+    "Interactive GUI, real device and other parser paths remain open.",
+    "Engineering release does not establish CVP eligibility or approval."
+  ],
+  "evidence_files": [
+    "baseline-core.log",
+    "baseline-gui.log",
+    "v1.0.6-final-test.log",
+    "v1.0.6-final-release-build.log",
+    "contract.json",
+    "source-package-audit.json",
+    "github-auto-audit.json",
+    "local-verification.json",
+    "ci-final.json",
+    "release-final.json",
+    "repo-final.json",
+    "commit-final.json",
+    "refs-final.txt"
+  ]
+}

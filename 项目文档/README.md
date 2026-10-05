@@ -62,4 +62,6 @@
 
 **2026-10-05 14:13–14:14 UTC 后续快照：**[94 仓再读取](PUBLIC_RELEASE_WAVE_RECHECK_20261005T1413Z.md)及[逐仓机器记录](PUBLIC_RELEASE_WAVE_SNAPSHOT_20261005T1413Z.json)再次显示 91 个软件仓均有 Release，90 个最新标签与读取时 HEAD 同提交，ObjCAtlas 唯一发行差异仍 OPEN。ImageQuay 源码运行版本显示已在 v1.0.7 修复，另 8 个 Review 仓的当前版本文档已补发；[新版发行收据](PUBLIC_RELEASE_INCREMENT_20261005_AFTER_SNAPSHOT.md)列出精确 CI 和回下载范围。额外的[第三批 30 项新研究候选](NEW_30_RESEARCH_CANDIDATES_20261005.md)有固定来源与独立实验规格，但截至这份快照为止尚无实现、测试、发布或 CVP 批准，不计入 91 个已发布软件仓。旧 PEQuarry 阶段 3 来源/可见性和 ObjCAtlas 深审仍待闭合。
 
+**2026-10-05 14:43–14:44 UTC 再次读取：**[94 仓发行复核](PUBLIC_RELEASE_WAVE_RECHECK_20261005T1443Z.md)和[机器快照](PUBLIC_RELEASE_WAVE_SNAPSHOT_20261005T1443Z.json)显示 91 个软件仓的最新 Release 标签与所读 HEAD 全部同提交。ArchiveLens 五项有界问题已在 v1.0.6 修复，ObjCAtlas 已以 v1.0.1 源码版补正目录与过时说明；精确 CI、归档和权利核对在[发行增量](PUBLIC_RELEASE_INCREMENT_20261005_AFTER_SNAPSHOT.md)。这仍不是 91 仓的语义深审或 CVP 批准；旧 PEQuarry 阶段 3 公开范围及 ObjCAtlas 被中断的完整深审保持 OPEN。第三批新增项目开始本地实现后，候选清单的 14:03 UTC 状态仍按原冻结时点阅读，不能倒填为已经发布。
+
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。
