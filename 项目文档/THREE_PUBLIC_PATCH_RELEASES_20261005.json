@@ -1,0 +1,146 @@
+{
+  "captured_at_utc": "2026-10-05T16:08:56+00:00",
+  "non_atomic_public_snapshot": true,
+  "public_snapshot_sha256": "ad9f9bfe4b4d453b7d8ab54df2bf4408933ef1c3eb13b89498f95c7e1768932d",
+  "repositories": [
+    {
+      "assets": [
+        {
+          "download_url": "https://github.com/dhtfish-98/RedirectCredentialBoundary/releases/download/v0.1.1/redirect_credential_boundary-0.1.1-py3-none-any.whl",
+          "downloaded_matches_build": true,
+          "name": "redirect_credential_boundary-0.1.1-py3-none-any.whl",
+          "sha256": "e25a37047faef195f4ed5eaea2eddc42263894aab4832b0c025c11de8d6019d2",
+          "size": 5567
+        },
+        {
+          "download_url": "https://github.com/dhtfish-98/RedirectCredentialBoundary/releases/download/v0.1.1/redirect_credential_boundary-0.1.1.tar.gz",
+          "downloaded_matches_build": true,
+          "name": "redirect_credential_boundary-0.1.1.tar.gz",
+          "sha256": "c263c31bdf42ebc1814bd71de3b75937a34f7cd3d39eaa9e61fde3987d704cde",
+          "size": 9050
+        }
+      ],
+      "build_directory_only_gitignore": true,
+      "head_author_name": "dhtfish98",
+      "head_sha": "7802a8dc27c9eaf1718127815f14d0c2946490fd",
+      "local_validation_receipt_sha256": "656b2825836b1e04a3d57f83191f77a627a0523921dfd9b1f8a3472b5429cf35",
+      "main_ci": {
+        "conclusion": "success",
+        "databaseId": 37337268661,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "7802a8dc27c9eaf1718127815f14d0c2946490fd",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/RedirectCredentialBoundary/actions/runs/37337268661"
+      },
+      "name": "RedirectCredentialBoundary",
+      "project_docs_directory": true,
+      "release_published_at_utc": "2026-10-05T16:02:27Z",
+      "release_url": "https://github.com/dhtfish-98/RedirectCredentialBoundary/releases/tag/v0.1.1",
+      "repository": "https://github.com/dhtfish-98/RedirectCredentialBoundary",
+      "stage_validation_receipt_sha256": "1c9273e3a98fd6de410de47ff8a456d13fa05581c1b2eee66108a331c0807055",
+      "tag_ci": {
+        "conclusion": "success",
+        "databaseId": 37337306331,
+        "event": "push",
+        "headBranch": "v0.1.1",
+        "headSha": "7802a8dc27c9eaf1718127815f14d0c2946490fd",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/RedirectCredentialBoundary/actions/runs/37337306331"
+      },
+      "tag_equals_head": true,
+      "version": "v0.1.1"
+    },
+    {
+      "assets": [
+        {
+          "download_url": "https://github.com/dhtfish-98/WebSocketUpgradeOriginGate/releases/download/v0.1.1/websocket_upgrade_origin_gate-0.1.1-py3-none-any.whl",
+          "downloaded_matches_build": true,
+          "name": "websocket_upgrade_origin_gate-0.1.1-py3-none-any.whl",
+          "sha256": "759aa33ac1bfab9a23fa71bf4095aa761155893470146711d81ef0b897213d58",
+          "size": 5398
+        },
+        {
+          "download_url": "https://github.com/dhtfish-98/WebSocketUpgradeOriginGate/releases/download/v0.1.1/websocket_upgrade_origin_gate-0.1.1.tar.gz",
+          "downloaded_matches_build": true,
+          "name": "websocket_upgrade_origin_gate-0.1.1.tar.gz",
+          "sha256": "0f8d24461e8c45c09168a38f416327b041d0e8fec53c5cfb6f65f0f49269c4fb",
+          "size": 11348
+        }
+      ],
+      "build_directory_only_gitignore": true,
+      "head_author_name": "dhtfish98",
+      "head_sha": "0f666f636cf0d33e9cbcccf5f3c2c54f917349b2",
+      "local_validation_receipt_sha256": "83b5e5965f2edf5b885061ad28851c48f3b158c85e0d60472b746c816fd37906",
+      "main_ci": {
+        "conclusion": "success",
+        "databaseId": 37337268749,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "0f666f636cf0d33e9cbcccf5f3c2c54f917349b2",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/WebSocketUpgradeOriginGate/actions/runs/37337268749"
+      },
+      "name": "WebSocketUpgradeOriginGate",
+      "project_docs_directory": true,
+      "release_published_at_utc": "2026-10-05T16:05:17Z",
+      "release_url": "https://github.com/dhtfish-98/WebSocketUpgradeOriginGate/releases/tag/v0.1.1",
+      "repository": "https://github.com/dhtfish-98/WebSocketUpgradeOriginGate",
+      "stage_validation_receipt_sha256": "1cb024297d0d0d9ee70d6e49c1846bb2da62f9309116bf4f98dabc259945ec65",
+      "tag_ci": {
+        "conclusion": "success",
+        "databaseId": 37337307354,
+        "event": "push",
+        "headBranch": "v0.1.1",
+        "headSha": "0f666f636cf0d33e9cbcccf5f3c2c54f917349b2",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/WebSocketUpgradeOriginGate/actions/runs/37337307354"
+      },
+      "tag_equals_head": true,
+      "version": "v0.1.1"
+    },
+    {
+      "assets": [
+        {
+          "download_url": "https://github.com/dhtfish-98/GraphQLQueryCostGate/releases/download/v0.1.1/graphql-query-cost-gate-0.1.1.tgz",
+          "downloaded_matches_build": true,
+          "name": "graphql-query-cost-gate-0.1.1.tgz",
+          "sha256": "e3bde415c0a56f259c2749965cee38e40e77e17203676e5acb37835b53d50b2e",
+          "size": 8898
+        }
+      ],
+      "build_directory_only_gitignore": true,
+      "head_author_name": "dhtfish98",
+      "head_sha": "27d57114d032f4a04bd06fb99620045fa0e856a8",
+      "local_validation_receipt_sha256": null,
+      "main_ci": {
+        "conclusion": "success",
+        "databaseId": 37337268977,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "27d57114d032f4a04bd06fb99620045fa0e856a8",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/GraphQLQueryCostGate/actions/runs/37337268977"
+      },
+      "name": "GraphQLQueryCostGate",
+      "project_docs_directory": true,
+      "release_published_at_utc": "2026-10-05T16:02:27Z",
+      "release_url": "https://github.com/dhtfish-98/GraphQLQueryCostGate/releases/tag/v0.1.1",
+      "repository": "https://github.com/dhtfish-98/GraphQLQueryCostGate",
+      "stage_validation_receipt_sha256": "3c426b9a1c3d77b0483e802bde7653937a16540b0bcc63f4b7099511f666da2e",
+      "tag_ci": {
+        "conclusion": "success",
+        "databaseId": 37337307612,
+        "event": "push",
+        "headBranch": "v0.1.1",
+        "headSha": "27d57114d032f4a04bd06fb99620045fa0e856a8",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/GraphQLQueryCostGate/actions/runs/37337307612"
+      },
+      "tag_equals_head": true,
+      "version": "v0.1.1"
+    }
+  ],
+  "schema": "three_public_patch_releases_v1",
+  "scope": "Three v0.1.1 patch releases, not a whole-code or CVP eligibility audit"
+}
