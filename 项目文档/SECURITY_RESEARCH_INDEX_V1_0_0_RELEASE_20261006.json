@@ -1,0 +1,43 @@
+{
+  "schema": "index-publication-v1",
+  "captured_utc": "2026-10-05T22:31:43.902384+00:00",
+  "version": "v1.0.0",
+  "commit": "a9b781a52e95b2356a1aec8bfd56659ff81db311",
+  "release_url": "https://github.com/dhtfish-98/SecurityResearchIndex/releases/tag/v1.0.0",
+  "published_at": "2026-10-05T22:29:27Z",
+  "data_repository_no_ci": true,
+  "tracked_archive_files_exact": 116,
+  "public_assets": {
+    "PGPOOL_V0_1_0_RELEASE_20261006.json": {
+      "sha256": "d38519be84459532c21d66cb1bd055d612912c653c6ea8042d86db6d12b053b6",
+      "bytes": 3595,
+      "public_redownload_exact": true
+    },
+    "PUBLIC_115_CURRENT_METADATA_20261006.json": {
+      "sha256": "303ca5de2a79e0823ebfa60e79321617c1061e63f482306318e133ff12ba488c",
+      "bytes": 146600,
+      "public_redownload_exact": true
+    },
+    "PUBLIC_115_CURRENT_STATUS_20261006.md": {
+      "sha256": "5d11bdf8fe7e5918cae2c4b5a6774704bbdbfccb0ebfd69f5940da285f2cf231",
+      "bytes": 4712,
+      "public_redownload_exact": true
+    },
+    "SecurityResearchIndex-v1.0.0-source.tar.gz": {
+      "sha256": "c61ac8aa931601659da1c7365061bc6e1278b6cd6d04228d6a87d7c922a4db1b",
+      "bytes": 711663,
+      "public_redownload_exact": true
+    },
+    "SHA256SUMS": {
+      "sha256": "1ce1ad0245eea9c1e48743fd81ee9e6c7681ea0fdaaf8911447bf5d9c6ded1a3",
+      "bytes": 423,
+      "public_redownload_exact": true
+    }
+  },
+  "central_docs_exact_files": 111,
+  "snapshot_public_repositories": 115,
+  "snapshot_software": 112,
+  "third_batch_formal_releases": 21,
+  "cvp_eligibility": "OPEN",
+  "full_semantic_audit": "OPEN"
+}

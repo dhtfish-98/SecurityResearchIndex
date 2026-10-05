@@ -1,0 +1,103 @@
+{
+  "schema": "imagequay-publication-v1",
+  "captured_utc": "2026-10-05T22:52:48.709025+00:00",
+  "repository": "https://github.com/dhtfish-98/ImageQuay",
+  "release": "https://github.com/dhtfish-98/ImageQuay/releases/tag/v1.0.9",
+  "version": "v1.0.9",
+  "commit": "a1089c4f2b1b360dc7f017121dc8c6aef667b536",
+  "commit_author": {
+    "name": "dhtfish98",
+    "email": "109978225+dhtfish-98@users.noreply.github.com",
+    "date": "2026-10-05T22:44:37Z"
+  },
+  "commit_committer": {
+    "name": "dhtfish98",
+    "email": "109978225+dhtfish-98@users.noreply.github.com",
+    "date": "2026-10-05T22:44:37Z"
+  },
+  "annotated_tagger": {
+    "name": "dhtfish98",
+    "email": "109978225+dhtfish-98@users.noreply.github.com",
+    "date": "2026-10-05T22:47:41Z"
+  },
+  "main_ci": {
+    "url": "https://github.com/dhtfish-98/ImageQuay/actions/runs/37384397862",
+    "headBranch": "main",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "validate",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "tag_ci": {
+    "url": "https://github.com/dhtfish-98/ImageQuay/actions/runs/37384712494",
+    "headBranch": "v1.0.9",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "validate",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "public_assets": {
+    "imagequay-1.0.9-py3-none-any.whl": {
+      "sha256": "87b7e9e49c6127feb8306888c5d224bfa68f44047d276c96567be7ff610519a0",
+      "bytes": 208406,
+      "public_redownload_exact": true,
+      "url": "https://github.com/dhtfish-98/ImageQuay/releases/download/v1.0.9/imagequay-1.0.9-py3-none-any.whl"
+    },
+    "imagequay-1.0.9.tar.gz": {
+      "sha256": "f807ce6005e7c376cb779658500f7ebba8007f53441452e1ec2f03e6824ae60a",
+      "bytes": 720060,
+      "public_redownload_exact": true,
+      "url": "https://github.com/dhtfish-98/ImageQuay/releases/download/v1.0.9/imagequay-1.0.9.tar.gz"
+    },
+    "ImageQuay-v1.0.9-source.tar.gz": {
+      "sha256": "525a2af2027b78b04f15b2eb99fa4142a4f34a2ccaf18a04048cad941378a241",
+      "bytes": 689009,
+      "public_redownload_exact": true,
+      "url": "https://github.com/dhtfish-98/ImageQuay/releases/download/v1.0.9/ImageQuay-v1.0.9-source.tar.gz"
+    },
+    "SHA256SUMS": {
+      "sha256": "44e72066cc7dc586c6cea0d0eb215b7457d384ea7af1bad7ff664d60be7e4028",
+      "bytes": 285,
+      "public_redownload_exact": true,
+      "url": "https://github.com/dhtfish-98/ImageQuay/releases/download/v1.0.9/SHA256SUMS"
+    }
+  },
+  "tracked_files": 97,
+  "tracked_compiled_fixtures": 0,
+  "package_file_audit": {
+    "ImageQuay-v1.0.9-source.tar.gz": {
+      "file_count": 97,
+      "compiled_fixture_count": 0
+    },
+    "imagequay-1.0.9.tar.gz": {
+      "file_count": 117,
+      "compiled_fixture_count": 0
+    },
+    "imagequay-1.0.9-py3-none-any.whl": {
+      "file_count": 56,
+      "compiled_fixture_count": 0
+    }
+  },
+  "central_source_exact_files": 72,
+  "central_docs_exact_files": 25,
+  "local_source_tests": "387 passed",
+  "local_upstream_differential": {
+    "observations": 822,
+    "unexplained_mismatches": 0
+  },
+  "github_fixture_mode": "PINNED_HISTORY_REFERENCE",
+  "fixture_reference_commit": "aa76377254fdb2f18286f452bbeb1512a4b034a5",
+  "earlier_failed_runs": {
+    "v1.0.8_main": "https://github.com/dhtfish-98/ImageQuay/actions/runs/37383782679",
+    "v1.0.8_tag": "https://github.com/dhtfish-98/ImageQuay/actions/runs/37383784707",
+    "v1.0.9_pre_fallback_main": "https://github.com/dhtfish-98/ImageQuay/actions/runs/37384045305"
+  },
+  "cvp_eligibility": "OPEN",
+  "historical_release_assets": "Older versions can still contain compiled fixtures; this report covers current HEAD and v1.0.9 assets."
+}
