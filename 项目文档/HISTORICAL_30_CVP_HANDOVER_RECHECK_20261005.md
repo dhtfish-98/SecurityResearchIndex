@@ -39,6 +39,8 @@
 
 六项条件案例是 WheelNamespaceReview、CITrustBoundaryReview、DeserializeCallReview、DOMSinkReview、YaraRuleDraftReview、ModelOpcodeReview。其实际代码与软件包安装链、CI 注入、反序列化、DOM sink、规则分析、危险模型格式等防御研究较接近；仍只有在申请人的真实授权用途和受影响情况吻合时，才可作为对应技术附件。其余 24 项提供离线核对、审计和策略工程能力，不作为 24 个独立 CVP 用例写入申请。
 
+六项当前正式发行的 [17 个附件回下载核对](HISTORICAL_30_SIX_CURRENT_RELEASE_ASSETS_20261005.json) 已逐个比较字节数、SHA-256 和 GitHub 报告摘要；wheel、sdist、npm 包内版本都与相应标签一致，包作者字段均为 `dhtfish98`，各包存在许可文件。三项带 `SHA256SUMS.txt` 的发行还逐行核对了所列附件摘要。该项是资产与元数据复核，不代表重新运行六项功能或证明 CVP 资格；机读收据 SHA-256 为 `fd279e0dcb22315f2734ab906d2142b8aa58fd4d5e101d43b50b725b5db5811d`。
+
 Claude.ai / Claude Code 的第一方申请需按[当前官方说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)核对入口、管理员身份与实际用途。公开说明没有逐项目原始拦截日志的硬门槛；没有日志也不能把普通工程硬说成受防护影响的双用途案例。仓库署名为 dhtfish98 的新实现与真实第三方材料的版权、许可和来源分别陈述。
 
 本页是逐仓材料适配与远端状态对照，不是 30 项源码全函数重审、申请账号核验或 Anthropic 批准。证据快照 SHA-256：当前[元数据](PUBLIC_111_METADATA_20261005.json) `d1aff541bd88989ac9f77043f5c25d5795c9b47f744a04ac6d3b037b1047a5a4`；[材料矩阵](PUBLIC_111_CVP_MATERIAL_RECHECK_20261005.json) `50f7bfd883a9770d8142fb0846939db5cacd2b7335ad401d9f71815e64f024e6`。
