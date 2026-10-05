@@ -89,3 +89,5 @@
 **2026-10-05 19:44–19:45 UTC 公开仓再审：**[110 仓元数据快照](PUBLIC_110_METADATA_20261005.json)核到 107 个软件仓和 3 个资料仓；110/110 有集中「项目文档」且 `Build` 只跟踪 `.gitignore`，106/107 软件仓的精确提交有效 CI 成功，106 个最新 Release 与所读 HEAD 对齐。唯一新建但未发行的 SshHostCertTrustBoundary 因 GitHub Actions 排队继续标 OPEN。[110 仓精确提交文本/路径复核](PUBLIC_110_EXACT_HEAD_TEXT_PATH_AUDIT_20261005.json)合并未变提交与四仓增量，覆盖 4,228 条跟踪路径，所读文本未确认 AI/Codex 作者署名；完整语义审计仍 OPEN。[材料角色矩阵](PUBLIC_110_CVP_MATERIAL_RECHECK_20261005.json)不把这些工程结果当作 CVP 批准。SshCertIssuanceGate 的根 README/LICENSE 是发现的目录遗漏，v0.1.1 修订尚待发行。[110 仓申请材料适配再审](PUBLIC_110_CVP_SELECTION_AUDIT_20261005.md)逐组列出不应计作主案例的项目，并将真实受影响用途与可选原始记录区分。
 
 **2026-10-05 20:01–20:02 UTC 111 仓修正快照：**新增 CapabilityRuleEval 公开源码后，[续审记录](PUBLIC_111_CORRECTED_SNAPSHOT_20261005.md)核到 108 软件与 3 资料。104/108 软件仓的精确提交有效 CI 成功且最新 Release 对齐；CapabilityRuleEval、PEQuarry、SshCertIssuanceGate、SshHostCertTrustBoundary 保持待核对。新版采集按工作流和分支/标签分别判断，避免标签成功遮蔽主分支排队。此时第三批仍是 15/30 正式发行；CVP 资格 OPEN。
+
+[历史 30 项交付接管再筛](HISTORICAL_30_CVP_HANDOVER_RECHECK_20261005.md)逐项对照本次 111 仓快照：6 项保留有条件技术附件，24 项作为工程背景附件，30 项当前提交均已较原交付记录前进；工程交付和申请资格继续分开判断。这 30 个名称与第三批新题目无交集。
