@@ -7,6 +7,7 @@
 - 14 个当时无正式 Release 的项目：A64Dispatch、ArtifactDigestReview、AuthLogReview、ChromeRelay、ContainerfileReview、DependencyPinReview、EntitlementFlagReview、FileModeReview、IAMScopeReview、KubePodReview、MachOInspect、SBOMFieldReview、SSHPolicyReview、WorkflowPermissionReview。它们的 GitHub 主分支存在，不应写成“已发正式版本”。
 - CDTranslator、HeaderPolicyReview、LocalSecretReview、PEHardeningReview、SealScope 的现有 Release 没有手工上传资产，但标签仍有 GitHub 自动源码归档；单凭零附件不能断言未发布。
 - 94 个当时 HEAD 的 Git 提交作者与提交者显示为 `dhtfish98`。CDTranslator 当前许可文本的 `dhtfish988` 是同一 GitHub 数字账号的旧显示署名，宜在新提交更新；历史 Git 仍保持原样。BranchLoom、SILGallery 与其他有来源记录的第三方作者和许可证是真实权利，不能改称申请人独创。ArchiveLens 源码中的模型工具名称属于现有功能接口，不能误判为作者署名。
+- 冻结采集还读取了 94 仓共 3,813 个文本文件；93 个二进制或超大文件未作为文本扫描。检出的 `Claude`、`Codex`、`OpenAI` 等字样主要位于 CVP 官方说明、固定上游来源记录或 ArchiveLens 的实际功能接口，没有在所读文本中证实 AI 为项目作者。该结论只限当时可读文本与扫描规则，不能代替完整来源或权利审计。
 - IDBMeadow 的 IDB/i64 样本及 ImageQuay 的 dylib 样本可能是测试输入；是否迁出须按实际测试依赖验证，不能把它们直接当编译产物删除。
 
 此轮没有证明 94 个项目均符合 CVP 要求。按[代码级申请材料再筛](CVP_CODE_SCOPE_RECHECK_20261004.md)，两批 60 个项目中仍只有 6 个有条件技术案例，其余 54 个为工程背景；另 24 个题目原本只是未实施规格，[今日适配再筛](PROJECT_30_FIT_RECHECK_20261005.md)又将其中 8 个降为辅助或并仓。身份、真实授权任务、受保障措施影响与官方批准均为 OPEN。

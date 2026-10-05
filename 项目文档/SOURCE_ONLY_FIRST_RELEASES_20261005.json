@@ -1,0 +1,238 @@
+{
+  "schema": "cvp-source-only-releases.v1",
+  "count": 11,
+  "repos": [
+    {
+      "repo": "ArtifactDigestReview",
+      "commit": "ae45221a220f9feeeb94b9492e52e24118c22367",
+      "release": "https://github.com/dhtfish-98/ArtifactDigestReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/ArtifactDigestReview/actions/runs/37305775070",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "8448a7d8bc0c41c89a09fc0498ed9aa67ff11605b6a417a874e16fad5720370d",
+      "source_archive_bytes": 11073,
+      "tracked_files_byte_identical": 19,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 9,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "AuthLogReview",
+      "commit": "bdaf9f9051def589bfefb12ec26af45df4532c00",
+      "release": "https://github.com/dhtfish-98/AuthLogReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/AuthLogReview/actions/runs/37305774904",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "ec1db14a362a70fbb6a06c8653e5990d77394557ae6f70a153e15841bd8d7f09",
+      "source_archive_bytes": 11140,
+      "tracked_files_byte_identical": 19,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 10,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "ContainerfileReview",
+      "commit": "7b93078fb3f8904c2a0d25f8934ba65609b0d175",
+      "release": "https://github.com/dhtfish-98/ContainerfileReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/ContainerfileReview/actions/runs/37305778896",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "cc20c89d7ab41b8f74adbf0ef38fe8297727b99d050c4f1ad255c08abc1b6ddd",
+      "source_archive_bytes": 11748,
+      "tracked_files_byte_identical": 18,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 10,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "DependencyPinReview",
+      "commit": "230c717efa1fcdb7babe2857a9df425620a6e4ee",
+      "release": "https://github.com/dhtfish-98/DependencyPinReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/DependencyPinReview/actions/runs/37305771000",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "f19381ad16ac553a003283e44815eb37b7a777751074eccf2537f3f339990b76",
+      "source_archive_bytes": 10698,
+      "tracked_files_byte_identical": 19,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 9,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "EntitlementFlagReview",
+      "commit": "d89cdedc10cdd977235d3bfb29aea2e446cdbd04",
+      "release": "https://github.com/dhtfish-98/EntitlementFlagReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/EntitlementFlagReview/actions/runs/37305778893",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "4323ee209fb9fcc4a329b1f307bed5bfbe66f6c40b62577ae7c9f5f6b50f5f24",
+      "source_archive_bytes": 10313,
+      "tracked_files_byte_identical": 18,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 8,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "FileModeReview",
+      "commit": "c26fe0cfd1a27c3c23332b34d450ac79591811ee",
+      "release": "https://github.com/dhtfish-98/FileModeReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/FileModeReview/actions/runs/37305778472",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "e7a04915926fb9f0eaa9df8af378f6c5320ab92b769f035e57c5caefe7e17d09",
+      "source_archive_bytes": 9125,
+      "tracked_files_byte_identical": 16,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 5,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "IAMScopeReview",
+      "commit": "3eed6cbc68b49fb4031d2a00721f922eb3f3d2b3",
+      "release": "https://github.com/dhtfish-98/IAMScopeReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/IAMScopeReview/actions/runs/37305771614",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "4a2f502ebbb3471c8a1a7676a3a51f37893db0b91077cd243ba2d685aa34cbd5",
+      "source_archive_bytes": 11412,
+      "tracked_files_byte_identical": 19,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 10,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "KubePodReview",
+      "commit": "ab4df4cf35ce1f359b9646ffb20d15c1d9ab4a35",
+      "release": "https://github.com/dhtfish-98/KubePodReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/KubePodReview/actions/runs/37305781716",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "c747162cbe30ea8c44fcede8a782ef7b56f6336acd897a93db2f88b048376097",
+      "source_archive_bytes": 11850,
+      "tracked_files_byte_identical": 19,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 11,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "SBOMFieldReview",
+      "commit": "893e2efcf051a914ebec68d96f9d00e6a951ea03",
+      "release": "https://github.com/dhtfish-98/SBOMFieldReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/SBOMFieldReview/actions/runs/37305775464",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "9468c3fca1dc111d12c471ce647d4a77e222282b19d14385ca0ea385e4e74115",
+      "source_archive_bytes": 11228,
+      "tracked_files_byte_identical": 19,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 10,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "SSHPolicyReview",
+      "commit": "7ae53f3459036f0cb40816ac306f1bc8ed6b5765",
+      "release": "https://github.com/dhtfish-98/SSHPolicyReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/SSHPolicyReview/actions/runs/37305771962",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "b2fcc9b2d445ff08075d22c57d48217313d42d60a5a2d95bd9caff9d8fcf0b44",
+      "source_archive_bytes": 10373,
+      "tracked_files_byte_identical": 18,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 9,
+      "local_validation": "unit/cli_help/compileall PASS"
+    },
+    {
+      "repo": "WorkflowPermissionReview",
+      "commit": "7ed60f0eb5a6fb02fe215d816ca59899befdb3f5",
+      "release": "https://github.com/dhtfish-98/WorkflowPermissionReview/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "latest": true,
+      "main_ci": "https://github.com/dhtfish-98/WorkflowPermissionReview/actions/runs/37305781772",
+      "ci_conclusion": "success",
+      "source_archive_sha256": "8d5afb944ce58297f69f2decc105f96b21785025efc0b8af2333cbd919d65ebd",
+      "source_archive_bytes": 10846,
+      "tracked_files_byte_identical": 19,
+      "manual_assets": 0,
+      "author": "dhtfish98|dhtfish98",
+      "ai_author_hits": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "local_python": "3.12",
+      "local_unit_tests": 9,
+      "local_validation": "unit/cli_help/compileall PASS"
+    }
+  ],
+  "local_unit_tests_total": 100
+}

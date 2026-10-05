@@ -18,7 +18,7 @@
 
 这些分类是材料整理判断，不是官方项目白名单。普通防御工具不是政策违规；合法双用途也不能仅凭名称或功能判断是否符合申请。渠道按申请人说明为 Claude.ai / Claude Code；原始拦截或降级记录是可选佐证，本审核不将其设为硬性门槛。当前官方说明明确不适用于 Opus 5.5 和 Sonnet 5.5，ZDR 组织也暂不符合资格；第一方门户申请仅授权管理员可见，提交需身份验证。未来扩展不能当作已生效。仓库数量、改名、作者字段和 CI 不能代表官方批准。见 [官方说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)及 [当前规则与证据](CVP_RULES_AND_EVIDENCE_20261004.md)。
 
-[30 题目研究池 R2](PROJECT_30_RESEARCH_POOL_R2_20261004.md)列出 6 个已有条件候选和 24 个未实现规格；[代码级再筛](CVP_CODE_SCOPE_RECHECK_20261004.md)把原 18 初筛案例中的 10 个降为工程背景、2 个派生工具移出主案例。[2026-10-05 题目适配再筛](PROJECT_30_FIT_RECHECK_20261005.md)将 24 个旧规格分为 9 个优先保留、7 个须收紧、8 个降为辅助或并仓，并另列 8 个仍未实现的替代研究方向。30 只是题目槽位，不是 30 个已重写或已符合 CVP 要求的项目；实施须以真实授权任务为准。
+[30 题目研究池 R2](PROJECT_30_RESEARCH_POOL_R2_20261004.md)列出 6 个已有条件候选和 24 个未实现规格；[代码级再筛](CVP_CODE_SCOPE_RECHECK_20261004.md)把原 18 初筛案例中的 10 个降为工程背景、2 个派生工具移出主案例。[2026-10-05 题目适配再筛](PROJECT_30_FIT_RECHECK_20261005.md)将 24 个旧规格分为 9 个优先保留、7 个须收紧、8 个降为辅助或并仓，并另列 8 个仍未实现的替代研究方向。[逐项 30 候选状态表](CVP_30_CANDIDATE_TRACKER_20261005.md)标明每个题目的实施状态与独立验收所需证据。30 只是题目槽位，不是 30 个已重写或已符合 CVP 要求的项目；实施须以真实授权任务为准。
 
 10:53 UTC 的逐仓提交与 CI 见[后续机器快照](PUBLIC_PORTFOLIO_POSTUPDATE_20261004.json)，材料角色与限定用途见[再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)。04:51 UTC 的[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)及 [2026-10-03 工程矩阵](CVP_REVIEW_20261004.md)和[机器记录](CVP_REVIEW_20261004.json)保留原冻结证据，不应当作最新 HEAD。真实申请材料待补项见 [证据整理表](APPLICATION_EVIDENCE_OPEN.md)，不把空白信息写成已完成事实。
 
@@ -43,5 +43,7 @@
 **2026-10-05 11:01 UTC PEQuarry v1.0.5 增量：**[正式 Release](https://github.com/dhtfish-98/PEQuarry/releases/tag/v1.0.5)与当前 `main`、标签解引用均对应 `64e458d08db35fbafce2cdc2e48794a0f306b7dd`；[主线 CI](https://github.com/dhtfish-98/PEQuarry/actions/runs/37299065971)和[标签 CI](https://github.com/dhtfish-98/PEQuarry/actions/runs/37299597171)在该精确提交成功。回下载的 wheel 和源码包与本地终验资产逐字节一致，摘要见[发行增量记录](PEQUARRY_V1_0_5_RELEASE_INCREMENT_20261005.json)。这次只清除当前配置不可达的共用校验分支中无关私有项目名称，14 个 PE 运行时源码文件未改；现行树和新资产没有该名称，旧 Git 对象与 1.0.4 资产仍在。pefile 原作者 MIT 权利和来源保留。旧 1.0.21 阶段 3、被中断的 12 项完整深审及 CVP 资格继续 OPEN。
 
 **2026-10-05 10:55–11:05 UTC 全公开仓快照：**94/94 个当时公开仓目录与所采 HEAD 可读，91 个项目仓当时精确 HEAD 的 Actions 成功；77 个项目有正式 Release，但冻结时只有 9 个最新标签与当时 HEAD 相同，68 个标签落后。标签后的差异多为文档和构建、打包或检查更新，并非这些旧资产已包含当前 HEAD；PEQuarry 随后发行 v1.0.5，应按上述独立增量理解。14 个项目当时仍无正式 Release。逐仓、发行及署名边界见[当日再审计](PUBLIC_PORTFOLIO_RECHECK_20261005.md)，不把 CI、作者显示名或仓库数量当作 CVP 批准。
+
+**2026-10-05 冻结后的发行增量：**6 个条件技术案例已各发目录/构建补丁版，ImageQuay、TraceMeadow、ArchiveLens 的 12 份旧文档素材已原字节移入「项目文档」并发行新版；此前 14 个无正式 Release 的项目中，11 个小型工具已逐仓发布 `v0.1.0` 源码版。各仓准确提交、精确 CI、资产范围与开放问题见[发行增量](PUBLIC_RELEASE_INCREMENT_20261005_AFTER_SNAPSHOT.md)及[11 仓机器收据](SOURCE_ONLY_FIRST_RELEASES_20261005.json)。这不改变旧快照计数，也不增加 CVP 已获批项目数。
 
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。
