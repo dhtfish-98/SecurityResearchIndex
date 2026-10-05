@@ -2,7 +2,7 @@
 
 # 防御安全项目与 CVP 证据索引
 
-**索引版本 v1.0.1；最新公开状态：**[2026-10-05 22:54 UTC 起的 115 仓续审](PUBLIC_115_POST_IMAGEQUAY_STATUS_20261006.md)及[逐仓机器矩阵](PUBLIC_115_POST_IMAGEQUAY_METADATA_20261006.json)记录 112 个软件仓、3 个资料仓；第三批固定 30 题中 21 项已有正式版本，9 项尚未发行。ImageQuay 已在 v1.0.9 从当前跟踪树移除四个编译夹具；另有 FederatedConnectorIdentityGate 公开文档状态落后于实际发行，已记录待负责对话更正。账号关联、软件仓版本标签与检查汇总按冻结窗口复核；申请资格和全量语义深审继续 OPEN。下文按时间保留旧快照和发行过程，不应把旧数字当作实时结论。
+**索引版本 v1.0.2；最新公开状态：**[2026-10-05 23:18 UTC 的 116 仓续审](PUBLIC_116_POST_LANDLOCK_STATUS_20261006.md)及[逐仓机器矩阵](PUBLIC_116_POST_LANDLOCK_METADATA_20261006.json)记录 113 个软件仓、3 个资料仓；第三批固定 30 题中 22 项已有正式版本，8 项尚未发行。LandlockFilesystemGate v0.1.0 的精确主线／标签 CI、回下载资产和源码包已核对；FederatedConnectorIdentityGate 公开文档状态落后于实际发行，待负责对话更正。账号关联、软件仓版本标签与检查汇总按冻结窗口复核；申请资格和全量语义深审继续 OPEN。下文按时间保留旧快照和发行过程，不应把旧数字当作实时结论。
 
 本页主体及申请门槛文字勘误记录于 2026-10-04 08:23 UTC。逐仓 GitHub 状态冻结于 07:40–07:41 UTC；较早的 04:51 UTC 快照及 2026-10-03 23:49 UTC 工程矩阵均保留原时点。后续发行、10:53 UTC 快照及 2026-10-05 再审计作为各自时点的增量列明，不改写旧冻结记录。
 
@@ -105,3 +105,7 @@
 ## 2026-10-05 22:54 UTC 起的 115 仓续审
 
 [ImageQuay v1.0.9](IMAGEQUAY_V1_0_9_RELEASE_20261006.json)移出当前跟踪树的四个编译夹具，精确提交的主线/标签 CI 及四个公开附件回下载均已核对；它仍是保留上游来源和权利的派生项目。新[115 仓续审](PUBLIC_115_POST_IMAGEQUAY_STATUS_20261006.md)和[逐仓矩阵](PUBLIC_115_POST_IMAGEQUAY_METADATA_20261006.json)重新读取全部公开 HEAD，确认 113 仓未变，只对 ImageQuay 与本索引的变化重查树、标签和版本。112 软件仓最新正式 Release 与所读 HEAD 相同，第三批仍为 **21/30**。FederatedConnectorIdentityGate 已发行而项目文档写未发行的矛盾另列待更正；CVP 资格、全部无扩展名文件识别及完整语义深审均 OPEN。
+
+## 2026-10-05 23:18 UTC 的 116 仓续审
+
+[LandlockFilesystemGate v0.1.0](LANDLOCK_V0_1_0_RELEASE_20261006.json)完成真实内核、主线／标签 CI 与正式资产回下载核验；[116 仓状态](PUBLIC_116_POST_LANDLOCK_STATUS_20261006.md)和[逐仓矩阵](PUBLIC_116_POST_LANDLOCK_METADATA_20261006.json)重新读取全部公开 HEAD 与最新 Release。第三批变为 **22/30 正式发行**，其余 8 项继续按真实实验和发布门槛推进。索引仓 v1.0.1 的发行也有独立回验；本次发布索引 v1.0.2 后，它自己的 HEAD 会再次前进，所以矩阵保留读取时点。CVP 资格、历史权利深审与全部软件的语义深审仍 OPEN。

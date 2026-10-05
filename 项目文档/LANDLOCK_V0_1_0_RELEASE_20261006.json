@@ -1,0 +1,88 @@
+{
+  "schema": "landlockfilesystemgate-publication-v1",
+  "captured_utc": "2026-10-05T23:17:22.451039+00:00",
+  "result": "PASS_PUBLIC_ENGINEERING",
+  "repository": "https://github.com/dhtfish-98/LandlockFilesystemGate",
+  "version": "v0.1.0",
+  "commit": "348621ed20c22fdb0792f8cedf9fe521e1ea6ea0",
+  "head_author_login": "dhtfish-98",
+  "head_committer_login": "dhtfish-98",
+  "tag_object_sha": "8587e2df12fc0b9f1c5d57e9ed0554524c60e954",
+  "tagger": {
+    "name": "dhtfish98",
+    "email": "109978225+dhtfish-98@users.noreply.github.com",
+    "date": "2026-10-05T23:14:23Z"
+  },
+  "release_url": "https://github.com/dhtfish-98/LandlockFilesystemGate/releases/tag/v0.1.0",
+  "release_published_at": "2026-10-05T23:15:35Z",
+  "assets": {
+    "LandlockFilesystemGate-0.1.0.tar.gz": {
+      "sha256": "7d9e0234d8ff4e5ba681c4b18e63e17ec0aea193c51d8f910a130518f5f669c1",
+      "size": 16093,
+      "url": "https://github.com/dhtfish-98/LandlockFilesystemGate/releases/download/v0.1.0/LandlockFilesystemGate-0.1.0.tar.gz"
+    },
+    "SHA256SUMS": {
+      "sha256": "621eda2ee884b6e545236042fad43b00e3eaf665740d42a8e698b9e5ab39c4ed",
+      "size": 102,
+      "url": "https://github.com/dhtfish-98/LandlockFilesystemGate/releases/download/v0.1.0/SHA256SUMS"
+    }
+  },
+  "main_and_tag_ci": [
+    {
+      "kind": "main",
+      "run_id": 37387227822,
+      "url": "https://github.com/dhtfish-98/LandlockFilesystemGate/actions/runs/37387227822",
+      "conclusion": "success",
+      "checks": [
+        {
+          "status": "PASS",
+          "kernel": "6.17.0-1022-azure",
+          "abi": 7,
+          "receipt_sha256": "94604062c53320296522f41ffaed1f7e112ef27e4e307876f56ae7941ee3f6d0",
+          "binary_sha256": "79f77cb46fd35f1ef3ac36565c063e9e7ca4ee2ae4960744c34cb982c29badc9"
+        },
+        {
+          "status": "PASS",
+          "kernel": "6.17.0-1022-azure",
+          "abi": 7,
+          "receipt_sha256": "2a1be7d30937639f6daba215be6398caea249957bf8fbbd2ccc9c9ac9d0c4422",
+          "binary_sha256": "79f77cb46fd35f1ef3ac36565c063e9e7ca4ee2ae4960744c34cb982c29badc9"
+        }
+      ],
+      "archive_sha256": "7d9e0234d8ff4e5ba681c4b18e63e17ec0aea193c51d8f910a130518f5f669c1"
+    },
+    {
+      "kind": "tag",
+      "run_id": 37387342144,
+      "url": "https://github.com/dhtfish-98/LandlockFilesystemGate/actions/runs/37387342144",
+      "conclusion": "success",
+      "checks": [
+        {
+          "status": "PASS",
+          "kernel": "6.17.0-1022-azure",
+          "abi": 7,
+          "receipt_sha256": "fe23506b4aded08d58adf2f420aac9fb0d5bad05a9c34dfaa7592c5f7fba3dbc",
+          "binary_sha256": "79f77cb46fd35f1ef3ac36565c063e9e7ca4ee2ae4960744c34cb982c29badc9"
+        },
+        {
+          "status": "PASS",
+          "kernel": "6.17.0-1022-azure",
+          "abi": 7,
+          "receipt_sha256": "0b321ac0afc6069644f99cfd100d827203b8d474ad03b7a4272616c963a74741",
+          "binary_sha256": "79f77cb46fd35f1ef3ac36565c063e9e7ca4ee2ae4960744c34cb982c29badc9"
+        }
+      ],
+      "archive_sha256": "7d9e0234d8ff4e5ba681c4b18e63e17ec0aea193c51d8f910a130518f5f669c1"
+    }
+  ],
+  "tracked_file_count": 20,
+  "central_source_file_count": 13,
+  "central_docs_file_count": 7,
+  "all_archive_files_equal_git_and_central_mirror": true,
+  "prior_failed_ci": [
+    37386640209,
+    37386744366
+  ],
+  "cvp_eligibility": "OPEN",
+  "independent_originality_and_historical_attribution": "OPEN beyond documented source and pinned upstream rights"
+}
