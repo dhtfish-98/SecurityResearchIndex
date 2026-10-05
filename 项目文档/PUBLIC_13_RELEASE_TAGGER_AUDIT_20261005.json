@@ -1,0 +1,123 @@
+{
+  "captured_at_utc": "2026-10-05T20:40:28.608173+00:00",
+  "method": "GitHub REST annotated tag objects for 13 current formal Releases whose exact HEAD commit was misassociated at the 112 snapshot. Tagger email is metadata; actual GitHub linked user is inferred from known ID mapping and was not returned by tag endpoint.",
+  "rows": [
+    {
+      "name": "ArchiveLens",
+      "release_tag": "v1.0.7",
+      "tag_object_sha": "bb8c299b4b5cc25d026ab844e44ac386efcff70e",
+      "tag_target_sha": "906be7fb188416952f010eccfbdf7c559f39aa67",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T17:10:52Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "GraphQLQueryCostGate",
+      "release_tag": "v0.1.1",
+      "tag_object_sha": "bc2b1d3cfa519bccb6ae8686d47b8cac5b01669c",
+      "tag_target_sha": "27d57114d032f4a04bd06fb99620045fa0e856a8",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T15:59:41Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "JupyterKernelOriginGate",
+      "release_tag": "v0.1.0",
+      "tag_object_sha": "f36a74abb8a2523b4ea6f85d06af9d5c9f5fb5c2",
+      "tag_target_sha": "2cca5eea7551b4c011cbcaf87f13941eea903002",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T18:53:10Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "NatsSubjectTenantGate",
+      "release_tag": "v0.1.0",
+      "tag_object_sha": "00746bb836013b753bc8fe43b66516b589e08253",
+      "tag_target_sha": "044174f67b6f5166f3c3705d274f26118df0d5d6",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T19:04:21Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "ObjCAtlas",
+      "release_tag": "v1.0.4",
+      "tag_object_sha": "b000933f56b74ac5d143821ef58796eeeadf88de",
+      "tag_target_sha": "231b5aa5762b1696835d0d2ba4d7c12ad9e814ca",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T19:20:59Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "PluginHandshakeTrustGate",
+      "release_tag": "v0.1.0",
+      "tag_object_sha": "4813b7f2d09f69a5072cbdefe7bc7fcb5023db64",
+      "tag_target_sha": "83f085a446a6378f75d03c4d907e0d7deb0e2557",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T16:27:26Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "ProxyIdentityHeaderTrust",
+      "release_tag": "v0.1.0",
+      "tag_object_sha": "b0782d19cfc8b20b48ea99708dcbcd13d627fa54",
+      "tag_target_sha": "8c3866dae7aa5ea2f3e9b94c9fd606d62e60ef3e",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T16:19:37Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "QuicEarlyDataPolicy",
+      "release_tag": "v0.1.0",
+      "tag_object_sha": "4bd42f01c1438271e6b127a10196481a0f3bc353",
+      "tag_target_sha": "5ce8bd25c080cd0d67459b5db8a6045b1fc1649f",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T19:20:53Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "RecoveryCodeAccountBinding",
+      "release_tag": "v0.1.0",
+      "tag_object_sha": "1ec53b80df6d38f7f937b01f7cb7e46f16e83c89",
+      "tag_target_sha": "c3175b55aab23903f1badfb02e3efaf363474d7d",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T18:47:53Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "RedirectCredentialBoundary",
+      "release_tag": "v0.1.1",
+      "tag_object_sha": "c0285accccf32f0249cc02fafdafd09c301ad68b",
+      "tag_target_sha": "7802a8dc27c9eaf1718127815f14d0c2946490fd",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T15:59:41Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "SftpHandlePermissionGate",
+      "release_tag": "v0.1.0",
+      "tag_object_sha": "f634a9d5cdd43cfc01e1099bda7f6b6867fa9202",
+      "tag_target_sha": "3db61f5330d927c0446a2839d9d4d50e9438514b",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T18:39:51Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "WebSocketUpgradeOriginGate",
+      "release_tag": "v0.1.1",
+      "tag_object_sha": "8acfda5e77e3b6f942c78353990da9c813336669",
+      "tag_target_sha": "0f666f636cf0d33e9cbcccf5f3c2c54f917349b2",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T15:59:41Z",
+      "tagger_email_id_prefix": 160427136
+    },
+    {
+      "name": "XmlEntityResourceBoundary",
+      "release_tag": "v0.1.0",
+      "tag_object_sha": "fad7ffe770b340b704741ef28ddb4976322d3d2a",
+      "tag_target_sha": "ee05d37a617e6b989eff10f53cc69fccd4f47afa",
+      "tagger_name": "dhtfish98",
+      "tagger_date": "2026-10-05T16:17:53Z",
+      "tagger_email_id_prefix": 160427136
+    }
+  ]
+}

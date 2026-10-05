@@ -97,3 +97,5 @@
 **2026-10-05 20:24 UTC 增量：**[19 个仅源码正式发行的归档回下载复核](PUBLIC_19_SOURCE_ONLY_RELEASE_RECHECK_20261005.md)逐包检查 665 个文件路径、项目文档/许可、Build 占位及内部版本声明，未见所筛编译产物；不替代源码语义或运行审核。新建的 [ObfuscatedStringRecovery](https://github.com/dhtfish-98/ObfuscatedStringRecovery) 已公开自有源码及 `v0.1.0` 标签，精确提交 `2e12724bd9778b55e14c459c2faa1f0e18a05e68` 的[主线](https://github.com/dhtfish-98/ObfuscatedStringRecovery/actions/runs/37369431643)和[标签 CI](https://github.com/dhtfish-98/ObfuscatedStringRecovery/actions/runs/37369445935)仍排队；未创建正式 Release，第三批仍为 **15/30 已发行**。111 仓快照冻结于新仓创建前，不能当成当前 112 仓全量结果；CVP 资格仍 OPEN。
 
 **2026-10-05 20:27 UTC 署名纠错：**[112 个公开仓当前提交的 GitHub 账号关联复核](PUBLIC_112_HEAD_ATTRIBUTION_RECHECK_20261005.md)发现 18 仓显示名虽为 `dhtfish98`，GitHub 实际关联到其他账号；该范围不同于源码文本署名扫描。后续提交和未发行候选改用账号 `dhtfish-98` 对应的隐私邮箱，已发行项目保留原版本事实并做可复核的版本化纠正；未修正前不把这 18 项写成“GitHub 账号署名已一致”。
+
+**2026-10-05 20:40 UTC 续审：**[113 仓目录、精确发行与账号署名快照](PUBLIC_113_CORRECTED_STATUS_20261005.md)核到 110 软件、3 资料；104 软件仓的当前提交 CI 与正式 Release 对齐，四个新实验无 Release、PEQuarry 与 SshCertIssuanceGate 的新版仍待发行。更正未发行项目署名后，当前 HEAD 的 GitHub 账号关联为 100 仓正确、13 仓仍需版本化修订；13 仓当前发行标签的 tagger 字段也已逐项核对。第三批仍为 **15/30 正式发行**，真实 CVP 资格和 113 仓全量语义深审继续 OPEN。

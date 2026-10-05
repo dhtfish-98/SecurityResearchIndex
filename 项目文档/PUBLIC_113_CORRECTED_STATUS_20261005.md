@@ -1,0 +1,9 @@
+# 113 个公开仓状态与署名续审（2026-10-05 20:40 UTC 冻结）
+
+[非原子逐仓元数据](PUBLIC_113_METADATA_20261005.json)在 20:40 UTC 读取 113 个公开仓：110 个软件仓、3 个资料仓。113/113 有「项目文档」，跟踪树中 `Build` 只含 `.gitignore`；14 个旧撤出仓继续为私有。110 个软件仓中，104 个所读精确 HEAD 的有效 CI 已成功且 104 个最新正式 Release 与 HEAD 对齐；另外 **6 个尚未对齐**：CapabilityRuleEval、FederatedConnectorIdentityGate、ObfuscatedStringRecovery、SshHostCertTrustBoundary 尚无正式 Release，PEQuarry 与 SshCertIssuanceGate 的最新正式 Release 落后当前 HEAD。新建仓库与更正署名的工作流仍须等待对应**新提交**检查，旧 SHA 的成功不能替代。冻结元数据原始本地记录 SHA-256 为 `0ab03990927bae3310f34ec056fd4b79c252a41a5a75438cfaec30625dc8752b`；公开净化副本 SHA-256 为 `2756a9fd98807ebb4f39c44f8528a302af7e9726cff7570e64e8857fae05f281`。
+
+[当前 HEAD 的 GitHub 账号关联](PUBLIC_113_HEAD_ATTRIBUTION_AUDIT_20261005.json)重新读取全部 113 仓：**100/113** 的作者和提交者都正确关联 `dhtfish-98`；**13/113** 仍以 `dhtfish98` 为显示名，却关联到别的账号。这 13 仓是 ArchiveLens、GraphQLQueryCostGate、JupyterKernelOriginGate、NatsSubjectTenantGate、ObjCAtlas、PluginHandshakeTrustGate、ProxyIdentityHeaderTrust、QuicEarlyDataPolicy、RecoveryCodeAccountBinding、RedirectCredentialBoundary、SftpHandlePermissionGate、WebSocketUpgradeOriginGate、XmlEntityResourceBoundary；它们当前的正式 Release 均与本次所读 HEAD 对齐。[13 个当前正式发行标签的 tagger 核对](PUBLIC_13_RELEASE_TAGGER_AUDIT_20261005.json)亦发现旧的错误邮箱数字前缀。标签元数据不直接证明源码作者，真实上游权利仍需保留。112 仓时的[18 项发现记录](PUBLIC_112_HEAD_ATTRIBUTION_RECHECK_20261005.md)是此前冻结状态；其余 5 项已通过正确署名的新提交或未发行标签更正，历史记录不倒填。
+
+[113 仓材料角色矩阵](PUBLIC_113_CVP_MATERIAL_RECHECK_20261005.json)为 15 个已发行的条件本地实验、6 个既有条件技术附件、4 个待发行本地实验、69 个普通防御附件、12 个研究或派生背景、4 个非主申请方向、3 个资料仓。新 30 题目仍为 **15/30 正式发行**，不能把四个公开但待发行的实验计入 15。上述角色从前次代码范围审查继承，仅为申请材料筛选；本轮元数据、账号映射和目录核对都不能代替 113 仓逐函数语义深审，也不能证明实际授权任务或 Anthropic 的 CVP 资格与批准。
+
+13 个已发行仓的正确账号关联将按版本化修订逐仓处理，先检查源码/来源、包内版本和测试，再取得新提交主线与标签 CI，最后回下载正式发行资产。旧 Release 和旧提交的身份、哈希及历史证据会如实保留；不能把新身份字段倒写进旧资产。GitHub [Actions 状态页](https://www.githubstatus.com/)在本快照时仍报告托管运行器分配延迟，因此排队或未获得运行器而失败的作业保持 **OPEN**。申请渠道按申请人说明为 Claude.ai / Claude Code；原始拦截记录不是公开规则的逐仓必交项，真实防御用途和受相关保障措施影响的事实仍须如实说明。
