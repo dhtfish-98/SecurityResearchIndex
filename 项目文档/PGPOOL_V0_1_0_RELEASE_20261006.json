@@ -1,0 +1,94 @@
+{
+  "schema": "pgpool-publication-v1",
+  "captured_utc": "2026-10-05T22:22:44.990579+00:00",
+  "repository": "https://github.com/dhtfish-98/PgPoolPrincipalIsolation",
+  "version": "v0.1.0",
+  "commit": "06f415dff81e65e44a372a9855dfdf003e6141ac",
+  "release": "https://github.com/dhtfish-98/PgPoolPrincipalIsolation/releases/tag/v0.1.0",
+  "main_ci": {
+    "url": "https://github.com/dhtfish-98/PgPoolPrincipalIsolation/actions/runs/37381169382",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "package",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "live",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "tag_ci": {
+    "url": "https://github.com/dhtfish-98/PgPoolPrincipalIsolation/actions/runs/37381173663",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "live",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "package",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "github_live_receipts": {
+    "main": {
+      "receipt_sha256": "102193733aca951a73b1f56eedcd475cacaaf1969aaa5c7bfb078b63dfaab908",
+      "cases": 22,
+      "postgres_version": "postgres (PostgreSQL) 17.6",
+      "pgcat_version": "pgcat 1.3.0",
+      "pgcat_source_commit": "5b038813eb14f181434ab7b5509e74d9b1fe123b",
+      "pgcat_reload_log_seen": true
+    },
+    "tag": {
+      "receipt_sha256": "42d397a27c6327c6d370d0b64675295eb7cb212765cda594799a331833961736",
+      "cases": 22,
+      "postgres_version": "postgres (PostgreSQL) 17.6",
+      "pgcat_version": "pgcat 1.3.0",
+      "pgcat_source_commit": "5b038813eb14f181434ab7b5509e74d9b1fe123b",
+      "pgcat_reload_log_seen": true
+    }
+  },
+  "public_assets": {
+    "PgPoolPrincipalIsolation-v0.1.0-source.tar.gz": {
+      "sha256": "a3f7526cdde644a84cf389fc642ce0ec11be69ae2008eb77228b5e3eb7c7428b",
+      "bytes": 14170,
+      "url": "https://github.com/dhtfish-98/PgPoolPrincipalIsolation/releases/download/v0.1.0/PgPoolPrincipalIsolation-v0.1.0-source.tar.gz",
+      "public_redownload_exact": true
+    },
+    "pgpool_principal_isolation-0.1.0-py3-none-any.whl": {
+      "sha256": "dda93b0401a84f1ac23de816a38ccd89837a19c0f70962c57e8a64e22de80692",
+      "bytes": 6537,
+      "url": "https://github.com/dhtfish-98/PgPoolPrincipalIsolation/releases/download/v0.1.0/pgpool_principal_isolation-0.1.0-py3-none-any.whl",
+      "public_redownload_exact": true
+    },
+    "pgpool_principal_isolation-0.1.0.tar.gz": {
+      "sha256": "95ba8c828d9703c05c55d9de0c36247065c80d72408b694e11fb28450e8894e0",
+      "bytes": 8339,
+      "url": "https://github.com/dhtfish-98/PgPoolPrincipalIsolation/releases/download/v0.1.0/pgpool_principal_isolation-0.1.0.tar.gz",
+      "public_redownload_exact": true
+    },
+    "SHA256SUMS": {
+      "sha256": "8f177344137462a2c20ea16cfd1d172f600167229871061993d18ac66dd12fb2",
+      "bytes": 334,
+      "url": "https://github.com/dhtfish-98/PgPoolPrincipalIsolation/releases/download/v0.1.0/SHA256SUMS",
+      "public_redownload_exact": true
+    }
+  },
+  "source_archive_tracked_files": 16,
+  "independent_local_review_sha256": "6edbec7b6e3592e2a0aaff113dc802be0d03eec1b5d689ead8c049835e2958af",
+  "cvp_eligibility": "OPEN",
+  "remaining_limits": [
+    "No real authorized CVP use case or approval evidence",
+    "The weak application pool is synthetic, not an upstream PgCat vulnerability",
+    "No production deployment or external principal-authentication proof"
+  ]
+}

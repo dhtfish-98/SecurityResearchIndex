@@ -2,6 +2,8 @@
 
 # 防御安全项目与 CVP 证据索引
 
+**索引版本 v1.0.0；最新公开状态：**[2026-10-05 22:23 UTC 起的 115 仓续审](PUBLIC_115_CURRENT_STATUS_20261006.md)及[逐仓机器矩阵](PUBLIC_115_CURRENT_METADATA_20261006.json)记录 112 个软件仓、3 个资料仓；第三批固定 30 题中 21 项已有正式版本，9 项尚未发行。当前提交的 GitHub 账号关联、软件仓版本标签与检查汇总已复核；ImageQuay 四个已编译测试夹具仍须移出源码树。申请资格和全量语义深审继续 OPEN。下文是按时间保留的旧快照和发行过程，不应把旧数字当作实时结论。
+
 本页主体及申请门槛文字勘误记录于 2026-10-04 08:23 UTC。逐仓 GitHub 状态冻结于 07:40–07:41 UTC；较早的 04:51 UTC 快照及 2026-10-03 23:49 UTC 工程矩阵均保留原时点。后续发行、10:53 UTC 快照及 2026-10-05 再审计作为各自时点的增量列明，不改写旧冻结记录。
 
 2026-10-04 冻结范围为 **94 个公开仓（91 软件、3 资料）和 29 个可见私有仓**。[公开项目再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)及其[94 仓逐仓冻结记录](PUBLIC_PORTFOLIO_RECHECK_20261004.json)核对当时目录、提交、CI、署名与发布边界；[10:53 UTC 后续快照](PUBLIC_PORTFOLIO_POSTUPDATE_20261004.json)另记后续提交状态。[2026-10-05 再审计](PUBLIC_PORTFOLIO_RECHECK_20261005.md)、[逐仓新快照](PUBLIC_PORTFOLIO_SNAPSHOT_20261005T1055Z.json)与[发行差异矩阵](PUBLIC_RELEASE_DIFF_20261005.json)按各自时点核对当前树和旧标签。较早的[公开项目与 CVP 材料状态](CURRENT_PORTFOLIO_STATUS_20261004.md)和[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)保留原证据时间。没有重新执行全部项目或完成全量安全代码审计。所有 CVP 申请资格与批准状态仍为 **OPEN**。

@@ -103,3 +103,11 @@ SFTP 实验以真实回环 SFTP v3 服务验证句柄授权，不代表外部服
 [ObfuscatedStringRecovery](https://github.com/dhtfish-98/ObfuscatedStringRecovery) 的自有源码与 `v0.1.0` 标签均指向提交 `2e12724bd9778b55e14c459c2faa1f0e18a05e68`。Python 3.11/3.14 的源码、解包源码包、隔离 wheel 三种本地模式均通过自编译无害 ELF 目标文件实验；扫描器静态恢复 `HELLO` 和 XOR 后的 `WORLD`，记录逐字节文件偏移，未知分支整函数跳过。独立复查再次运行 Python 3.11 验证并对有效目标文件作 2,000 次随机字节扰动，未见预期拒绝以外的异常。程序不执行样本；没有外部授权样本、误报研究、真实任务影响或 CVP 批准证据。固定 flare-floss 参考的 Apache-2.0 权利和未复制的边界在项目 ORIGIN 中如实说明。
 
 本次公开的是源码和标签；[主线 CI](https://github.com/dhtfish-98/ObfuscatedStringRecovery/actions/runs/37369431643)与[标签 CI](https://github.com/dhtfish-98/ObfuscatedStringRecovery/actions/runs/37369445935)还在 GitHub Actions 队列，**正式 Release 尚不存在**，不能计入 15/30 已发行。其本地候选机读收据 SHA-256 为 `6a389938ecfd3428f1ab0506f4be536c4bf3741aeddbb68772832d5de5ee2d82`；正式资产回下载须待两个分支的精确提交检查成功后另行记录。
+
+## 2026-10-05 21:58 UTC 起的当前续审
+
+[114 个公开仓的非原子续审](PUBLIC_114_CURRENT_STATUS_20261006.md)和[逐仓矩阵](PUBLIC_114_CURRENT_METADATA_20261006.json)确认第三批固定题目中 **20/30 已有正式 Release**：16 个 A 级题目全部发行，B 级的 CapabilityRuleEval、DexInvokeEvidence、FederatedConnectorIdentityGate、ObfuscatedStringRecovery 另有正式版本。相应源码、测试与发行限制以各仓当前版本说明和独立回执为准；上述历史时点的 15/30 不倒改。余下 10 项未发行，其中 PgPoolPrincipalIsolation 已有本地真实服务实验候选但仍在审核，不算正式交付。A/B 是研究优先级，不是官方 CVP 认定；合法授权用途、所受防护影响和批准结果继续 OPEN。
+
+## 2026-10-05 22:23 UTC 起的 115 仓续审
+
+[PgPoolPrincipalIsolation v0.1.0](PGPOOL_V0_1_0_RELEASE_20261006.json)的独立真实服务复跑、精确提交主线与标签 CI、正式附件回下载已完成，第三批变为 **21/30 正式发行**。[115 仓增量矩阵](PUBLIC_115_CURRENT_METADATA_20261006.json)在确认旧 114 仓 HEAD 和最新版本未漂移后，核对新增仓的精确树、版本与检查；112 软件仓最新正式 Release 均指向所读 HEAD。剩余 9 项未发行；ImageQuay 的四个编译测试夹具仍是项目源码树整理例外。真实 CVP 资格、申请批准及被中断的整仓深审仍 OPEN，具体边界见[115 仓报告](PUBLIC_115_CURRENT_STATUS_20261006.md)。
