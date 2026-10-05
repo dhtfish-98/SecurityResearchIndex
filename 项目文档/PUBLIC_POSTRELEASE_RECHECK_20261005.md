@@ -9,3 +9,7 @@
 - 相比 10:55 UTC 快照，33 个仓的 HEAD 有变动，逐项落在本轮已知维护范围；没有发现其他意外变动。此项只表示对比时点的仓库列表，不说明历史私有来源适合公开，也不说明任何项目获得 CVP 资格。
 
 [30 项候选状态](CVP_30_CANDIDATE_TRACKER_20261005.md)仍为 6 个已实现的条件案例加 24 个未实施方向。工程发行、作者显示、仓库公开数量及 CI 成功都不能代替申请人的真实授权任务、身份/组织条件或 Anthropic 的审批。
+
+## 12:19–12:20 UTC 的剩余差异逐仓分类
+
+[独立的 39 仓只读比较](REMAINING39_RELEASE_TRIAGE_20261005.json)在各仓当时 HEAD/旧 Release 未变的窗口下完成。35 个 Python 项目虽然主要运行源码路径未变，但 `pyproject.toml` 和 `MANIFEST.in` 因文档集中而改变了分发输入；其旧 Release 仍代表旧标签，**新 HEAD 的包版本同步须逐仓重建、验证后再发布**。另 4 仓 GoCryptoPolicyReview、VTableBrook、HeaderPolicyReview、SealScope 的所查差异起初属文档/构建包装或自有署名文本，其中 HeaderPolicyReview 的旧 Release 未包含当前自有版权显示名，已另发 [v0.1.4 源码版](HEADERPOLICY_V0_1_4_RELEASE_20261005.json)。其余三个旧标签仍是历史有效发行，不能声称与后来 HEAD 完全相同。39 仓比较不包括另外 20 个验证/构建差异优先仓及 12:10 快照后新发行的提交；不把 35 个待补版本写为已完成。

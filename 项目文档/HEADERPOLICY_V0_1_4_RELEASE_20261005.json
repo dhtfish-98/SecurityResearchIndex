@@ -1,0 +1,44 @@
+{
+  "schema": "source-only-release-gate.v1",
+  "checked_at_utc": "2026-10-05T12:29:31.127406+00:00",
+  "repository": "dhtfish-98/HeaderPolicyReview",
+  "version": "0.1.4",
+  "main_commit": "1f5c5b4bb6befa1614c642cd78e8a54a3998dfb1",
+  "tag": "v0.1.4",
+  "tag_peeled_commit": "1f5c5b4bb6befa1614c642cd78e8a54a3998dfb1",
+  "release_url": "https://github.com/dhtfish-98/HeaderPolicyReview/releases/tag/v0.1.4",
+  "manual_assets": 0,
+  "main_ci": {
+    "url": "https://github.com/dhtfish-98/HeaderPolicyReview/actions/runs/37309588920",
+    "head_sha": "1f5c5b4bb6befa1614c642cd78e8a54a3998dfb1",
+    "conclusion": "success"
+  },
+  "local_tests": {
+    "staged_source_unittest": 12,
+    "downloaded_source_unittest": 12,
+    "cli_version": "0.1.4",
+    "compileall": "PASS"
+  },
+  "downloaded_source_archive": {
+    "files": 18,
+    "bytes": 13135,
+    "sha256": "4e59e2706ae6cd1c9ada35bad5c7f58faf3166910c88fa31bf310660bd7172cc",
+    "all_tracked_files_byte_identical": true,
+    "git_metadata": false
+  },
+  "author": "dhtfish98",
+  "license": {
+    "kind": "MIT",
+    "own_copyright_display": "dhtfish98",
+    "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298"
+  },
+  "tracked_build_files": [
+    "Build/.gitignore"
+  ],
+  "change_scope": "Existing self-owned copyright display correction included; source version and documentation synchronized; HAR review rules unchanged.",
+  "limitations": [
+    "Synthetic local HAR tests only",
+    "No browser enforcement or live target validation",
+    "CVP eligibility and approval OPEN"
+  ]
+}

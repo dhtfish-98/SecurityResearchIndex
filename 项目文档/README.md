@@ -48,4 +48,6 @@
 
 **2026-10-05 12:10 UTC 后续读取：**91 个软件仓均已有正式 Release，其中 40 个最新标签与逐仓读取时 HEAD 相同、51 个落后；94/94 仓仍有「项目文档」与只跟踪 `.gitignore` 的 Build。旧撤出组 14/14 保持 private。ChromeRelay、MachOInspect 的同 SHA 较早取消运行会使原始 check rollup 显示失败；较新完整运行成功。读取窗口、逐仓表与局限见[后续再审计](PUBLIC_POSTRELEASE_RECHECK_20261005.md)及[机器快照](PUBLIC_POSTRELEASE_SNAPSHOT_20261005T1210Z.json)。该读取为非原子快照，之后的发行需单列增量。
 
+**2026-10-05 12:19–12:20 UTC 发行差异续审：**[其余 39 仓逐项比较](REMAINING39_RELEASE_TRIAGE_20261005.json)发现 35 个 Python 仓的运行源码虽未变，文档集中却改变了打包输入；这些仓的新 HEAD 需要逐仓重建、安装与许可核对后才能发新版。另 4 仓主要是文档、构建包装或自有署名差异，其中 HeaderPolicyReview 的自有版权显示名已通过 [v0.1.4 正式源码 Release](https://github.com/dhtfish-98/HeaderPolicyReview/releases/tag/v0.1.4)同步，精确 CI 与源码归档核对见[发行收据](HEADERPOLICY_V0_1_4_RELEASE_20261005.json)。其他补发仍以[发行增量](PUBLIC_RELEASE_INCREMENT_20261005_AFTER_SNAPSHOT.md)中的逐仓收据为准，不把 12:10 的冻结计数更新为现况。
+
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。
