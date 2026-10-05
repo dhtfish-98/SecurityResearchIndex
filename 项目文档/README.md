@@ -58,4 +58,6 @@
 
 **2026-10-05 13:06 UTC 发行波次复核：**[第三组 11 仓](MANIFEST11C_RELEASES_20261005.json)也已完成版本同步、精确 CI、296 项隔离安装测试及 44 个资产回下载。35 个打包输入差异仓至此逐仓补发。[94 仓再读取](PUBLIC_RELEASE_WAVE_RECHECK_20261005.md)显示 91 个软件仓均有 Release，87 个最新标签与各自读取时 HEAD 同提交，余下 4 个须按逐仓差异理解；94/94 仓的 Build 根目录只跟踪 `.gitignore`。旧撤出组 14/14 保持 private。全部统计绑定读取窗口，不代表 CVP 资格。
 
+**2026-10-05 13:37 UTC 新快照：**[94 仓发行与目录复核](PUBLIC_RELEASE_WAVE_RECHECK_20261005T1337Z.md)及[逐仓机器记录](PUBLIC_RELEASE_WAVE_SNAPSHOT_20261005T1337Z.json)显示 91 个软件仓都有 Release，90 个最新标签与所读 HEAD 同提交；唯一落后项 ObjCAtlas 的深层审计仍 OPEN。SealScope、GoCryptoPolicyReview、VTableBrook 的版本差异已逐仓补发，DOMSinkReview 包内 NOTICE 旧版本号已在 v0.1.5 修正。上述四仓的发行与 CI 核对见[增量表](PUBLIC_RELEASE_INCREMENT_20261005_AFTER_SNAPSHOT.md)。CVP 申请无 30 仓或逐仓拦截记录硬性要求；真实授权防御任务、身份/组织条件与官方审批须另行核实。
+
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。
