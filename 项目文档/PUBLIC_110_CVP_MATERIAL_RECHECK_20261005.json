@@ -1,0 +1,1128 @@
+{
+  "schema": "public_110_cvp_material_recheck_v1",
+  "generated_at_utc": "2026-10-05T19:46:39.952550+00:00",
+  "snapshot_window_utc": [
+    "2026-10-05T19:44:18+00:00",
+    "2026-10-05T19:44:55+00:00"
+  ],
+  "scope": "Material-role reconciliation from the prior 108 matrix plus QUIC release and pre-release SSH host-certificate lab. All exact main SHA/latest-release tags are refreshed from 110 metadata. Not a full semantic audit or official CVP finding.",
+  "inputs_sha256": {
+    "public_110_metadata": "6eaf0f0174698041275b688fb78ef02f18299173b7bb677ec1bf749c81986d5d",
+    "prior_108_matrix": "02ef7d29241d6913e1deb30133617787a7b3b7847c559852b48e5a2b024d71bd",
+    "public_110_exact_head_text_path_review": "9a658989c99701fdb4cadb40ce9720850167783bf89d64e89cee6c394b2f27e8"
+  },
+  "official_source": "https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet",
+  "application_boundary": "Claude.ai/Claude Code first-party portal and identity verification apply; public guidance does not list per-project refusal screenshots as mandatory. All qualification/approval decisions OPEN.",
+  "counts": {
+    "conditional_local_lab": 15,
+    "conditional_prior_case": 6,
+    "index_or_profile": 3,
+    "ordinary_background": 4,
+    "pre_release_local_lab": 1,
+    "research_background": 12,
+    "supporting_defensive_attachment": 69,
+    "total_public": 110
+  },
+  "repositories": [
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "4aaa99adc2bfc32d83c6b05d6150ab54d6e437ec",
+      "latest_release_tag": null,
+      "name": ".github",
+      "next_action": "Index/profile only; exclude from independent project count.",
+      "qualification": "OPEN",
+      "repository_description": "Account-level defaults: contributing guide, pull request template and issue form inherited by the repositories that do not define their own.",
+      "role": "index_or_profile"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "ac8ca8c66b2927e386ea404630b0b20d4ad4535e",
+      "latest_release_tag": "v1.0.1",
+      "name": "A64Dispatch",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "C++20 AArch64 dispatch analysis and same-size branch rewriting, with a thin IDA adapter. Finite checks do not prove equivalence for every input.",
+      "role": "research_background"
+    },
+    {
+      "basis": "Third-batch local code/build/release receipts and current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "9b3661613b9a40c5b104f71532c49d462491b3de",
+      "latest_release_tag": "v0.1.0",
+      "name": "AcmeChallengeAuthorization",
+      "next_action": "Use only as local technical demonstration; verify real authorized task and safeguard impact before any application claim.",
+      "qualification": "OPEN",
+      "repository_description": "",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "f82578a8f7f8ed615f75efb82524a64fb66383c3",
+      "latest_release_tag": "v0.1.3",
+      "name": "AdvisoryOfflineReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline PyPI inventory and OSV snapshot evidence with PEP 440 ranges, aliases and honest uncertainty",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "a8cccd1eae5650499381126d640b2808fe344d6c",
+      "latest_release_tag": "v1.0.3",
+      "name": "AliasRecordReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Highlights malformed alias declarations and network-mount indicators without resolving targets or disclosing paths. Nested aliases and unknown tags remain OPEN.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "961d1c4f02da7bc031f760996bf6dcfe5fcadda3",
+      "latest_release_tag": "v0.1.3",
+      "name": "AptSourceTrustAudit",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "APT source format and repository trust configuration audit",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "906be7fb188416952f010eccfbdf7c559f39aa67",
+      "latest_release_tag": "v1.0.7",
+      "name": "ArchiveLens",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Attributed ArchiveLens derivative with renamed implementation, reproducible tests and source provenance",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "ae45221a220f9feeeb94b9492e52e24118c22367",
+      "latest_release_tag": "v0.1.0",
+      "name": "ArtifactDigestReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: ArtifactDigestReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "0f23fda79e1a9f11ea12fbb6a0dc327168fc6ab3",
+      "latest_release_tag": "v0.1.3",
+      "name": "AuditEventReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline bounded Linux audit multi-record evidence with provisional grouping and candidate-only process links",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "9fe75f1c8ca8914a3353a9f035bc130eb9f827b3",
+      "latest_release_tag": "v0.1.3",
+      "name": "AuditRuleCoverage",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Selected typed audit rule syntax and complete frozen literal baseline coverage",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "bdaf9f9051def589bfefb12ec26af45df4532c00",
+      "latest_release_tag": "v0.1.0",
+      "name": "AuthLogReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: AuthLogReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "6e8885d8426a6054ff1a456e553fba92b2c9b0c5",
+      "latest_release_tag": "v1.0.3",
+      "name": "BodyfileTimelineReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Validates input declarations before building a private-safe incident-response timeline; it is a new format-focused project, not a rewrite of SleuthKit.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "dd94ae1b8916f5404ec77c26586d805876610b78",
+      "latest_release_tag": "v0.2.1",
+      "name": "BranchLoom",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Experimental AArch64 control-flow and dispatch analysis tooling with an IDA adapter.",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "cf439d5b37d5be2764f9719d796765f77163fc7b",
+      "latest_release_tag": "v1.0.2",
+      "name": "CDTranslator",
+      "next_action": "Exclude from main CVP case count; retain as general engineering background.",
+      "qualification": "OPEN",
+      "repository_description": "macOS translation app with local Vision OCR and online text translation.",
+      "role": "ordinary_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "8ed2862c414cdc2b9116a02aafa1a8c8a8c1574b",
+      "latest_release_tag": "v0.1.3",
+      "name": "CITrustBoundaryReview",
+      "next_action": "Use only as conditional technical example with real authorized task, actual safeguard impact and exact-source evidence.",
+      "qualification": "OPEN",
+      "repository_description": "Offline GitHub Actions YAML and expression AST trust-boundary flow evidence without running workflows",
+      "role": "conditional_prior_case"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "322d8f92111195b94d0a53c424685f42883ed321",
+      "latest_release_tag": "v0.1.3",
+      "name": "CSPPolicyLens",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline positioned CSP2/CSP3 policy parsing, effective fallback, enforced conjunction and Trusted Types evidence without browser execution",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "71250ac1024635baa51634a9e4253022ebc24777",
+      "latest_release_tag": "v0.1.3",
+      "name": "CertificateNamePolicy",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline bounded X.509 DNS/IP SAN name checks; certificate trust remains OPEN",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "53f3479a654f7b0011a2c831792bedce5449cd64",
+      "latest_release_tag": "v1.0.1",
+      "name": "ChromeRelay",
+      "next_action": "Exclude from main CVP case count; retain as general engineering background.",
+      "qualification": "OPEN",
+      "repository_description": "C++20 MCP-to-Chrome DevTools bridge: 54 actions and 75 legacy names. Tests use temporary Chrome profiles on macOS and do not cover arbitrary pages.",
+      "role": "ordinary_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "36e63095526aa0abff91da862ffc3577b2a0b17c",
+      "latest_release_tag": "v0.1.3",
+      "name": "CompoundDocumentReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Bounded read-only CFB allocation, directory, stream-chain and macro-name evidence review",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "7b93078fb3f8904c2a0d25f8934ba65609b0d175",
+      "latest_release_tag": "v0.1.0",
+      "name": "ContainerfileReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: ContainerfileReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "82720313e3bedae3975798e3bc08b3198ec3134c",
+      "latest_release_tag": "v0.1.3",
+      "name": "CrlRevocationReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Direct-issuer full CRL signature and freshness verification for one pinned issuer and one explicitly supplied target certificate.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "85f7ec56b6a524375a0a38ee238347c84a04e4d0",
+      "latest_release_tag": "v0.1.4",
+      "name": "CryptoRegressionBench",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline real AES-GCM library regression with a fixed complete Wycheproof corpus and explicit skips/errors",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "5a0b0d5a32ce90b1c17671a0f55636ae19aa7901",
+      "latest_release_tag": "v0.1.5",
+      "name": "DOMSinkReview",
+      "next_action": "Use only as conditional technical example with real authorized task, actual safeguard impact and exact-source evidence.",
+      "qualification": "OPEN",
+      "repository_description": "Offline bounded JavaScript AST review of declared HTML sinks and sanitizer contracts; explicit evidence and OPEN boundaries",
+      "role": "conditional_prior_case"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "230c717efa1fcdb7babe2857a9df425620a6e4ee",
+      "latest_release_tag": "v0.1.0",
+      "name": "DependencyPinReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: DependencyPinReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "6c8bc689221689e5243881f2acf8142218bab49d",
+      "latest_release_tag": "v0.1.3",
+      "name": "DeserializeCallReview",
+      "next_action": "Use only as conditional technical example with real authorized task, actual safeguard impact and exact-source evidence.",
+      "qualification": "OPEN",
+      "repository_description": "Offline bounded AST binding and scope review for selected Python deserialization call shapes",
+      "role": "conditional_prior_case"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "d04b05f8265d2e1cd9b92357206044f6a99c425b",
+      "latest_release_tag": "v1.0.3",
+      "name": "DfxmlExtentReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Checks inconsistent exported forensic mappings; unsupported namespace extensions/facets/digests remain OPEN rather than being interpreted as verified evidence.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "47f9c4f89456bd4c2780ce96789d4bd5cde3e981",
+      "latest_release_tag": "v0.1.3",
+      "name": "DjangoSessionGuard",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline fixed Django 5.2 session and CSRF settings projection with bounded AST bindings and middleware dependency evidence",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "0b161109ac1abf1f718c0c7c177f0890c8b7b658",
+      "latest_release_tag": "v0.1.3",
+      "name": "DsseEnvelopeReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Ed25519 DSSE v1 envelope verification against explicit pinned public keys, expected payload type and independent-key threshold.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "d89cdedc10cdd977235d3bfb29aea2e446cdbd04",
+      "latest_release_tag": "v0.1.0",
+      "name": "EntitlementFlagReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: EntitlementFlagReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "ce2141dc0dc28015206affae09de00bbf6c69bf8",
+      "latest_release_tag": "v0.1.4",
+      "name": "EvtxRecordReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Defensive offline EVTX integrity, typed BinXML and private evidence review with bounded parsing and native Windows numeric comparison.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "96c83806fe01478811d1a607a10e3182316b1344",
+      "latest_release_tag": "v0.1.3",
+      "name": "EvtxRecoveryReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive EVTX image recovery with bounded typed-template AST inference, explicit ambiguity and unverified provenance.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "c26fe0cfd1a27c3c23332b34d450ac79591811ee",
+      "latest_release_tag": "v0.1.0",
+      "name": "FileModeReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: FileModeReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "34ffeff32f17d764b10e0598bd4fb87aee30ad99",
+      "latest_release_tag": "v1.0.3",
+      "name": "FinderStoreReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Verifies the reachable Finder metadata structure in an explicitly supplied artifact and detects cyclic or truncated trees without leaking filenames.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "01aa08ae248ce717bffbb9d8c90cc87ef9815eff",
+      "latest_release_tag": "v0.1.3",
+      "name": "FirewalldZoneAudit",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Zone XML and service exposure snapshot audit",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "403abc2bbb1ff03723049f9b48ba306dd550aa04",
+      "latest_release_tag": "v0.1.3",
+      "name": "GoCryptoPolicyReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline Go AST review of selected TLS, RSA and random source policy",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch local code/build/release receipts and current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "27d57114d032f4a04bd06fb99620045fa0e856a8",
+      "latest_release_tag": "v0.1.1",
+      "name": "GraphQLQueryCostGate",
+      "next_action": "Use only as local technical demonstration; verify real authorized task and safeguard impact before any application claim.",
+      "qualification": "OPEN",
+      "repository_description": "Schema-weighted GraphQL query cost gate with bounded lab evidence",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "9ac9182186a1aa28919c732525ef7e1603981cad",
+      "latest_release_tag": "v0.1.3",
+      "name": "HandshakeEvidenceReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Bounded offline PCAP/PCAPNG and TLS hello evidence with explicit uncertainty and preserved provenance",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "1f5c5b4bb6befa1614c642cd78e8a54a3998dfb1",
+      "latest_release_tag": "v0.1.4",
+      "name": "HeaderPolicyReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: HeaderPolicyReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "3eed6cbc68b49fb4031d2a00721f922eb3f3d2b3",
+      "latest_release_tag": "v0.1.0",
+      "name": "IAMScopeReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive review of local AWS IAM policy declarations",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+      "latest_release_tag": "v1.0.4",
+      "name": "IDBMeadow",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Attributed IDBMeadow derivative with renamed implementation, reproducible tests and source provenance",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "aa76377254fdb2f18286f452bbeb1512a4b034a5",
+      "latest_release_tag": "v1.0.7",
+      "name": "ImageQuay",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Attributed ImageQuay derivative with renamed implementation, reproducible tests and source provenance",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "cffbcda8f8db5c97d26541acf32801eff5da25b2",
+      "latest_release_tag": "v0.1.3",
+      "name": "JksTrustStoreReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Bounded JKS v2 public truststore inventory, Java modified UTF-8 decoding, certificate parsing and validity/CA/key policy, with explicit externally pinned file digest.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch source/package/release receipts and current exact-commit metadata; still a bounded local lab.",
+      "exact_head_sha_at_snapshot": "2cca5eea7551b4c011cbcaf87f13941eea903002",
+      "latest_release_tag": "v0.1.0",
+      "name": "JupyterKernelOriginGate",
+      "next_action": "Use as local technical demonstration only; establish real authorized task and CVP status separately.",
+      "qualification": "OPEN",
+      "repository_description": "",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "a40c2205aa5e2ccebf6dfa46f91b56a27b764ac4",
+      "latest_release_tag": "v0.1.4",
+      "name": "JwkSetReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Full public-only JWK set structural, semantic, key-material, algorithm and distinct-identity audit for RSA, NIST EC and Ed25519.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "7cd05089810b2c3ad35e48a4989c56e9c0648a85",
+      "latest_release_tag": "v1.0.2",
+      "name": "KernelCabinet",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Attributed KernelCabinet derivative with renamed implementation, reproducible tests and source provenance",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "ab4df4cf35ce1f359b9646ffb20d15c1d9ab4a35",
+      "latest_release_tag": "v0.1.0",
+      "name": "KubePodReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: KubePodReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "7fb7679a5e5a09ed65333aaba81e393cc3448783",
+      "latest_release_tag": "v0.1.4",
+      "name": "LifecyclePolicyReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline exact-instance lifecycle entrypoint, approval drift and stale-policy review; no target execution",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "9e43d33baf67ba205d9101cbe505fe0f08865830",
+      "latest_release_tag": "v0.1.4",
+      "name": "LnkEvidenceReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Defensive offline Shell Link metadata, private reference paths, bounded property evidence and physical byte provenance.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "0debdcd194041321c7471849fafb80702b4b347e",
+      "latest_release_tag": "v1.0.3",
+      "name": "LocalSecretReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline redacted review of credential exposure in owned source trees",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "0df36ecba4279496951cbaeda8dd594aa5ba6ba3",
+      "latest_release_tag": "v1.0.1",
+      "name": "MachOInspect",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "C++20 library and CLI for Mach-O signing metadata, declared entitlements, hardening settings and resource seals. Does not verify CMS signatures, certificate chains, or OS-granted permissions.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "aea91b37c10f08e93c683a59cfb0d80b26c015f0",
+      "latest_release_tag": "v0.1.4",
+      "name": "MailEvidenceReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline byte-origin EML, MIME, attachment digest and declared timeline review",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "11d82796b9d912b7d5f601f44c55935beca259fe",
+      "latest_release_tag": "v0.1.4",
+      "name": "MinisignFileReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Minisign prehashed ED detached file and trusted-comment signatures, explicit pinned public key; legacy Ed only with explicit opt-in.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "095f9b5146d4cf713b306247c37d1251a40f8047",
+      "latest_release_tag": "v0.1.5",
+      "name": "ModelOpcodeReview",
+      "next_action": "Use only as conditional technical example with real authorized task, actual safeguard impact and exact-source evidence.",
+      "qualification": "OPEN",
+      "repository_description": "Bounded offline static model serialization and container evidence; never deserialize",
+      "role": "conditional_prior_case"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "7cacd72aaac883a640a5f24c2555c0c97fa07d39",
+      "latest_release_tag": "v0.1.3",
+      "name": "ModprobePolicyAudit",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Module policy aliases, dependencies and disablement audit",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch fixed-upstream local broker test, three package surfaces, exact main/tag CI and downloaded release assets.",
+      "exact_head_sha_at_snapshot": "044174f67b6f5166f3c3705d274f26118df0d5d6",
+      "latest_release_tag": "v0.1.0",
+      "name": "NatsSubjectTenantGate",
+      "next_action": "Use only as local technical demonstration; real authorized use, safeguard impact and CVP decision remain separate.",
+      "qualification": "OPEN",
+      "repository_description": "Independently authored narrow NATS account and subject policy lab with real loopback broker evidence.",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "fc9c1e2ab30dcc0ea85a28800eaa22133157ca85",
+      "latest_release_tag": "v0.1.4",
+      "name": "NetworkPolicyReachabilityReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Complete declared Kubernetes networking.k8s.io/v1 NetworkPolicy profile evaluated offline against a bounded topology and explicit directional connection questions.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "a1e485d3cf24410332467f69812acbd2eb6e08ed",
+      "latest_release_tag": "v0.1.4",
+      "name": "NftIngressAudit",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline nftables ingress policy structure audit",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "6366317e7817e121d981ed9e9fbd9714e76f3fac",
+      "latest_release_tag": "v0.1.4",
+      "name": "NginxConfigGuard",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline bounded Nginx AST and scope review for four explicit defensive configuration policies",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Attributed class-dump derivative; v1.0.4 targeted Mach-O bound repairs and exact-release checks, complete deep audit OPEN.",
+      "exact_head_sha_at_snapshot": "231b5aa5762b1696835d0d2ba4d7c12ad9e814ca",
+      "latest_release_tag": "v1.0.4",
+      "name": "ObjCAtlas",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Attributed ObjCAtlas derivative with renamed implementation, reproducible tests and source provenance",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "f8b7209d9745ca41f41f4600ccba0d5183924205",
+      "latest_release_tag": "v0.1.4",
+      "name": "OcspStapleReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline RFC 6960 single-response signature, issuer/serial binding, responder authorization, nonce and freshness verification with a pinned direct issuer.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "b7a58adfd2bd169b9da6fb0ac0d8cd1805bef351",
+      "latest_release_tag": "v0.1.5",
+      "name": "PDFActionReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline bounded PDF lexical observations with opaque streams and explicit semantic unknowns",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "94e266085f99b3265ad865b2a2915cedf6b5604d",
+      "latest_release_tag": "v1.0.3",
+      "name": "PEHardeningReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline read-only review of declared PE mitigation flags",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "64e458d08db35fbafce2cdc2e48794a0f306b7dd",
+      "latest_release_tag": "v1.0.5",
+      "name": "PEQuarry",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Bounded local PE inspection and static signature review; resource/version parent checks and finite directory traversal; attributed pefile derivative with remaining scope",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "7f2dbb83789a7b665b05be3b57fd37248f7b8e86",
+      "latest_release_tag": "v0.1.4",
+      "name": "PackageOriginReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline npm v2/v3 declared registry-origin policy review with explicit actual-fetch uncertainty",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "edb12bbee95a9415e2127a4aed40196f1e842b4f",
+      "latest_release_tag": "v0.1.3",
+      "name": "PamStackAudit",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "PAM stack and lockout policy snapshot audit",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch local code/build/release receipts and current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "83f085a446a6378f75d03c4d907e0d7deb0e2557",
+      "latest_release_tag": "v0.1.0",
+      "name": "PluginHandshakeTrustGate",
+      "next_action": "Use only as local technical demonstration; verify real authorized task and safeguard impact before any application claim.",
+      "qualification": "OPEN",
+      "repository_description": "Local plugin handshake and binary trust boundary lab",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "a87b2b7db9d91f1b18640d16f21982c9a8efc412",
+      "latest_release_tag": "v1.0.3",
+      "name": "PngStreamReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Checks file integrity before an evidence image reaches a decoder, while reporting unsupported image layouts OPEN. CRC and syntax do not establish image authenticity.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "f3f2b80d4527ab1e4afefd3e4c08f66798f51485",
+      "latest_release_tag": "v1.0.7",
+      "name": "PolicyMosaic",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Attributed PolicyMosaic derivative with renamed implementation, reproducible tests and source provenance",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "bf9885671328e0a0c036b3c3116730a5e45a7e5d",
+      "latest_release_tag": "v0.1.3",
+      "name": "PrefetchEvidenceReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline bounded uncompressed Prefetch evidence with explicit uncertainty and external parser validation",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch local code/build/release receipts and current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "8c3866dae7aa5ea2f3e9b94c9fd606d62e60ef3e",
+      "latest_release_tag": "v0.1.0",
+      "name": "ProxyIdentityHeaderTrust",
+      "next_action": "Use only as local technical demonstration; verify real authorized task and safeguard impact before any application claim.",
+      "qualification": "OPEN",
+      "repository_description": "Local authenticated proxy identity-header trust boundary lab",
+      "role": "conditional_local_lab"
+    },
+    {
+      "name": "QuicEarlyDataPolicy",
+      "role": "conditional_local_lab",
+      "qualification": "OPEN",
+      "exact_head_sha_at_snapshot": "5ce8bd25c080cd0d67459b5db8a6045b1fc1649f",
+      "latest_release_tag": "v0.1.0",
+      "basis": "Independent local QUIC 0-RTT policy test, exact main/tag CI and redownloaded release assets.",
+      "repository_description": "Bounded 0-RTT read/write policy experiment on a self-owned loopback QUIC service.",
+      "next_action": "Use only as technical demonstration; establish real authorized task and CVP decision separately."
+    },
+    {
+      "basis": "Third-batch source/package/release receipts and current exact-commit metadata; still a bounded local lab.",
+      "exact_head_sha_at_snapshot": "c3175b55aab23903f1badfb02e3efaf363474d7d",
+      "latest_release_tag": "v0.1.0",
+      "name": "RecoveryCodeAccountBinding",
+      "next_action": "Use as local technical demonstration only; establish real authorized task and CVP status separately.",
+      "qualification": "OPEN",
+      "repository_description": "",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "6139f6ab6e0140158aadab7a79ebe9f1a5a32128",
+      "latest_release_tag": "v1.0.3",
+      "name": "RecycleRecordReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Enables an analyst to identify truncated or malformed deletion records without exposing the deleted filename.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch local code/build/release receipts and current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "7802a8dc27c9eaf1718127815f14d0c2946490fd",
+      "latest_release_tag": "v0.1.1",
+      "name": "RedirectCredentialBoundary",
+      "next_action": "Use only as local technical demonstration; verify real authorized task and safeguard impact before any application claim.",
+      "qualification": "OPEN",
+      "repository_description": "Bound HTTP redirect credential policy with reproducible loopback evidence",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "Third-batch source/package/release receipts and current exact-commit metadata; still a bounded local lab.",
+      "exact_head_sha_at_snapshot": "9e7267507d91e85059297984935b0fe1fa60384a",
+      "latest_release_tag": "v0.1.0",
+      "name": "RefreshTokenReuseRevocation",
+      "next_action": "Use as local technical demonstration only; establish real authorized task and CVP status separately.",
+      "qualification": "OPEN",
+      "repository_description": "",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "2a514e782ba5c96cfffdaafff242f230de4c7774",
+      "latest_release_tag": "v0.1.3",
+      "name": "RegistryHiveReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline primary Registry hive structure and selected persistence value evidence",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch local code/build/release receipts and current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "f6b1b67f365a791fc20f988da5c64b7634c07e1c",
+      "latest_release_tag": "v0.1.0",
+      "name": "RelationAccessDecision",
+      "next_action": "Use only as local technical demonstration; verify real authorized task and safeguard impact before any application claim.",
+      "qualification": "OPEN",
+      "repository_description": "Loopback-only relationship authorization decision and revocation lab",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "893e2efcf051a914ebec68d96f9d00e6a951ea03",
+      "latest_release_tag": "v0.1.0",
+      "name": "SBOMFieldReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: SBOMFieldReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "befc52fb320ab5e3d8bc6d295e86be0a09e13cff",
+      "latest_release_tag": "v1.0.4",
+      "name": "SILGallery",
+      "next_action": "Exclude from main CVP case count; retain as general engineering background.",
+      "qualification": "OPEN",
+      "repository_description": "Attributed SILGallery derivative with renamed implementation, reproducible tests and source provenance",
+      "role": "ordinary_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "7ae53f3459036f0cb40816ac306f1bc8ed6b5765",
+      "latest_release_tag": "v0.1.0",
+      "name": "SSHPolicyReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: SSHPolicyReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "3bc59913f7e7ce56561fc2ac38669e478fea316c",
+      "latest_release_tag": "v0.1.3",
+      "name": "SamlMetadataReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Local SAML 2.0 metadata identity, role, binding, endpoint and public signing-certificate configuration audit, across bounded entities and inherited expiration.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "69e8e3dfb8619aa804064bb928c4fa11e75c7e63",
+      "latest_release_tag": "v1.0.3",
+      "name": "SarifLinkReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Checks unusable or inconsistent scanner reports before incident triage while suppressing messages and artifact paths. External/unresolved rule metadata stays OPEN.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "879942bc6ad1c2131f294a9b6b735e87f15ba7c1",
+      "latest_release_tag": "v0.2.2",
+      "name": "SealScope",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Mach-O signing metadata, entitlement and bundle resource audit tooling.",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "435603e8566d6d6bbe8c13b8d05456cdfb34defa",
+      "latest_release_tag": null,
+      "name": "SecurityResearchIndex",
+      "next_action": "Index/profile only; exclude from independent project count.",
+      "qualification": "OPEN",
+      "repository_description": "Grouped index and provenance for 24 public security research projects",
+      "role": "index_or_profile"
+    },
+    {
+      "basis": "Third-batch source/package/release receipts and current exact-commit metadata; still a bounded local lab.",
+      "exact_head_sha_at_snapshot": "3db61f5330d927c0446a2839d9d4d50e9438514b",
+      "latest_release_tag": "v0.1.0",
+      "name": "SftpHandlePermissionGate",
+      "next_action": "Use as local technical demonstration only; establish real authorized task and CVP status separately.",
+      "qualification": "OPEN",
+      "repository_description": "",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "c1a2fceef560dee6db8071eb5c1d5e6980025dfc",
+      "latest_release_tag": "v0.1.3",
+      "name": "SourceReleaseReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline bounded tar/ZIP source release review against caller-trusted path policy, without extraction or execution",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch source/package/release receipts and current exact-commit metadata; still a bounded local lab.",
+      "exact_head_sha_at_snapshot": "454993dee1c3eb90dcd829428fa2ebfdfbd4fda5",
+      "latest_release_tag": "v0.1.0",
+      "name": "SshCertIssuanceGate",
+      "next_action": "Technical local lab; root README/LICENSE layout correction is pending v0.1.1. Establish real authorized task and CVP status separately.",
+      "qualification": "OPEN",
+      "repository_description": "",
+      "role": "conditional_local_lab"
+    },
+    {
+      "name": "SshHostCertTrustBoundary",
+      "role": "pre_release_local_lab",
+      "qualification": "OPEN",
+      "exact_head_sha_at_snapshot": "a70006f1b443e3b193d13dea34d50eb6d040b1dc",
+      "latest_release_tag": null,
+      "basis": "Independently authored local SSH host-certificate trust experiment; source and tag public, exact GitHub CI partly queued during Actions degradation, no Release at this snapshot.",
+      "repository_description": "Single-host CA/principal/expiry/revocation and pre-auth audit policy with self-owned loopback SSH tests.",
+      "next_action": "Complete exact main/tag CI and downloaded Release checks before counting as published; real authorized-task and CVP status separate."
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "1a21b76d266f909bac4e7075bbf79a9269d94348",
+      "latest_release_tag": "v0.1.3",
+      "name": "SudoScopeAudit",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Snapshot sudoers include and alias scope audit",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "bee34a7f1cbfcd3b41649c37030e1e54aa0d42e2",
+      "latest_release_tag": "v0.1.3",
+      "name": "SysctlSnapshotAudit",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Persistent and observed sysctl snapshot drift audit",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "1c3de1f789e0730d1bf34181511b0b7f440490c7",
+      "latest_release_tag": "v0.1.4",
+      "name": "TLSProfileForge",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline fixed-guideline five-service TLS drafts with explicit capability gaps and no deployment actions",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "ad738a0ede9f3ff8e274ed092935eb2e9ae22507",
+      "latest_release_tag": "v4.3.1",
+      "name": "TabWeave",
+      "next_action": "Exclude from main CVP case count; retain as general engineering background.",
+      "qualification": "OPEN",
+      "repository_description": "Chrome CDP MCP service with 75 tools and modular browser sessions.",
+      "role": "ordinary_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "7d502d29e653b3a36b945ba8044893e1ecc0d895",
+      "latest_release_tag": "v1.0.4",
+      "name": "TraceMeadow",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Attributed TraceMeadow derivative with renamed implementation, reproducible tests and source provenance",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "1235b11cac42f905359ae50cf53ab8359f301c9e",
+      "latest_release_tag": "v0.1.3",
+      "name": "TransparencyProofCheck",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline bounded SHA256 inclusion and consistency proof relation verification with explicit root trust requirements",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "f37d6a281b174105b86af8144eb4b0c8d5bbba4e",
+      "latest_release_tag": "v0.1.3",
+      "name": "TufTopLevelReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline pinned-root Ed25519 TUF 1.x traditional top-level metadata chain, sequential root rotation, independent-key thresholds, expiry, caller-supplied rollback floors, byte hashes and every declared target.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "80be270c1bddd1ed2b068b60a29e630e2e8d101c",
+      "latest_release_tag": "v1.0.4",
+      "name": "UnicodeSourceReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline Unicode control-character evidence with byte locations and bounded local reads",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "1c24f333a3995d3ec95807b30bdffe0f0595af85",
+      "latest_release_tag": "v0.1.4",
+      "name": "UnitSandboxAudit",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Systemd service sandbox configuration audit",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "2455920c69bb77940537c47ce2a1dc30b3987f17",
+      "latest_release_tag": "v1.0.3",
+      "name": "UsnRecordReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Detects incomplete change journal evidence and keeps unresolved v4 continuation evidence OPEN.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "2576c786c1ef7f6098f9b51191143f0f46456cb2",
+      "latest_release_tag": "v1.0.2",
+      "name": "VTableBrook",
+      "next_action": "Retain true upstream rights and provenance; do not present as an independent rewrite or main CVP case without distinct proof.",
+      "qualification": "OPEN",
+      "repository_description": "Attributed VTableBrook derivative with renamed implementation, reproducible tests and source provenance",
+      "role": "research_background"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "97a62158424cbb476f53c6c6316109ee7c656557",
+      "latest_release_tag": "v1.0.3",
+      "name": "WalFrameReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Checks whether exported WAL frames form a complete committed evidence sequence; valid uncommitted tails remain OPEN. This is a standalone format validator, not a SQLite engine rewrite.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "8947b868d5dcb92c1391a266c9781b4938990418",
+      "latest_release_tag": "v0.1.3",
+      "name": "WebAuthnAssertionReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline WebAuthn get assertion verification from a saved ceremony plus explicit trusted registration record; PEM Ed25519/ES256 key profile.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch local code/build/release receipts and current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "0f666f636cf0d33e9cbcccf5f3c2c54f917349b2",
+      "latest_release_tag": "v0.1.1",
+      "name": "WebSocketUpgradeOriginGate",
+      "next_action": "Use only as local technical demonstration; verify real authorized task and safeguard impact before any application claim.",
+      "qualification": "OPEN",
+      "repository_description": "Local WebSocket Upgrade origin, Host, and session gate with browser evidence",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "b65f772a7fcaf4cfae3757f3339ee8ac8c57070c",
+      "latest_release_tag": "v0.1.4",
+      "name": "WheelNamespaceReview",
+      "next_action": "Use only as conditional technical example with real authorized task, actual safeguard impact and exact-source evidence.",
+      "qualification": "OPEN",
+      "repository_description": "Read-only wheel inventory, RECORD coverage, installation namespaces and startup text review",
+      "role": "conditional_prior_case"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "05857746cc136978e0e4faf288eee27646ab51a2",
+      "latest_release_tag": "v0.1.3",
+      "name": "WindowsBaselineSnapshot",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Complete finding-list comparison against supplied Windows observations",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "7ed60f0eb5a6fb02fe215d816ca59899befdb3f5",
+      "latest_release_tag": "v0.1.0",
+      "name": "WorkflowPermissionReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline defensive local review: WorkflowPermissionReview",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "Third-batch local code/build/release receipts and current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "ee05d37a617e6b989eff10f53cc69fccd4f47afa",
+      "latest_release_tag": "v0.1.0",
+      "name": "XmlEntityResourceBoundary",
+      "next_action": "Use only as local technical demonstration; verify real authorized task and safeguard impact before any application claim.",
+      "qualification": "OPEN",
+      "repository_description": "Bounded XML entity resource policy with local defensive evidence",
+      "role": "conditional_local_lab"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "94e315464483beb0d3273806d8da0647069d4603",
+      "latest_release_tag": "v1.0.3",
+      "name": "YaraCompileReview",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Validates defensive detection rule deployment inputs without scanning or executing target content. yara-python remains an attributed external compiler dependency, not a rewritten compiler.",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "be585c9d0ebd6a396b59e0c407a61616e119e0ae",
+      "latest_release_tag": "v0.1.3",
+      "name": "YaraRuleDraftReview",
+      "next_action": "Use only as conditional technical example with real authorized task, actual safeguard impact and exact-source evidence.",
+      "qualification": "OPEN",
+      "repository_description": "Bounded offline YARA rule drafting from caller-labeled byte corpora with real native validation and explicit uncertainty.",
+      "role": "conditional_prior_case"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "3df880f1187e23c234c1c8127a40bd96cd0bd22d",
+      "latest_release_tag": "v0.1.3",
+      "name": "ZoneGraphGuard",
+      "next_action": "Keep as supporting engineering evidence; do not count as an independent CVP qualifying case from repository alone.",
+      "qualification": "OPEN",
+      "repository_description": "Offline DNS zone snapshot, delegation and finite alias property review",
+      "role": "supporting_defensive_attachment"
+    },
+    {
+      "basis": "2026-10-04 material role and code-scope recheck plus current 2026-10-05 repository/release metadata",
+      "exact_head_sha_at_snapshot": "236ce32bf879187969a9212b4cbd9b3b9beb1185",
+      "latest_release_tag": null,
+      "name": "dhtfish-98",
+      "next_action": "Index/profile only; exclude from independent project count.",
+      "qualification": "OPEN",
+      "repository_description": "Public tools: Mach-O signing inspection, AArch64 dispatch analysis, and a Chrome DevTools bridge.",
+      "role": "index_or_profile"
+    }
+  ]
+}

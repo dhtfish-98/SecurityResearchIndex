@@ -1,0 +1,1144 @@
+{
+  "schema": "public110_exact_head_text_path_audit_summary_v1",
+  "captured_at_utc": "2026-10-05T19:46:39.951022+00:00",
+  "snapshot_window_utc": [
+    "2026-10-05T19:44:18+00:00",
+    "2026-10-05T19:44:55+00:00"
+  ],
+  "non_atomic_read": true,
+  "method": "Prior 108 exact-head tracked-blob text/path review reused for 106 unchanged HEADs; current ObjCAtlas, SecurityResearchIndex, QuicEarlyDataPolicy and SshHostCertTrustBoundary exact remote main commits scanned as tracked Git blobs. This is a text/path and attribution-context review, not a semantic security audit.",
+  "sources_sha256": {
+    "public_110_metadata": "6eaf0f0174698041275b688fb78ef02f18299173b7bb677ec1bf749c81986d5d",
+    "prior_108_exact_head_review": "bb004c455c8fd801cb879dc4655f5b40fddeac13d57f3ab5c0da7f4b9a5562e1",
+    "changed_4_exact_tree_scan": "9ccec82d0efc821cf86cea575f16e0a5a14f7ce240e9c1a720619a5c2ed22051"
+  },
+  "counts": {
+    "public": 110,
+    "software": 107,
+    "data_or_index": 3,
+    "exact_head_scanned": 110,
+    "tracked_file_paths": 4228,
+    "software_with_rights_files": 107,
+    "build_only_gitignore_remote_metadata": 110,
+    "software_effective_head_ci_success_at_snapshot": 106,
+    "release_equals_head_at_snapshot": 106,
+    "software_ci_or_release_pending": [
+      "SshHostCertTrustBoundary"
+    ],
+    "prior_known_binary_fixture_paths": 1,
+    "changed_4_nontext_files": 0
+  },
+  "ai_term_review": "Changed four repository trees contain 74 AI/Claude/Codex/Anthropic term hits: official CVP guidance, explicit no-AI-author-credit audit wording and product names. Manual review found no AI/Codex author credit in these tracked texts. Prior 108 exact-head review reached the same bounded conclusion for unchanged HEADs. Text scanning cannot prove historical or binary-content absence.",
+  "rights_review": "Every one of the 107 software trees has a rights/notice path. Real upstream and dependency licenses remain attributed; author display name of new code does not replace third-party copyright.",
+  "limitations": [
+    "Git history and release-asset binary contents are outside this text/path scan.",
+    "Full semantic review of every source function and CVP applicant eligibility remain OPEN.",
+    "Index HEAD will advance after this report is committed, so its exact-tree row is frozen at the capture time."
+  ],
+  "repositories": [
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "4aaa99adc2bfc32d83c6b05d6150ab54d6e437ec",
+      "name": ".github",
+      "rights_files_count": 0,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 13
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "ac8ca8c66b2927e386ea404630b0b20d4ad4535e",
+      "name": "A64Dispatch",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 102
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "9b3661613b9a40c5b104f71532c49d462491b3de",
+      "name": "AcmeChallengeAuthorization",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": 15,
+      "tracked_files": 15
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "f82578a8f7f8ed615f75efb82524a64fb66383c3",
+      "name": "AdvisoryOfflineReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 30
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "a8cccd1eae5650499381126d640b2808fe344d6c",
+      "name": "AliasRecordReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 28
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "961d1c4f02da7bc031f760996bf6dcfe5fcadda3",
+      "name": "AptSourceTrustAudit",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 32
+    },
+    {
+      "ai_term_hits_count": 45,
+      "artifact_path_candidates": [],
+      "head": "906be7fb188416952f010eccfbdf7c559f39aa67",
+      "name": "ArchiveLens",
+      "rights_files_count": 362,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": 421,
+      "tracked_files": 425
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "ae45221a220f9feeeb94b9492e52e24118c22367",
+      "name": "ArtifactDigestReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 19
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "0f23fda79e1a9f11ea12fbb6a0dc327168fc6ab3",
+      "name": "AuditEventReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 26
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "9fe75f1c8ca8914a3353a9f035bc130eb9f827b3",
+      "name": "AuditRuleCoverage",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 38
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "bdaf9f9051def589bfefb12ec26af45df4532c00",
+      "name": "AuthLogReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 19
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "6e8885d8426a6054ff1a456e553fba92b2c9b0c5",
+      "name": "BodyfileTimelineReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 27
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "dd94ae1b8916f5404ec77c26586d805876610b78",
+      "name": "BranchLoom",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 87
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "cf439d5b37d5be2764f9719d796765f77163fc7b",
+      "name": "CDTranslator",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 26
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "8ed2862c414cdc2b9116a02aafa1a8c8a8c1574b",
+      "name": "CITrustBoundaryReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 31
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "322d8f92111195b94d0a53c424685f42883ed321",
+      "name": "CSPPolicyLens",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 33
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "71250ac1024635baa51634a9e4253022ebc24777",
+      "name": "CertificateNamePolicy",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 43
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "53f3479a654f7b0011a2c831792bedce5449cd64",
+      "name": "ChromeRelay",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 166
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "36e63095526aa0abff91da862ffc3577b2a0b17c",
+      "name": "CompoundDocumentReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 34
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "7b93078fb3f8904c2a0d25f8934ba65609b0d175",
+      "name": "ContainerfileReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 18
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "82720313e3bedae3975798e3bc08b3198ec3134c",
+      "name": "CrlRevocationReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 29
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "85f7ec56b6a524375a0a38ee238347c84a04e4d0",
+      "name": "CryptoRegressionBench",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 31
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "5a0b0d5a32ce90b1c17671a0f55636ae19aa7901",
+      "name": "DOMSinkReview",
+      "rights_files_count": 4,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 35
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "230c717efa1fcdb7babe2857a9df425620a6e4ee",
+      "name": "DependencyPinReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 19
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "6c8bc689221689e5243881f2acf8142218bab49d",
+      "name": "DeserializeCallReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 39
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "d04b05f8265d2e1cd9b92357206044f6a99c425b",
+      "name": "DfxmlExtentReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 29
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "47f9c4f89456bd4c2780ce96789d4bd5cde3e981",
+      "name": "DjangoSessionGuard",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 28
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "0b161109ac1abf1f718c0c7c177f0890c8b7b658",
+      "name": "DsseEnvelopeReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 29
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "d89cdedc10cdd977235d3bfb29aea2e446cdbd04",
+      "name": "EntitlementFlagReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 18
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "ce2141dc0dc28015206affae09de00bbf6c69bf8",
+      "name": "EvtxRecordReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 43
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "96c83806fe01478811d1a607a10e3182316b1344",
+      "name": "EvtxRecoveryReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 53
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "c26fe0cfd1a27c3c23332b34d450ac79591811ee",
+      "name": "FileModeReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 16
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "34ffeff32f17d764b10e0598bd4fb87aee30ad99",
+      "name": "FinderStoreReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 28
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "01aa08ae248ce717bffbb9d8c90cc87ef9815eff",
+      "name": "FirewalldZoneAudit",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 33
+    },
+    {
+      "ai_term_hits_count": 5,
+      "artifact_path_candidates": [],
+      "head": "403abc2bbb1ff03723049f9b48ba306dd550aa04",
+      "name": "GoCryptoPolicyReview",
+      "rights_files_count": 4,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 41
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "27d57114d032f4a04bd06fb99620045fa0e856a8",
+      "name": "GraphQLQueryCostGate",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 20
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "9ac9182186a1aa28919c732525ef7e1603981cad",
+      "name": "HandshakeEvidenceReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 39
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "1f5c5b4bb6befa1614c642cd78e8a54a3998dfb1",
+      "name": "HeaderPolicyReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 18
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "3eed6cbc68b49fb4031d2a00721f922eb3f3d2b3",
+      "name": "IAMScopeReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 19
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+      "name": "IDBMeadow",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 122
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [
+        {
+          "bytes": 13520,
+          "path": "checks/bins/testlib1.dylib"
+        }
+      ],
+      "head": "aa76377254fdb2f18286f452bbeb1512a4b034a5",
+      "name": "ImageQuay",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 97
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "cffbcda8f8db5c97d26541acf32801eff5da25b2",
+      "name": "JksTrustStoreReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 30
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "2cca5eea7551b4c011cbcaf87f13941eea903002",
+      "name": "JupyterKernelOriginGate",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": 12,
+      "tracked_files": 12
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "a40c2205aa5e2ccebf6dfa46f91b56a27b764ac4",
+      "name": "JwkSetReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 29
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "7cd05089810b2c3ad35e48a4989c56e9c0648a85",
+      "name": "KernelCabinet",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 20
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "ab4df4cf35ce1f359b9646ffb20d15c1d9ab4a35",
+      "name": "KubePodReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 19
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "7fb7679a5e5a09ed65333aaba81e393cc3448783",
+      "name": "LifecyclePolicyReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 37
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "9e43d33baf67ba205d9101cbe505fe0f08865830",
+      "name": "LnkEvidenceReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 41
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "0debdcd194041321c7471849fafb80702b4b347e",
+      "name": "LocalSecretReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 20
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "0df36ecba4279496951cbaeda8dd594aa5ba6ba3",
+      "name": "MachOInspect",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 73
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "aea91b37c10f08e93c683a59cfb0d80b26c015f0",
+      "name": "MailEvidenceReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 35
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "11d82796b9d912b7d5f601f44c55935beca259fe",
+      "name": "MinisignFileReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 30
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "095f9b5146d4cf713b306247c37d1251a40f8047",
+      "name": "ModelOpcodeReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 42
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "7cacd72aaac883a640a5f24c2555c0c97fa07d39",
+      "name": "ModprobePolicyAudit",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 33
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "044174f67b6f5166f3c3705d274f26118df0d5d6",
+      "name": "NatsSubjectTenantGate",
+      "rights_files_count": 2,
+      "scan_group": "changed2_exact_head",
+      "tracked_files": 17
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "fc9c1e2ab30dcc0ea85a28800eaa22133157ca85",
+      "name": "NetworkPolicyReachabilityReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 28
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "a1e485d3cf24410332467f69812acbd2eb6e08ed",
+      "name": "NftIngressAudit",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 37
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "6366317e7817e121d981ed9e9fbd9714e76f3fac",
+      "name": "NginxConfigGuard",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 26
+    },
+    {
+      "name": "ObjCAtlas",
+      "head": "231b5aa5762b1696835d0d2ba4d7c12ad9e814ca",
+      "tracked_files": 252,
+      "text_files_scanned": 252,
+      "rights_files_count": 3,
+      "artifact_path_candidates": [],
+      "ai_term_hits_count": 1,
+      "scan_group": "changed4_exact_head"
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "f8b7209d9745ca41f41f4600ccba0d5183924205",
+      "name": "OcspStapleReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 29
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "b7a58adfd2bd169b9da6fb0ac0d8cd1805bef351",
+      "name": "PDFActionReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 27
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "94e266085f99b3265ad865b2a2915cedf6b5604d",
+      "name": "PEHardeningReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 20
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "64e458d08db35fbafce2cdc2e48794a0f306b7dd",
+      "name": "PEQuarry",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 57
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "7f2dbb83789a7b665b05be3b57fd37248f7b8e86",
+      "name": "PackageOriginReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 24
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "edb12bbee95a9415e2127a4aed40196f1e842b4f",
+      "name": "PamStackAudit",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 33
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "83f085a446a6378f75d03c4d907e0d7deb0e2557",
+      "name": "PluginHandshakeTrustGate",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 14
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "a87b2b7db9d91f1b18640d16f21982c9a8efc412",
+      "name": "PngStreamReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 28
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "f3f2b80d4527ab1e4afefd3e4c08f66798f51485",
+      "name": "PolicyMosaic",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 50
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "bf9885671328e0a0c036b3c3116730a5e45a7e5d",
+      "name": "PrefetchEvidenceReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 43
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "8c3866dae7aa5ea2f3e9b94c9fd606d62e60ef3e",
+      "name": "ProxyIdentityHeaderTrust",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 12
+    },
+    {
+      "name": "QuicEarlyDataPolicy",
+      "head": "5ce8bd25c080cd0d67459b5db8a6045b1fc1649f",
+      "tracked_files": 15,
+      "text_files_scanned": 15,
+      "rights_files_count": 1,
+      "artifact_path_candidates": [],
+      "ai_term_hits_count": 1,
+      "scan_group": "changed4_exact_head"
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "c3175b55aab23903f1badfb02e3efaf363474d7d",
+      "name": "RecoveryCodeAccountBinding",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": 21,
+      "tracked_files": 21
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "6139f6ab6e0140158aadab7a79ebe9f1a5a32128",
+      "name": "RecycleRecordReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 27
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "7802a8dc27c9eaf1718127815f14d0c2946490fd",
+      "name": "RedirectCredentialBoundary",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 12
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "9e7267507d91e85059297984935b0fe1fa60384a",
+      "name": "RefreshTokenReuseRevocation",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": 12,
+      "tracked_files": 12
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "2a514e782ba5c96cfffdaafff242f230de4c7774",
+      "name": "RegistryHiveReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 36
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "f6b1b67f365a791fc20f988da5c64b7634c07e1c",
+      "name": "RelationAccessDecision",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": 18,
+      "tracked_files": 18
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "893e2efcf051a914ebec68d96f9d00e6a951ea03",
+      "name": "SBOMFieldReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 19
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "befc52fb320ab5e3d8bc6d295e86be0a09e13cff",
+      "name": "SILGallery",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 26
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "7ae53f3459036f0cb40816ac306f1bc8ed6b5765",
+      "name": "SSHPolicyReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 18
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "3bc59913f7e7ce56561fc2ac38669e478fea316c",
+      "name": "SamlMetadataReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 29
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "69e8e3dfb8619aa804064bb928c4fa11e75c7e63",
+      "name": "SarifLinkReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 27
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "879942bc6ad1c2131f294a9b6b735e87f15ba7c1",
+      "name": "SealScope",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 37
+    },
+    {
+      "name": "SecurityResearchIndex",
+      "head": "435603e8566d6d6bbe8c13b8d05456cdfb34defa",
+      "tracked_files": 89,
+      "text_files_scanned": 89,
+      "rights_files_count": 0,
+      "artifact_path_candidates": [],
+      "ai_term_hits_count": 72,
+      "scan_group": "changed4_exact_head"
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "3db61f5330d927c0446a2839d9d4d50e9438514b",
+      "name": "SftpHandlePermissionGate",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": 16,
+      "tracked_files": 16
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "c1a2fceef560dee6db8071eb5c1d5e6980025dfc",
+      "name": "SourceReleaseReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 42
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "454993dee1c3eb90dcd829428fa2ebfdfbd4fda5",
+      "name": "SshCertIssuanceGate",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": 15,
+      "tracked_files": 15
+    },
+    {
+      "name": "SshHostCertTrustBoundary",
+      "head": "a70006f1b443e3b193d13dea34d50eb6d040b1dc",
+      "tracked_files": 19,
+      "text_files_scanned": 19,
+      "rights_files_count": 2,
+      "artifact_path_candidates": [],
+      "ai_term_hits_count": 0,
+      "scan_group": "changed4_exact_head"
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "1a21b76d266f909bac4e7075bbf79a9269d94348",
+      "name": "SudoScopeAudit",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 34
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "bee34a7f1cbfcd3b41649c37030e1e54aa0d42e2",
+      "name": "SysctlSnapshotAudit",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 34
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "1c3de1f789e0730d1bf34181511b0b7f440490c7",
+      "name": "TLSProfileForge",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 37
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "ad738a0ede9f3ff8e274ed092935eb2e9ae22507",
+      "name": "TabWeave",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 29
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "7d502d29e653b3a36b945ba8044893e1ecc0d895",
+      "name": "TraceMeadow",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 59
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "1235b11cac42f905359ae50cf53ab8359f301c9e",
+      "name": "TransparencyProofCheck",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 31
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "f37d6a281b174105b86af8144eb4b0c8d5bbba4e",
+      "name": "TufTopLevelReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 30
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "80be270c1bddd1ed2b068b60a29e630e2e8d101c",
+      "name": "UnicodeSourceReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 23
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "1c24f333a3995d3ec95807b30bdffe0f0595af85",
+      "name": "UnitSandboxAudit",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 37
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "2455920c69bb77940537c47ce2a1dc30b3987f17",
+      "name": "UsnRecordReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 29
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "2576c786c1ef7f6098f9b51191143f0f46456cb2",
+      "name": "VTableBrook",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 23
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "97a62158424cbb476f53c6c6316109ee7c656557",
+      "name": "WalFrameReview",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 28
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "8947b868d5dcb92c1391a266c9781b4938990418",
+      "name": "WebAuthnAssertionReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 29
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "0f666f636cf0d33e9cbcccf5f3c2c54f917349b2",
+      "name": "WebSocketUpgradeOriginGate",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 13
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "b65f772a7fcaf4cfae3757f3339ee8ac8c57070c",
+      "name": "WheelNamespaceReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 24
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "05857746cc136978e0e4faf288eee27646ab51a2",
+      "name": "WindowsBaselineSnapshot",
+      "rights_files_count": 4,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 36
+    },
+    {
+      "ai_term_hits_count": 1,
+      "artifact_path_candidates": [],
+      "head": "7ed60f0eb5a6fb02fe215d816ca59899befdb3f5",
+      "name": "WorkflowPermissionReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 19
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "ee05d37a617e6b989eff10f53cc69fccd4f47afa",
+      "name": "XmlEntityResourceBoundary",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 12
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "94e315464483beb0d3273806d8da0647069d4603",
+      "name": "YaraCompileReview",
+      "rights_files_count": 1,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 28
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "be585c9d0ebd6a396b59e0c407a61616e119e0ae",
+      "name": "YaraRuleDraftReview",
+      "rights_files_count": 3,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 38
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "3df880f1187e23c234c1c8127a40bd96cd0bd22d",
+      "name": "ZoneGraphGuard",
+      "rights_files_count": 2,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 34
+    },
+    {
+      "ai_term_hits_count": 0,
+      "artifact_path_candidates": [],
+      "head": "236ce32bf879187969a9212b4cbd9b3b9beb1185",
+      "name": "dhtfish-98",
+      "rights_files_count": 0,
+      "scan_group": "unchanged106_prior_exact_head",
+      "text_files_scanned": null,
+      "tracked_files": 7
+    }
+  ]
+}

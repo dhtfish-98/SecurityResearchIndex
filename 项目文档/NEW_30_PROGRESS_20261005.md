@@ -91,3 +91,9 @@ SFTP 实验以真实回环 SFTP v3 服务验证句柄授权，不代表外部服
 此前 108 仓快照冻结于 19:10 UTC；新仓和后续修复应按新增记录核对，不能把旧快照称作当前 109/110 仓全量审计。BuildSecretMountLifetimeGate 因本机没有真实 BuildKit 环境，仍为未实施候选，不计入发行数。
 
 申请渠道已按用户说明确定为 Claude.ai / Claude Code。[Anthropic 当前公开 CVP 指引](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)列出第一方用户经 Verification Portal、授权管理员与身份验证申请；未列出逐项目拒绝或降级截图为申请附件硬条件。是否获得批准取决于官方审查，不由仓库数或本地测试推定。
+
+## 19:44–19:45 UTC 公开 110 仓冻结再审
+
+[110 仓元数据快照](PUBLIC_110_METADATA_20261005.json)在非原子读取窗口核到 107 个软件仓、3 个资料仓；110/110 有「项目文档」且 `Build` 只跟踪 `.gitignore`。106/107 个软件仓已有精确 HEAD 的有效 CI 成功，106 个最新 Release 与各自所读 HEAD 一致，14 个历史撤出仓仍为私有。新增 SshHostCertTrustBoundary 的源码和标签已公开，但 GitHub Actions 部分作业排队，尚无正式 Release，因此不计入 15/30 发行数。
+
+[110 仓精确提交文本与路径复核](PUBLIC_110_EXACT_HEAD_TEXT_PATH_AUDIT_20261005.json)复用 106 个未变提交的前次逐路径检查，并复扫 ObjCAtlas、索引与两个新仓的 375 条跟踪路径；按当前冻结树合计 4,228 条。107 个软件仓均有实际权利文件路径，所读文本中未确认 AI/Codex 作者署名；一个旧版二进制解析夹具的内容不在文本扫描范围。历史和所有源码语义未因此完成深审。[110 仓材料角色矩阵](PUBLIC_110_CVP_MATERIAL_RECHECK_20261005.json)仍把 CVP 资格与批准全部标 OPEN。SshCertIssuanceGate 的根 README/LICENSE 布局遗漏正在准备 v0.1.1 修订，当前快照只证明其 Build/文档目录存在，不代表根目录已经完全清理。
