@@ -1,5 +1,7 @@
 # CVP 官方规则与项目证据核对（2026-10-02）
 
+**历史快照提示（2026-10-06）：**下表保留 10 月 2 日当时尚未确认渠道的状态，不代表当前申请条件。申请人后来确认使用 Claude.ai / Claude Code；[现行规则与证据](CVP_RULES_AND_EVIDENCE_20261004.md)及[待补事实表](APPLICATION_EVIDENCE_OPEN.md)已区分真实防御用途、所受防护影响与可选的原始拦截记录。Anthropic 的公开说明没有要求逐项目提交拦截或降级日志。
+
 依据：[Anthropic CVP 帮助页](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)、[Anthropic 使用政策](https://www.anthropic.com/legal/aup)。规则可能更新，正式提交前须再次核对申请页面和实际账号。
 
 | 官方要求或边界 | 当前可核实事实 | 状态 |

@@ -93,3 +93,5 @@
 [历史 30 项交付接管再筛](HISTORICAL_30_CVP_HANDOVER_RECHECK_20261005.md)逐项对照本次 111 仓快照：6 项保留有条件技术附件，24 项作为工程背景附件，30 项当前提交均已较原交付记录前进；工程交付和申请资格继续分开判断。这 30 个名称与第三批新题目无交集。
 
 [104 个已发行软件仓版本与附件元数据续审](PUBLIC_104_RELEASE_VERSION_RECHECK_20261005.md)确认所读正式标签与冻结提交对齐；85 仓有共 275 个独立附件，19 仓仅有正式标签及自动源码归档。此项不把 GitHub 报告摘要写成已回下载或已安装验证；六个主要条件案例的当前附件另有逐字节回验。
+
+**2026-10-05 20:24 UTC 增量：**[19 个仅源码正式发行的归档回下载复核](PUBLIC_19_SOURCE_ONLY_RELEASE_RECHECK_20261005.md)逐包检查 665 个文件路径、项目文档/许可、Build 占位及内部版本声明，未见所筛编译产物；不替代源码语义或运行审核。新建的 [ObfuscatedStringRecovery](https://github.com/dhtfish-98/ObfuscatedStringRecovery) 已公开自有源码及 `v0.1.0` 标签，精确提交 `2e12724bd9778b55e14c459c2faa1f0e18a05e68` 的[主线](https://github.com/dhtfish-98/ObfuscatedStringRecovery/actions/runs/37369431643)和[标签 CI](https://github.com/dhtfish-98/ObfuscatedStringRecovery/actions/runs/37369445935)仍排队；未创建正式 Release，第三批仍为 **15/30 已发行**。111 仓快照冻结于新仓创建前，不能当成当前 112 仓全量结果；CVP 资格仍 OPEN。

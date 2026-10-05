@@ -1,0 +1,350 @@
+{
+  "schema": 1,
+  "method": "Downloaded each of the 19 formal Releases that have no user-uploaded assets using GitHub codeload tag source archives; inspected archive paths only. No runtime retest; archive tag SHA checked separately in 104-release-metadata.json. Parsed package/CMake version where present; otherwise checked explicit current-version statement in 项目文档/README.md; checked project LICENSE path. Checked all tar members for non-file/non-directory entries.",
+  "source_metadata_sha256": "3c82b57ed20c88aff7740c0a0e036747cd4b37c5ef224c797e6888fad83b1f96",
+  "count": 19,
+  "repositories": [
+    {
+      "name": "A64Dispatch",
+      "tag": "v1.0.1",
+      "archive_sha256": "9d08dc2f8cd30df2574ec27a9eb843d0fcd7de7977dc51902975b12fb194f397",
+      "archive_bytes": 170173,
+      "file_count": 102,
+      "project_docs_count": 39,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/A64Dispatch/releases/tag/v1.0.1",
+      "declared_version": "1.0.1",
+      "version_source": "CMakeLists.txt",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "ArtifactDigestReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "8448a7d8bc0c41c89a09fc0498ed9aa67ff11605b6a417a874e16fad5720370d",
+      "archive_bytes": 11073,
+      "file_count": 19,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/ArtifactDigestReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "AuthLogReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "ec1db14a362a70fbb6a06c8653e5990d77394557ae6f70a153e15841bd8d7f09",
+      "archive_bytes": 11140,
+      "file_count": 19,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/AuthLogReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "CDTranslator",
+      "tag": "v1.0.2",
+      "archive_sha256": "ae90836dd78cb4df181963cefa306955243097829019b82f9c2fcee0e381d8a4",
+      "archive_bytes": 275022,
+      "file_count": 26,
+      "project_docs_count": 8,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/CDTranslator/releases/tag/v1.0.2",
+      "declared_version": "1.0.2",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "ChromeRelay",
+      "tag": "v1.0.1",
+      "archive_sha256": "353068eff381ec09464aa8cfdd7f243a12fff9ad8bc5706daadd9675a0adfe9f",
+      "archive_bytes": 247047,
+      "file_count": 166,
+      "project_docs_count": 64,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/ChromeRelay/releases/tag/v1.0.1",
+      "declared_version": "1.0.1",
+      "version_source": "CMakeLists.txt",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "ContainerfileReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "cc20c89d7ab41b8f74adbf0ef38fe8297727b99d050c4f1ad255c08abc1b6ddd",
+      "archive_bytes": 11748,
+      "file_count": 18,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/ContainerfileReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "DependencyPinReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "f19381ad16ac553a003283e44815eb37b7a777751074eccf2537f3f339990b76",
+      "archive_bytes": 10698,
+      "file_count": 19,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/DependencyPinReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "EntitlementFlagReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "4323ee209fb9fcc4a329b1f307bed5bfbe66f6c40b62577ae7c9f5f6b50f5f24",
+      "archive_bytes": 10313,
+      "file_count": 18,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/EntitlementFlagReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "FileModeReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "e7a04915926fb9f0eaa9df8af378f6c5320ab92b769f035e57c5caefe7e17d09",
+      "archive_bytes": 9125,
+      "file_count": 16,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/FileModeReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "HeaderPolicyReview",
+      "tag": "v0.1.4",
+      "archive_sha256": "9538241f88ea11b4fdf5b9cc422174eb81d8ccd6d807a06cc2e770e314dcfda6",
+      "archive_bytes": 13116,
+      "file_count": 18,
+      "project_docs_count": 5,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/HeaderPolicyReview/releases/tag/v0.1.4",
+      "declared_version": "0.1.4",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "IAMScopeReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "4a2f502ebbb3471c8a1a7676a3a51f37893db0b91077cd243ba2d685aa34cbd5",
+      "archive_bytes": 11412,
+      "file_count": 19,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/IAMScopeReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "KubePodReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "c747162cbe30ea8c44fcede8a782ef7b56f6336acd897a93db2f88b048376097",
+      "archive_bytes": 11850,
+      "file_count": 19,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/KubePodReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "LocalSecretReview",
+      "tag": "v1.0.3",
+      "archive_sha256": "90dfe016986977d1cb6790f31fa49f09c00b4b2d0737c63dc9bd13358e3daa82",
+      "archive_bytes": 12615,
+      "file_count": 20,
+      "project_docs_count": 5,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/LocalSecretReview/releases/tag/v1.0.3",
+      "declared_version": "1.0.3",
+      "version_source": "pyproject.toml",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "MachOInspect",
+      "tag": "v1.0.1",
+      "archive_sha256": "5e75bdd92515ff5a5bc14c6303d98a3398aacacbcbcabef5a6c165e7650fb85e",
+      "archive_bytes": 98047,
+      "file_count": 73,
+      "project_docs_count": 39,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/MachOInspect/releases/tag/v1.0.1",
+      "declared_version": "1.0.1",
+      "version_source": "CMakeLists.txt",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "PEHardeningReview",
+      "tag": "v1.0.3",
+      "archive_sha256": "2f919c5a31ce7034c569a24f92478c4c1881a5c19b72d4ab6cb65ac36c346828",
+      "archive_bytes": 12206,
+      "file_count": 20,
+      "project_docs_count": 5,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/PEHardeningReview/releases/tag/v1.0.3",
+      "declared_version": "1.0.3",
+      "version_source": "pyproject.toml",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "SBOMFieldReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "9468c3fca1dc111d12c471ce647d4a77e222282b19d14385ca0ea385e4e74115",
+      "archive_bytes": 11228,
+      "file_count": 19,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/SBOMFieldReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "SealScope",
+      "tag": "v0.2.2",
+      "archive_sha256": "ff22d12a9f64e089a7a0ea08a23d14b889175f6e71c18bd0e21272ffe90f785f",
+      "archive_bytes": 58540,
+      "file_count": 37,
+      "project_docs_count": 7,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/SealScope/releases/tag/v0.2.2",
+      "declared_version": "0.2.2",
+      "version_source": "pyproject.toml",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "SSHPolicyReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "b2fcc9b2d445ff08075d22c57d48217313d42d60a5a2d95bd9caff9d8fcf0b44",
+      "archive_bytes": 10373,
+      "file_count": 18,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/SSHPolicyReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    },
+    {
+      "name": "WorkflowPermissionReview",
+      "tag": "v0.1.0",
+      "archive_sha256": "8d5afb944ce58297f69f2decc105f96b21785025efc0b8af2333cbd919d65ebd",
+      "archive_bytes": 10846,
+      "file_count": 19,
+      "project_docs_count": 6,
+      "build_entries": [
+        "Build/.gitignore"
+      ],
+      "compiled_artifact_candidates": [],
+      "unsafe_paths": [],
+      "release_url": "https://github.com/dhtfish-98/WorkflowPermissionReview/releases/tag/v0.1.0",
+      "declared_version": "0.1.0",
+      "version_source": "项目文档/README.md",
+      "rights_path_present": true,
+      "special_archive_members": []
+    }
+  ]
+}

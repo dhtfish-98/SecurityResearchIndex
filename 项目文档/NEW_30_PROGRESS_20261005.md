@@ -97,3 +97,9 @@ SFTP 实验以真实回环 SFTP v3 服务验证句柄授权，不代表外部服
 [110 仓元数据快照](PUBLIC_110_METADATA_20261005.json)在非原子读取窗口核到 107 个软件仓、3 个资料仓；110/110 有「项目文档」且 `Build` 只跟踪 `.gitignore`。106/107 个软件仓已有精确 HEAD 的有效 CI 成功，106 个最新 Release 与各自所读 HEAD 一致，14 个历史撤出仓仍为私有。新增 SshHostCertTrustBoundary 的源码和标签已公开，但 GitHub Actions 部分作业排队，尚无正式 Release，因此不计入 15/30 发行数。
 
 [110 仓精确提交文本与路径复核](PUBLIC_110_EXACT_HEAD_TEXT_PATH_AUDIT_20261005.json)复用 106 个未变提交的前次逐路径检查，并复扫 ObjCAtlas、索引与两个新仓的 375 条跟踪路径；按当前冻结树合计 4,228 条。107 个软件仓均有实际权利文件路径，所读文本中未确认 AI/Codex 作者署名；一个旧版二进制解析夹具的内容不在文本扫描范围。历史和所有源码语义未因此完成深审。[110 仓材料角色矩阵](PUBLIC_110_CVP_MATERIAL_RECHECK_20261005.json)仍把 CVP 资格与批准全部标 OPEN。SshCertIssuanceGate 的根 README/LICENSE 布局遗漏正在准备 v0.1.1 修订，当前快照只证明其 Build/文档目录存在，不代表根目录已经完全清理。
+
+## 20:24 UTC ObfuscatedStringRecovery 源码与标签公开
+
+[ObfuscatedStringRecovery](https://github.com/dhtfish-98/ObfuscatedStringRecovery) 的自有源码与 `v0.1.0` 标签均指向提交 `2e12724bd9778b55e14c459c2faa1f0e18a05e68`。Python 3.11/3.14 的源码、解包源码包、隔离 wheel 三种本地模式均通过自编译无害 ELF 目标文件实验；扫描器静态恢复 `HELLO` 和 XOR 后的 `WORLD`，记录逐字节文件偏移，未知分支整函数跳过。独立复查再次运行 Python 3.11 验证并对有效目标文件作 2,000 次随机字节扰动，未见预期拒绝以外的异常。程序不执行样本；没有外部授权样本、误报研究、真实任务影响或 CVP 批准证据。固定 flare-floss 参考的 Apache-2.0 权利和未复制的边界在项目 ORIGIN 中如实说明。
+
+本次公开的是源码和标签；[主线 CI](https://github.com/dhtfish-98/ObfuscatedStringRecovery/actions/runs/37369431643)与[标签 CI](https://github.com/dhtfish-98/ObfuscatedStringRecovery/actions/runs/37369445935)还在 GitHub Actions 队列，**正式 Release 尚不存在**，不能计入 15/30 已发行。其本地候选机读收据 SHA-256 为 `6a389938ecfd3428f1ab0506f4be536c4bf3741aeddbb68772832d5de5ee2d82`；正式资产回下载须待两个分支的精确提交检查成功后另行记录。
