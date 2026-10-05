@@ -1,0 +1,802 @@
+{
+  "schema": "cvp-public-8-current-text-release-audit.v1",
+  "generated_at_utc": "2026-10-05T14:11:03.222809+00:00",
+  "scope": "Eight latest-release current-version attribution/documentation corrections only; historical validation records preserved; no CVP approval inferred.",
+  "pass_count": 8,
+  "repos": {
+    "PackageOriginReview": {
+      "status": "PASS",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "7f2dbb83789a7b665b05be3b57fd37248f7b8e86",
+      "previous_public_tag": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/PackageOriginReview/releases/tag/v0.1.4",
+      "release_id": 403788043,
+      "release_published_at": "2026-10-05T14:08:19Z",
+      "public_anonymous_release_api": "PASS",
+      "public_anonymous_wheel_download": "PASS",
+      "remote_main_tag_exact": true,
+      "ci": {
+        "main": {
+          "run_id": 37321647655,
+          "url": "https://github.com/dhtfish-98/PackageOriginReview/actions/runs/37321647655",
+          "head_sha": "7f2dbb83789a7b665b05be3b57fd37248f7b8e86",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        "tag": {
+          "run_id": 37321698816,
+          "url": "https://github.com/dhtfish-98/PackageOriginReview/actions/runs/37321698816",
+          "head_sha": "7f2dbb83789a7b665b05be3b57fd37248f7b8e86",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      },
+      "source_tests": 36,
+      "installed_consumer_tests": 36,
+      "wheel_and_sdist_build": "PASS",
+      "sdist_rebuilt_wheel_source_files_identical": 5,
+      "source_archives": {
+        "tag": "v0.1.4",
+        "expected_files": 24,
+        "formats": {
+          "tar": {
+            "sha256": "c12d43b4d0d61bcb8ad8b8fa9ad8f61ba8298c24cc884b2d56d58875ab71b605",
+            "bytes": 28436,
+            "files": 24,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          },
+          "zip": {
+            "sha256": "9aa623535c49a0b9b63f34996dc09172a04e20575495bef4e391f0f3622fc57c",
+            "bytes": 37924,
+            "files": 24,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          }
+        }
+      },
+      "rights_files_exact_in_wheel_and_sdist": [
+        "项目文档/LICENSE",
+        "项目文档/NOTICE"
+      ],
+      "release_assets": [
+        {
+          "name": "package_origin_review-0.1.4-py3-none-any.whl",
+          "bytes": 23478,
+          "sha256": "318c0ee45e7cbc1923e94cdf18de7099e89c249cc79543860fea215f08de6378",
+          "uploaded": true,
+          "api_digest": "sha256:318c0ee45e7cbc1923e94cdf18de7099e89c249cc79543860fea215f08de6378",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/PackageOriginReview/releases/download/v0.1.4/package_origin_review-0.1.4-py3-none-any.whl"
+        },
+        {
+          "name": "package_origin_review-0.1.4.tar.gz",
+          "bytes": 41644,
+          "sha256": "cd7eed018ac1a8c9e70fe006301f252513c814226eb787e57fe057d76b9fe1db",
+          "uploaded": true,
+          "api_digest": "sha256:cd7eed018ac1a8c9e70fe006301f252513c814226eb787e57fe057d76b9fe1db",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/PackageOriginReview/releases/download/v0.1.4/package_origin_review-0.1.4.tar.gz"
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1795,
+          "sha256": "d8a6e84208cd6e4a681d76cd40d531d6887a96c0f042c36d18c940f6bbd64416",
+          "uploaded": true,
+          "api_digest": "sha256:d8a6e84208cd6e4a681d76cd40d531d6887a96c0f042c36d18c940f6bbd64416",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/PackageOriginReview/releases/download/v0.1.4/RELEASE_MANIFEST.json"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 300,
+          "sha256": "2a823eb8f82b61f655b8535da51ba7197d268921cf4e85af92b6393e553604ef",
+          "uploaded": true,
+          "api_digest": "sha256:2a823eb8f82b61f655b8535da51ba7197d268921cf4e85af92b6393e553604ef",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/PackageOriginReview/releases/download/v0.1.4/SHA256SUMS.txt"
+        }
+      ]
+    },
+    "JwkSetReview": {
+      "status": "PASS",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "a40c2205aa5e2ccebf6dfa46f91b56a27b764ac4",
+      "previous_public_tag": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/JwkSetReview/releases/tag/v0.1.4",
+      "release_id": 403788046,
+      "release_published_at": "2026-10-05T14:08:20Z",
+      "public_anonymous_release_api": "PASS",
+      "public_anonymous_wheel_download": "PASS",
+      "remote_main_tag_exact": true,
+      "ci": {
+        "main": {
+          "run_id": 37321648636,
+          "url": "https://github.com/dhtfish-98/JwkSetReview/actions/runs/37321648636",
+          "head_sha": "a40c2205aa5e2ccebf6dfa46f91b56a27b764ac4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        "tag": {
+          "run_id": 37321699042,
+          "url": "https://github.com/dhtfish-98/JwkSetReview/actions/runs/37321699042",
+          "head_sha": "a40c2205aa5e2ccebf6dfa46f91b56a27b764ac4",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      },
+      "source_tests": 15,
+      "installed_consumer_tests": 15,
+      "wheel_and_sdist_build": "PASS",
+      "sdist_rebuilt_wheel_source_files_identical": 6,
+      "source_archives": {
+        "tag": "v0.1.4",
+        "expected_files": 29,
+        "formats": {
+          "tar": {
+            "sha256": "ec77316bb73c579ca4b37f869f2806d474e33bfe6dc9d60a63b43d53b716d8c2",
+            "bytes": 24643,
+            "files": 29,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          },
+          "zip": {
+            "sha256": "6bd568e72a68cd43cde7690ad4f6bb990ac3b36e18446f8d0b6212e226d02ca8",
+            "bytes": 36947,
+            "files": 29,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          }
+        }
+      },
+      "rights_files_exact_in_wheel_and_sdist": [
+        "项目文档/LICENSE",
+        "项目文档/UPSTREAM_LICENSE"
+      ],
+      "release_assets": [
+        {
+          "name": "cvp_jwk_set_review-0.1.4-py3-none-any.whl",
+          "bytes": 14667,
+          "sha256": "a027bb195d58723d0c6b104cd6086d85d530ce6c2ed934da5c5d87d88b597626",
+          "uploaded": true,
+          "api_digest": "sha256:a027bb195d58723d0c6b104cd6086d85d530ce6c2ed934da5c5d87d88b597626",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/JwkSetReview/releases/download/v0.1.4/cvp_jwk_set_review-0.1.4-py3-none-any.whl"
+        },
+        {
+          "name": "cvp_jwk_set_review-0.1.4.tar.gz",
+          "bytes": 31884,
+          "sha256": "6e81da6e6e52f3ec780ef7caeb912295629b3470cf78c5dda7fef1c2dccb5168",
+          "uploaded": true,
+          "api_digest": "sha256:6e81da6e6e52f3ec780ef7caeb912295629b3470cf78c5dda7fef1c2dccb5168",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/JwkSetReview/releases/download/v0.1.4/cvp_jwk_set_review-0.1.4.tar.gz"
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1778,
+          "sha256": "ac35de11ea660c04ec133ac194ce183eab6e513272c291bccfbc79ac9ccb81b5",
+          "uploaded": true,
+          "api_digest": "sha256:ac35de11ea660c04ec133ac194ce183eab6e513272c291bccfbc79ac9ccb81b5",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/JwkSetReview/releases/download/v0.1.4/RELEASE_MANIFEST.json"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 294,
+          "sha256": "34a603e48a833f3cc8c2520e013cfa261b301bb3d223cd551290029a7053c9df",
+          "uploaded": true,
+          "api_digest": "sha256:34a603e48a833f3cc8c2520e013cfa261b301bb3d223cd551290029a7053c9df",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/JwkSetReview/releases/download/v0.1.4/SHA256SUMS.txt"
+        }
+      ]
+    },
+    "LnkEvidenceReview": {
+      "status": "PASS",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "9e43d33baf67ba205d9101cbe505fe0f08865830",
+      "previous_public_tag": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/LnkEvidenceReview/releases/tag/v0.1.4",
+      "release_id": 403788052,
+      "release_published_at": "2026-10-05T14:08:20Z",
+      "public_anonymous_release_api": "PASS",
+      "public_anonymous_wheel_download": "PASS",
+      "remote_main_tag_exact": true,
+      "ci": {
+        "main": {
+          "run_id": 37321648622,
+          "url": "https://github.com/dhtfish-98/LnkEvidenceReview/actions/runs/37321648622",
+          "head_sha": "9e43d33baf67ba205d9101cbe505fe0f08865830",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        "tag": {
+          "run_id": 37321698476,
+          "url": "https://github.com/dhtfish-98/LnkEvidenceReview/actions/runs/37321698476",
+          "head_sha": "9e43d33baf67ba205d9101cbe505fe0f08865830",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      },
+      "source_tests": 43,
+      "installed_consumer_tests": 43,
+      "wheel_and_sdist_build": "PASS",
+      "sdist_rebuilt_wheel_source_files_identical": 13,
+      "source_archives": {
+        "tag": "v0.1.4",
+        "expected_files": 41,
+        "formats": {
+          "tar": {
+            "sha256": "7e43734b379e117bfe40bd6381de426fe78fd37e83d15448ad71de9cec0550c8",
+            "bytes": 52393,
+            "files": 41,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          },
+          "zip": {
+            "sha256": "bb2b8b3d1ef43e54fef087a45918d4b9239a0b5eb3f30ba8b873abc3d98cbc81",
+            "bytes": 67821,
+            "files": 41,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          }
+        }
+      },
+      "rights_files_exact_in_wheel_and_sdist": [
+        "项目文档/LICENSE",
+        "项目文档/NOTICE"
+      ],
+      "release_assets": [
+        {
+          "name": "lnk_evidence_review-0.1.4-py3-none-any.whl",
+          "bytes": 38919,
+          "sha256": "7fec36b278438f1d26da8e204a313a087ba6f5cb41620c21f63a60b9ca4cb52b",
+          "uploaded": true,
+          "api_digest": "sha256:7fec36b278438f1d26da8e204a313a087ba6f5cb41620c21f63a60b9ca4cb52b",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/LnkEvidenceReview/releases/download/v0.1.4/lnk_evidence_review-0.1.4-py3-none-any.whl"
+        },
+        {
+          "name": "lnk_evidence_review-0.1.4.tar.gz",
+          "bytes": 67854,
+          "sha256": "6578ba68dcc4664e6ca58b47a0141bd802060dfb2dc411c11baa42807e8d05f9",
+          "uploaded": true,
+          "api_digest": "sha256:6578ba68dcc4664e6ca58b47a0141bd802060dfb2dc411c11baa42807e8d05f9",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/LnkEvidenceReview/releases/download/v0.1.4/lnk_evidence_review-0.1.4.tar.gz"
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1781,
+          "sha256": "698356d233707913efc723214857560291ee514f63b365be85acc1953fc28b5c",
+          "uploaded": true,
+          "api_digest": "sha256:698356d233707913efc723214857560291ee514f63b365be85acc1953fc28b5c",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/LnkEvidenceReview/releases/download/v0.1.4/RELEASE_MANIFEST.json"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 296,
+          "sha256": "c275d5299c7ce1194467dc53b54cf099e3813190c110e06730c010661d95ab4b",
+          "uploaded": true,
+          "api_digest": "sha256:c275d5299c7ce1194467dc53b54cf099e3813190c110e06730c010661d95ab4b",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/LnkEvidenceReview/releases/download/v0.1.4/SHA256SUMS.txt"
+        }
+      ]
+    },
+    "MailEvidenceReview": {
+      "status": "PASS",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "aea91b37c10f08e93c683a59cfb0d80b26c015f0",
+      "previous_public_tag": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/MailEvidenceReview/releases/tag/v0.1.4",
+      "release_id": 403788048,
+      "release_published_at": "2026-10-05T14:08:20Z",
+      "public_anonymous_release_api": "PASS",
+      "public_anonymous_wheel_download": "PASS",
+      "remote_main_tag_exact": true,
+      "ci": {
+        "main": {
+          "run_id": 37321648558,
+          "url": "https://github.com/dhtfish-98/MailEvidenceReview/actions/runs/37321648558",
+          "head_sha": "aea91b37c10f08e93c683a59cfb0d80b26c015f0",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        "tag": {
+          "run_id": 37321697931,
+          "url": "https://github.com/dhtfish-98/MailEvidenceReview/actions/runs/37321697931",
+          "head_sha": "aea91b37c10f08e93c683a59cfb0d80b26c015f0",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      },
+      "source_tests": 47,
+      "installed_consumer_tests": 47,
+      "wheel_and_sdist_build": "PASS",
+      "sdist_rebuilt_wheel_source_files_identical": 12,
+      "source_archives": {
+        "tag": "v0.1.4",
+        "expected_files": 35,
+        "formats": {
+          "tar": {
+            "sha256": "273e54e4ca1a13cbdffc312dc590a06420572ba51de59ab54e2b4ee43aae34ff",
+            "bytes": 42404,
+            "files": 35,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          },
+          "zip": {
+            "sha256": "5c610815db1edcdacff8e818fdf90b5196d7cfe08873983e9066ef8963c77008",
+            "bytes": 57414,
+            "files": 35,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          }
+        }
+      },
+      "rights_files_exact_in_wheel_and_sdist": [
+        "项目文档/LICENSE",
+        "项目文档/NOTICE"
+      ],
+      "release_assets": [
+        {
+          "name": "mail_evidence_review-0.1.4-py3-none-any.whl",
+          "bytes": 26141,
+          "sha256": "aaac2acb3ca5204353b05539c1c837b34bd73c8e015e344f465468dd03afe5cb",
+          "uploaded": true,
+          "api_digest": "sha256:aaac2acb3ca5204353b05539c1c837b34bd73c8e015e344f465468dd03afe5cb",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/MailEvidenceReview/releases/download/v0.1.4/mail_evidence_review-0.1.4-py3-none-any.whl"
+        },
+        {
+          "name": "mail_evidence_review-0.1.4.tar.gz",
+          "bytes": 59872,
+          "sha256": "a16abe5d19f56daf7ea982c9aad57cc83db6b77767b65d3728911e396b9b2cc5",
+          "uploaded": true,
+          "api_digest": "sha256:a16abe5d19f56daf7ea982c9aad57cc83db6b77767b65d3728911e396b9b2cc5",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/MailEvidenceReview/releases/download/v0.1.4/mail_evidence_review-0.1.4.tar.gz"
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1788,
+          "sha256": "518beaefe178d203e79cee6a361a17cb11309eafe5dcafceabed36df0b7d741b",
+          "uploaded": true,
+          "api_digest": "sha256:518beaefe178d203e79cee6a361a17cb11309eafe5dcafceabed36df0b7d741b",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/MailEvidenceReview/releases/download/v0.1.4/RELEASE_MANIFEST.json"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 298,
+          "sha256": "43fc85835dba02550669e4e83171a2294a8dc32c058e236242441a49f72d6bbc",
+          "uploaded": true,
+          "api_digest": "sha256:43fc85835dba02550669e4e83171a2294a8dc32c058e236242441a49f72d6bbc",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/MailEvidenceReview/releases/download/v0.1.4/SHA256SUMS.txt"
+        }
+      ]
+    },
+    "MinisignFileReview": {
+      "status": "PASS",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "11d82796b9d912b7d5f601f44c55935beca259fe",
+      "previous_public_tag": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/MinisignFileReview/releases/tag/v0.1.4",
+      "release_id": 403788059,
+      "release_published_at": "2026-10-05T14:08:20Z",
+      "public_anonymous_release_api": "PASS",
+      "public_anonymous_wheel_download": "PASS",
+      "remote_main_tag_exact": true,
+      "ci": {
+        "main": {
+          "run_id": 37321647586,
+          "url": "https://github.com/dhtfish-98/MinisignFileReview/actions/runs/37321647586",
+          "head_sha": "11d82796b9d912b7d5f601f44c55935beca259fe",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        "tag": {
+          "run_id": 37321697988,
+          "url": "https://github.com/dhtfish-98/MinisignFileReview/actions/runs/37321697988",
+          "head_sha": "11d82796b9d912b7d5f601f44c55935beca259fe",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      },
+      "source_tests": 15,
+      "installed_consumer_tests": 15,
+      "wheel_and_sdist_build": "PASS",
+      "sdist_rebuilt_wheel_source_files_identical": 6,
+      "source_archives": {
+        "tag": "v0.1.4",
+        "expected_files": 30,
+        "formats": {
+          "tar": {
+            "sha256": "83a9c9e9c7c88ea923a7aa31e823d4ce3dce444db01ca946f11f7ca160a279fd",
+            "bytes": 22702,
+            "files": 30,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          },
+          "zip": {
+            "sha256": "2e66c65e29d2cb084950f93e917cb711e515235dbb56b870e8fa79eba98c96cd",
+            "bytes": 35871,
+            "files": 30,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          }
+        }
+      },
+      "rights_files_exact_in_wheel_and_sdist": [
+        "项目文档/LICENSE",
+        "项目文档/UPSTREAM_LICENSE"
+      ],
+      "release_assets": [
+        {
+          "name": "cvp_minisign_file_review-0.1.4-py3-none-any.whl",
+          "bytes": 12354,
+          "sha256": "4eb434138dcc3bac6c30ee7f4e9a98caa596191dbc350972f7384f8d533a1aab",
+          "uploaded": true,
+          "api_digest": "sha256:4eb434138dcc3bac6c30ee7f4e9a98caa596191dbc350972f7384f8d533a1aab",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/MinisignFileReview/releases/download/v0.1.4/cvp_minisign_file_review-0.1.4-py3-none-any.whl"
+        },
+        {
+          "name": "cvp_minisign_file_review-0.1.4.tar.gz",
+          "bytes": 29618,
+          "sha256": "4cb8488651cf61af19e46eae298b4b18460105c50a596655ecdcc88d61f06f3c",
+          "uploaded": true,
+          "api_digest": "sha256:4cb8488651cf61af19e46eae298b4b18460105c50a596655ecdcc88d61f06f3c",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/MinisignFileReview/releases/download/v0.1.4/cvp_minisign_file_review-0.1.4.tar.gz"
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1820,
+          "sha256": "ae088779a92f038b15d8e4967c86f76ed9c89aada21e5967f4cb89c225752303",
+          "uploaded": true,
+          "api_digest": "sha256:ae088779a92f038b15d8e4967c86f76ed9c89aada21e5967f4cb89c225752303",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/MinisignFileReview/releases/download/v0.1.4/RELEASE_MANIFEST.json"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 306,
+          "sha256": "f2bf1701a6ad2f3e60d89ae2c726af9ea33e1e9a41ea84e617b7394d37500223",
+          "uploaded": true,
+          "api_digest": "sha256:f2bf1701a6ad2f3e60d89ae2c726af9ea33e1e9a41ea84e617b7394d37500223",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/MinisignFileReview/releases/download/v0.1.4/SHA256SUMS.txt"
+        }
+      ]
+    },
+    "NetworkPolicyReachabilityReview": {
+      "status": "PASS",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "fc9c1e2ab30dcc0ea85a28800eaa22133157ca85",
+      "previous_public_tag": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/releases/tag/v0.1.4",
+      "release_id": 403788050,
+      "release_published_at": "2026-10-05T14:08:20Z",
+      "public_anonymous_release_api": "PASS",
+      "public_anonymous_wheel_download": "PASS",
+      "remote_main_tag_exact": true,
+      "ci": {
+        "main": {
+          "run_id": 37321649455,
+          "url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/actions/runs/37321649455",
+          "head_sha": "fc9c1e2ab30dcc0ea85a28800eaa22133157ca85",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        "tag": {
+          "run_id": 37321697995,
+          "url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/actions/runs/37321697995",
+          "head_sha": "fc9c1e2ab30dcc0ea85a28800eaa22133157ca85",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      },
+      "source_tests": 20,
+      "installed_consumer_tests": 20,
+      "wheel_and_sdist_build": "PASS",
+      "sdist_rebuilt_wheel_source_files_identical": 5,
+      "source_archives": {
+        "tag": "v0.1.4",
+        "expected_files": 28,
+        "formats": {
+          "tar": {
+            "sha256": "53b06feda2f0898ba0d8dde60502f4f63651bc7f2372c93763882ec0e53ad193",
+            "bytes": 26398,
+            "files": 28,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          },
+          "zip": {
+            "sha256": "14271ea5da4d21922ccf5dae6fb8ec348bec5e5863b4f55c72a2f1be5549b814",
+            "bytes": 39913,
+            "files": 28,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          }
+        }
+      },
+      "rights_files_exact_in_wheel_and_sdist": [
+        "项目文档/LICENSE",
+        "项目文档/UPSTREAM_LICENSE"
+      ],
+      "release_assets": [
+        {
+          "name": "cvp_network_policy_reachability_review-0.1.4-py3-none-any.whl",
+          "bytes": 15647,
+          "sha256": "a180d6b18786914657a1f9453032a206b2cf029017b295db7121d7233135fb57",
+          "uploaded": true,
+          "api_digest": "sha256:a180d6b18786914657a1f9453032a206b2cf029017b295db7121d7233135fb57",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/releases/download/v0.1.4/cvp_network_policy_reachability_review-0.1.4-py3-none-any.whl"
+        },
+        {
+          "name": "cvp_network_policy_reachability_review-0.1.4.tar.gz",
+          "bytes": 33584,
+          "sha256": "e41f5f844bf5e5dd183bc50440d12e5e3dd14e04b58ead68c2d1f8a2e2fcf3c6",
+          "uploaded": true,
+          "api_digest": "sha256:e41f5f844bf5e5dd183bc50440d12e5e3dd14e04b58ead68c2d1f8a2e2fcf3c6",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/releases/download/v0.1.4/cvp_network_policy_reachability_review-0.1.4.tar.gz"
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1914,
+          "sha256": "46c0f52b1c70ec4f84268ed121c243b4cbd31fa8d00789fc05a69b686e33a4b8",
+          "uploaded": true,
+          "api_digest": "sha256:46c0f52b1c70ec4f84268ed121c243b4cbd31fa8d00789fc05a69b686e33a4b8",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/releases/download/v0.1.4/RELEASE_MANIFEST.json"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 334,
+          "sha256": "77c80b1a4fc2e59d80e43eb8d686968c56c69628ac0315c26ff1bf883253dee1",
+          "uploaded": true,
+          "api_digest": "sha256:77c80b1a4fc2e59d80e43eb8d686968c56c69628ac0315c26ff1bf883253dee1",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/releases/download/v0.1.4/SHA256SUMS.txt"
+        }
+      ]
+    },
+    "OcspStapleReview": {
+      "status": "PASS",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "f8b7209d9745ca41f41f4600ccba0d5183924205",
+      "previous_public_tag": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/OcspStapleReview/releases/tag/v0.1.4",
+      "release_id": 403788044,
+      "release_published_at": "2026-10-05T14:08:19Z",
+      "public_anonymous_release_api": "PASS",
+      "public_anonymous_wheel_download": "PASS",
+      "remote_main_tag_exact": true,
+      "ci": {
+        "main": {
+          "run_id": 37321648559,
+          "url": "https://github.com/dhtfish-98/OcspStapleReview/actions/runs/37321648559",
+          "head_sha": "f8b7209d9745ca41f41f4600ccba0d5183924205",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        "tag": {
+          "run_id": 37321698046,
+          "url": "https://github.com/dhtfish-98/OcspStapleReview/actions/runs/37321698046",
+          "head_sha": "f8b7209d9745ca41f41f4600ccba0d5183924205",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      },
+      "source_tests": 16,
+      "installed_consumer_tests": 16,
+      "wheel_and_sdist_build": "PASS",
+      "sdist_rebuilt_wheel_source_files_identical": 6,
+      "source_archives": {
+        "tag": "v0.1.4",
+        "expected_files": 29,
+        "formats": {
+          "tar": {
+            "sha256": "7c7dd90e51ed3d5fc4bbd729e8be2831e25cd7ebffabcf51867b843c2086926c",
+            "bytes": 25860,
+            "files": 29,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          },
+          "zip": {
+            "sha256": "ec4ea023fd9072894f566ff38c5c0636a07763d47c8f1cc3740989eacc521446",
+            "bytes": 39915,
+            "files": 29,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          }
+        }
+      },
+      "rights_files_exact_in_wheel_and_sdist": [
+        "项目文档/LICENSE",
+        "项目文档/UPSTREAM_LICENSE"
+      ],
+      "release_assets": [
+        {
+          "name": "cvp_ocsp_staple_review-0.1.4-py3-none-any.whl",
+          "bytes": 13520,
+          "sha256": "91ad744a5764b15b7aa762fb9f2d3aec6ca046a359c33dac35917a883a15d154",
+          "uploaded": true,
+          "api_digest": "sha256:91ad744a5764b15b7aa762fb9f2d3aec6ca046a359c33dac35917a883a15d154",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/OcspStapleReview/releases/download/v0.1.4/cvp_ocsp_staple_review-0.1.4-py3-none-any.whl"
+        },
+        {
+          "name": "cvp_ocsp_staple_review-0.1.4.tar.gz",
+          "bytes": 31899,
+          "sha256": "ed4dc7283b48177b6e8687023f007f67bd898178a8c9816002bec17ffaa2ab75",
+          "uploaded": true,
+          "api_digest": "sha256:ed4dc7283b48177b6e8687023f007f67bd898178a8c9816002bec17ffaa2ab75",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/OcspStapleReview/releases/download/v0.1.4/cvp_ocsp_staple_review-0.1.4.tar.gz"
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1806,
+          "sha256": "bec2ee9ac3e2a5d26ede9d3cc0a936d06777dbe4494db12722d9eeb46d8ca203",
+          "uploaded": true,
+          "api_digest": "sha256:bec2ee9ac3e2a5d26ede9d3cc0a936d06777dbe4494db12722d9eeb46d8ca203",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/OcspStapleReview/releases/download/v0.1.4/RELEASE_MANIFEST.json"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 302,
+          "sha256": "e92a9e7d7a6c5e88fab17e5525b22135b543189bb8b55e1a5c2cf4601081d3ef",
+          "uploaded": true,
+          "api_digest": "sha256:e92a9e7d7a6c5e88fab17e5525b22135b543189bb8b55e1a5c2cf4601081d3ef",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/OcspStapleReview/releases/download/v0.1.4/SHA256SUMS.txt"
+        }
+      ]
+    },
+    "PDFActionReview": {
+      "status": "PASS",
+      "version": "0.1.5",
+      "tag": "v0.1.5",
+      "commit": "b7a58adfd2bd169b9da6fb0ac0d8cd1805bef351",
+      "previous_public_tag": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/PDFActionReview/releases/tag/v0.1.5",
+      "release_id": 403788051,
+      "release_published_at": "2026-10-05T14:08:20Z",
+      "public_anonymous_release_api": "PASS",
+      "public_anonymous_wheel_download": "PASS",
+      "remote_main_tag_exact": true,
+      "ci": {
+        "main": {
+          "run_id": 37321647603,
+          "url": "https://github.com/dhtfish-98/PDFActionReview/actions/runs/37321647603",
+          "head_sha": "b7a58adfd2bd169b9da6fb0ac0d8cd1805bef351",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        "tag": {
+          "run_id": 37321698779,
+          "url": "https://github.com/dhtfish-98/PDFActionReview/actions/runs/37321698779",
+          "head_sha": "b7a58adfd2bd169b9da6fb0ac0d8cd1805bef351",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      },
+      "source_tests": 44,
+      "installed_consumer_tests": 44,
+      "wheel_and_sdist_build": "PASS",
+      "sdist_rebuilt_wheel_source_files_identical": 4,
+      "source_archives": {
+        "tag": "v0.1.5",
+        "expected_files": 27,
+        "formats": {
+          "tar": {
+            "sha256": "458ba08268c38d6dcf5ab0cd9c7659d2565d41174028bae1915e33474c190a9a",
+            "bytes": 34335,
+            "files": 27,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          },
+          "zip": {
+            "sha256": "a946331a168f4bad1a976780a828273b2f2128660637550e5c2d009d924f3be0",
+            "bytes": 46945,
+            "files": 27,
+            "missing": [],
+            "extra": [],
+            "changed": [],
+            "pass": true
+          }
+        }
+      },
+      "rights_files_exact_in_wheel_and_sdist": [
+        "项目文档/LICENSE"
+      ],
+      "release_assets": [
+        {
+          "name": "pdf_action_review-0.1.5-py3-none-any.whl",
+          "bytes": 20109,
+          "sha256": "4ee01ccb34cd965e5aa01ee8975635e0200c6d5bd2bdfdafc62d1fda9037f2e0",
+          "uploaded": true,
+          "api_digest": "sha256:4ee01ccb34cd965e5aa01ee8975635e0200c6d5bd2bdfdafc62d1fda9037f2e0",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/PDFActionReview/releases/download/v0.1.5/pdf_action_review-0.1.5-py3-none-any.whl"
+        },
+        {
+          "name": "pdf_action_review-0.1.5.tar.gz",
+          "bytes": 48478,
+          "sha256": "70bdf07acc6f2ec755010f6e35d63cc5a4e16699d009e7f33fc5ee7631716e76",
+          "uploaded": true,
+          "api_digest": "sha256:70bdf07acc6f2ec755010f6e35d63cc5a4e16699d009e7f33fc5ee7631716e76",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/PDFActionReview/releases/download/v0.1.5/pdf_action_review-0.1.5.tar.gz"
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1645,
+          "sha256": "113ce588a203df443452425030a87c31c478aa9fd98392090650af88d800e545",
+          "uploaded": true,
+          "api_digest": "sha256:113ce588a203df443452425030a87c31c478aa9fd98392090650af88d800e545",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/PDFActionReview/releases/download/v0.1.5/RELEASE_MANIFEST.json"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 292,
+          "sha256": "cdc73ca3e618c613ec74fb68a44ede3044be8b56b6c9c17338c3f7ce783b669d",
+          "uploaded": true,
+          "api_digest": "sha256:cdc73ca3e618c613ec74fb68a44ede3044be8b56b6c9c17338c3f7ce783b669d",
+          "redownload_byte_identical": true,
+          "public_download_url": "https://github.com/dhtfish-98/PDFActionReview/releases/download/v0.1.5/SHA256SUMS.txt"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "CVP applicant and project eligibility remain OPEN; this receipt covers engineering release identity and public access only."
+  ]
+}
