@@ -1,0 +1,26 @@
+{
+  "assets_sha256": {
+    "SHA256SUMS": "d4acf9ec156ddced69f6d1c990a2d5b5ac9e6a9347705784fb43a103b7e95390",
+    "nats_subject_tenant_gate-0.1.0-py3-none-any.whl": "c48da8e4ac6114556d272d6271309f183fb76819bc6b76a90cac4f6b25f762ca",
+    "nats_subject_tenant_gate-0.1.0.tar.gz": "67e4eebcc938df737a7b1eac47619f835c56eced5692c69b736b0efecf001d97"
+  },
+  "commit": "044174f67b6f5166f3c3705d274f26118df0d5d6",
+  "generated_at_utc": "2026-10-05T19:11:35.035218+00:00",
+  "main_ci": "https://github.com/dhtfish-98/NatsSubjectTenantGate/actions/runs/37360735730",
+  "open": [
+    "real_authorized_target_evidence",
+    "CVP_eligibility_or_approval"
+  ],
+  "project": "NatsSubjectTenantGate",
+  "public_repository_count_at_snapshot": 108,
+  "publication_receipt_sha256": "6b2bc439fb5d501e46606c9c5217484ec0b1acf76c6dafdae1f8483d3838b4be",
+  "release": "https://github.com/dhtfish-98/NatsSubjectTenantGate/releases/tag/v0.1.0",
+  "repository": "https://github.com/dhtfish-98/NatsSubjectTenantGate",
+  "rights": "MIT new source by dhtfish98; pinned upstream Apache-2.0 NATS server is external test fixture, not bundled.",
+  "schema": "new_30_public_release_14_v1",
+  "snapshot_sha256": "75afcd238f0d1a438c7bbc664ca71d716aea0194731a323409733c459c4faa1e",
+  "tag_ci": "https://github.com/dhtfish-98/NatsSubjectTenantGate/actions/runs/37360736214",
+  "technical_scope": "Independent narrow NATS account and subject policy with real loopback broker comparison; weak shared-account baseline is test-only.",
+  "third_batch_published_count": 14,
+  "version": "v0.1.0"
+}

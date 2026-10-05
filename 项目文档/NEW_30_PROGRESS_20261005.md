@@ -75,3 +75,9 @@ SFTP 实验以真实回环 SFTP v3 服务验证句柄授权，不代表外部服
 第三批至此 **13/30 已正式发行**，其余 17 项仍在候选、实施或审查阶段。[107 个公开仓的非原子元数据快照](PUBLIC_107_METADATA_20261005.json)读取于 18:58–18:59 UTC：104 个软件仓的最新 Release 均与各自所读 HEAD 同提交，104/104 精确 HEAD 的有效 CI 成功；107/107 有「项目文档」，`Build` 跟踪树仅 `.gitignore`。旧撤出组 14/14 仍为私有。角色整理见[107 仓 CVP 材料矩阵](PUBLIC_107_CVP_MATERIAL_RECHECK_20261005.json)：13 个新增实验与 6 个旧条件技术案例均仅为有条件材料，实际资格、授权任务与官方决定仍 OPEN。元数据和材料角色核对不能替代 107 仓逐文件语义深审。
 
 [ObjCAtlas v1.0.3](https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.3)同期完成有界 Mach-O 游标、段与链接编辑范围修复，源码归档、主线/标签 CI、39 项原有与 39 项维护测试、9 个合成畸形样例均按[定向修复收据](OBJCATLAS_V1_0_3_RELEASE_20261005.json)核对。它是保留真实上游权利的派生工具，不计为独立新写 CVP 案例；完整安全深审仍 OPEN。
+
+## 19:10 UTC NATS 项目发行与 108 仓再审
+
+[NatsSubjectTenantGate v0.1.0](https://github.com/dhtfish-98/NatsSubjectTenantGate/releases/tag/v0.1.0) 发布于 `044174f67b6f5166f3c3705d274f26118df0d5d6`。真实本地 NATS 服务的弱共享账户对照显示跨租户接收和注入；独立账户与窄主题权限下，跨租户订阅、发布被拒绝，本租户仍可收发。审查中发现的审计文件权限与订阅预检查偏差已在发行前修复。主线/标签 Python 3.11、3.14 的源码、解包 sdist 和隔离 wheel 各 9 项测试成功，三个发行附件回下载摘要见[发行收据](NEW_30_RELEASE_14_20261005.json)。上游 NATS 服务只作固定版本测试夹具，未打入本项目发行包；本地对照不证明上游漏洞或 CVP 资格。
+
+第三批现为 **14/30 正式发行**。[108 仓元数据快照](PUBLIC_108_METADATA_20261005.json)读取于 19:09–19:10 UTC：105/105 软件仓的最新 Release 指向各自所读 HEAD，精确提交的有效 CI 成功，108/108 仓的 `Build` 只跟踪 `.gitignore` 且都有「项目文档」。[108 仓精确提交文本和路径复核](PUBLIC_108_EXACT_HEAD_TEXT_PATH_AUDIT_20261005.json)覆盖 4,187 条跟踪路径，105 个软件仓均有权利文件；人工分类当前文本命中后，没有证实 AI/Codex 作者署名。一个 ImageQuay dylib 为已记载解析夹具。此项不审计历史、二进制内容或所有代码语义。[材料角色矩阵](PUBLIC_108_CVP_MATERIAL_RECHECK_20261005.json)仍将 14 个新实验列为有条件本地案例；真实授权工作与官方决定继续 OPEN。
