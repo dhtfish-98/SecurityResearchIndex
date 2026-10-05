@@ -4,7 +4,7 @@
 
 ## 1. RedirectCredentialBoundary
 
-- 上游依据：[urllib3 固定提交](https://github.com/urllib3/urllib3/commit/a164d79c8cf760f222daa2dc7f67d0e1ca7fb17c)，[MIT 许可](https://github.com/urllib3/urllib3/blob/a164d79c8cf760f222daa2dc7f67d0e1ca7fb17c/LICENSE.txt)。限定 HTTP 客户端重定向时 Authorization/Cookie 的同源与跨源处理；不代做 Index 中的 SSRF 连接目标项目。
+- 上游依据：[urllib3 固定快照中实际的重定向标头处理](https://github.com/urllib3/urllib3/blob/a164d79c8cf760f222daa2dc7f67d0e1ca7fb17c/src/urllib3/poolmanager.py#L491-L501)，[MIT 许可](https://github.com/urllib3/urllib3/blob/a164d79c8cf760f222daa2dc7f67d0e1ca7fb17c/LICENSE.txt)。该 SHA 的提交本身处理 HTTP/2 探测锁，不是重定向缺陷修复。限定 HTTP 客户端重定向时 Authorization/Cookie 的同源与跨源处理；不代做 Index 中的 SSRF 连接目标项目。
 - 自有环境：两个仅监听 `127.0.0.1` 的 HTTP 服务 A/B、一次性假令牌、客户端请求日志。服务只回显收到的凭据标记；不接触真实账号或公网目标。
 - 基线与修复：弱化客户端在 A→B 重定向后仍发送假凭据；修复版仅在同一 scheme/host/port 组合继续传递，跨源剥离。A→A 保留，A→B 拒绝泄漏，混合大小写主机、显式端口、相对路径和循环跳转分别测定。
 - 验收：同时保存请求输入、A/B 服务器收到的标头、客户端最终状态和测试进程退出码。B 日志中出现假凭据即 FAIL；同源凭据意外丢失也 FAIL。固定 SHA、源码清单、许可证、安装包测试与对应版本的 CI 之后再讨论发布。
