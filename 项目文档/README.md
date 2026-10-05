@@ -4,7 +4,7 @@
 
 本页主体及申请门槛文字勘误记录于 2026-10-04 08:23 UTC。逐仓 GitHub 状态冻结于 07:40–07:41 UTC；较早的 04:51 UTC 快照及 2026-10-03 23:49 UTC 工程矩阵均保留原时点。后续发行、10:53 UTC 快照及 2026-10-05 再审计作为各自时点的增量列明，不改写旧冻结记录。
 
-当前范围为 **94 个公开仓（91 软件、3 资料）和 29 个私有仓**。[公开项目再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)及其[94 仓逐仓冻结记录](PUBLIC_PORTFOLIO_RECHECK_20261004.json)核对当时目录、提交、CI、署名与发布边界；[10:53 UTC 后续快照](PUBLIC_PORTFOLIO_POSTUPDATE_20261004.json)另记后续提交状态。[2026-10-05 再审计](PUBLIC_PORTFOLIO_RECHECK_20261005.md)、[逐仓新快照](PUBLIC_PORTFOLIO_SNAPSHOT_20261005T1055Z.json)与[发行差异矩阵](PUBLIC_RELEASE_DIFF_20261005.json)按各自时点核对当前树和旧标签。较早的[公开项目与 CVP 材料状态](CURRENT_PORTFOLIO_STATUS_20261004.md)和[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)保留原证据时间。没有重新执行全部项目或完成全量安全代码审计。所有 CVP 申请资格与批准状态仍为 **OPEN**。
+2026-10-04 冻结范围为 **94 个公开仓（91 软件、3 资料）和 29 个可见私有仓**。[公开项目再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)及其[94 仓逐仓冻结记录](PUBLIC_PORTFOLIO_RECHECK_20261004.json)核对当时目录、提交、CI、署名与发布边界；[10:53 UTC 后续快照](PUBLIC_PORTFOLIO_POSTUPDATE_20261004.json)另记后续提交状态。[2026-10-05 再审计](PUBLIC_PORTFOLIO_RECHECK_20261005.md)、[逐仓新快照](PUBLIC_PORTFOLIO_SNAPSHOT_20261005T1055Z.json)与[发行差异矩阵](PUBLIC_RELEASE_DIFF_20261005.json)按各自时点核对当前树和旧标签。较早的[公开项目与 CVP 材料状态](CURRENT_PORTFOLIO_STATUS_20261004.md)和[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)保留原证据时间。没有重新执行全部项目或完成全量安全代码审计。所有 CVP 申请资格与批准状态仍为 **OPEN**。
 
 | 材料角色 | 数量 | 使用方式 |
 | --- | --- | --- |
@@ -73,3 +73,5 @@
 **2026-10-05 16:06 UTC 补丁与复核：**前三个新仓均发布 [v0.1.1 补丁收据](THREE_PUBLIC_PATCH_RELEASES_20261005.json)，把 `Build` 目录占位纳入 GitHub 跟踪树并对齐版本。新[97 仓元数据快照](PUBLIC_97_METADATA_20261005.json)显示 94 个软件仓的最新 Release 与各自读取时的 HEAD 同提交，精确工作流有效成功；这是非原子浅层复核，不等于 CVP 批准或全量代码审计。第三批现为 3 项已发布、3 项本地验证、24 项未实施；详见[进度页](NEW_30_PROGRESS_20261005.md)。
 
 **2026-10-05 16:30 UTC 新发行与全仓复核：**第三批又有 [XML/代理身份两项](XML_PROXY_PUBLIC_RELEASES_20261005.json)及[插件握手项](PLUGIN_PUBLIC_RELEASE_20261005.json)正式发布，现为 6 项发布、3 项实施中、21 项未实施。[100 个公开仓快照](PUBLIC_100_METADATA_20261005.json)显示 97 个软件仓的最新 Release 均与各自读取时的 HEAD 同提交，Build 跟踪树仅有占位文件。该结论是非原子发行与目录状态复核；CVP 资格仍待申请人实际用途和官方决定。
+
+**2026-10-05 17:20 UTC 署名、权利与发行增量：**[100 仓精确提交文本/路径复核](PUBLIC_100_EXACT_HEAD_AUDIT_20261005.md)覆盖 4,041 条跟踪文件路径，未确认 AI 作者署名；ArchiveLens 和 ObjCAtlas 的跨项目来源模板句已分别在 [v1.0.7](https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.7) 与 [v1.0.2](https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.2) 更正，第三方真实权利保留。第三批再发行 [AcmeChallengeAuthorization 与 RelationAccessDecision](NEW_30_RELEASES_7_9_20261005.json)，累计 **8/30**，当前公开仓为 102；此前 100 仓快照不含新增两仓。[第三批进度](NEW_30_PROGRESS_20261005.md)按时点记录，真实 CVP 资格及此前中断的深审仍 OPEN。

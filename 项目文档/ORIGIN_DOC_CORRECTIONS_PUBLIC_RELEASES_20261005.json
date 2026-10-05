@@ -1,0 +1,97 @@
+{
+  "schema": "two_public_origin_document_corrections_v1",
+  "captured_at_utc": "2026-10-05T17:18:18.981469+00:00",
+  "repositories": [
+    {
+      "name": "ArchiveLens",
+      "version": "v1.0.7",
+      "head": "906be7fb188416952f010eccfbdf7c559f39aa67",
+      "release_url": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.7",
+      "source_archive_tracked_files": 425,
+      "source_manifest_sha256": "dc03abb63393c6ee66b7a8a1958a59e5b5dee286e567da09093e07e56299c919",
+      "main_and_tag_ci": [
+        {
+          "branch": "main",
+          "name": "ArchiveLens contracts",
+          "id": 37346114187,
+          "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37346114187",
+          "conclusion": "success"
+        },
+        {
+          "branch": "main",
+          "name": "ArchiveLens workspace tests",
+          "id": 37346114235,
+          "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37346114235",
+          "conclusion": "success"
+        },
+        {
+          "branch": "v1.0.7",
+          "name": "ArchiveLens contracts",
+          "id": 37346491917,
+          "url": "https://github.com/dhtfish-98/ArchiveLens/actions/runs/37346491917",
+          "conclusion": "success"
+        }
+      ],
+      "assets": [
+        {
+          "name": "ArchiveLens-v1.0.7-source.tar.gz",
+          "bytes": 22102820,
+          "sha256": "e6cb38a1794b4f4f76a7c19236511ec6855a8cf9ae34732bb529a8f9bcb5674c",
+          "redownload_matches": true
+        }
+      ],
+      "source_change_scope": "documentation, version metadata and source manifest only; no runtime source code diff",
+      "rights_boundary": "Actual inherited upstream copyright and third-party licenses retained; cross-project template sentence corrected.",
+      "deep_audit": "OPEN",
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "name": "ObjCAtlas",
+      "version": "v1.0.2",
+      "head": "9ed41e49e55df59e335c6d5b1be79e14e40b2814",
+      "release_url": "https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.2",
+      "source_archive_tracked_files": 247,
+      "source_manifest_sha256": "bc9b320e9b31cb0689be2398d441d9af49b3215b53576da8fbf53db71d2f1337",
+      "main_and_tag_ci": [
+        {
+          "branch": "main",
+          "name": "ObjCAtlas contracts",
+          "id": 37346114377,
+          "url": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37346114377",
+          "conclusion": "success"
+        },
+        {
+          "branch": "v1.0.2",
+          "name": "ObjCAtlas contracts",
+          "id": 37346491310,
+          "url": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37346491310",
+          "conclusion": "success"
+        }
+      ],
+      "assets": [
+        {
+          "name": "ObjCAtlas-source.zip",
+          "bytes": 391775,
+          "sha256": "83e504cc3b7b33758631685a7e2ee8a33dac85a3d4d33bf1c4e1e36d06a80301",
+          "redownload_matches": true
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1954,
+          "sha256": "26767719e07ca6c40933c0b61a6ae06b315a3424a4ca13dd25f23342eeaa45ca",
+          "redownload_matches": true
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 175,
+          "sha256": "24fe36973ddfe16a0eadbd043a786827e647cc056f4fc4df18f69bad733abfeb",
+          "redownload_matches": true
+        }
+      ],
+      "source_change_scope": "documentation, version metadata and source manifest only; no runtime source code diff",
+      "rights_boundary": "Actual inherited upstream copyright and third-party licenses retained; cross-project template sentence corrected.",
+      "deep_audit": "OPEN",
+      "cvp_eligibility": "OPEN"
+    }
+  ]
+}

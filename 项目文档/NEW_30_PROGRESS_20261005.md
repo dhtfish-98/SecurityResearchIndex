@@ -49,3 +49,11 @@ XmlEntityResourceBoundary、ProxyIdentityHeaderTrust、PluginHandshakeTrustGate 
 [100 个公开仓的非原子元数据快照](PUBLIC_100_METADATA_20261005.json)读取于 16:30 UTC：100/100 有「项目文档」，`Build` 跟踪树仅 `.gitignore`；97 个软件仓 97/97 有 Release、最新标签与各自所读 HEAD 同提交、精确 HEAD 最新有效工作流成功，HEAD 作者及提交者显示名均为 `dhtfish98`。另 3 个资料仓无 Release；旧撤出组 14/14 保持 private。ChromeRelay/MachOInspect 较早失败/取消聚合记录仍保留；本快照不等于逐仓语义、运行、权利深审。
 
 第三批 30 题目现为 **6 项已正式发布，3 项在隔离目录实施，21 项尚未实施**。公开实验不证明参考上游存在漏洞，也不能证明 CVP 申请人真实用途、所受保障措施影响或官方审批。
+
+## 17:20 UTC 两项新发行与 100 仓文本/路径复核
+
+[AcmeChallengeAuthorization v0.1.0](https://github.com/dhtfish-98/AcmeChallengeAuthorization/releases/tag/v0.1.0) 在提交 `9b3661613b9a40c5b104f71532c49d462491b3de` 的主线和标签 CI 均成功；正式 wheel/sdist 回下载 SHA-256 分别为 `75dabb70ac5bdba4c540b1a85cd156815673fe9e20447d9f4fdc0b080bea8f59`、`6f8199675249926425b657c1adb6888f1d9b596e26407ab02aee75d7bd5039cf`。两实例并发挑战仅消费一次，签名期间过期不入库，独立 X.509 链、SAN 和序列号核验通过。账户 ID 由可信测试调用方传入，未实现 JWS/会话身份认证。
+
+[RelationAccessDecision v0.1.0](https://github.com/dhtfish-98/RelationAccessDecision/releases/tag/v0.1.0) 在提交 `f6b1b67f365a791fc20f988da5c64b7634c07e1c` 的主线和标签 CI 均成功；正式 wheel/sdist 回下载 SHA-256 分别为 `d9bf9994b241fde41d3aa64653246f35d75400b7d969953a90f7590a58394c52`、`30e10497f7238cbb4431079d62bd05c17c861824cc931d2ff87dcdac82a25a58`。源码与安装版各 61 条 HTTP 决策事件相同，正式 wheel 无故意弱缓存。外部调用方仍可自带其他 store，实验不能证明任意应用安全。
+
+两仓的[公开发行收据](NEW_30_RELEASES_7_9_20261005.json)记录精确 CI 和资产摘要。第三批现为 **8/30 已正式发行**，RefreshTokenReuseRevocation 与 SshCertIssuanceGate 本地验收后仍在独立终审，其余 20 项未实施。此时账号公开仓数为 102；此前 [100 仓冻结复核](PUBLIC_100_EXACT_HEAD_AUDIT_20261005.md)不含新两仓。所有新项目仍是自有合成实验，不证明上游漏洞、真实部署或 CVP 获批。

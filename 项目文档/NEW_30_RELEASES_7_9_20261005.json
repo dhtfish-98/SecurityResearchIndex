@@ -1,0 +1,81 @@
+{
+  "schema": "new30_two_public_releases_v1",
+  "captured_at_utc": "2026-10-05T17:20:34.440893+00:00",
+  "repositories": [
+    {
+      "name": "AcmeChallengeAuthorization",
+      "version": "v0.1.0",
+      "head": "9b3661613b9a40c5b104f71532c49d462491b3de",
+      "release_url": "https://github.com/dhtfish-98/AcmeChallengeAuthorization/releases/tag/v0.1.0",
+      "ci": [
+        {
+          "branch": "main",
+          "id": 37346522116,
+          "url": "https://github.com/dhtfish-98/AcmeChallengeAuthorization/actions/runs/37346522116",
+          "conclusion": "success"
+        },
+        {
+          "branch": "v0.1.0",
+          "id": 37346721571,
+          "url": "https://github.com/dhtfish-98/AcmeChallengeAuthorization/actions/runs/37346721571",
+          "conclusion": "success"
+        }
+      ],
+      "assets": [
+        {
+          "name": "acme_challenge_authorization-0.1.0-py3-none-any.whl",
+          "bytes": 7579,
+          "sha256": "75dabb70ac5bdba4c540b1a85cd156815673fe9e20447d9f4fdc0b080bea8f59"
+        },
+        {
+          "name": "acme_challenge_authorization-0.1.0.tar.gz",
+          "bytes": 11039,
+          "sha256": "6f8199675249926425b657c1adb6888f1d9b596e26407ab02aee75d7bd5039cf"
+        }
+      ],
+      "publication_receipt_sha256": "b27aabd518dacf83c30551fd723027af11081372efeffb3f2db0dc3fa2b0e323",
+      "state": "PUBLIC_RELEASE",
+      "scope": "local-only synthetic defensive boundary; real deployment and CVP eligibility OPEN"
+    },
+    {
+      "name": "RelationAccessDecision",
+      "version": "v0.1.0",
+      "head": "f6b1b67f365a791fc20f988da5c64b7634c07e1c",
+      "release_url": "https://github.com/dhtfish-98/RelationAccessDecision/releases/tag/v0.1.0",
+      "ci": [
+        {
+          "branch": "main",
+          "id": 37346711863,
+          "url": "https://github.com/dhtfish-98/RelationAccessDecision/actions/runs/37346711863",
+          "conclusion": "success"
+        },
+        {
+          "branch": "v0.1.0",
+          "id": 37346847466,
+          "url": "https://github.com/dhtfish-98/RelationAccessDecision/actions/runs/37346847466",
+          "conclusion": "success"
+        }
+      ],
+      "assets": [
+        {
+          "name": "relation_access_decision-0.1.0-py3-none-any.whl",
+          "bytes": 8280,
+          "sha256": "d9bf9994b241fde41d3aa64653246f35d75400b7d969953a90f7590a58394c52"
+        },
+        {
+          "name": "relation_access_decision-0.1.0.tar.gz",
+          "bytes": 15129,
+          "sha256": "30e10497f7238cbb4431079d62bd05c17c861824cc931d2ff87dcdac82a25a58"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 218,
+          "sha256": "ff60d0b82e27d775433eb66a5a4818b6640b3515dfa736cd60ca4ca8b3ca7241"
+        }
+      ],
+      "publication_receipt_sha256": "e0abf127ba58390056aadad16b53e7a3e958c8af4a78df9cf00b36f95d46c371",
+      "state": "PUBLIC_RELEASE",
+      "scope": "local-only synthetic defensive boundary; real deployment and CVP eligibility OPEN"
+    }
+  ]
+}
