@@ -1,0 +1,373 @@
+{
+  "schema": "cvp-public-release-lag9-receipt.v1",
+  "captured_at_utc": "2026-10-05T12:50:19.526979+00:00",
+  "scope": "Nine Python repositories whose latest old releases predated current package and documentation layout; independent fresh clones only.",
+  "status": "PASS",
+  "repositories": [
+    {
+      "repo": "CertificateNamePolicy",
+      "version": "0.1.3",
+      "commit": "71250ac1024635baa51634a9e4253022ebc24777",
+      "main_ci": "https://github.com/dhtfish-98/CertificateNamePolicy/actions/runs/37310537023",
+      "tag_ci": "https://github.com/dhtfish-98/CertificateNamePolicy/actions/runs/37310987506",
+      "release_url": "https://github.com/dhtfish-98/CertificateNamePolicy/releases/tag/v0.1.3",
+      "local_source_tests": {
+        "tests": 168,
+        "subtests": 6
+      },
+      "postcommit_build": "PASS",
+      "installed_consumer_and_package_identity": "PASS",
+      "preserved_license_bytes": "PASS",
+      "downloaded_asset_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "certificate_name_policy-0.1.3-py3-none-any.whl",
+          "sha256": "1d0ac29b95624c19b8a79f1e2704a84df829f30a6acc5431646c1f7971649b60",
+          "bytes": 14099
+        },
+        {
+          "name": "certificate_name_policy-0.1.3.tar.gz",
+          "sha256": "b92e499ce5582dcce99c6868ac183fa85915b5002f67f0523af24b1dc4e11971",
+          "bytes": 58975
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "sha256": "ae63b088ecbd48915964757daa8b994fb400a6c834de3e7bd9c6334d5f2a5115",
+          "bytes": 9841
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "01c4081b7c32e85a55c62c98b3d9ab42b333d17d935f960b98a1ec019b503402",
+          "bytes": 304
+        }
+      ],
+      "current_author": "dhtfish98",
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repo": "CompoundDocumentReview",
+      "version": "0.1.3",
+      "commit": "36e63095526aa0abff91da862ffc3577b2a0b17c",
+      "main_ci": "https://github.com/dhtfish-98/CompoundDocumentReview/actions/runs/37310537484",
+      "tag_ci": "https://github.com/dhtfish-98/CompoundDocumentReview/actions/runs/37310987830",
+      "release_url": "https://github.com/dhtfish-98/CompoundDocumentReview/releases/tag/v0.1.3",
+      "local_source_tests": {
+        "tests": 57
+      },
+      "postcommit_build": "PASS",
+      "installed_consumer_and_package_identity": "PASS",
+      "preserved_license_bytes": "PASS",
+      "downloaded_asset_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "compound_document_review-0.1.3-py3-none-any.whl",
+          "sha256": "303b247419010825a26fa7547f2aaaafbc850a512af8c47583e41ca467b45a3d",
+          "bytes": 15154
+        },
+        {
+          "name": "compound_document_review-0.1.3.tar.gz",
+          "sha256": "01d65a08c43bafad10fdad6e76953a0637c39865b6d6c1611fb02ef9a34cc86e",
+          "bytes": 55438
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "sha256": "7a806a4b88e8c60368ee02cfe4aeb36e44b922145bd9a0ed4f1f85971c314c8f",
+          "bytes": 7996
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "b63ce7c19bbcc86ed56b1fee616e5e3d567286a6e78a648c38e64a66dba7ab8f",
+          "bytes": 306
+        }
+      ],
+      "current_author": "dhtfish98",
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repo": "EvtxRecordReview",
+      "version": "0.1.4",
+      "commit": "ce2141dc0dc28015206affae09de00bbf6c69bf8",
+      "main_ci": "https://github.com/dhtfish-98/EvtxRecordReview/actions/runs/37310917397",
+      "tag_ci": "https://github.com/dhtfish-98/EvtxRecordReview/actions/runs/37311264918",
+      "release_url": "https://github.com/dhtfish-98/EvtxRecordReview/releases/tag/v0.1.4",
+      "local_source_tests": {
+        "tests": 92
+      },
+      "postcommit_build": "PASS",
+      "installed_consumer_and_package_identity": "PASS",
+      "preserved_license_bytes": "PASS",
+      "downloaded_asset_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "evtx_record_review-0.1.4-py3-none-any.whl",
+          "sha256": "c9cf3df5c5cf8cb7ff928880501eef3857dcdb1b7878507bb5868fefb583efcd",
+          "bytes": 27323
+        },
+        {
+          "name": "evtx_record_review-0.1.4.tar.gz",
+          "sha256": "203d280bba66d1f9e9ab13050fafaa35cc9b17b2821b2ad2c32ab1d01c4bf401",
+          "bytes": 94594
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "sha256": "bcfc3f244c819b2431b9fc26264db3a62094c718ac087f7ae13d09700a2f7e83",
+          "bytes": 9767
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "43c32ed3813562b1861742d69c48259c5c41114657faf6f577dbf9b3c3d894c9",
+          "bytes": 294
+        }
+      ],
+      "current_author": "dhtfish98",
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repo": "EvtxRecoveryReview",
+      "version": "0.1.3",
+      "commit": "96c83806fe01478811d1a607a10e3182316b1344",
+      "main_ci": "https://github.com/dhtfish-98/EvtxRecoveryReview/actions/runs/37310537657",
+      "tag_ci": "https://github.com/dhtfish-98/EvtxRecoveryReview/actions/runs/37310987488",
+      "release_url": "https://github.com/dhtfish-98/EvtxRecoveryReview/releases/tag/v0.1.3",
+      "local_source_tests": {
+        "tests": 124
+      },
+      "postcommit_build": "PASS",
+      "installed_consumer_and_package_identity": "PASS",
+      "preserved_license_bytes": "PASS",
+      "downloaded_asset_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "evtx_recovery_review-0.1.3-py3-none-any.whl",
+          "sha256": "215d9afa7aaa649c47476c84aa745775ad2be64e7bb9dd21d42fc2c8fdadf409",
+          "bytes": 41283
+        },
+        {
+          "name": "evtx_recovery_review-0.1.3.tar.gz",
+          "sha256": "c08ba26c783a65676edab2ce541e36f1951d98c66d1079ea5495d70d8d861de7",
+          "bytes": 93660
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "sha256": "6bc96a8e2767e96efd5b6f9a3dd94a1775f2db470fb420d110fa1f942c0a503e",
+          "bytes": 11903
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "f238db2de6236f90968b82feb9b3929f66cbcd5b59f4e19c05fe78d4dbbca227",
+          "bytes": 298
+        }
+      ],
+      "current_author": "dhtfish98",
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repo": "HandshakeEvidenceReview",
+      "version": "0.1.3",
+      "commit": "9ac9182186a1aa28919c732525ef7e1603981cad",
+      "main_ci": "https://github.com/dhtfish-98/HandshakeEvidenceReview/actions/runs/37310549844",
+      "tag_ci": "https://github.com/dhtfish-98/HandshakeEvidenceReview/actions/runs/37310986938",
+      "release_url": "https://github.com/dhtfish-98/HandshakeEvidenceReview/releases/tag/v0.1.3",
+      "local_source_tests": {
+        "tests": 43
+      },
+      "postcommit_build": "PASS",
+      "installed_consumer_and_package_identity": "PASS",
+      "preserved_license_bytes": "PASS",
+      "downloaded_asset_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "handshake_evidence_review-0.1.3-py3-none-any.whl",
+          "sha256": "4e61c9a725d039bcde481c0bad8a17500aa5bcd9b01defcb327f5b8a58022202",
+          "bytes": 39748
+        },
+        {
+          "name": "handshake_evidence_review-0.1.3.tar.gz",
+          "sha256": "44ecc7ee49cf31ee0be9def3a96cf9f1a133533710b6fda005cc496bf35e9ad2",
+          "bytes": 61981
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "sha256": "170a8b144a0b4bd2dd3ba8ae23772f40f4603c6619b6047a7495584e16cf2f9a",
+          "bytes": 8999
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "0669eeb42fbf9bc11487c9c8818c30fcfc6e8aa8f50963142f714e0758a0268c",
+          "bytes": 308
+        }
+      ],
+      "current_author": "dhtfish98",
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repo": "LifecyclePolicyReview",
+      "version": "0.1.4",
+      "commit": "7fb7679a5e5a09ed65333aaba81e393cc3448783",
+      "main_ci": "https://github.com/dhtfish-98/LifecyclePolicyReview/actions/runs/37310550451",
+      "tag_ci": "https://github.com/dhtfish-98/LifecyclePolicyReview/actions/runs/37310999698",
+      "release_url": "https://github.com/dhtfish-98/LifecyclePolicyReview/releases/tag/v0.1.4",
+      "local_source_tests": {
+        "tests": 42
+      },
+      "postcommit_build": "PASS",
+      "installed_consumer_and_package_identity": "PASS",
+      "preserved_license_bytes": "PASS",
+      "downloaded_asset_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "lifecycle_policy_review-0.1.4-py3-none-any.whl",
+          "sha256": "6e17b4faf80bfd72696490fb973a739207a54830e49c2bf6e2978eabdd90a2fb",
+          "bytes": 14201
+        },
+        {
+          "name": "lifecycle_policy_review-0.1.4.tar.gz",
+          "sha256": "3b40166b4f240429cb0a86cbb916651ecaa1ce9b1af00fb92625caad2e7cb736",
+          "bytes": 49917
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "sha256": "17824175a455638d2a209b6647fd9eb80af3c29c5e4ebe122c6c50c1a75cadad",
+          "bytes": 8610
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "2680557a7bc1e6bfb9aaccee364be4169299a44c54b00ec5a14111117205406c",
+          "bytes": 304
+        }
+      ],
+      "current_author": "dhtfish98",
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repo": "PrefetchEvidenceReview",
+      "version": "0.1.3",
+      "commit": "bf9885671328e0a0c036b3c3116730a5e45a7e5d",
+      "main_ci": "https://github.com/dhtfish-98/PrefetchEvidenceReview/actions/runs/37310549592",
+      "tag_ci": "https://github.com/dhtfish-98/PrefetchEvidenceReview/actions/runs/37310998524",
+      "release_url": "https://github.com/dhtfish-98/PrefetchEvidenceReview/releases/tag/v0.1.3",
+      "local_source_tests": {
+        "tests": 50
+      },
+      "postcommit_build": "PASS",
+      "installed_consumer_and_package_identity": "PASS",
+      "preserved_license_bytes": "PASS",
+      "downloaded_asset_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "prefetch_evidence_review-0.1.3-py3-none-any.whl",
+          "sha256": "bfb511f110a366458c9bca82f7dab7d9c6a2e29f44e3df48b5f012217e0d69cf",
+          "bytes": 18339
+        },
+        {
+          "name": "prefetch_evidence_review-0.1.3.tar.gz",
+          "sha256": "59bffa514d9091eb1929d638637f1a2a39f51e2f9e9be118bfb4dfe45184cf79",
+          "bytes": 101570
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "sha256": "4d1d4cce791fac0e24de4772cf46f937e32b273d8831b29d374465380ed28529",
+          "bytes": 9949
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "439fab4889aba7a67b6446151dc18a4f4991ca0f0592f874f6431023b27dd2b1",
+          "bytes": 306
+        }
+      ],
+      "current_author": "dhtfish98",
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repo": "RegistryHiveReview",
+      "version": "0.1.3",
+      "commit": "2a514e782ba5c96cfffdaafff242f230de4c7774",
+      "main_ci": "https://github.com/dhtfish-98/RegistryHiveReview/actions/runs/37310550866",
+      "tag_ci": "https://github.com/dhtfish-98/RegistryHiveReview/actions/runs/37310998548",
+      "release_url": "https://github.com/dhtfish-98/RegistryHiveReview/releases/tag/v0.1.3",
+      "local_source_tests": {
+        "tests": 61
+      },
+      "postcommit_build": "PASS",
+      "installed_consumer_and_package_identity": "PASS",
+      "preserved_license_bytes": "PASS",
+      "downloaded_asset_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "registry_hive_review-0.1.3-py3-none-any.whl",
+          "sha256": "0c72e6863733bdc3ffecb276b35d9281f61839ce0135d30a9f686c04b5197214",
+          "bytes": 21058
+        },
+        {
+          "name": "registry_hive_review-0.1.3.tar.gz",
+          "sha256": "86af25e418d92c3ff07e94e06c1fb0af0c0b39265418dbe34ee7a9878722975b",
+          "bytes": 64363
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "sha256": "6b3a671300a96b08928a262f75b8999b7046bb7b1dfe7324f892a14d22cf15c9",
+          "bytes": 8344
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "99bc424570c76add3e35e6fc20f0f171ed1c732e8db21dc0053e102e65ff6ab9",
+          "bytes": 298
+        }
+      ],
+      "current_author": "dhtfish98",
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repo": "SourceReleaseReview",
+      "version": "0.1.3",
+      "commit": "c1a2fceef560dee6db8071eb5c1d5e6980025dfc",
+      "main_ci": "https://github.com/dhtfish-98/SourceReleaseReview/actions/runs/37310561928",
+      "tag_ci": "https://github.com/dhtfish-98/SourceReleaseReview/actions/runs/37311000706",
+      "release_url": "https://github.com/dhtfish-98/SourceReleaseReview/releases/tag/v0.1.3",
+      "local_source_tests": {
+        "tests": 268,
+        "subtests": 22
+      },
+      "postcommit_build": "PASS",
+      "installed_consumer_and_package_identity": "PASS",
+      "preserved_license_bytes": "PASS",
+      "downloaded_asset_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "source_release_review-0.1.3-py3-none-any.whl",
+          "sha256": "cc07f889df23ab9298e2bcb1d6c4186f5a13007d3a6b6bd548e5532d0c888e2a",
+          "bytes": 14629
+        },
+        {
+          "name": "source_release_review-0.1.3.tar.gz",
+          "sha256": "22af1a7239e149cad576fd7b5806cca343dd14887f54c932989ccbeb53fe8b9e",
+          "bytes": 57254
+        },
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "sha256": "09d38a55f8bd11b2f7f67a17152bb96faa6c5a39821348c5350264c926a445a7",
+          "bytes": 9342
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "a6238655c9b210e3a99405c5273ca6decd442c479b464d9494eb1c8c02ac2855",
+          "bytes": 300
+        }
+      ],
+      "current_author": "dhtfish98",
+      "cvp_eligibility": "OPEN"
+    }
+  ],
+  "totals": {
+    "repos": 9,
+    "source_tests": 905,
+    "subtests": 28,
+    "manual_assets_redownloaded": 36
+  },
+  "historical_failure": {
+    "repo": "EvtxRecordReview",
+    "failed_main_ci": "https://github.com/dhtfish-98/EvtxRecordReview/actions/runs/37310538847",
+    "reason": "Windows exact runtime identity caught stale version hashes in historical source-review inventory; fixed in final commit and both exact-commit main/tag CI passed."
+  },
+  "limits": "CVP eligibility/approval, applicant identity, and external deployment are not established by package releases."
+}

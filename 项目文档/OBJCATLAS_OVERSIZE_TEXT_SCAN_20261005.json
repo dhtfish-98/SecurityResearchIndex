@@ -1,0 +1,26 @@
+{
+  "schema": "objc-atlas-oversize-text-scan-v1",
+  "captured_utc": "2026-10-05T12:48:16+00:00",
+  "repository": "dhtfish-98/ObjCAtlas",
+  "head_sha": "329fc1ab2c3518bd506b0040616943ba278c9950",
+  "remote_head_sha": "329fc1ab2c3518bd506b0040616943ba278c9950",
+  "file": "RENAME_MAP.json",
+  "bytes": 1161904,
+  "sha256": "8c372663fcdcfe43fbc60b412a27aa7a1f5550a52c30f9b332b6953134433544",
+  "json_valid": true,
+  "text_search_hits": {
+    "author": 0,
+    "copyright": 0,
+    "license": 0,
+    "codex": 0,
+    "claude": 0,
+    "openai": 0,
+    "anthropic": 0,
+    "chatgpt": 0,
+    "generated": 0,
+    "bitfish886": 0,
+    "dhtfish988": 0,
+    "co-authored-by": 0
+  },
+  "scope": "This closes the one oversized text file skipped by the 94-repo 10:55 UTC scanner at the stated current HEAD. It is a narrow text search; 92 other binary/oversized files and the interrupted deep code audit remain OPEN."
+}
