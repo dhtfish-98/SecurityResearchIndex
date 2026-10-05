@@ -1,0 +1,57 @@
+{
+  "schema": "security-research-index-publication-v1",
+  "checked_at_utc": "2026-10-05T23:23:57.546746+00:00",
+  "result": "PASS",
+  "repository": "https://github.com/dhtfish-98/SecurityResearchIndex",
+  "version": "v1.0.2",
+  "commit": "38404b826f0f8a6f6d7161f0e64086a219c90ca5",
+  "head_author_login": "dhtfish-98",
+  "head_committer_login": "dhtfish-98",
+  "tag_object_sha": "ec51310a5573e1fc36dc23efb263dbadd9931bd8",
+  "tagger": {
+    "name": "dhtfish98",
+    "email": "109978225+dhtfish-98@users.noreply.github.com",
+    "date": "2026-10-05T23:22:14Z"
+  },
+  "release_url": "https://github.com/dhtfish-98/SecurityResearchIndex/releases/tag/v1.0.2",
+  "published_at": "2026-10-05T23:22:56Z",
+  "assets": [
+    {
+      "name": "LANDLOCK_V0_1_0_RELEASE_20261006.json",
+      "sha256": "72ac136a98ea7bf8d9e103f6d10a6cb63d2ed52cd3fe020bdfe336681aa52dd8",
+      "size": 3460,
+      "url": "https://github.com/dhtfish-98/SecurityResearchIndex/releases/download/v1.0.2/LANDLOCK_V0_1_0_RELEASE_20261006.json"
+    },
+    {
+      "name": "PUBLIC_116_POST_LANDLOCK_METADATA_20261006.json",
+      "sha256": "ed6c086fbb8f59cbe3c643600293a6e0d2e1003f79e5e6cdcf5c256451f80a4b",
+      "size": 148745,
+      "url": "https://github.com/dhtfish-98/SecurityResearchIndex/releases/download/v1.0.2/PUBLIC_116_POST_LANDLOCK_METADATA_20261006.json"
+    },
+    {
+      "name": "PUBLIC_116_POST_LANDLOCK_STATUS_20261006.md",
+      "sha256": "c9fad28e4fa0088385a71abe527eb2b95c07091139dff3b5339371addae91558",
+      "size": 3702,
+      "url": "https://github.com/dhtfish-98/SecurityResearchIndex/releases/download/v1.0.2/PUBLIC_116_POST_LANDLOCK_STATUS_20261006.md"
+    },
+    {
+      "name": "SecurityResearchIndex-v1.0.2-source.tar.gz",
+      "sha256": "8c6bc45df0ebedc03f0078d5752bfdd6f2f8cb7a4c147159a93129bd2b3a6ac1",
+      "size": 728385,
+      "url": "https://github.com/dhtfish-98/SecurityResearchIndex/releases/download/v1.0.2/SecurityResearchIndex-v1.0.2-source.tar.gz"
+    },
+    {
+      "name": "SHA256SUMS",
+      "sha256": "f508778c7d98aebde4e348572b15f5def116dcbea8ad428dcd1d4d06adc57788",
+      "size": 437,
+      "url": "https://github.com/dhtfish-98/SecurityResearchIndex/releases/download/v1.0.2/SHA256SUMS"
+    }
+  ],
+  "tracked_file_count": 124,
+  "source_file_count": 5,
+  "docs_file_count": 119,
+  "archive_and_central_mirror_exact": true,
+  "ci": "not_configured_data_repository",
+  "snapshot_self_row": "v1.0.1 before this release",
+  "cvp_eligibility": "OPEN"
+}

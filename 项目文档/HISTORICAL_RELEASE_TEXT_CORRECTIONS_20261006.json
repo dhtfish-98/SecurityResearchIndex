@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-05T23:48:41.634609+00:00",
+  "result": "PASS",
+  "rows": [
+    {
+      "name": "WheelNamespaceReview",
+      "tag": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/WheelNamespaceReview/releases/tag/v0.1.4",
+      "old_body_sha256": "0a36f1eb543a624e38c5e55ec7f00b55b31ae6f67e064030eb3000743ab2fa95",
+      "new_body_sha256": "7b13081460885f633e2ae7225f12c82d0f42de82584932319f34117bb96a3a22",
+      "asset_digests_and_sizes_unchanged": true,
+      "asset_count": 4,
+      "correction": "Build directory is not shipped inside wheel or sdist"
+    },
+    {
+      "name": "DeserializeCallReview",
+      "tag": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/DeserializeCallReview/releases/tag/v0.1.3",
+      "old_body_sha256": "e7d7a71cb066f830eb026cb1f060b277a1f593bad3952dae36f0189381e4cdb2",
+      "new_body_sha256": "efea54270416b1302ef5d7d58b8ac9326e87f8924896d3d9d7be991a3aef86fd",
+      "asset_digests_and_sizes_unchanged": true,
+      "asset_count": 4,
+      "correction": "Build directory is not shipped inside wheel or sdist"
+    }
+  ]
+}

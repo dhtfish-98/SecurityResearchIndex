@@ -1,0 +1,58 @@
+{
+  "schema": "headscale-enrollment-gate-publication-v1",
+  "checked_at_utc": "2026-10-05T23:43:46.699298+00:00",
+  "result": "PASS",
+  "repository": "https://github.com/dhtfish-98/HeadscaleEnrollmentGate",
+  "version": "v0.1.0",
+  "commit": "529bac2f1e9b6c577ee3af78f89083131569d06c",
+  "head_author_login": "dhtfish-98",
+  "head_committer_login": "dhtfish-98",
+  "tag_object_sha": "4d7cd0db0c963175395a4332ab47c8e72f33f613",
+  "tagger": "dhtfish98 <<109978225+dhtfish-98@users.noreply.github.com>>",
+  "main_ci": "https://github.com/dhtfish-98/HeadscaleEnrollmentGate/actions/runs/37389115147",
+  "tag_ci": "https://github.com/dhtfish-98/HeadscaleEnrollmentGate/actions/runs/37389721656",
+  "release_url": "https://github.com/dhtfish-98/HeadscaleEnrollmentGate/releases/tag/v0.1.0",
+  "published_at_utc": "2026-10-05T23:43:06Z",
+  "assets": [
+    {
+      "name": "HeadscaleEnrollmentGate-v0.1.0-live-receipt.json",
+      "sha256": "0a75acab803c0ec422828c73816c112acf14bb88775a997f6cb9798b4ae5ead5",
+      "size": 4910,
+      "url": "https://github.com/dhtfish-98/HeadscaleEnrollmentGate/releases/download/v0.1.0/HeadscaleEnrollmentGate-v0.1.0-live-receipt.json"
+    },
+    {
+      "name": "HeadscaleEnrollmentGate-v0.1.0-source.tar.gz",
+      "sha256": "924572b9cbadb96171b14fc5a27e1e3daa514b225d84debb1b2ce604a7cf29f4",
+      "size": 23492,
+      "url": "https://github.com/dhtfish-98/HeadscaleEnrollmentGate/releases/download/v0.1.0/HeadscaleEnrollmentGate-v0.1.0-source.tar.gz"
+    },
+    {
+      "name": "SHA256SUMS",
+      "sha256": "425a0551c2041039ed02750fdff398000dd516e5c433df348ae9bcbf44dd062d",
+      "size": 446,
+      "url": "https://github.com/dhtfish-98/HeadscaleEnrollmentGate/releases/download/v0.1.0/SHA256SUMS"
+    },
+    {
+      "name": "headscale_enrollment_gate-0.1.0-py3-none-any.whl",
+      "sha256": "82a07dd98392363e63a2915cff7e713f957b34002bc6181d1e0482d35853219c",
+      "size": 12646,
+      "url": "https://github.com/dhtfish-98/HeadscaleEnrollmentGate/releases/download/v0.1.0/headscale_enrollment_gate-0.1.0-py3-none-any.whl"
+    },
+    {
+      "name": "headscale_enrollment_gate-0.1.0.tar.gz",
+      "sha256": "69b7ac6db3800d1c8b20c2a9e4f043ba371b7a04247f3bd1e9847577a39cca72",
+      "size": 28752,
+      "url": "https://github.com/dhtfish-98/HeadscaleEnrollmentGate/releases/download/v0.1.0/headscale_enrollment_gate-0.1.0.tar.gz"
+    }
+  ],
+  "tracked_file_count": 18,
+  "archive_and_central_mirror_exact": true,
+  "python_ci_versions": [
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14"
+  ],
+  "live_lab_cases": 16,
+  "cvp_eligibility": "OPEN"
+}
