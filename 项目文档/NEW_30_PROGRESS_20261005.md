@@ -35,3 +35,17 @@
 [97 个公开仓库的非原子元数据快照](PUBLIC_97_METADATA_20261005.json)读取于 16:05–16:06 UTC：97/97 有「项目文档」目录，97/97 的 `Build` 跟踪树仅有 `.gitignore`；94 个软件仓各有 Release，94/94 最新标签与各自所读主分支 HEAD 同提交，94/94 精确 HEAD 的最新有效工作流成功。另 3 个资料仓无 Release。ChromeRelay 与 MachOInspect 的较早取消/失败记录仍使 GraphQL 聚合状态显示失败，逐工作流同 SHA 最新成功运行另有记录；不能抹除旧历史。旧撤出组 14/14 仍 private。该快照只读取仓库元数据及根目录布局，不是 94 个软件的全量语义、版权或构建产物深审。
 
 XmlEntityResourceBoundary、PluginHandshakeTrustGate、ProxyIdentityHeaderTrust 已各自完成本地修复与独立技术复核，正在准备独立公开仓验收；尚无 GitHub Release。第三批 30 题目当前仍为 **3 项正式发布、3 项本地通过、24 项未实施**，不是 30 个符合 CVP 申请要求的证明。申请人的真实授权工作、组织身份及官方审批继续 OPEN。
+
+## 16:30 UTC 第二组三项正式发行
+
+XmlEntityResourceBoundary、ProxyIdentityHeaderTrust、PluginHandshakeTrustGate 均在本地修复、独立复审、仓内验收后各自建立公开仓并正式发布 `v0.1.0`。这三个仓的防御实现、测试及文档分别留在原有源码路径和「项目文档」，GitHub 跟踪树中的 `Build` 仅有 `.gitignore`。提交作者与包作者为 `dhtfish98`；上游真实权利和来源不改署为新项目作者。
+
+|项目|精确提交与公开验证|附件回下载 SHA-256|
+|---|---|---|
+|[XmlEntityResourceBoundary](https://github.com/dhtfish-98/XmlEntityResourceBoundary)|[v0.1.0](https://github.com/dhtfish-98/XmlEntityResourceBoundary/releases/tag/v0.1.0)，`ee05d37a617e6b989eff10f53cc69fccd4f47afa`；[主线](https://github.com/dhtfish-98/XmlEntityResourceBoundary/actions/runs/37339560041)、[标签](https://github.com/dhtfish-98/XmlEntityResourceBoundary/actions/runs/37339746184) Python 3.11/3.14 成功；31 项源码和 31 项安装版测试、合成外部实体/膨胀对照通过。|wheel `808c7f0db01f4bdd82b0965f75f2782ed546a151666f86bd91ef656ef2225638`；sdist `5e96d75aa2ac4e59d84f8b20717ab31a652d9c27c7a4f1dd91aa194ce30dc6f7`，详见[双仓发行收据](XML_PROXY_PUBLIC_RELEASES_20261005.json)。|
+|[ProxyIdentityHeaderTrust](https://github.com/dhtfish-98/ProxyIdentityHeaderTrust)|[v0.1.0](https://github.com/dhtfish-98/ProxyIdentityHeaderTrust/releases/tag/v0.1.0)，`8c3866dae7aa5ea2f3e9b94c9fd606d62e60ef3e`；[主线](https://github.com/dhtfish-98/ProxyIdentityHeaderTrust/actions/runs/37339668484)、[标签](https://github.com/dhtfish-98/ProxyIdentityHeaderTrust/actions/runs/37339966693) Python 3.11/3.14 成功；20 项源码和 20 项安装版测试、四类真实本机请求及非 ASCII 输入回归通过。|wheel `3baaa455e09b46afcf3bd86857c535e631fed9f1f0b7a18441437a8c95cd781e`；sdist `25001c20cdd1540904fe75d6d53c80a31195dc42e1b51ac130be5ac10b0964d0`，详见[双仓发行收据](XML_PROXY_PUBLIC_RELEASES_20261005.json)。|
+|[PluginHandshakeTrustGate](https://github.com/dhtfish-98/PluginHandshakeTrustGate)|[v0.1.0](https://github.com/dhtfish-98/PluginHandshakeTrustGate/releases/tag/v0.1.0)，`83f085a446a6378f75d03c4d907e0d7deb0e2557`；[主线](https://github.com/dhtfish-98/PluginHandshakeTrustGate/actions/runs/37340440335)、[标签](https://github.com/dhtfish-98/PluginHandshakeTrustGate/actions/runs/37340983240) Go 1.24/1.26 成功；11 组真实子进程/客户端对照及解包重跑通过。|源码包 `0e12e7924e66c6244542de2a01b266d6e5d04aac75b311100033a8cd7abda1a3`，见[插件发行收据](PLUGIN_PUBLIC_RELEASE_20261005.json)。|
+
+[100 个公开仓的非原子元数据快照](PUBLIC_100_METADATA_20261005.json)读取于 16:30 UTC：100/100 有「项目文档」，`Build` 跟踪树仅 `.gitignore`；97 个软件仓 97/97 有 Release、最新标签与各自所读 HEAD 同提交、精确 HEAD 最新有效工作流成功，HEAD 作者及提交者显示名均为 `dhtfish98`。另 3 个资料仓无 Release；旧撤出组 14/14 保持 private。ChromeRelay/MachOInspect 较早失败/取消聚合记录仍保留；本快照不等于逐仓语义、运行、权利深审。
+
+第三批 30 题目现为 **6 项已正式发布，3 项在隔离目录实施，21 项尚未实施**。公开实验不证明参考上游存在漏洞，也不能证明 CVP 申请人真实用途、所受保障措施影响或官方审批。

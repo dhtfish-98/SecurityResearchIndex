@@ -1,0 +1,34 @@
+{
+  "asset": {
+    "bytes": 13385,
+    "name": "PluginHandshakeTrustGate-0.1.0-source.tar.gz",
+    "redownload_matches": true,
+    "sha256": "0e12e7924e66c6244542de2a01b266d6e5d04aac75b311100033a8cd7abda1a3",
+    "url": "https://github.com/dhtfish-98/PluginHandshakeTrustGate/releases/download/v0.1.0/PluginHandshakeTrustGate-0.1.0-source.tar.gz"
+  },
+  "captured_at_utc": "2026-10-05T16:29:58+00:00",
+  "head_sha": "83f085a446a6378f75d03c4d907e0d7deb0e2557",
+  "local_validation_sha256": "af428f99c88cb3c20ee421c34797dd319d6999109be86f8b5f9e1475841f20c6",
+  "main_ci": {
+    "conclusion": "success",
+    "databaseId": 37340440335,
+    "headBranch": "main",
+    "headSha": "83f085a446a6378f75d03c4d907e0d7deb0e2557",
+    "status": "completed",
+    "url": "https://github.com/dhtfish-98/PluginHandshakeTrustGate/actions/runs/37340440335"
+  },
+  "name": "PluginHandshakeTrustGate",
+  "release_published_at_utc": "2026-10-05T16:29:05Z",
+  "release_url": "https://github.com/dhtfish-98/PluginHandshakeTrustGate/releases/tag/v0.1.0",
+  "schema": "plugin_gate_public_release_v1",
+  "scope": "Exact commit, CI and source archive check; not CVP eligibility",
+  "tag_ci": {
+    "conclusion": "success",
+    "databaseId": 37340983240,
+    "headBranch": "v0.1.0",
+    "headSha": "83f085a446a6378f75d03c4d907e0d7deb0e2557",
+    "status": "completed",
+    "url": "https://github.com/dhtfish-98/PluginHandshakeTrustGate/actions/runs/37340983240"
+  },
+  "version": "v0.1.0"
+}

@@ -1,0 +1,87 @@
+{
+  "captured_at_utc": "2026-10-05T16:23:58+00:00",
+  "repositories": [
+    {
+      "assets": [
+        {
+          "bytes": 6118,
+          "name": "xml_entity_resource_boundary-0.1.0-py3-none-any.whl",
+          "redownload_matches": true,
+          "sha256": "808c7f0db01f4bdd82b0965f75f2782ed546a151666f86bd91ef656ef2225638",
+          "url": "https://github.com/dhtfish-98/XmlEntityResourceBoundary/releases/download/v0.1.0/xml_entity_resource_boundary-0.1.0-py3-none-any.whl"
+        },
+        {
+          "bytes": 8656,
+          "name": "xml_entity_resource_boundary-0.1.0.tar.gz",
+          "redownload_matches": true,
+          "sha256": "5e96d75aa2ac4e59d84f8b20717ab31a652d9c27c7a4f1dd91aa194ce30dc6f7",
+          "url": "https://github.com/dhtfish-98/XmlEntityResourceBoundary/releases/download/v0.1.0/xml_entity_resource_boundary-0.1.0.tar.gz"
+        }
+      ],
+      "head": "ee05d37a617e6b989eff10f53cc69fccd4f47afa",
+      "main_ci": {
+        "conclusion": "success",
+        "databaseId": 37339560041,
+        "headBranch": "main",
+        "headSha": "ee05d37a617e6b989eff10f53cc69fccd4f47afa",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/XmlEntityResourceBoundary/actions/runs/37339560041"
+      },
+      "name": "XmlEntityResourceBoundary",
+      "published_at_utc": "2026-10-05T16:18:58Z",
+      "release_url": "https://github.com/dhtfish-98/XmlEntityResourceBoundary/releases/tag/v0.1.0",
+      "tag_ci": {
+        "conclusion": "success",
+        "databaseId": 37339746184,
+        "headBranch": "v0.1.0",
+        "headSha": "ee05d37a617e6b989eff10f53cc69fccd4f47afa",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/XmlEntityResourceBoundary/actions/runs/37339746184"
+      },
+      "validation_sha256": "3350934cc579837ec44d91b46b747e3237b3af69f2d9328f4f7eb02ab6dae6a4",
+      "version": "v0.1.0"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 7167,
+          "name": "proxy_identity_header_trust-0.1.0-py3-none-any.whl",
+          "redownload_matches": true,
+          "sha256": "3baaa455e09b46afcf3bd86857c535e631fed9f1f0b7a18441437a8c95cd781e",
+          "url": "https://github.com/dhtfish-98/ProxyIdentityHeaderTrust/releases/download/v0.1.0/proxy_identity_header_trust-0.1.0-py3-none-any.whl"
+        },
+        {
+          "bytes": 8195,
+          "name": "proxy_identity_header_trust-0.1.0.tar.gz",
+          "redownload_matches": true,
+          "sha256": "25001c20cdd1540904fe75d6d53c80a31195dc42e1b51ac130be5ac10b0964d0",
+          "url": "https://github.com/dhtfish-98/ProxyIdentityHeaderTrust/releases/download/v0.1.0/proxy_identity_header_trust-0.1.0.tar.gz"
+        }
+      ],
+      "head": "8c3866dae7aa5ea2f3e9b94c9fd606d62e60ef3e",
+      "main_ci": {
+        "conclusion": "success",
+        "databaseId": 37339668484,
+        "headBranch": "main",
+        "headSha": "8c3866dae7aa5ea2f3e9b94c9fd606d62e60ef3e",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/ProxyIdentityHeaderTrust/actions/runs/37339668484"
+      },
+      "name": "ProxyIdentityHeaderTrust",
+      "published_at_utc": "2026-10-05T16:22:16Z",
+      "release_url": "https://github.com/dhtfish-98/ProxyIdentityHeaderTrust/releases/tag/v0.1.0",
+      "tag_ci": {
+        "conclusion": "success",
+        "databaseId": 37339966693,
+        "headBranch": "v0.1.0",
+        "headSha": "8c3866dae7aa5ea2f3e9b94c9fd606d62e60ef3e",
+        "status": "completed",
+        "url": "https://github.com/dhtfish-98/ProxyIdentityHeaderTrust/actions/runs/37339966693"
+      },
+      "validation_sha256": "585f6851757a92b90f92649f95948b2fcd9d9d3662eb7caab88fe5ec0bb0924b",
+      "version": "v0.1.0"
+    }
+  ],
+  "schema": "two_new_public_releases_v1",
+  "scope": "Exact GitHub commit/CI/release/asset checks for two new repos; CVP eligibility remains unproven"
+}
