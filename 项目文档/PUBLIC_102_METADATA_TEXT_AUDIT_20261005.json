@@ -1,0 +1,26 @@
+{
+  "schema": "public_repo_latest_release_text_audit_v1",
+  "captured_at_utc": "2026-10-05T17:27:49.856488+00:00",
+  "audited_at_utc": "2026-10-05T17:35:26.099680+00:00",
+  "raw_sha256": "f564d0b4f8eb80722c0e2644556202c48f558fa3cd203e2af5ff85cf2d429016",
+  "scope": "Current public repository description and latest release body only; excludes older releases, issues, binaries, untracked files and semantic code review. Non-atomic inventory.",
+  "counts": {
+    "public_repositories": 102,
+    "with_latest_release": 99,
+    "repo_descriptions_checked": 101,
+    "latest_release_bodies_checked": 99,
+    "ai_author_keyword_hits": 0,
+    "cvp_approval_claim_hits": 0,
+    "old_identity_hits": 1
+  },
+  "findings": [
+    {
+      "repo": "SILGallery",
+      "field": "latest_release_body",
+      "kind": "old_identity_hits",
+      "match": "bitfish886",
+      "assessment": "SILGallery legacy bundle identifier retained for installation compatibility; not author credit."
+    }
+  ],
+  "cvp_assessment": "These text fields do not establish actual CVP eligibility, verification, or approval. Portfolio technical cases remain conditional."
+}

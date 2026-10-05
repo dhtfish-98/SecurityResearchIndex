@@ -1,0 +1,47 @@
+{
+  "schema": "new_30_public_releases_8_10_v1",
+  "generated_at_utc": "2026-10-05T18:22:02.954072+00:00",
+  "third_batch_published_count": 10,
+  "public_repository_count_at_latest_snapshot": 104,
+  "scope": "Two newly published local defensive labs with exact-commit CI and roundtrip asset digests; no claim of production runtime or CVP approval.",
+  "projects": [
+    {
+      "project": "RefreshTokenReuseRevocation",
+      "version": "v0.1.0",
+      "repository": "https://github.com/dhtfish-98/RefreshTokenReuseRevocation",
+      "release": "https://github.com/dhtfish-98/RefreshTokenReuseRevocation/releases/tag/v0.1.0",
+      "commit": "9e7267507d91e85059297984935b0fe1fa60384a",
+      "main_ci": "https://github.com/dhtfish-98/RefreshTokenReuseRevocation/actions/runs/37349978138",
+      "tag_ci": "https://github.com/dhtfish-98/RefreshTokenReuseRevocation/actions/runs/37350259469",
+      "local_validation_sha256": "e8c062db2919173bb05c85c32269ddc7810dbe59793d386bbb1b522859f59a4b",
+      "publication_receipt_sha256": "fd26a690ca49a40d70d354c7fdeea35592f457215541749334a6aa2200179043",
+      "assets": {
+        "refresh_token_reuse_revocation-0.1.0-py3-none-any.whl": "a0860269b2cbb110ee1ec4d48446830913a3f4daed8898ba86a4683c32748a17",
+        "refresh_token_reuse_revocation-0.1.0.tar.gz": "d7dc71d309dbe1e0c3a3caa33fe1a20a334fd330d1df84a29bf06be4a286ab4f"
+      },
+      "limits": [
+        "synthetic loopback HTTP/SQLite only",
+        "no full OAuth identity or production deployment",
+        "CVP eligibility and approval OPEN"
+      ]
+    },
+    {
+      "project": "SshCertIssuanceGate",
+      "version": "v0.1.0",
+      "repository": "https://github.com/dhtfish-98/SshCertIssuanceGate",
+      "release": "https://github.com/dhtfish-98/SshCertIssuanceGate/releases/tag/v0.1.0",
+      "commit": "454993dee1c3eb90dcd829428fa2ebfdfbd4fda5",
+      "main_ci": "https://github.com/dhtfish-98/SshCertIssuanceGate/actions/runs/37350176592",
+      "tag_ci": "https://github.com/dhtfish-98/SshCertIssuanceGate/actions/runs/37354655181",
+      "local_validation_sha256": "d853d380b96ddb0f5b92064f53abf77ae38444cb2241e517278a08719e51cd80",
+      "publication_receipt_sha256": "5ebc5ea229a3a6e9492c491fea41813793b4d5a43f8550d8c12425f3fbbb34e1",
+      "assets": {
+        "ssh_cert_issuance_gate-0.1.0-py3-none-any.whl": "b5379fa79b854f0573ef6211fb826d3f9883e724e614959eca87cc80c8da5c07",
+        "ssh_cert_issuance_gate-0.1.0.tar.gz": "8e20c3a98b1e3a249b2552bcbcb20dfb7b7c612b08ebf673d29e9e330a854a49"
+      },
+      "limits": [
+        "Synthetic local CA evidence only; no real SSH login or CVP decision proved."
+      ]
+    }
+  ]
+}

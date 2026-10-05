@@ -75,3 +75,7 @@
 **2026-10-05 16:30 UTC 新发行与全仓复核：**第三批又有 [XML/代理身份两项](XML_PROXY_PUBLIC_RELEASES_20261005.json)及[插件握手项](PLUGIN_PUBLIC_RELEASE_20261005.json)正式发布，现为 6 项发布、3 项实施中、21 项未实施。[100 个公开仓快照](PUBLIC_100_METADATA_20261005.json)显示 97 个软件仓的最新 Release 均与各自读取时的 HEAD 同提交，Build 跟踪树仅有占位文件。该结论是非原子发行与目录状态复核；CVP 资格仍待申请人实际用途和官方决定。
 
 **2026-10-05 17:20 UTC 署名、权利与发行增量：**[100 仓精确提交文本/路径复核](PUBLIC_100_EXACT_HEAD_AUDIT_20261005.md)覆盖 4,041 条跟踪文件路径，未确认 AI 作者署名；ArchiveLens 和 ObjCAtlas 的跨项目来源模板句已分别在 [v1.0.7](https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.7) 与 [v1.0.2](https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.2) 更正，第三方真实权利保留。第三批再发行 [AcmeChallengeAuthorization 与 RelationAccessDecision](NEW_30_RELEASES_7_9_20261005.json)，累计 **8/30**，当前公开仓为 102；此前 100 仓快照不含新增两仓。[第三批进度](NEW_30_PROGRESS_20261005.md)按时点记录，真实 CVP 资格及此前中断的深审仍 OPEN。
+
+**2026-10-05 17:27 UTC 材料角色补查：**[102 仓逐项材料角色续审](PUBLIC_102_CVP_MATERIAL_RECHECK_20261005.md)及[矩阵](PUBLIC_102_CVP_MATERIAL_RECHECK_20261005.json)把旧六项条件技术案例、第三批八项本地实验、其他防御附件、研究背景、普通工具及资料仓分开。当前简介与最新发行说明的[文本补查](PUBLIC_102_METADATA_TEXT_AUDIT_20261005.json)未检出 AI 作者署名或 CVP 已批准的主张；检查范围、唯一历史安装标识命中及尚未覆盖的历史/二进制内容在记录中列明。这是申请材料的保守分工，所有项目的真实 CVP 资格仍 OPEN。
+
+**2026-10-05 18:21 UTC 两项发行与 104 仓再读取：**第三批 [RefreshTokenReuseRevocation 与 SshCertIssuanceGate](NEW_30_RELEASES_8_10_20261005.json) 分别完成 `v0.1.0` 公开发行、精确主线/标签 CI、正式资产回下载核对，累计 **10/30**。[104 仓元数据快照](PUBLIC_104_METADATA_20261005.json)显示 101 个软件仓的最新 Release 与各自所读 HEAD 同提交，104 仓 Build 只跟踪占位文件；这是非原子目录/发行核对，不能替代深层功能审计或官方 CVP 审批。见[第三批进度](NEW_30_PROGRESS_20261005.md)。
