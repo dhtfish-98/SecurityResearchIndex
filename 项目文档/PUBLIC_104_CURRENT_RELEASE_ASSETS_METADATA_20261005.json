@@ -1,0 +1,3610 @@
+{
+  "captured_at_utc": "2026-10-05T20:11:46.523882+00:00",
+  "exceptions": {
+    "non_draft_non_prerelease": [],
+    "nonempty_assets": [
+      "A64Dispatch",
+      "ArtifactDigestReview",
+      "AuthLogReview",
+      "CDTranslator",
+      "ChromeRelay",
+      "ContainerfileReview",
+      "DependencyPinReview",
+      "EntitlementFlagReview",
+      "FileModeReview",
+      "HeaderPolicyReview",
+      "IAMScopeReview",
+      "KubePodReview",
+      "LocalSecretReview",
+      "MachOInspect",
+      "PEHardeningReview",
+      "SBOMFieldReview",
+      "SealScope",
+      "SSHPolicyReview",
+      "WorkflowPermissionReview"
+    ],
+    "nonzero_assets": [
+      "A64Dispatch",
+      "ArtifactDigestReview",
+      "AuthLogReview",
+      "CDTranslator",
+      "ChromeRelay",
+      "ContainerfileReview",
+      "DependencyPinReview",
+      "EntitlementFlagReview",
+      "FileModeReview",
+      "HeaderPolicyReview",
+      "IAMScopeReview",
+      "KubePodReview",
+      "LocalSecretReview",
+      "MachOInspect",
+      "PEHardeningReview",
+      "SBOMFieldReview",
+      "SealScope",
+      "SSHPolicyReview",
+      "WorkflowPermissionReview"
+    ],
+    "sha256_digests": [
+      "A64Dispatch",
+      "ArtifactDigestReview",
+      "AuthLogReview",
+      "CDTranslator",
+      "ChromeRelay",
+      "ContainerfileReview",
+      "DependencyPinReview",
+      "EntitlementFlagReview",
+      "FileModeReview",
+      "HeaderPolicyReview",
+      "IAMScopeReview",
+      "KubePodReview",
+      "LocalSecretReview",
+      "MachOInspect",
+      "PEHardeningReview",
+      "SBOMFieldReview",
+      "SealScope",
+      "SSHPolicyReview",
+      "WorkflowPermissionReview"
+    ],
+    "tag_matches_snapshot": [],
+    "versioned_payload_name": [
+      "A64Dispatch",
+      "ArtifactDigestReview",
+      "AuthLogReview",
+      "CDTranslator",
+      "ChromeRelay",
+      "ContainerfileReview",
+      "DependencyPinReview",
+      "EntitlementFlagReview",
+      "FileModeReview",
+      "HeaderPolicyReview",
+      "IAMScopeReview",
+      "KubePodReview",
+      "LocalSecretReview",
+      "MachOInspect",
+      "ObjCAtlas",
+      "PEHardeningReview",
+      "SBOMFieldReview",
+      "SealScope",
+      "SSHPolicyReview",
+      "WorkflowPermissionReview"
+    ]
+  },
+  "method": "Read-only GitHub REST latest formal Release per 104 software repositories with exact HEAD CI and matching release in frozen 111 metadata. Asset metadata only; assets not downloaded in this pass, package contents and runtime not inspected.",
+  "repositories": [
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "ac8ca8c66b2927e386ea404630b0b20d4ad4535e",
+      "name": "A64Dispatch",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:02:30Z",
+      "release_tag_at_snapshot": "v1.0.1",
+      "release_tag_current": "v1.0.1",
+      "release_url": "https://github.com/dhtfish-98/A64Dispatch/releases/tag/v1.0.1",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:75dabb70ac5bdba4c540b1a85cd156815673fe9e20447d9f4fdc0b080bea8f59",
+          "name": "acme_challenge_authorization-0.1.0-py3-none-any.whl",
+          "size": 7579,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:6f8199675249926425b657c1adb6888f1d9b596e26407ab02aee75d7bd5039cf",
+          "name": "acme_challenge_authorization-0.1.0.tar.gz",
+          "size": 11039,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "9b3661613b9a40c5b104f71532c49d462491b3de",
+      "name": "AcmeChallengeAuthorization",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T17:13:58Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/AcmeChallengeAuthorization/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:4f08993db7fec014ab623c1a3fbad17febdf09bd188ae28c7cc31132d4b4c803",
+          "name": "advisory_offline_review-0.1.3-py3-none-any.whl",
+          "size": 35577,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:bf2a9111ccf91d4432baf9e5d94807b0524807bcb77cabdde8e8869fffd2ea6e",
+          "name": "advisory_offline_review-0.1.3.tar.gz",
+          "size": 56236,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:920f2dd739ed1e12d947e42ce299c1802ce3cfe963cf13df673dfcb0208aaab4",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1225,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:d99a3675d539a1a98d9645fb52603fbe58a50ea180f543747b70c9a2fff2e577",
+          "name": "SHA256SUMS.txt",
+          "size": 304,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "f82578a8f7f8ed615f75efb82524a64fb66383c3",
+      "name": "AdvisoryOfflineReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:07Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/AdvisoryOfflineReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:1056dbf37e2dbe9f61ada1bded98f60e1d3101e720967e75940b77d6a759feef",
+          "name": "aliasrecordreview-1.0.3-py3-none-any.whl",
+          "size": 6107,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:dbde365157048b2a1553baadb82b58f51694753a1b5c914403321f28e428ce70",
+          "name": "aliasrecordreview-1.0.3.tar.gz",
+          "size": 20263,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:286d0f76a89fd756a976ffc7531fb77ee468a88f7ae6d71981044fe56655192d",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1227,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:317da39294a8ff0c112228988e428e1a132302db9066eb3e4a10e3eb683c38ab",
+          "name": "SHA256SUMS.txt",
+          "size": 292,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "a8cccd1eae5650499381126d640b2808fe344d6c",
+      "name": "AliasRecordReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:07Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/AliasRecordReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:52556cc1a3ec9b96d7d4b95b84fc1914598b5e29eaff4b98f14e22fc6efcbd7a",
+          "name": "apt_source_trust_audit-0.1.3-py3-none-any.whl",
+          "size": 9900,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:c3a6cf91157f29c95c1ef1a7f6c8b3430f44b37081743afe3ca4fb4afe56143d",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2098,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:efe22cbece45f0d3e32dcd07c03257aa2877986a1f82429b64dc70f259baa6c5",
+          "name": "SHA256SUMS.txt",
+          "size": 200,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "961d1c4f02da7bc031f760996bf6dcfe5fcadda3",
+      "name": "AptSourceTrustAudit",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:09:34Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/AptSourceTrustAudit/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 1,
+      "assets": [
+        {
+          "digest": "sha256:e6cb38a1794b4f4f76a7c19236511ec6855a8cf9ae34732bb529a8f9bcb5674c",
+          "name": "ArchiveLens-v1.0.7-source.tar.gz",
+          "size": 22102820,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "906be7fb188416952f010eccfbdf7c559f39aa67",
+      "name": "ArchiveLens",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T17:16:09Z",
+      "release_tag_at_snapshot": "v1.0.7",
+      "release_tag_current": "v1.0.7",
+      "release_url": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.7",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "ae45221a220f9feeeb94b9492e52e24118c22367",
+      "name": "ArtifactDigestReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:05Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/ArtifactDigestReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:20a34e0fce93d5aff11d592435ef2200ef0e9663ca8abb9fcbfeb17d3d5ec7a4",
+          "name": "audit_event_review-0.1.3-py3-none-any.whl",
+          "size": 32588,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:8c7f68b295bf521a084fda72dc5190c32491665cbccf563f1d7c4e734ee3d00c",
+          "name": "audit_event_review-0.1.3.tar.gz",
+          "size": 66774,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e5dcd2fd91e90f05689bb433ea4c14f132024ad374f3982808cebeb94e7aedc9",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1205,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:18a15264f09dad043cbddf8eb83a249fa4297e4f1e90a8f0e26765968ad8c135",
+          "name": "SHA256SUMS.txt",
+          "size": 294,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "0f23fda79e1a9f11ea12fbb6a0dc327168fc6ab3",
+      "name": "AuditEventReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:08Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/AuditEventReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:bdd35c3d66e9f1785d5b00c8e12efe5a61609c5698f7da859980677999645aa3",
+          "name": "audit_rule_coverage-0.1.3-py3-none-any.whl",
+          "size": 22106,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:13caa2adc59c8e67ebcac11f85cf4ffe0eece8fe94a3168bebd181abfb611450",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2106,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:f4a823591e25cdba827d07db1f6013c01b47bd89937944f4146dd47af552f883",
+          "name": "SHA256SUMS.txt",
+          "size": 197,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "9fe75f1c8ca8914a3353a9f035bc130eb9f827b3",
+      "name": "AuditRuleCoverage",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:09:34Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/AuditRuleCoverage/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "bdaf9f9051def589bfefb12ec26af45df4532c00",
+      "name": "AuthLogReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:06Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/AuthLogReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:8c22ec1f1e064cce856e7a9e24686e66f4c48493f8da17fd0f6c5f304af422cf",
+          "name": "bodyfiletimelinereview-1.0.3-py3-none-any.whl",
+          "size": 10823,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b710277fbeab1fd8f53bc70ddfae4a281d4e4713013cee9eb8b3d8b9375aa91b",
+          "name": "bodyfiletimelinereview-1.0.3.tar.gz",
+          "size": 28486,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:5f4426e6d16fbb72b3db65ab6c6195caf0a46644dcce620d6170ae76d4cd2310",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1398,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:143bca6147ed696896e7c7afc79f0536dc59d4515e37a0beb82a16b2a46e45c5",
+          "name": "SHA256SUMS.txt",
+          "size": 302,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "6e8885d8426a6054ff1a456e553fba92b2c9b0c5",
+      "name": "BodyfileTimelineReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:08Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/BodyfileTimelineReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:e33378e9510c6d016dada510fdbf13fde7f7c3e8255c6124311baeaafbf01cd1",
+          "name": "branchloom-0.2.1-py3-none-any.whl",
+          "size": 126253,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:0c2d789cd6799ab1f2bee02605a3d2ee4eb533d27fb936fb552480cb78b8b08b",
+          "name": "branchloom-0.2.1.tar.gz",
+          "size": 193909,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:63f07c267c1960518584765a95cc7571b9651767c5bf770d5e0dab35d48e17ac",
+          "name": "BranchLoom-source.zip",
+          "size": 200575,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "dd94ae1b8916f5404ec77c26586d805876610b78",
+      "name": "BranchLoom",
+      "payload_count": 3,
+      "prerelease": false,
+      "published_at": "2026-10-04T15:45:22Z",
+      "release_tag_at_snapshot": "v0.2.1",
+      "release_tag_current": "v0.2.1",
+      "release_url": "https://github.com/dhtfish-98/BranchLoom/releases/tag/v0.2.1",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "cf439d5b37d5be2764f9719d796765f77163fc7b",
+      "name": "CDTranslator",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:17:43Z",
+      "release_tag_at_snapshot": "v1.0.2",
+      "release_tag_current": "v1.0.2",
+      "release_url": "https://github.com/dhtfish-98/CDTranslator/releases/tag/v1.0.2",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:1d0ac29b95624c19b8a79f1e2704a84df829f30a6acc5431646c1f7971649b60",
+          "name": "certificate_name_policy-0.1.3-py3-none-any.whl",
+          "size": 14099,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b92e499ce5582dcce99c6868ac183fa85915b5002f67f0523af24b1dc4e11971",
+          "name": "certificate_name_policy-0.1.3.tar.gz",
+          "size": 58975,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:ae63b088ecbd48915964757daa8b994fb400a6c834de3e7bd9c6334d5f2a5115",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 9841,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:01c4081b7c32e85a55c62c98b3d9ab42b333d17d935f960b98a1ec019b503402",
+          "name": "SHA256SUMS.txt",
+          "size": 304,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "71250ac1024635baa51634a9e4253022ebc24777",
+      "name": "CertificateNamePolicy",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:46:17Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/CertificateNamePolicy/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "53f3479a654f7b0011a2c831792bedce5449cd64",
+      "name": "ChromeRelay",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:06:15Z",
+      "release_tag_at_snapshot": "v1.0.1",
+      "release_tag_current": "v1.0.1",
+      "release_url": "https://github.com/dhtfish-98/ChromeRelay/releases/tag/v1.0.1",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:8bf8141535c4b1e62381eba021e047efc292ce107a317f1d58560eb5d783aeb2",
+          "name": "ci_trust_boundary_review-0.1.3-py3-none-any.whl",
+          "size": 48436,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b5b22981f14d3b07ef22303f3a3f2e2f03d66d464ac213258b661147211a0e30",
+          "name": "ci_trust_boundary_review-0.1.3.tar.gz",
+          "size": 67093,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:50eb9fbd0bc5ddb18458d95ab43d02dbf1c5b1102341056ce578c17cffce9861",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 7757,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:9620434fb9b2ea1fba98eb9f9551d17695774da8635208aaf3aa0b25c02a8fc2",
+          "name": "SHA256SUMS.txt",
+          "size": 306,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "8ed2862c414cdc2b9116a02aafa1a8c8a8c1574b",
+      "name": "CITrustBoundaryReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:38:16Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/CITrustBoundaryReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:303b247419010825a26fa7547f2aaaafbc850a512af8c47583e41ca467b45a3d",
+          "name": "compound_document_review-0.1.3-py3-none-any.whl",
+          "size": 15154,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:01d65a08c43bafad10fdad6e76953a0637c39865b6d6c1611fb02ef9a34cc86e",
+          "name": "compound_document_review-0.1.3.tar.gz",
+          "size": 55438,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:7a806a4b88e8c60368ee02cfe4aeb36e44b922145bd9a0ed4f1f85971c314c8f",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 7996,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b63ce7c19bbcc86ed56b1fee616e5e3d567286a6e78a648c38e64a66dba7ab8f",
+          "name": "SHA256SUMS.txt",
+          "size": 306,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "36e63095526aa0abff91da862ffc3577b2a0b17c",
+      "name": "CompoundDocumentReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:46:17Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/CompoundDocumentReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "7b93078fb3f8904c2a0d25f8934ba65609b0d175",
+      "name": "ContainerfileReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:11Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/ContainerfileReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:3f59f450110c728fd2e6c989b576b97b5335ea3ab2055aa96b9786815863990e",
+          "name": "cvp_crl_revocation_review-0.1.3-py3-none-any.whl",
+          "size": 13140,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:96dd9d4f747de514176831a4c30af8ad86da8590f46bd769b8c9da59a21428c2",
+          "name": "cvp_crl_revocation_review-0.1.3.tar.gz",
+          "size": 33213,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:c7e12748eedcf56eefa09582c069cbc483a1c67d66e5a266236c3f9f60a9e908",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1235,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:78e27e7243fe4cb1ed015dbdd301fbe93858f30bf8d982a6d08a83161b5d4472",
+          "name": "SHA256SUMS.txt",
+          "size": 308,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "82720313e3bedae3975798e3bc08b3198ec3134c",
+      "name": "CrlRevocationReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:13Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/CrlRevocationReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:a993178bfd20bbacfa4d8dc6fe582e8276d97617d4dcf53e8f6c33c42ee1c386",
+          "name": "crypto_regression_bench-0.1.4-py3-none-any.whl",
+          "size": 87843,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:02b67a098030902da6e7702637a69c6dde98be2fd511c37debb20dd78f00aef4",
+          "name": "crypto_regression_bench-0.1.4.tar.gz",
+          "size": 127282,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:c3fccfff7bc2f37b912c3776d4917a28494c2b6b485d1037877e6713051cda55",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1259,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:7cc84fc75e40fe42cc0745d27c44ed06161a86949b55488cc6bc32b2731ce1d7",
+          "name": "SHA256SUMS.txt",
+          "size": 304,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "85f7ec56b6a524375a0a38ee238347c84a04e4d0",
+      "name": "CryptoRegressionBench",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:14Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/CryptoRegressionBench/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:75bfa870773a8004f1fede90b4c87989918622b3cf5c373a66567c62ff8ac931",
+          "name": "csp_policy_lens-0.1.3-py3-none-any.whl",
+          "size": 20137,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b52327d76cb7316ed607d9df2feb2e3f4f4e223b4a44e6076f0a51f88fc421b2",
+          "name": "csp_policy_lens-0.1.3.tar.gz",
+          "size": 51152,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:94230b5fb267a0b3e1cae418a82509c5c2d68b9a13d3e65bcb88fe214c8d6fdb",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1193,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e97cf99f3e53be98a04b79838a66988bf45800a99c0b0ae5f715fcea68336a8d",
+          "name": "SHA256SUMS.txt",
+          "size": 288,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "322d8f92111195b94d0a53c424685f42883ed321",
+      "name": "CSPPolicyLens",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:14Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/CSPPolicyLens/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "230c717efa1fcdb7babe2857a9df425620a6e4ee",
+      "name": "DependencyPinReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:00Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/DependencyPinReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:fafb91caf96fc97c67172f6d77fa110fa298956aed202945b58e09146725787a",
+          "name": "deserialize_call_review-0.1.3-py3-none-any.whl",
+          "size": 23727,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:91e824609f1a3c33a4eb1a93b1f7c7b6da38b89cc9497ccd9abae9189bb117ca",
+          "name": "deserialize_call_review-0.1.3.tar.gz",
+          "size": 65638,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:d1971156b5298ea62287f6e8814c0f480a7fc5687afc94880183fc368e3cca08",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 9624,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e282fef895f32aae5bca66d7a17254377c231e6247ce32968392b184a197da73",
+          "name": "SHA256SUMS.txt",
+          "size": 304,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "6c8bc689221689e5243881f2acf8142218bab49d",
+      "name": "DeserializeCallReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:38:20Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/DeserializeCallReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:481466617da2f7c766e5343d23a7ccbaa69b1e2b8eaef66bf4cdddd81add1ae9",
+          "name": "dfxmlextentreview-1.0.3-py3-none-any.whl",
+          "size": 7281,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:4ed177a91c7284a3bf465e5c9688ca29b2d2efb67b212524207f69e8e38b80a2",
+          "name": "dfxmlextentreview-1.0.3.tar.gz",
+          "size": 22629,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:a358eec2b264cef45e0506d990a4ee0af269da32d28c7071f594a28fc270eb74",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1377,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:c545377e87c53d89abe90514d710ec058df9c0b9126c1386e62ad09fa21298a8",
+          "name": "SHA256SUMS.txt",
+          "size": 292,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "d04b05f8265d2e1cd9b92357206044f6a99c425b",
+      "name": "DfxmlExtentReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:14Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/DfxmlExtentReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:963e6ece7b15b1a92bad5b41a991eccba6657e48ea84811aa08d21fe11e5a573",
+          "name": "django_session_guard-0.1.3-py3-none-any.whl",
+          "size": 17966,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:54eb7ae616f366dec3849ce7127d067016353e2930f9fdba93be0b214337b159",
+          "name": "django_session_guard-0.1.3.tar.gz",
+          "size": 50786,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:66e2e385c93df50fda36aeec915c081fa5854b18236f89785f463c880be78229",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1213,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:dd2a3f4e7fb0ab084564ada18a3c2d178205ca955c229bc20f89ebf8e5cdc0d8",
+          "name": "SHA256SUMS.txt",
+          "size": 298,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "47f9c4f89456bd4c2780ce96789d4bd5cde3e981",
+      "name": "DjangoSessionGuard",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:19Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/DjangoSessionGuard/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 1,
+      "assets": [
+        {
+          "digest": "sha256:71d2cd8f1a9d1171d2478f3b8483585849966e70844a202d534f231c7d64d9f1",
+          "name": "dom-sink-review-0.1.5.tgz",
+          "size": 40574,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "5a0b0d5a32ce90b1c17671a0f55636ae19aa7901",
+      "name": "DOMSinkReview",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T13:31:57Z",
+      "release_tag_at_snapshot": "v0.1.5",
+      "release_tag_current": "v0.1.5",
+      "release_url": "https://github.com/dhtfish-98/DOMSinkReview/releases/tag/v0.1.5",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:f49cd108f6d5e2b8e0c8cb7b78b9c8e97db684983a3ef12fafcf41bb85bd3b37",
+          "name": "cvp_dsse_envelope_review-0.1.3-py3-none-any.whl",
+          "size": 12290,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:3bebf49a357bff63da1a39adad7d7144eae327a9c8ca1dc10d1a693df8eb3f03",
+          "name": "cvp_dsse_envelope_review-0.1.3.tar.gz",
+          "size": 29052,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:91513a69985391a20e876285d1cb747fa45567213248ec414c283a17269fbe0f",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1231,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:172efdc3ab0c1fca65e64c9a0ab72ed8f561051328009b4928cda1e35050daf1",
+          "name": "SHA256SUMS.txt",
+          "size": 306,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "0b161109ac1abf1f718c0c7c177f0890c8b7b658",
+      "name": "DsseEnvelopeReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:19Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/DsseEnvelopeReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "d89cdedc10cdd977235d3bfb29aea2e446cdbd04",
+      "name": "EntitlementFlagReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:11Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/EntitlementFlagReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:c9cf3df5c5cf8cb7ff928880501eef3857dcdb1b7878507bb5868fefb583efcd",
+          "name": "evtx_record_review-0.1.4-py3-none-any.whl",
+          "size": 27323,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:203d280bba66d1f9e9ab13050fafaa35cc9b17b2821b2ad2c32ab1d01c4bf401",
+          "name": "evtx_record_review-0.1.4.tar.gz",
+          "size": 94594,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:bcfc3f244c819b2431b9fc26264db3a62094c718ac087f7ae13d09700a2f7e83",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 9767,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:43c32ed3813562b1861742d69c48259c5c41114657faf6f577dbf9b3c3d894c9",
+          "name": "SHA256SUMS.txt",
+          "size": 294,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "ce2141dc0dc28015206affae09de00bbf6c69bf8",
+      "name": "EvtxRecordReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:46:17Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/EvtxRecordReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:215d9afa7aaa649c47476c84aa745775ad2be64e7bb9dd21d42fc2c8fdadf409",
+          "name": "evtx_recovery_review-0.1.3-py3-none-any.whl",
+          "size": 41283,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:c08ba26c783a65676edab2ce541e36f1951d98c66d1079ea5495d70d8d861de7",
+          "name": "evtx_recovery_review-0.1.3.tar.gz",
+          "size": 93660,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:6bc96a8e2767e96efd5b6f9a3dd94a1775f2db470fb420d110fa1f942c0a503e",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 11903,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:f238db2de6236f90968b82feb9b3929f66cbcd5b59f4e19c05fe78d4dbbca227",
+          "name": "SHA256SUMS.txt",
+          "size": 298,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "96c83806fe01478811d1a607a10e3182316b1344",
+      "name": "EvtxRecoveryReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:46:22Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/EvtxRecoveryReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "c26fe0cfd1a27c3c23332b34d450ac79591811ee",
+      "name": "FileModeReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:11Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/FileModeReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:bdf053e5bb699cb234776112c2058d920a241dc5fb377612289ada24637a5427",
+          "name": "finderstorereview-1.0.3-py3-none-any.whl",
+          "size": 6811,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:277023e2404c36c05b0a1766207f261e77345150c7cdb21e4f94be23fa725d5e",
+          "name": "finderstorereview-1.0.3.tar.gz",
+          "size": 21559,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:107bd2c485e46f4a4f54f16ddda325cd3b34b17a013c4e359e48478e0031eaf1",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1227,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:8b583857dc78905ae82c59cd6f90cd8e12b3d2da19c1bde21d2ebf24d9481f60",
+          "name": "SHA256SUMS.txt",
+          "size": 292,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "34ffeff32f17d764b10e0598bd4fb87aee30ad99",
+      "name": "FinderStoreReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:20Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/FinderStoreReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:f3a026686d31eb21bb3be5c2be83829ddd452fc0a91beef4d486306986bfaef2",
+          "name": "firewalld_zone_audit-0.1.3-py3-none-any.whl",
+          "size": 9293,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:71ace014023d3f49c6aca0f0cb3af6e0f463ce5db8211eddabd8427ec94e23f7",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2077,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:07167902d2dd410bd837949fe2f38afdfdea373cb61c3f56ae263f60474a2cc1",
+          "name": "SHA256SUMS.txt",
+          "size": 198,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "01aa08ae248ce717bffbb9d8c90cc87ef9815eff",
+      "name": "FirewalldZoneAudit",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:09:34Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/FirewalldZoneAudit/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 1,
+      "assets": [
+        {
+          "digest": "sha256:b46a486b45c5ba6b0ead3777625e594011217a8460372f8455ad03462817ead5",
+          "name": "GoCryptoPolicyReview-v0.1.3-source.tar.gz",
+          "size": 49933,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "403abc2bbb1ff03723049f9b48ba306dd550aa04",
+      "name": "GoCryptoPolicyReview",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T13:23:18Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/GoCryptoPolicyReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 1,
+      "assets": [
+        {
+          "digest": "sha256:e3bde415c0a56f259c2749965cee38e40e77e17203676e5acb37835b53d50b2e",
+          "name": "graphql-query-cost-gate-0.1.1.tgz",
+          "size": 8898,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "27d57114d032f4a04bd06fb99620045fa0e856a8",
+      "name": "GraphQLQueryCostGate",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T16:02:27Z",
+      "release_tag_at_snapshot": "v0.1.1",
+      "release_tag_current": "v0.1.1",
+      "release_url": "https://github.com/dhtfish-98/GraphQLQueryCostGate/releases/tag/v0.1.1",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:4e61c9a725d039bcde481c0bad8a17500aa5bcd9b01defcb327f5b8a58022202",
+          "name": "handshake_evidence_review-0.1.3-py3-none-any.whl",
+          "size": 39748,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:44ecc7ee49cf31ee0be9def3a96cf9f1a133533710b6fda005cc496bf35e9ad2",
+          "name": "handshake_evidence_review-0.1.3.tar.gz",
+          "size": 61981,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:170a8b144a0b4bd2dd3ba8ae23772f40f4603c6619b6047a7495584e16cf2f9a",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 8999,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:0669eeb42fbf9bc11487c9c8818c30fcfc6e8aa8f50963142f714e0758a0268c",
+          "name": "SHA256SUMS.txt",
+          "size": 308,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "9ac9182186a1aa28919c732525ef7e1603981cad",
+      "name": "HandshakeEvidenceReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:46:22Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/HandshakeEvidenceReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "1f5c5b4bb6befa1614c642cd78e8a54a3998dfb1",
+      "name": "HeaderPolicyReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:28:21Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/HeaderPolicyReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "3eed6cbc68b49fb4031d2a00721f922eb3f3d2b3",
+      "name": "IAMScopeReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:00Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/IAMScopeReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:b1d4973119cbcc9ad514b93d93e104f773c0718769aeae5a4acff96a4dc42591",
+          "name": "idbmeadow-1.0.4-py3-none-any.whl",
+          "size": 170168,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:8b338eada1d61f29ed2399f4ef06db2c2aeeca2dec55b9a1b09a7257ac555d4e",
+          "name": "idbmeadow-1.0.4.tar.gz",
+          "size": 126960796,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+      "name": "IDBMeadow",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-04T14:48:38Z",
+      "release_tag_at_snapshot": "v1.0.4",
+      "release_tag_current": "v1.0.4",
+      "release_url": "https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:541fd4f1f0c046fcf6fcd1da4a47388274dac488b74ed64eeebebc0d74b3ccea",
+          "name": "imagequay-1.0.7-py3-none-any.whl",
+          "size": 206451,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:64a5a6d8afbae88b18e2f8d8b618a4b64c413a5659d2a3ffa1aef537474069f5",
+          "name": "imagequay-1.0.7.tar.gz",
+          "size": 724163,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "aa76377254fdb2f18286f452bbeb1512a4b034a5",
+      "name": "ImageQuay",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T14:05:03Z",
+      "release_tag_at_snapshot": "v1.0.7",
+      "release_tag_current": "v1.0.7",
+      "release_url": "https://github.com/dhtfish-98/ImageQuay/releases/tag/v1.0.7",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:96c0cdbc75a142a9c310966c9a01263683f6f13ec2fc310cbeb77d35d6ded189",
+          "name": "cvp_jks_truststore_review-0.1.3-py3-none-any.whl",
+          "size": 13413,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:23c22b1f742c754e40e3ef1735cf214da14e001f1388ef0da26db5258fb03f84",
+          "name": "cvp_jks_truststore_review-0.1.3.tar.gz",
+          "size": 29335,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:186f8312f43516644d095899e9e0db8e9013ed617dc23f86fa65257c2349ad98",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1235,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:0f31071a3d9aca9140336b7d44703fed7bc03cd36459fdc0b0257a251287bdcd",
+          "name": "SHA256SUMS.txt",
+          "size": 308,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "cffbcda8f8db5c97d26541acf32801eff5da25b2",
+      "name": "JksTrustStoreReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:35:20Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/JksTrustStoreReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:934ce55555683e2a97af510d8572422951a383ca5d40bb0d45d879066c793884",
+          "name": "JupyterKernelOriginGate-v0.1.0-source.tar.gz",
+          "size": 9649,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:3499e900ac906d1952372d836a7bd5cd9de540890ed3079243b61f770b6dd28e",
+          "name": "jupyter_kernel_origin_gate-0.1.0-py3-none-any.whl",
+          "size": 5303,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:bda205ac2c52ecfe3aee2cdfc92eca7374f7469ccb6602c68cbfb431b2ef12f6",
+          "name": "jupyter_kernel_origin_gate-0.1.0.tar.gz",
+          "size": 9321,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:94f15d2de06bd85e4a46daa3e7a0c16b3b35e9f1b4deafc5ab0c9905ba2b76c1",
+          "name": "SHA256SUMS",
+          "size": 333,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "2cca5eea7551b4c011cbcaf87f13941eea903002",
+      "name": "JupyterKernelOriginGate",
+      "payload_count": 3,
+      "prerelease": false,
+      "published_at": "2026-10-05T18:55:05Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/JupyterKernelOriginGate/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 3
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:a027bb195d58723d0c6b104cd6086d85d530ce6c2ed934da5c5d87d88b597626",
+          "name": "cvp_jwk_set_review-0.1.4-py3-none-any.whl",
+          "size": 14667,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:6e81da6e6e52f3ec780ef7caeb912295629b3470cf78c5dda7fef1c2dccb5168",
+          "name": "cvp_jwk_set_review-0.1.4.tar.gz",
+          "size": 31884,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:ac35de11ea660c04ec133ac194ce183eab6e513272c291bccfbc79ac9ccb81b5",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1778,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:34a603e48a833f3cc8c2520e013cfa261b301bb3d223cd551290029a7053c9df",
+          "name": "SHA256SUMS.txt",
+          "size": 294,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "a40c2205aa5e2ccebf6dfa46f91b56a27b764ac4",
+      "name": "JwkSetReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T14:08:20Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/JwkSetReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 1,
+      "assets": [
+        {
+          "digest": "sha256:80f8e7f5075769ee6bf9a88d37adf3988c9149c58759e9855f4a13cdf197e1f7",
+          "name": "KernelCabinet-v1.0.2-source.tar.gz",
+          "size": 31719,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "7cd05089810b2c3ad35e48a4989c56e9c0648a85",
+      "name": "KernelCabinet",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-04T04:18:35Z",
+      "release_tag_at_snapshot": "v1.0.2",
+      "release_tag_current": "v1.0.2",
+      "release_url": "https://github.com/dhtfish-98/KernelCabinet/releases/tag/v1.0.2",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "ab4df4cf35ce1f359b9646ffb20d15c1d9ab4a35",
+      "name": "KubePodReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:16Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/KubePodReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:6e17b4faf80bfd72696490fb973a739207a54830e49c2bf6e2978eabdd90a2fb",
+          "name": "lifecycle_policy_review-0.1.4-py3-none-any.whl",
+          "size": 14201,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:3b40166b4f240429cb0a86cbb916651ecaa1ce9b1af00fb92625caad2e7cb736",
+          "name": "lifecycle_policy_review-0.1.4.tar.gz",
+          "size": 49917,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:17824175a455638d2a209b6647fd9eb80af3c29c5e4ebe122c6c50c1a75cadad",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 8610,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:2680557a7bc1e6bfb9aaccee364be4169299a44c54b00ec5a14111117205406c",
+          "name": "SHA256SUMS.txt",
+          "size": 304,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "7fb7679a5e5a09ed65333aaba81e393cc3448783",
+      "name": "LifecyclePolicyReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:46:22Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/LifecyclePolicyReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:7fec36b278438f1d26da8e204a313a087ba6f5cb41620c21f63a60b9ca4cb52b",
+          "name": "lnk_evidence_review-0.1.4-py3-none-any.whl",
+          "size": 38919,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:6578ba68dcc4664e6ca58b47a0141bd802060dfb2dc411c11baa42807e8d05f9",
+          "name": "lnk_evidence_review-0.1.4.tar.gz",
+          "size": 67854,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:698356d233707913efc723214857560291ee514f63b365be85acc1953fc28b5c",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1781,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:c275d5299c7ce1194467dc53b54cf099e3813190c110e06730c010661d95ab4b",
+          "name": "SHA256SUMS.txt",
+          "size": 296,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "9e43d33baf67ba205d9101cbe505fe0f08865830",
+      "name": "LnkEvidenceReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T14:08:20Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/LnkEvidenceReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "0debdcd194041321c7471849fafb80702b4b347e",
+      "name": "LocalSecretReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-04T04:44:09Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/LocalSecretReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "0df36ecba4279496951cbaeda8dd594aa5ba6ba3",
+      "name": "MachOInspect",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:02:30Z",
+      "release_tag_at_snapshot": "v1.0.1",
+      "release_tag_current": "v1.0.1",
+      "release_url": "https://github.com/dhtfish-98/MachOInspect/releases/tag/v1.0.1",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:aaac2acb3ca5204353b05539c1c837b34bd73c8e015e344f465468dd03afe5cb",
+          "name": "mail_evidence_review-0.1.4-py3-none-any.whl",
+          "size": 26141,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:a16abe5d19f56daf7ea982c9aad57cc83db6b77767b65d3728911e396b9b2cc5",
+          "name": "mail_evidence_review-0.1.4.tar.gz",
+          "size": 59872,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:518beaefe178d203e79cee6a361a17cb11309eafe5dcafceabed36df0b7d741b",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1788,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:43fc85835dba02550669e4e83171a2294a8dc32c058e236242441a49f72d6bbc",
+          "name": "SHA256SUMS.txt",
+          "size": 298,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "aea91b37c10f08e93c683a59cfb0d80b26c015f0",
+      "name": "MailEvidenceReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T14:08:20Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/MailEvidenceReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:4eb434138dcc3bac6c30ee7f4e9a98caa596191dbc350972f7384f8d533a1aab",
+          "name": "cvp_minisign_file_review-0.1.4-py3-none-any.whl",
+          "size": 12354,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:4cb8488651cf61af19e46eae298b4b18460105c50a596655ecdcc88d61f06f3c",
+          "name": "cvp_minisign_file_review-0.1.4.tar.gz",
+          "size": 29618,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:ae088779a92f038b15d8e4967c86f76ed9c89aada21e5967f4cb89c225752303",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1820,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:f2bf1701a6ad2f3e60d89ae2c726af9ea33e1e9a41ea84e617b7394d37500223",
+          "name": "SHA256SUMS.txt",
+          "size": 306,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "11d82796b9d912b7d5f601f44c55935beca259fe",
+      "name": "MinisignFileReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T14:08:20Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/MinisignFileReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:a6feeeda631b42b8ceddb7be77e08171b3c87185070a4018c20f8d800edee0f7",
+          "name": "model_opcode_review-0.1.5-py3-none-any.whl",
+          "size": 19054,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:9c8f1c0346cfcbcc23922e739e81dd39e8e58b0d2da0e185325b7907861ed3e3",
+          "name": "model_opcode_review-0.1.5.tar.gz",
+          "size": 66610,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "095f9b5146d4cf713b306247c37d1251a40f8047",
+      "name": "ModelOpcodeReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:36:18Z",
+      "release_tag_at_snapshot": "v0.1.5",
+      "release_tag_current": "v0.1.5",
+      "release_url": "https://github.com/dhtfish-98/ModelOpcodeReview/releases/tag/v0.1.5",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:e0e13bccd9cea85cfd4096a6d88face782e9b650fae1e42a10f4da431feed095",
+          "name": "modprobe_policy_audit-0.1.3-py3-none-any.whl",
+          "size": 9296,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:c74e3a37839c4f00f6d201b44cf0095feb1e204d843999f7e7fa93ac29e0caf9",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2096,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:2cbbb3ee75791bf765df7308f0117774455e96fa137cf7afcdad0ac67245f111",
+          "name": "SHA256SUMS.txt",
+          "size": 199,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "7cacd72aaac883a640a5f24c2555c0c97fa07d39",
+      "name": "ModprobePolicyAudit",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:09:38Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/ModprobePolicyAudit/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:c48da8e4ac6114556d272d6271309f183fb76819bc6b76a90cac4f6b25f762ca",
+          "name": "nats_subject_tenant_gate-0.1.0-py3-none-any.whl",
+          "size": 5767,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:67e4eebcc938df737a7b1eac47619f835c56eced5692c69b736b0efecf001d97",
+          "name": "nats_subject_tenant_gate-0.1.0.tar.gz",
+          "size": 13607,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:d4acf9ec156ddced69f6d1c990a2d5b5ac9e6a9347705784fb43a103b7e95390",
+          "name": "SHA256SUMS",
+          "size": 218,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "044174f67b6f5166f3c3705d274f26118df0d5d6",
+      "name": "NatsSubjectTenantGate",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T19:06:50Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/NatsSubjectTenantGate/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:a180d6b18786914657a1f9453032a206b2cf029017b295db7121d7233135fb57",
+          "name": "cvp_network_policy_reachability_review-0.1.4-py3-none-any.whl",
+          "size": 15647,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e41f5f844bf5e5dd183bc50440d12e5e3dd14e04b58ead68c2d1f8a2e2fcf3c6",
+          "name": "cvp_network_policy_reachability_review-0.1.4.tar.gz",
+          "size": 33584,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:46c0f52b1c70ec4f84268ed121c243b4cbd31fa8d00789fc05a69b686e33a4b8",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1914,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:77c80b1a4fc2e59d80e43eb8d686968c56c69628ac0315c26ff1bf883253dee1",
+          "name": "SHA256SUMS.txt",
+          "size": 334,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "fc9c1e2ab30dcc0ea85a28800eaa22133157ca85",
+      "name": "NetworkPolicyReachabilityReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T14:08:20Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/NetworkPolicyReachabilityReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:310711891d5287eb9f3d70950a4bb04e42a05425c0588afe2dee5244db02d826",
+          "name": "NftIngressAudit-0.1.4-source.tar.gz",
+          "size": 23159,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:8776a04279dccdf08930ac7c7f31f4b5401425279f5f9fb1fbc76a7aa4ec0425",
+          "name": "nft_ingress_audit-0.1.4-py3-none-any.whl",
+          "size": 10075,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:06dd4e04d959bba4c99ba5029633853cb20603a2791070848040eedfd3604e02",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 8656,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:42da6bf658137354a6c9587b9ba06790e38a4081fd7b44649e1d180d125949d6",
+          "name": "SHA256SUMS.txt",
+          "size": 297,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "a1e485d3cf24410332467f69812acbd2eb6e08ed",
+      "name": "NftIngressAudit",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:16:28Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/NftIngressAudit/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:8e03df7de27140c9255142a697ffa0135843fa41c911c5776b0a3e93866188ff",
+          "name": "nginx_config_guard-0.1.4-py3-none-any.whl",
+          "size": 27439,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:d5d8260fa674997d3370ec1f4d2e5d35d2a85d23f86818c5f7db1b0a73698b80",
+          "name": "nginx_config_guard-0.1.4.tar.gz",
+          "size": 57262,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:ef2cb222a60f5924b77b89a0eddfb746dd55628e2d6a9ca55051049a8144102d",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1871,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e7706537e58f9f4dad7589e637c9a4ac7d1dc6212720220c66d8dfa4b152e361",
+          "name": "SHA256SUMS.txt",
+          "size": 294,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "6366317e7817e121d981ed9e9fbd9714e76f3fac",
+      "name": "NginxConfigGuard",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:52:15Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/NginxConfigGuard/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:369b0b498c36ddb532c343b2e5b1a74faf04a9631314a85f07f1b11d358e291c",
+          "name": "ObjCAtlas-source.zip",
+          "size": 391400,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b6f098a42dec090ddf770055bdfa49efd86ff48e9e167a666dcc3738452f0864",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2131,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:f413b67e3fb4010224be04d968df199a3b9ef254d5a44db90a36b3f8c55a67b3",
+          "name": "SHA256SUMS.txt",
+          "size": 175,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "231b5aa5762b1696835d0d2ba4d7c12ad9e814ca",
+      "name": "ObjCAtlas",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T19:25:46Z",
+      "release_tag_at_snapshot": "v1.0.4",
+      "release_tag_current": "v1.0.4",
+      "release_url": "https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:91ad744a5764b15b7aa762fb9f2d3aec6ca046a359c33dac35917a883a15d154",
+          "name": "cvp_ocsp_staple_review-0.1.4-py3-none-any.whl",
+          "size": 13520,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:ed4dc7283b48177b6e8687023f007f67bd898178a8c9816002bec17ffaa2ab75",
+          "name": "cvp_ocsp_staple_review-0.1.4.tar.gz",
+          "size": 31899,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:bec2ee9ac3e2a5d26ede9d3cc0a936d06777dbe4494db12722d9eeb46d8ca203",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1806,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e92a9e7d7a6c5e88fab17e5525b22135b543189bb8b55e1a5c2cf4601081d3ef",
+          "name": "SHA256SUMS.txt",
+          "size": 302,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "f8b7209d9745ca41f41f4600ccba0d5183924205",
+      "name": "OcspStapleReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T14:08:19Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/OcspStapleReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:318c0ee45e7cbc1923e94cdf18de7099e89c249cc79543860fea215f08de6378",
+          "name": "package_origin_review-0.1.4-py3-none-any.whl",
+          "size": 23478,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:cd7eed018ac1a8c9e70fe006301f252513c814226eb787e57fe057d76b9fe1db",
+          "name": "package_origin_review-0.1.4.tar.gz",
+          "size": 41644,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:d8a6e84208cd6e4a681d76cd40d531d6887a96c0f042c36d18c940f6bbd64416",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1795,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:2a823eb8f82b61f655b8535da51ba7197d268921cf4e85af92b6393e553604ef",
+          "name": "SHA256SUMS.txt",
+          "size": 300,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "7f2dbb83789a7b665b05be3b57fd37248f7b8e86",
+      "name": "PackageOriginReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T14:08:19Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/PackageOriginReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:5af7aff2c27ff01d3fddc3b624fbbf81115aac5e7c8c5c393f26e2df3df00291",
+          "name": "pam_stack_audit-0.1.3-py3-none-any.whl",
+          "size": 9763,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b4e5b64e4b838a7952ee30d2a7a11ffd6f6d384335d26ecac1b461a5ff175e52",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2046,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e50bd05719d2cf8fbe778c43b8e2286e5af2f1d24323901eb9b4c29858776209",
+          "name": "SHA256SUMS.txt",
+          "size": 193,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "edb12bbee95a9415e2127a4aed40196f1e842b4f",
+      "name": "PamStackAudit",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:09:38Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/PamStackAudit/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:4ee01ccb34cd965e5aa01ee8975635e0200c6d5bd2bdfdafc62d1fda9037f2e0",
+          "name": "pdf_action_review-0.1.5-py3-none-any.whl",
+          "size": 20109,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:70bdf07acc6f2ec755010f6e35d63cc5a4e16699d009e7f33fc5ee7631716e76",
+          "name": "pdf_action_review-0.1.5.tar.gz",
+          "size": 48478,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:113ce588a203df443452425030a87c31c478aa9fd98392090650af88d800e545",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1645,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:cdc73ca3e618c613ec74fb68a44ede3044be8b56b6c9c17338c3f7ce783b669d",
+          "name": "SHA256SUMS.txt",
+          "size": 292,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "b7a58adfd2bd169b9da6fb0ac0d8cd1805bef351",
+      "name": "PDFActionReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T14:08:20Z",
+      "release_tag_at_snapshot": "v0.1.5",
+      "release_tag_current": "v0.1.5",
+      "release_url": "https://github.com/dhtfish-98/PDFActionReview/releases/tag/v0.1.5",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "94e266085f99b3265ad865b2a2915cedf6b5604d",
+      "name": "PEHardeningReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-04T04:44:09Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/PEHardeningReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 1,
+      "assets": [
+        {
+          "digest": "sha256:0e12e7924e66c6244542de2a01b266d6e5d04aac75b311100033a8cd7abda1a3",
+          "name": "PluginHandshakeTrustGate-0.1.0-source.tar.gz",
+          "size": 13385,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "83f085a446a6378f75d03c4d907e0d7deb0e2557",
+      "name": "PluginHandshakeTrustGate",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T16:29:05Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/PluginHandshakeTrustGate/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:705c9f75a26142df2f53dc30e1e2206bfa00faf83403902b0a78191bcef756fb",
+          "name": "pngstreamreview-1.0.3-py3-none-any.whl",
+          "size": 6313,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:bb3cf4667d3280072a7cf0a2a345b77f0f923c2c4f6d739acb1af1b68b4af2f0",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2147,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:93422b44af0298cd85c5af907c82ff544258403d4c2a3246a1c01cffa21f67ca",
+          "name": "SHA256SUMS.txt",
+          "size": 193,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "a87b2b7db9d91f1b18640d16f21982c9a8efc412",
+      "name": "PngStreamReview",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:52:23Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/PngStreamReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:bedc82fa515d624e5af2551d76e70fa9ad2e293ca812e19fa3b433a034c4d3ca",
+          "name": "policymosaic-1.0.7-py3-none-any.whl",
+          "size": 105351,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:85ac68d13ae61e3b1a56db2021b6199fc98eadc9cb7d3845c2404fbc237e14ef",
+          "name": "policymosaic-1.0.7.tar.gz",
+          "size": 160969,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:1d3eb77bdee0bc8ea7a7eab5d30522deeff3478ea899b2db136974419ac15006",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1795,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e37c58a109d6c2f23e44262f999e77866f1db7d64c3a514bd722907c0253e681",
+          "name": "SHA256SUMS.txt",
+          "size": 282,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "f3f2b80d4527ab1e4afefd3e4c08f66798f51485",
+      "name": "PolicyMosaic",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:52:29Z",
+      "release_tag_at_snapshot": "v1.0.7",
+      "release_tag_current": "v1.0.7",
+      "release_url": "https://github.com/dhtfish-98/PolicyMosaic/releases/tag/v1.0.7",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:bfb511f110a366458c9bca82f7dab7d9c6a2e29f44e3df48b5f012217e0d69cf",
+          "name": "prefetch_evidence_review-0.1.3-py3-none-any.whl",
+          "size": 18339,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:59bffa514d9091eb1929d638637f1a2a39f51e2f9e9be118bfb4dfe45184cf79",
+          "name": "prefetch_evidence_review-0.1.3.tar.gz",
+          "size": 101570,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:4d1d4cce791fac0e24de4772cf46f937e32b273d8831b29d374465380ed28529",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 9949,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:439fab4889aba7a67b6446151dc18a4f4991ca0f0592f874f6431023b27dd2b1",
+          "name": "SHA256SUMS.txt",
+          "size": 306,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "bf9885671328e0a0c036b3c3116730a5e45a7e5d",
+      "name": "PrefetchEvidenceReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:46:27Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/PrefetchEvidenceReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:3baaa455e09b46afcf3bd86857c535e631fed9f1f0b7a18441437a8c95cd781e",
+          "name": "proxy_identity_header_trust-0.1.0-py3-none-any.whl",
+          "size": 7167,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:25001c20cdd1540904fe75d6d53c80a31195dc42e1b51ac130be5ac10b0964d0",
+          "name": "proxy_identity_header_trust-0.1.0.tar.gz",
+          "size": 8195,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "8c3866dae7aa5ea2f3e9b94c9fd606d62e60ef3e",
+      "name": "ProxyIdentityHeaderTrust",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T16:22:16Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/ProxyIdentityHeaderTrust/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:a347dcf6f6fbd2cab3688658eb3a8edf9ebe7fc398a5644d1525b5730a8288e0",
+          "name": "QuicEarlyDataPolicy-v0.1.0-darwin-arm64.tar.gz",
+          "size": 9880951,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:9166c482594514d5633be9fcb68d7714c73bb2e889716cf44bb73eebfecdce47",
+          "name": "QuicEarlyDataPolicy-v0.1.0-linux-amd64.tar.gz",
+          "size": 10377659,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b02ab7fa88a86ce021b290bab4793ca70eda5cbc71ddb30111c5a60b1b33ce47",
+          "name": "SHA256SUMS.txt",
+          "size": 225,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "5ce8bd25c080cd0d67459b5db8a6045b1fc1649f",
+      "name": "QuicEarlyDataPolicy",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T19:24:02Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/QuicEarlyDataPolicy/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:d382e2c027357c1b57702e68fe82556804a6e63ccef06d7c4015f15edb5b3925",
+          "name": "recovery_code_account_binding-0.1.0-py3-none-any.whl",
+          "size": 8138,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:cbb555fec504a2705e0a5fa2ade9052e4db3734012719672148a93504b5cbab3",
+          "name": "recovery_code_account_binding-0.1.0.tar.gz",
+          "size": 16810,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:8007c98a52224444a15fdbdef345d3f2d1724f55b92dd0406da070a4b9dbfa61",
+          "name": "SHA256SUMS",
+          "size": 228,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "c3175b55aab23903f1badfb02e3efaf363474d7d",
+      "name": "RecoveryCodeAccountBinding",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T18:49:05Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/RecoveryCodeAccountBinding/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:41c000b6125224b5ee8d21938283fdf08e2e5000559b951afbcdc13bbc6a4b58",
+          "name": "recyclerecordreview-1.0.3-py3-none-any.whl",
+          "size": 5707,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:005d6d15eee3784335cc1b0d15886897118c3ce4e7f0060cad71b5fe22341d40",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2175,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:23767dd107f24f2ef90d7abf5a7ab8197ab5b9af0ce5a4910d51d2fd8251214d",
+          "name": "SHA256SUMS.txt",
+          "size": 197,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "6139f6ab6e0140158aadab7a79ebe9f1a5a32128",
+      "name": "RecycleRecordReview",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:52:29Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/RecycleRecordReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:e25a37047faef195f4ed5eaea2eddc42263894aab4832b0c025c11de8d6019d2",
+          "name": "redirect_credential_boundary-0.1.1-py3-none-any.whl",
+          "size": 5567,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:c263c31bdf42ebc1814bd71de3b75937a34f7cd3d39eaa9e61fde3987d704cde",
+          "name": "redirect_credential_boundary-0.1.1.tar.gz",
+          "size": 9050,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "7802a8dc27c9eaf1718127815f14d0c2946490fd",
+      "name": "RedirectCredentialBoundary",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T16:02:27Z",
+      "release_tag_at_snapshot": "v0.1.1",
+      "release_tag_current": "v0.1.1",
+      "release_url": "https://github.com/dhtfish-98/RedirectCredentialBoundary/releases/tag/v0.1.1",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:a0860269b2cbb110ee1ec4d48446830913a3f4daed8898ba86a4683c32748a17",
+          "name": "refresh_token_reuse_revocation-0.1.0-py3-none-any.whl",
+          "size": 9039,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:d7dc71d309dbe1e0c3a3caa33fe1a20a334fd330d1df84a29bf06be4a286ab4f",
+          "name": "refresh_token_reuse_revocation-0.1.0.tar.gz",
+          "size": 14971,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "9e7267507d91e85059297984935b0fe1fa60384a",
+      "name": "RefreshTokenReuseRevocation",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T18:16:23Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/RefreshTokenReuseRevocation/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:0c72e6863733bdc3ffecb276b35d9281f61839ce0135d30a9f686c04b5197214",
+          "name": "registry_hive_review-0.1.3-py3-none-any.whl",
+          "size": 21058,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:86af25e418d92c3ff07e94e06c1fb0af0c0b39265418dbe34ee7a9878722975b",
+          "name": "registry_hive_review-0.1.3.tar.gz",
+          "size": 64363,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:6b3a671300a96b08928a262f75b8999b7046bb7b1dfe7324f892a14d22cf15c9",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 8344,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:99bc424570c76add3e35e6fc20f0f171ed1c732e8db21dc0053e102e65ff6ab9",
+          "name": "SHA256SUMS.txt",
+          "size": 298,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "2a514e782ba5c96cfffdaafff242f230de4c7774",
+      "name": "RegistryHiveReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:46:27Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/RegistryHiveReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:d9bf9994b241fde41d3aa64653246f35d75400b7d969953a90f7590a58394c52",
+          "name": "relation_access_decision-0.1.0-py3-none-any.whl",
+          "size": 8280,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:30e10497f7238cbb4431079d62bd05c17c861824cc931d2ff87dcdac82a25a58",
+          "name": "relation_access_decision-0.1.0.tar.gz",
+          "size": 15129,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:ff60d0b82e27d775433eb66a5a4818b6640b3515dfa736cd60ca4ca8b3ca7241",
+          "name": "SHA256SUMS.txt",
+          "size": 218,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "f6b1b67f365a791fc20f988da5c64b7634c07e1c",
+      "name": "RelationAccessDecision",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T17:14:52Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/RelationAccessDecision/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:dcb2e013d0102ec1f613b7845e208f150b3ab57196caa52b8ac7ed30cf67744c",
+          "name": "cvp_saml_metadata_review-0.1.3-py3-none-any.whl",
+          "size": 16059,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:eaac60e82eb4a863b5d197a82f5bc3acfa669605ce738f71a3df4c39ed892d4e",
+          "name": "cvp_saml_metadata_review-0.1.3.tar.gz",
+          "size": 35941,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:911ba64655f34a0028ee1b1db450814da0cd98ee1afc85d180ca5dcf786f22ac",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1258,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:1faff91e140a28b07467fc80c8c4ce6b64c1ea17a95cc9d20bd7d1407e549abb",
+          "name": "SHA256SUMS.txt",
+          "size": 306,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "3bc59913f7e7ce56561fc2ac38669e478fea316c",
+      "name": "SamlMetadataReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:13Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/SamlMetadataReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:0ab44bd6c5425f3436b8c114d9822bbdc057e58b9311b848e2fe0d5abd404e54",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1246,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:4e317f8335979eb7d91911ac8469e12c5a6a33e29c2ec14bbc11888f54ca0720",
+          "name": "sariflinkreview-1.0.3-py3-none-any.whl",
+          "size": 8403,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b54ee1a9da2f04446fe2fee111b6971b839880206821a01ad111c032a4d7574a",
+          "name": "sariflinkreview-1.0.3.tar.gz",
+          "size": 25866,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:55ccde1b7450e7394166d8788f623a62778f79d4f04c7f4cdd848865a19513c1",
+          "name": "SHA256SUMS.txt",
+          "size": 288,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "69e8e3dfb8619aa804064bb928c4fa11e75c7e63",
+      "name": "SarifLinkReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:13Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/SarifLinkReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "893e2efcf051a914ebec68d96f9d00e6a951ea03",
+      "name": "SBOMFieldReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:06Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/SBOMFieldReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "879942bc6ad1c2131f294a9b6b735e87f15ba7c1",
+      "name": "SealScope",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T13:24:55Z",
+      "release_tag_at_snapshot": "v0.2.2",
+      "release_tag_current": "v0.2.2",
+      "release_url": "https://github.com/dhtfish-98/SealScope/releases/tag/v0.2.2",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:3918b47280ca0adbd415af9bf90bd54c90077e2568c95a5afd58b4eaf387ee00",
+          "name": "sftp_handle_permission_gate-0.1.0-py3-none-any.whl",
+          "size": 7554,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:caa56f7ea9d7b4da30f726be1a7ac42c37b6a09c1b8aca460b4879e8c5ecd2a2",
+          "name": "sftp_handle_permission_gate-0.1.0.tar.gz",
+          "size": 12769,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e528b82bc7e8f339d9a37e8dd4282e1a7a3ca862d3604a448076ae6f5cf3d889",
+          "name": "SHA256SUMS",
+          "size": 224,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "3db61f5330d927c0446a2839d9d4d50e9438514b",
+      "name": "SftpHandlePermissionGate",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T18:38:59Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/SftpHandlePermissionGate/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 1,
+      "assets": [
+        {
+          "digest": "sha256:0e343b5ea5b64d6ec8cac75cb4174bc4371207c19b5d6daa68e4c734a5ccbb27",
+          "name": "SILGallery-v1.0.4-source.tar.gz",
+          "size": 35081,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "befc52fb320ab5e3d8bc6d295e86be0a09e13cff",
+      "name": "SILGallery",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-04T09:28:17Z",
+      "release_tag_at_snapshot": "v1.0.4",
+      "release_tag_current": "v1.0.4",
+      "release_url": "https://github.com/dhtfish-98/SILGallery/releases/tag/v1.0.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:09d38a55f8bd11b2f7f67a17152bb96faa6c5a39821348c5350264c926a445a7",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 9342,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:a6238655c9b210e3a99405c5273ca6decd442c479b464d9494eb1c8c02ac2855",
+          "name": "SHA256SUMS.txt",
+          "size": 300,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:cc07f889df23ab9298e2bcb1d6c4186f5a13007d3a6b6bd548e5532d0c888e2a",
+          "name": "source_release_review-0.1.3-py3-none-any.whl",
+          "size": 14629,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:22af1a7239e149cad576fd7b5806cca343dd14887f54c932989ccbeb53fe8b9e",
+          "name": "source_release_review-0.1.3.tar.gz",
+          "size": 57254,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "c1a2fceef560dee6db8071eb5c1d5e6980025dfc",
+      "name": "SourceReleaseReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:46:27Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/SourceReleaseReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "7ae53f3459036f0cb40816ac306f1bc8ed6b5765",
+      "name": "SSHPolicyReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:00Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/SSHPolicyReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:12580ed509afa9bd87354f44b79981a09316f4a733e47533b6841a0a1ea96e16",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2056,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:f198756f68afc88ee42e928f2f117d4180b83678baa54ad0f89d5a3562938b3d",
+          "name": "SHA256SUMS.txt",
+          "size": 194,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:920d361b0801b9e492da479bb1a4c7446334e2c9c4299a9d93a649a6ae6635df",
+          "name": "sudo_scope_audit-0.1.3-py3-none-any.whl",
+          "size": 11792,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "1a21b76d266f909bac4e7075bbf79a9269d94348",
+      "name": "SudoScopeAudit",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:09:38Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/SudoScopeAudit/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:df1c7f7a1a9c71754d10c600d5f16648882fc5ffa5415172d1ee9acc7abc58ea",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2090,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:cd3f3a5b57975fda47d5e74cc3573466e8667c1a30be7ac1e5caeda533068387",
+          "name": "SHA256SUMS.txt",
+          "size": 199,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e3c214f6cd922e680585309881b99d0f358057a58e37a2a206800c6bf0083a0c",
+          "name": "sysctl_snapshot_audit-0.1.3-py3-none-any.whl",
+          "size": 9039,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "bee34a7f1cbfcd3b41649c37030e1e54aa0d42e2",
+      "name": "SysctlSnapshotAudit",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:09:42Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/SysctlSnapshotAudit/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:be1cb76a064064ef640e9a6c01c79634abab212e96e3517848fd568a4d8175b8",
+          "name": "tabweave-mcp-4.3.1.tgz",
+          "size": 40972,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:edab9947964ec2f794a91967423c1e2d5cb12a019d0ff537d07f914e5d68ae7b",
+          "name": "TabWeave-source.zip",
+          "size": 52755,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "ad738a0ede9f3ff8e274ed092935eb2e9ae22507",
+      "name": "TabWeave",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-04T15:45:22Z",
+      "release_tag_at_snapshot": "v4.3.1",
+      "release_tag_current": "v4.3.1",
+      "release_url": "https://github.com/dhtfish-98/TabWeave/releases/tag/v4.3.1",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:1f264f844fb2dceedd4d49a41d9e71ad00274c8d99f71160cd023ab12bcd62db",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1556,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:2d78483fc66b853bd089d3af66fcf62f8f763adf0cdf268ce37c7039e87cc29b",
+          "name": "SHA256SUMS.txt",
+          "size": 292,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:6e2c56f70c8c4e5a0cf5f2ff26c4b5bb23ec2e4dddec58e5d1aa4e39e230ac77",
+          "name": "tls_profile_forge-0.1.4-py3-none-any.whl",
+          "size": 36434,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:91be6b36789ca8096bec6b22b4a778faa18d86f0a485ed23fd859104c6c2ce20",
+          "name": "tls_profile_forge-0.1.4.tar.gz",
+          "size": 102610,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "1c3de1f789e0730d1bf34181511b0b7f440490c7",
+      "name": "TLSProfileForge",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:59:18Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/TLSProfileForge/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:4c0c9101532399020160d474e730e7ebc99fb5f9878824acf032be68b9b137a4",
+          "name": "tracemeadow-1.0.4-py3-none-any.whl",
+          "size": 171117,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:a372d3b7c979d89a81b9d4e92282f252a8d1f9569bb194e594e651f2ec8c8531",
+          "name": "tracemeadow-1.0.4.tar.gz",
+          "size": 5301616,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "7d502d29e653b3a36b945ba8044893e1ecc0d895",
+      "name": "TraceMeadow",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:49:28Z",
+      "release_tag_at_snapshot": "v1.0.4",
+      "release_tag_current": "v1.0.4",
+      "release_url": "https://github.com/dhtfish-98/TraceMeadow/releases/tag/v1.0.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:9b0da2258d6d93ff6482c244db7390bc76e1472f1229af43c112e7676ccc7ae9",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1256,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:6ea8200f6cd27ecdb316712e17269af776df7c3e06684384dda2150dcf854662",
+          "name": "SHA256SUMS.txt",
+          "size": 306,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:30ecac8b09cc49016a18a5a83753b105b6f217961c4ed514ef2a7afd34d6f28f",
+          "name": "transparency_proof_check-0.1.3-py3-none-any.whl",
+          "size": 30447,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:cb206f687ad24a5c7aa23f61e1c8c56618a222a2c6743495af57319671078346",
+          "name": "transparency_proof_check-0.1.3.tar.gz",
+          "size": 75872,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "1235b11cac42f905359ae50cf53ab8359f301c9e",
+      "name": "TransparencyProofCheck",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:13Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/TransparencyProofCheck/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:b05728fcfe2fefb184070eb4a096247d7a745286a040880d28edf336c2e29ce7",
+          "name": "cvp_tuf_top_level_review-0.1.3-py3-none-any.whl",
+          "size": 14318,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:abc37f1933e2c5e7a39ae9f3f5efc551fa608449a31722bd53b153caee98794d",
+          "name": "cvp_tuf_top_level_review-0.1.3.tar.gz",
+          "size": 31334,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:94d2468b6e441e115e60f021407adfcd3ebd66da8a54299ae4c46c77a72279ab",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1256,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:fbb252496a131291289b20616ec4dd75dca5bef8d881403f258adbc807b098ba",
+          "name": "SHA256SUMS.txt",
+          "size": 306,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "f37d6a281b174105b86af8144eb4b0c8d5bbba4e",
+      "name": "TufTopLevelReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:13Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/TufTopLevelReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:039ef0d058428b895ee862069de68ad5ef2abcf860bdcc9328fe9eb1ad7c23f4",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1244,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:a0acfd2ff8d77eedf00a4696e101f679911e1275e0a49cbc65c4d66c204e6260",
+          "name": "SHA256SUMS.txt",
+          "size": 300,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:31792bd17c43e22ea7ae7cccb21994ff644a2a79782e9725ec7d759f5c0d11e5",
+          "name": "unicode_source_review-1.0.4-py3-none-any.whl",
+          "size": 20156,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:c792662c4b726e08a016062e56cec2e47d9b4c13b5f9eb59e4392bfe9db36fb8",
+          "name": "unicode_source_review-1.0.4.tar.gz",
+          "size": 36902,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "80be270c1bddd1ed2b068b60a29e630e2e8d101c",
+      "name": "UnicodeSourceReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:17Z",
+      "release_tag_at_snapshot": "v1.0.4",
+      "release_tag_current": "v1.0.4",
+      "release_url": "https://github.com/dhtfish-98/UnicodeSourceReview/releases/tag/v1.0.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:eadbe803d949e98450537443905907584c5dd47e0ec50d9fd5a7b42804797d46",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 8682,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:7231db30b0b993a6c4151a289ad9ec10cb980db538833aebdcec0aa154710a88",
+          "name": "SHA256SUMS.txt",
+          "size": 299,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:ae7c6ff07529240afa014238205d845a3a8ec2b8c9b301ba00d3351263cc57d3",
+          "name": "UnitSandboxAudit-0.1.4-source.tar.gz",
+          "size": 22533,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:38366efc8494b07c02ff54a11f6ba71c9c2250a39fb9a4dd653c8bfe5fb26f47",
+          "name": "unit_sandbox_audit-0.1.4-py3-none-any.whl",
+          "size": 10288,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "1c24f333a3995d3ec95807b30bdffe0f0595af85",
+      "name": "UnitSandboxAudit",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:16:32Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/UnitSandboxAudit/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:95a9e5843bf599cb223a2f668c442882800b9d0c88191680a91959d5943e75fb",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1247,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:14a1c5a99190b396f11ec07eb886d8fdf1c1f92493d4eb1fb45166779ecc1d8b",
+          "name": "SHA256SUMS.txt",
+          "size": 288,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:68f280af360434cc2b337b2f6415939f50c793ee676f0a5673b5bd7a17cac669",
+          "name": "usnrecordreview-1.0.3-py3-none-any.whl",
+          "size": 17062,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:25de0415fa0361679334d46478a5528c3bdac9a5b95a5f4ca7c797ab3da4d529",
+          "name": "usnrecordreview-1.0.3.tar.gz",
+          "size": 44239,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "2455920c69bb77940537c47ce2a1dc30b3987f17",
+      "name": "UsnRecordReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:17Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/UsnRecordReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 1,
+      "assets": [
+        {
+          "digest": "sha256:6c7e6e6c5d2994de3eed2c53556bb89872f8334e08433e7c80c2cd64b34dfc54",
+          "name": "VTableBrook-v1.0.2-source.tar.gz",
+          "size": 39543,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "2576c786c1ef7f6098f9b51191143f0f46456cb2",
+      "name": "VTableBrook",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T13:23:17Z",
+      "release_tag_at_snapshot": "v1.0.2",
+      "release_tag_current": "v1.0.2",
+      "release_url": "https://github.com/dhtfish-98/VTableBrook/releases/tag/v1.0.2",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:5eed43a56f41d04582a7d97f5996791d77a0706b05ff7a3ea62661ebd0daf4ef",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1392,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:cd1af0a55d16c8adab338c50914a7cfb4346b73b15602139cbe270e456fb9970",
+          "name": "SHA256SUMS.txt",
+          "size": 286,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:6352100a2256f369b6ef53add856a1db958fc98496ce5426daf161582e6b4507",
+          "name": "walframereview-1.0.3-py3-none-any.whl",
+          "size": 7439,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:de1c97e3fa2286a746813fe6ab315aa12a8e67564407906042d04a45faf69581",
+          "name": "walframereview-1.0.3.tar.gz",
+          "size": 22036,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "97a62158424cbb476f53c6c6316109ee7c656557",
+      "name": "WalFrameReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:17Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/WalFrameReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:25d50b21ab72707d7a99122eea1b465fbfb09214657e06fc70b5c6ca550789b7",
+          "name": "cvp_webauthn_assertion_review-0.1.3-py3-none-any.whl",
+          "size": 14107,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:37f6d56af2c626ce2f25db865babf7666556404e76c9f98b9ca28b52e7108210",
+          "name": "cvp_webauthn_assertion_review-0.1.3.tar.gz",
+          "size": 32251,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:3d4e7e2bc0c00054973b27460873b7699c0a444bfffe33278aaf49d7b7be0225",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1278,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:5b20c2a52eef3a69472aabfd36fcaf7f135ac3ccb28367cd533bf5b45d73b68d",
+          "name": "SHA256SUMS.txt",
+          "size": 316,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "8947b868d5dcb92c1391a266c9781b4938990418",
+      "name": "WebAuthnAssertionReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:17Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/WebAuthnAssertionReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:759aa33ac1bfab9a23fa71bf4095aa761155893470146711d81ef0b897213d58",
+          "name": "websocket_upgrade_origin_gate-0.1.1-py3-none-any.whl",
+          "size": 5398,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:0f8d24461e8c45c09168a38f416327b041d0e8fec53c5cfb6f65f0f49269c4fb",
+          "name": "websocket_upgrade_origin_gate-0.1.1.tar.gz",
+          "size": 11348,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "0f666f636cf0d33e9cbcccf5f3c2c54f917349b2",
+      "name": "WebSocketUpgradeOriginGate",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T16:05:17Z",
+      "release_tag_at_snapshot": "v0.1.1",
+      "release_tag_current": "v0.1.1",
+      "release_url": "https://github.com/dhtfish-98/WebSocketUpgradeOriginGate/releases/tag/v0.1.1",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:9b3a31b400ed5018353ced504fc61869bb39fa982af1bfa32038e9312e599089",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 6452,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:ee3cb776663ecefde6da1b4ceeb8a650c38256e304baa59abcb2ed23332d05de",
+          "name": "SHA256SUMS.txt",
+          "size": 302,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:2adc55548f58f678d106a1caa4eca53cb98bcdb42aacbeb3a073f01f4bee81d8",
+          "name": "wheel_namespace_review-0.1.4-py3-none-any.whl",
+          "size": 27139,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:6fc0fdc23c77a2b24a4b9b072fafc78b4815dee338465bb87c3afac55db176f8",
+          "name": "wheel_namespace_review-0.1.4.tar.gz",
+          "size": 52220,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "b65f772a7fcaf4cfae3757f3339ee8ac8c57070c",
+      "name": "WheelNamespaceReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:38:12Z",
+      "release_tag_at_snapshot": "v0.1.4",
+      "release_tag_current": "v0.1.4",
+      "release_url": "https://github.com/dhtfish-98/WheelNamespaceReview/releases/tag/v0.1.4",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 3,
+      "assets": [
+        {
+          "digest": "sha256:f182cdee84b8f9a22c8b855547ace16f8780494faa43aad0a0bd2462f5869e0c",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 2134,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:b8775ec86c8d387e4ebd7d8089a81e858cba10609f3265c4f178c26c8dfa40a6",
+          "name": "SHA256SUMS.txt",
+          "size": 203,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:7a99f19e1d32d82e57e518eb3eb5371c94df1f4a6c1d22552c5a76213d9d2e00",
+          "name": "windows_baseline_snapshot-0.1.3-py3-none-any.whl",
+          "size": 30286,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "05857746cc136978e0e4faf288eee27646ab51a2",
+      "name": "WindowsBaselineSnapshot",
+      "payload_count": 1,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:09:42Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/WindowsBaselineSnapshot/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 1
+    },
+    {
+      "all_assets_have_sha256_digest": false,
+      "all_assets_nonzero": false,
+      "asset_count": 0,
+      "assets": [],
+      "draft": false,
+      "head_sha_at_snapshot": "7ed60f0eb5a6fb02fe215d816ca59899befdb3f5",
+      "name": "WorkflowPermissionReview",
+      "payload_count": 0,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:54:16Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/WorkflowPermissionReview/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 0
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:808c7f0db01f4bdd82b0965f75f2782ed546a151666f86bd91ef656ef2225638",
+          "name": "xml_entity_resource_boundary-0.1.0-py3-none-any.whl",
+          "size": 6118,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:5e96d75aa2ac4e59d84f8b20717ab31a652d9c27c7a4f1dd91aa194ce30dc6f7",
+          "name": "xml_entity_resource_boundary-0.1.0.tar.gz",
+          "size": 8656,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "ee05d37a617e6b989eff10f53cc69fccd4f47afa",
+      "name": "XmlEntityResourceBoundary",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T16:18:58Z",
+      "release_tag_at_snapshot": "v0.1.0",
+      "release_tag_current": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/XmlEntityResourceBoundary/releases/tag/v0.1.0",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:5b2768b41e5480444c389ec425aab3cacbd96246de4fa29bca19cb57a4162257",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1255,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:ec18856f66400bf52a8a6bc3c373e4af2fde7d7cd03796c2c562827a8257d10e",
+          "name": "SHA256SUMS.txt",
+          "size": 292,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:e52feff02a3cab1df4402c605157a89128c9b912c6ace93cb8734a1207a04d34",
+          "name": "yaracompilereview-1.0.3-py3-none-any.whl",
+          "size": 18781,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:2705204fc8e1cba1c5991664c2eead3a0fad0c470b2b602ff07d1c7e59aa39cb",
+          "name": "yaracompilereview-1.0.3.tar.gz",
+          "size": 48179,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "94e315464483beb0d3273806d8da0647069d4603",
+      "name": "YaraCompileReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:21Z",
+      "release_tag_at_snapshot": "v1.0.3",
+      "release_tag_current": "v1.0.3",
+      "release_url": "https://github.com/dhtfish-98/YaraCompileReview/releases/tag/v1.0.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 2,
+      "assets": [
+        {
+          "digest": "sha256:43cae94d2e10cf7b2a8b3b36302bc162e9425150a4b44f291f47bb095ee6ef57",
+          "name": "yara_rule_draft_review-0.1.3-py3-none-any.whl",
+          "size": 21295,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:1262e16587352460d1333608bbf63351dbf08057301fc2b320889c0132ee77f5",
+          "name": "yara_rule_draft_review-0.1.3.tar.gz",
+          "size": 65819,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "be585c9d0ebd6a396b59e0c407a61616e119e0ae",
+      "name": "YaraRuleDraftReview",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T11:36:06Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/YaraRuleDraftReview/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    },
+    {
+      "all_assets_have_sha256_digest": true,
+      "all_assets_nonzero": true,
+      "asset_count": 4,
+      "assets": [
+        {
+          "digest": "sha256:190b4c3c347d266a82cc3307e4952a40c7e512022520b60bbfd51d0cded3fe96",
+          "name": "RELEASE_MANIFEST.json",
+          "size": 1224,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:af2112e7fc055cdf89e31307a21188b68cd094d3d9eaba3a1dac59d87911fcfe",
+          "name": "SHA256SUMS.txt",
+          "size": 290,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:8a120685be2277a2848fe50dd22ee9093dd02ec1f1a5b84b9dab204983c63533",
+          "name": "zone_graph_guard-0.1.3-py3-none-any.whl",
+          "size": 21236,
+          "state": "uploaded"
+        },
+        {
+          "digest": "sha256:0196afcff398c64cc6fa0e6e370d4c097438823ef3b0100a76bc8e1ccbb77351",
+          "name": "zone_graph_guard-0.1.3.tar.gz",
+          "size": 59114,
+          "state": "uploaded"
+        }
+      ],
+      "draft": false,
+      "head_sha_at_snapshot": "3df880f1187e23c234c1c8127a40bd96cd0bd22d",
+      "name": "ZoneGraphGuard",
+      "payload_count": 2,
+      "prerelease": false,
+      "published_at": "2026-10-05T12:55:21Z",
+      "release_tag_at_snapshot": "v0.1.3",
+      "release_tag_current": "v0.1.3",
+      "release_url": "https://github.com/dhtfish-98/ZoneGraphGuard/releases/tag/v0.1.3",
+      "tag_matches_snapshot": true,
+      "versioned_payload_name_count": 2
+    }
+  ],
+  "schema": "public_104_release_metadata_snapshot_v1",
+  "source_snapshot_sha256": "d1aff541bd88989ac9f77043f5c25d5795c9b47f744a04ac6d3b037b1047a5a4",
+  "summary": {
+    "all_nonzero_asset_repos": 85,
+    "all_sha256_asset_repos": 85,
+    "assets": 275,
+    "non_draft_non_prerelease": 104,
+    "nonempty_asset_repos": 85,
+    "repos": 104,
+    "tags_match_snapshot": 104,
+    "versioned_payload_repos": 84
+  }
+}

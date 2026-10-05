@@ -91,3 +91,5 @@
 **2026-10-05 20:01–20:02 UTC 111 仓修正快照：**新增 CapabilityRuleEval 公开源码后，[续审记录](PUBLIC_111_CORRECTED_SNAPSHOT_20261005.md)核到 108 软件与 3 资料。104/108 软件仓的精确提交有效 CI 成功且最新 Release 对齐；CapabilityRuleEval、PEQuarry、SshCertIssuanceGate、SshHostCertTrustBoundary 保持待核对。新版采集按工作流和分支/标签分别判断，避免标签成功遮蔽主分支排队。此时第三批仍是 15/30 正式发行；CVP 资格 OPEN。
 
 [历史 30 项交付接管再筛](HISTORICAL_30_CVP_HANDOVER_RECHECK_20261005.md)逐项对照本次 111 仓快照：6 项保留有条件技术附件，24 项作为工程背景附件，30 项当前提交均已较原交付记录前进；工程交付和申请资格继续分开判断。这 30 个名称与第三批新题目无交集。
+
+[104 个已发行软件仓版本与附件元数据续审](PUBLIC_104_RELEASE_VERSION_RECHECK_20261005.md)确认所读正式标签与冻结提交对齐；85 仓有共 275 个独立附件，19 仓仅有正式标签及自动源码归档。此项不把 GitHub 报告摘要写成已回下载或已安装验证；六个主要条件案例的当前附件另有逐字节回验。
