@@ -81,3 +81,13 @@ SFTP 实验以真实回环 SFTP v3 服务验证句柄授权，不代表外部服
 [NatsSubjectTenantGate v0.1.0](https://github.com/dhtfish-98/NatsSubjectTenantGate/releases/tag/v0.1.0) 发布于 `044174f67b6f5166f3c3705d274f26118df0d5d6`。真实本地 NATS 服务的弱共享账户对照显示跨租户接收和注入；独立账户与窄主题权限下，跨租户订阅、发布被拒绝，本租户仍可收发。审查中发现的审计文件权限与订阅预检查偏差已在发行前修复。主线/标签 Python 3.11、3.14 的源码、解包 sdist 和隔离 wheel 各 9 项测试成功，三个发行附件回下载摘要见[发行收据](NEW_30_RELEASE_14_20261005.json)。上游 NATS 服务只作固定版本测试夹具，未打入本项目发行包；本地对照不证明上游漏洞或 CVP 资格。
 
 第三批现为 **14/30 正式发行**。[108 仓元数据快照](PUBLIC_108_METADATA_20261005.json)读取于 19:09–19:10 UTC：105/105 软件仓的最新 Release 指向各自所读 HEAD，精确提交的有效 CI 成功，108/108 仓的 `Build` 只跟踪 `.gitignore` 且都有「项目文档」。[108 仓精确提交文本和路径复核](PUBLIC_108_EXACT_HEAD_TEXT_PATH_AUDIT_20261005.json)覆盖 4,187 条跟踪路径，105 个软件仓均有权利文件；人工分类当前文本命中后，没有证实 AI/Codex 作者署名。一个 ImageQuay dylib 为已记载解析夹具。此项不审计历史、二进制内容或所有代码语义。[材料角色矩阵](PUBLIC_108_CVP_MATERIAL_RECHECK_20261005.json)仍将 14 个新实验列为有条件本地案例；真实授权工作与官方决定继续 OPEN。
+
+## 19:30 UTC QUIC 发行与 ObjCAtlas 定向修复
+
+[QuicEarlyDataPolicy v0.1.0](NEW_30_RELEASE_15_20261005.json)已按同一提交核对主线和标签 CI、真实本地 QUIC 0-RTT 对照、下载后的程序运行与三个发行附件摘要。第三批现为 **15/30 正式发行**；这证明本地早期数据策略实验，未证明生产目标或 CVP 资格。
+
+[ObjCAtlas v1.0.4](OBJCATLAS_V1_0_4_RELEASE_20261005.json)在保留原 GPL 与作者声明的前提下，修复所审符号表、fat 架构切片和 dyld bind 读取边界。主线及标签报告各通过 22 项契约检查；39 项原始与 39 项维护 XCTest、20 个合成畸形样例通过；发布 ZIP 的 252 个文件逐一与提交对象一致。该项目是派生维护项目，不计为第三批独立重写案例。未覆盖的调试重定位、导出 trie 等解析路径及完整深审仍 OPEN。
+
+此前 108 仓快照冻结于 19:10 UTC；新仓和后续修复应按新增记录核对，不能把旧快照称作当前 109/110 仓全量审计。BuildSecretMountLifetimeGate 因本机没有真实 BuildKit 环境，仍为未实施候选，不计入发行数。
+
+申请渠道已按用户说明确定为 Claude.ai / Claude Code。[Anthropic 当前公开 CVP 指引](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)列出第一方用户经 Verification Portal、授权管理员与身份验证申请；未列出逐项目拒绝或降级截图为申请附件硬条件。是否获得批准取决于官方审查，不由仓库数或本地测试推定。

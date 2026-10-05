@@ -1,0 +1,27 @@
+{
+  "schema": "objc_atlas_v1_0_4_release_v1",
+  "generated_at_utc": "2026-10-05T19:32:21.814063+00:00",
+  "project": "ObjCAtlas",
+  "version": "v1.0.4",
+  "repository": "https://github.com/dhtfish-98/ObjCAtlas",
+  "release": "https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.4",
+  "commit": "231b5aa5762b1696835d0d2ba4d7c12ad9e814ca",
+  "main_ci": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37362771899",
+  "tag_ci": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37362771678",
+  "ci_report_sha256": "8119cfddc92d7012dfd294a6743f3e211574d3a4026cac1829e020aaf10531a1",
+  "source_zip_tracked_files_exact": 252,
+  "source_zip_each_blob_exact": true,
+  "assets_sha256": {
+    "ObjCAtlas-source.zip": "369b0b498c36ddb532c343b2e5b1a74faf04a9631314a85f07f1b11d358e291c",
+    "RELEASE_MANIFEST.json": "b6f098a42dec090ddf770055bdfa49efd86ff48e9e167a666dcc3738452f0864",
+    "SHA256SUMS.txt": "f413b67e3fb4010224be04d968df199a3b9ef254d5a44db90a36b3f8c55a67b3"
+  },
+  "publication_receipt_sha256": "e32510457d624cbce7fb42f1050f086db58bcd1531d571235a918178aa45a6c1",
+  "scope": "Targeted symbol/string table, fat architecture slice and dyld bind stream/name range repairs; 22 contracts, 39 original + 39 maintained XCTest cases, 20 synthetic malformed cases.",
+  "origin": "Derivative of class-dump; original GPL and author notices retained.",
+  "open": [
+    "full_source_and_arbitrary_malformed_input_audit",
+    "device_runtime",
+    "CVP_eligibility_or_approval"
+  ]
+}

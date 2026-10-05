@@ -1,0 +1,24 @@
+{
+  "schema": "new_30_public_release_15_v1",
+  "generated_at_utc": "2026-10-05T19:32:21.814063+00:00",
+  "third_batch_published_count": 15,
+  "project": "QuicEarlyDataPolicy",
+  "version": "v0.1.0",
+  "repository": "https://github.com/dhtfish-98/QuicEarlyDataPolicy",
+  "release": "https://github.com/dhtfish-98/QuicEarlyDataPolicy/releases/tag/v0.1.0",
+  "commit": "5ce8bd25c080cd0d67459b5db8a6045b1fc1649f",
+  "main_ci": "https://github.com/dhtfish-98/QuicEarlyDataPolicy/actions/runs/37362575449",
+  "tag_ci": "https://github.com/dhtfish-98/QuicEarlyDataPolicy/actions/runs/37362759283",
+  "assets_sha256": {
+    "QuicEarlyDataPolicy-v0.1.0-darwin-arm64.tar.gz": "a347dcf6f6fbd2cab3688658eb3a8edf9ebe7fc398a5644d1525b5730a8288e0",
+    "QuicEarlyDataPolicy-v0.1.0-linux-amd64.tar.gz": "9166c482594514d5633be9fcb68d7714c73bb2e889716cf44bb73eebfecdce47",
+    "SHA256SUMS.txt": "b02ab7fa88a86ce021b290bab4793ca70eda5cbc71ddb30111c5a60b1b33ce47"
+  },
+  "publication_receipt_sha256": "ba0c3a88700c6a3bca0690e8c67f9cdb64fc893d442161837dbec339ce7c74c5",
+  "technical_scope": "Local QUIC 0-RTT replay policy lab: weak test-only counter doubles under repeated early requests; guarded handler rejects early mutation while allowing early reads and fresh 1-RTT mutation. No byte-identical ciphertext replay or real target claim.",
+  "rights": "New implementation by dhtfish98; fixed quic-go upstream remains under MIT and is not claimed as own code.",
+  "open": [
+    "real_authorized_target_evidence",
+    "CVP_eligibility_or_approval"
+  ]
+}
