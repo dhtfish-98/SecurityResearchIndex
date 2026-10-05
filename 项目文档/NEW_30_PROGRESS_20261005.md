@@ -65,3 +65,13 @@ XmlEntityResourceBoundary、ProxyIdentityHeaderTrust、PluginHandshakeTrustGate 
 [SshCertIssuanceGate v0.1.0](https://github.com/dhtfish-98/SshCertIssuanceGate/releases/tag/v0.1.0) 发布于提交 `454993dee1c3eb90dcd829428fa2ebfdfbd4fda5`；[主线](https://github.com/dhtfish-98/SshCertIssuanceGate/actions/runs/37350176592)及[标签 CI](https://github.com/dhtfish-98/SshCertIssuanceGate/actions/runs/37354655181)的 Python 3.11/3.14 作业均成功。源码、解包 sdist、隔离 wheel 各 16 项测试和 16 项签发/独立验签对照通过；wheel 无弱基线与私钥。wheel/sdist 回下载 SHA-256 为 `b5379fa79b854f0573ef6211fb826d3f9883e724e614959eca87cc80c8da5c07`、`8e20c3a98b1e3a249b2552bcbcb20dfb7b7c612b08ebf673d29e9e330a854a49`。真实 `sshd` 登录、外部身份与持钥证明仍 OPEN。
 
 两仓均是独立新写的自有实验，固定上游仅为范围参考，原第三方版权与许可归原权利人；逐项[脱敏发行收据](NEW_30_RELEASES_8_10_20261005.json)保留精确 CI 与资产摘要。账号此时为 **104 个公开仓，第三批 10/30 已发行**。18:20–18:21 UTC 的[104 仓非原子元数据快照](PUBLIC_104_METADATA_20261005.json)显示 101 个软件仓的最新 Release 与各自所读 HEAD 同提交、有效精确 CI 成功，104/104 仓有「项目文档」且 Build 跟踪树仅 `.gitignore`；另外 3 个资料仓无 Release。早期取消/失败运行及快照后可能的新提交仍按各自时间解释。RecoveryCodeAccountBinding 与 SftpHandlePermissionGate 正在独立实施，其余 18 项未实施。CVP 资格和真实受影响任务仍 OPEN。
+
+## 19:00 UTC 三项新发行与 107 仓续审
+
+[SftpHandlePermissionGate v0.1.0](https://github.com/dhtfish-98/SftpHandlePermissionGate/releases/tag/v0.1.0)、[RecoveryCodeAccountBinding v0.1.0](https://github.com/dhtfish-98/RecoveryCodeAccountBinding/releases/tag/v0.1.0)、[JupyterKernelOriginGate v0.1.0](https://github.com/dhtfish-98/JupyterKernelOriginGate/releases/tag/v0.1.0)已分别从自有源码完成正式发行。三项各自的主分支、注释标签和最新 Release 均对应同一精确提交，主分支与标签 CI 均成功；正式附件回下载与本地构建结果、GitHub 摘要一致。提交及包作者为 `dhtfish98`，第三方来源与权利按真实关系记载。逐项提交、CI、资产摘要和实验限制见[三项发行收据](NEW_30_RELEASES_11_13_20261005.json)。
+
+SFTP 实验以真实回环 SFTP v3 服务验证句柄授权，不代表外部服务器。恢复码实验包含自有账户绑定实现，以及单独运行的固定 Kratos 上游参考实验；该包未集成到 Kratos，真实身份与邮箱所有权未验证。Jupyter 实验以真实内核和 REST/WebSocket 请求验证单用户无浏览器场景的 Origin 限制；Origin 不是原生客户端身份凭据。三项都不证明上游存在漏洞、生产部署安全或 CVP 获批。
+
+第三批至此 **13/30 已正式发行**，其余 17 项仍在候选、实施或审查阶段。[107 个公开仓的非原子元数据快照](PUBLIC_107_METADATA_20261005.json)读取于 18:58–18:59 UTC：104 个软件仓的最新 Release 均与各自所读 HEAD 同提交，104/104 精确 HEAD 的有效 CI 成功；107/107 有「项目文档」，`Build` 跟踪树仅 `.gitignore`。旧撤出组 14/14 仍为私有。角色整理见[107 仓 CVP 材料矩阵](PUBLIC_107_CVP_MATERIAL_RECHECK_20261005.json)：13 个新增实验与 6 个旧条件技术案例均仅为有条件材料，实际资格、授权任务与官方决定仍 OPEN。元数据和材料角色核对不能替代 107 仓逐文件语义深审。
+
+[ObjCAtlas v1.0.3](https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.3)同期完成有界 Mach-O 游标、段与链接编辑范围修复，源码归档、主线/标签 CI、39 项原有与 39 项维护测试、9 个合成畸形样例均按[定向修复收据](OBJCATLAS_V1_0_3_RELEASE_20261005.json)核对。它是保留真实上游权利的派生工具，不计为独立新写 CVP 案例；完整安全深审仍 OPEN。

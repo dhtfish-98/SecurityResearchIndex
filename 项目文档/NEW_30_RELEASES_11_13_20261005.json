@@ -1,0 +1,70 @@
+{
+  "generated_at_utc": "2026-10-05T19:02:15.050470+00:00",
+  "projects": [
+    {
+      "assets": {
+        "SHA256SUMS": "e528b82bc7e8f339d9a37e8dd4282e1a7a3ca862d3604a448076ae6f5cf3d889",
+        "sftp_handle_permission_gate-0.1.0-py3-none-any.whl": "3918b47280ca0adbd415af9bf90bd54c90077e2568c95a5afd58b4eaf387ee00",
+        "sftp_handle_permission_gate-0.1.0.tar.gz": "caa56f7ea9d7b4da30f726be1a7ac42c37b6a09c1b8aca460b4879e8c5ecd2a2"
+      },
+      "commit": "3db61f5330d927c0446a2839d9d4d50e9438514b",
+      "limits": [
+        "Synthetic loopback SFTP v3 authorization lab; no external server or CVP decision proven."
+      ],
+      "local_validation_sha256": null,
+      "main_ci": "https://github.com/dhtfish-98/SftpHandlePermissionGate/actions/runs/37357328106",
+      "project": "SftpHandlePermissionGate",
+      "publication_receipt_sha256": "985be3bbbe96a29c4e04f6fbf9a326fd0d02a7699ec10339b577b97807960775",
+      "release": "https://github.com/dhtfish-98/SftpHandlePermissionGate/releases/tag/v0.1.0",
+      "repository": "https://github.com/dhtfish-98/SftpHandlePermissionGate",
+      "tag_ci": "https://github.com/dhtfish-98/SftpHandlePermissionGate/actions/runs/37357651788",
+      "version": "v0.1.0"
+    },
+    {
+      "assets": {
+        "SHA256SUMS": "8007c98a52224444a15fdbdef345d3f2d1724f55b92dd0406da070a4b9dbfa61",
+        "recovery_code_account_binding-0.1.0-py3-none-any.whl": "d382e2c027357c1b57702e68fe82556804a6e63ccef06d7c4015f15edb5b3925",
+        "recovery_code_account_binding-0.1.0.tar.gz": "cbb555fec504a2705e0a5fa2ade9052e4db3734012719672148a93504b5cbab3"
+      },
+      "commit": "c3175b55aab23903f1badfb02e3efaf363474d7d",
+      "limits": [
+        "Self-authored account-binding lab; fixed upstream Kratos test is a separate reference, not package integration.",
+        "Real identity, mailbox ownership and CVP decision OPEN."
+      ],
+      "local_validation_sha256": null,
+      "main_ci": "https://github.com/dhtfish-98/RecoveryCodeAccountBinding/actions/runs/37358556706",
+      "project": "RecoveryCodeAccountBinding",
+      "publication_receipt_sha256": "b35086b11b2d9a1f444a4cda542e0ca9ed5a62dd3841b756a8022728d3fd19ef",
+      "release": "https://github.com/dhtfish-98/RecoveryCodeAccountBinding/releases/tag/v0.1.0",
+      "repository": "https://github.com/dhtfish-98/RecoveryCodeAccountBinding",
+      "tag_ci": "https://github.com/dhtfish-98/RecoveryCodeAccountBinding/actions/runs/37358668913",
+      "version": "v0.1.0"
+    },
+    {
+      "assets": {
+        "JupyterKernelOriginGate-v0.1.0-source.tar.gz": "934ce55555683e2a97af510d8572422951a383ca5d40bb0d45d879066c793884",
+        "SHA256SUMS": "94f15d2de06bd85e4a46daa3e7a0c16b3b35e9f1b4deafc5ab0c9905ba2b76c1",
+        "jupyter_kernel_origin_gate-0.1.0-py3-none-any.whl": "3499e900ac906d1952372d836a7bd5cd9de540890ed3079243b61f770b6dd28e",
+        "jupyter_kernel_origin_gate-0.1.0.tar.gz": "bda205ac2c52ecfe3aee2cdfc92eca7374f7469ccb6602c68cbfb431b2ef12f6"
+      },
+      "commit": "2cca5eea7551b4c011cbcaf87f13941eea903002",
+      "limits": [
+        "Single-user headless Jupyter reference; Origin is not native-client identity.",
+        "No browser UI, production deployment or CVP decision proven."
+      ],
+      "local_validation_sha256": "8bc95367e9f404d38f7e58db134d4c3d3d20f1e1ce920394a122a3004932fe5b",
+      "main_ci": "https://github.com/dhtfish-98/JupyterKernelOriginGate/actions/runs/37359123696",
+      "project": "JupyterKernelOriginGate",
+      "publication_receipt_sha256": "e107d1dc6b86d971a2cd0be3dced108b75e91afeff9cbe2c3c806ed4b81f98d4",
+      "release": "https://github.com/dhtfish-98/JupyterKernelOriginGate/releases/tag/v0.1.0",
+      "repository": "https://github.com/dhtfish-98/JupyterKernelOriginGate",
+      "tag_ci": "https://github.com/dhtfish-98/JupyterKernelOriginGate/actions/runs/37359331878",
+      "version": "v0.1.0"
+    }
+  ],
+  "public_repository_count_at_snapshot": 107,
+  "schema": "new_30_public_releases_11_13_v1",
+  "scope": "Three independently authored bounded local labs; exact commit CI and downloaded Release assets verified. No claim of upstream vulnerability, production security or CVP approval.",
+  "snapshot_sha256": "0ba330e2248fd6bc6457ac682eb0daeda916b26cf7f1a104e9fb0d78f9928917",
+  "third_batch_published_count": 13
+}

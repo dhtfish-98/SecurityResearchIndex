@@ -1,0 +1,30 @@
+{
+  "assets_sha256": {
+    "ObjCAtlas-source.zip": "ed46972623f547e5bc1fc6818ac4937f0e018203c6b5720f15f683eab1c57cdc",
+    "RELEASE_MANIFEST.json": "405734e7efef7094afb5d5f1e820cc4f0e1fe2eb5d580927883c63a69122f8c5",
+    "SHA256SUMS.txt": "ffda750c29b1e9d9b6092bdc3e90fdc194f6c4b33e9a6d966e8c0ac376ed3911"
+  },
+  "commit": "f6428385e46684208fcaf5acadb6079ca428bd47",
+  "fixed_scope": "Targeted malformed Mach-O cursor, section and linkedit range checks with guard-page and synthetic fixture tests.",
+  "generated_at_utc": "2026-10-05T19:02:15.051845+00:00",
+  "main_ci": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37358659097",
+  "open": [
+    "full_source_security_audit",
+    "arbitrary_malformed_input_safety",
+    "full_application_device_integration",
+    "cvp_eligibility"
+  ],
+  "provenance": "Attributed class-dump derivative, not an independently authored CVP case.",
+  "receipt_sha256": "694da90a68e15c541e53b599b7267b1b52387ae15bdd8e66973e589d1f341d97",
+  "release": "https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.3",
+  "rights_retained": true,
+  "schema": "objc_atlas_v1_0_3_public_summary_v1",
+  "source_archive_tracked_files_exact": 251,
+  "tag_ci": "https://github.com/dhtfish-98/ObjCAtlas/actions/runs/37358663191",
+  "validation": {
+    "contract_checks": 22,
+    "maintained_xctest": 39,
+    "original_xctest": 39,
+    "synthetic_malformed_macho_cases": 9
+  }
+}
