@@ -50,4 +50,6 @@
 
 **2026-10-05 12:19–12:20 UTC 发行差异续审：**[其余 39 仓逐项比较](REMAINING39_RELEASE_TRIAGE_20261005.json)发现 35 个 Python 仓的运行源码虽未变，文档集中却改变了打包输入；这些仓的新 HEAD 需要逐仓重建、安装与许可核对后才能发新版。另 4 仓主要是文档、构建包装或自有署名差异，其中 HeaderPolicyReview 的自有版权显示名已通过 [v0.1.4 正式源码 Release](https://github.com/dhtfish-98/HeaderPolicyReview/releases/tag/v0.1.4)同步，精确 CI 与源码归档核对见[发行收据](HEADERPOLICY_V0_1_4_RELEASE_20261005.json)。其他补发仍以[发行增量](PUBLIC_RELEASE_INCREMENT_20261005_AFTER_SNAPSHOT.md)中的逐仓收据为准，不把 12:10 的冻结计数更新为现况。
 
+**2026-10-05 打包输入差异补发：**上述 35 仓中的[第一组 12 仓](MANIFEST12_RELEASES_20261005.json)已分别发布补丁版，精确 CI、隔离安装后的 351 项单测、48 个资产回下载及适用权利文件核对通过。其余仓的结果按独立收据继续更新；这些工程发行不改变 CVP 资格 OPEN 的结论。
+
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。

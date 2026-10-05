@@ -33,3 +33,7 @@
 其中 10 仓的 `backend.py` 已改为从「项目文档」读取权利与来源文件，属于实际打包行为变化。[8 仓 v0.1.3 逐仓收据](BACKEND8_RELEASES_20261005.json)记录 AptSourceTrustAudit、AuditRuleCoverage、FirewalldZoneAudit、ModprobePolicyAudit、PamStackAudit、SudoScopeAudit、SysctlSnapshotAudit、WindowsBaselineSnapshot；8 个新 `main`/标签同提交、精确 CI 成功、24 个上传资产回下载摘要与字节数一致，安装测试共 159 项、样例退出契约 35 项通过。另 [NftIngressAudit v0.1.4 与 UnitSandboxAudit v0.1.4](BACKEND2_RELEASES_20261005.json)也各自满足精确 main/tag CI、source tar 中 37 个提交文件逐字节核验、wheel/安装态/权利文件一致及 4 个资产回下载；安装测试分别 26、24 项，样例契约各 4 项通过。10 个打包后端差异仓均已补发。
 
 另 9 仓 CertificateNamePolicy、CompoundDocumentReview、EvtxRecordReview、EvtxRecoveryReview、HandshakeEvidenceReview、LifecyclePolicyReview、PrefetchEvidenceReview、RegistryHiveReview、SourceReleaseReview 的主要运行源码未见变化，但当前 HEAD 的 `pyproject.toml`、`MANIFEST.in` 已调整文档/许可证或 sdist 路径，部分 wheel 元数据也会变化。原 Release 对原标签仍有效，**当前 HEAD 的包发行同步仍 OPEN**，需逐仓完成新包与许可核对后才能补发。ObjCAtlas 的对应差异只见验证合同名称适配，但此前完整深审被系统中断，保持 OPEN，不用一次浅层差异判断替代深审或发布结论。
+
+## 35 个打包输入差异仓的后续发行
+
+在 12:19–12:20 UTC 的分类之后，[第一组 12 仓逐仓收据](MANIFEST12_RELEASES_20261005.json)记录 AdvisoryOfflineReview、AliasRecordReview、AuditEventReview、BodyfileTimelineReview、CSPPolicyLens、CrlRevocationReview、CryptoRegressionBench、DfxmlExtentReview、DjangoSessionGuard、DsseEnvelopeReview、FinderStoreReview、JksTrustStoreReview 已发布补丁版。12 个最新 Release 与各自新 `main`/版本标签同提交，精确提交 CI 成功；隔离安装后的单测合计 351 项通过，48 个上传资产回下载逐字节一致，源码包和适用许可证文件核对通过。该组未改变主要运行源码，也不增加 CVP 已获资格案例；余下 23 个打包输入差异仓仍在逐仓验证，发布结果以各自后续收据为准。

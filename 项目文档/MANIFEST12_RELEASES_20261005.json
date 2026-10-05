@@ -1,0 +1,442 @@
+{
+  "schema": "manifest12-current-public-release-final/v1",
+  "repositories": [
+    {
+      "repository": "dhtfish-98/AdvisoryOfflineReview",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "f82578a8f7f8ed615f75efb82524a64fb66383c3",
+      "release_url": "https://github.com/dhtfish-98/AdvisoryOfflineReview/releases/tag/v0.1.3",
+      "release_id": 403695443,
+      "exact_main_ci": "https://github.com/dhtfish-98/AdvisoryOfflineReview/actions/runs/37310037050",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 36,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1225,
+          "sha256": "920f2dd739ed1e12d947e42ce299c1802ce3cfe963cf13df673dfcb0208aaab4"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 304,
+          "sha256": "d99a3675d539a1a98d9645fb52603fbe58a50ea180f543747b70c9a2fff2e577"
+        },
+        {
+          "name": "advisory_offline_review-0.1.3-py3-none-any.whl",
+          "bytes": 35577,
+          "sha256": "4f08993db7fec014ab623c1a3fbad17febdf09bd188ae28c7cc31132d4b4c803"
+        },
+        {
+          "name": "advisory_offline_review-0.1.3.tar.gz",
+          "bytes": 56236,
+          "sha256": "bf2a9111ccf91d4432baf9e5d94807b0524807bcb77cabdde8e8869fffd2ea6e"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/AliasRecordReview",
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "a8cccd1eae5650499381126d640b2808fe344d6c",
+      "release_url": "https://github.com/dhtfish-98/AliasRecordReview/releases/tag/v1.0.3",
+      "release_id": 403695440,
+      "exact_main_ci": "https://github.com/dhtfish-98/AliasRecordReview/actions/runs/37310040170",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 17,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1227,
+          "sha256": "286d0f76a89fd756a976ffc7531fb77ee468a88f7ae6d71981044fe56655192d"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 292,
+          "sha256": "317da39294a8ff0c112228988e428e1a132302db9066eb3e4a10e3eb683c38ab"
+        },
+        {
+          "name": "aliasrecordreview-1.0.3-py3-none-any.whl",
+          "bytes": 6107,
+          "sha256": "1056dbf37e2dbe9f61ada1bded98f60e1d3101e720967e75940b77d6a759feef"
+        },
+        {
+          "name": "aliasrecordreview-1.0.3.tar.gz",
+          "bytes": 20263,
+          "sha256": "dbde365157048b2a1553baadb82b58f51694753a1b5c914403321f28e428ce70"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/AuditEventReview",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "0f23fda79e1a9f11ea12fbb6a0dc327168fc6ab3",
+      "release_url": "https://github.com/dhtfish-98/AuditEventReview/releases/tag/v0.1.3",
+      "release_id": 403695454,
+      "exact_main_ci": "https://github.com/dhtfish-98/AuditEventReview/actions/runs/37310036772",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 34,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1205,
+          "sha256": "e5dcd2fd91e90f05689bb433ea4c14f132024ad374f3982808cebeb94e7aedc9"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 294,
+          "sha256": "18a15264f09dad043cbddf8eb83a249fa4297e4f1e90a8f0e26765968ad8c135"
+        },
+        {
+          "name": "audit_event_review-0.1.3-py3-none-any.whl",
+          "bytes": 32588,
+          "sha256": "20a34e0fce93d5aff11d592435ef2200ef0e9663ca8abb9fcbfeb17d3d5ec7a4"
+        },
+        {
+          "name": "audit_event_review-0.1.3.tar.gz",
+          "bytes": 66774,
+          "sha256": "8c7f68b295bf521a084fda72dc5190c32491665cbccf563f1d7c4e734ee3d00c"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/BodyfileTimelineReview",
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "6e8885d8426a6054ff1a456e553fba92b2c9b0c5",
+      "release_url": "https://github.com/dhtfish-98/BodyfileTimelineReview/releases/tag/v1.0.3",
+      "release_id": 403695446,
+      "exact_main_ci": "https://github.com/dhtfish-98/BodyfileTimelineReview/actions/runs/37310036916",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 21,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1398,
+          "sha256": "5f4426e6d16fbb72b3db65ab6c6195caf0a46644dcce620d6170ae76d4cd2310"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 302,
+          "sha256": "143bca6147ed696896e7c7afc79f0536dc59d4515e37a0beb82a16b2a46e45c5"
+        },
+        {
+          "name": "bodyfiletimelinereview-1.0.3-py3-none-any.whl",
+          "bytes": 10823,
+          "sha256": "8c22ec1f1e064cce856e7a9e24686e66f4c48493f8da17fd0f6c5f304af422cf"
+        },
+        {
+          "name": "bodyfiletimelinereview-1.0.3.tar.gz",
+          "bytes": 28486,
+          "sha256": "b710277fbeab1fd8f53bc70ddfae4a281d4e4713013cee9eb8b3d8b9375aa91b"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/CSPPolicyLens",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "322d8f92111195b94d0a53c424685f42883ed321",
+      "release_url": "https://github.com/dhtfish-98/CSPPolicyLens/releases/tag/v0.1.3",
+      "release_id": 403695543,
+      "exact_main_ci": "https://github.com/dhtfish-98/CSPPolicyLens/actions/runs/37310042358",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 45,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1193,
+          "sha256": "94230b5fb267a0b3e1cae418a82509c5c2d68b9a13d3e65bcb88fe214c8d6fdb"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 288,
+          "sha256": "e97cf99f3e53be98a04b79838a66988bf45800a99c0b0ae5f715fcea68336a8d"
+        },
+        {
+          "name": "csp_policy_lens-0.1.3-py3-none-any.whl",
+          "bytes": 20137,
+          "sha256": "75bfa870773a8004f1fede90b4c87989918622b3cf5c373a66567c62ff8ac931"
+        },
+        {
+          "name": "csp_policy_lens-0.1.3.tar.gz",
+          "bytes": 51152,
+          "sha256": "b52327d76cb7316ed607d9df2feb2e3f4f4e223b4a44e6076f0a51f88fc421b2"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/CrlRevocationReview",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "82720313e3bedae3975798e3bc08b3198ec3134c",
+      "release_url": "https://github.com/dhtfish-98/CrlRevocationReview/releases/tag/v0.1.3",
+      "release_id": 403695541,
+      "exact_main_ci": "https://github.com/dhtfish-98/CrlRevocationReview/actions/runs/37310041974",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 16,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1235,
+          "sha256": "c7e12748eedcf56eefa09582c069cbc483a1c67d66e5a266236c3f9f60a9e908"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 308,
+          "sha256": "78e27e7243fe4cb1ed015dbdd301fbe93858f30bf8d982a6d08a83161b5d4472"
+        },
+        {
+          "name": "cvp_crl_revocation_review-0.1.3-py3-none-any.whl",
+          "bytes": 13140,
+          "sha256": "3f59f450110c728fd2e6c989b576b97b5335ea3ab2055aa96b9786815863990e"
+        },
+        {
+          "name": "cvp_crl_revocation_review-0.1.3.tar.gz",
+          "bytes": 33213,
+          "sha256": "96dd9d4f747de514176831a4c30af8ad86da8590f46bd769b8c9da59a21428c2"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/CryptoRegressionBench",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "85f7ec56b6a524375a0a38ee238347c84a04e4d0",
+      "release_url": "https://github.com/dhtfish-98/CryptoRegressionBench/releases/tag/v0.1.4",
+      "release_id": 403695549,
+      "exact_main_ci": "https://github.com/dhtfish-98/CryptoRegressionBench/actions/runs/37310041778",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 46,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1259,
+          "sha256": "c3fccfff7bc2f37b912c3776d4917a28494c2b6b485d1037877e6713051cda55"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 304,
+          "sha256": "7cc84fc75e40fe42cc0745d27c44ed06161a86949b55488cc6bc32b2731ce1d7"
+        },
+        {
+          "name": "crypto_regression_bench-0.1.4-py3-none-any.whl",
+          "bytes": 87843,
+          "sha256": "a993178bfd20bbacfa4d8dc6fe582e8276d97617d4dcf53e8f6c33c42ee1c386"
+        },
+        {
+          "name": "crypto_regression_bench-0.1.4.tar.gz",
+          "bytes": 127282,
+          "sha256": "02b67a098030902da6e7702637a69c6dde98be2fd511c37debb20dd78f00aef4"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/DfxmlExtentReview",
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "d04b05f8265d2e1cd9b92357206044f6a99c425b",
+      "release_url": "https://github.com/dhtfish-98/DfxmlExtentReview/releases/tag/v1.0.3",
+      "release_id": 403695550,
+      "exact_main_ci": "https://github.com/dhtfish-98/DfxmlExtentReview/actions/runs/37310045553",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 27,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1377,
+          "sha256": "a358eec2b264cef45e0506d990a4ee0af269da32d28c7071f594a28fc270eb74"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 292,
+          "sha256": "c545377e87c53d89abe90514d710ec058df9c0b9126c1386e62ad09fa21298a8"
+        },
+        {
+          "name": "dfxmlextentreview-1.0.3-py3-none-any.whl",
+          "bytes": 7281,
+          "sha256": "481466617da2f7c766e5343d23a7ccbaa69b1e2b8eaef66bf4cdddd81add1ae9"
+        },
+        {
+          "name": "dfxmlextentreview-1.0.3.tar.gz",
+          "bytes": 22629,
+          "sha256": "4ed177a91c7284a3bf465e5c9688ca29b2d2efb67b212524207f69e8e38b80a2"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/DjangoSessionGuard",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "47f9c4f89456bd4c2780ce96789d4bd5cde3e981",
+      "release_url": "https://github.com/dhtfish-98/DjangoSessionGuard/releases/tag/v0.1.3",
+      "release_id": 403695635,
+      "exact_main_ci": "https://github.com/dhtfish-98/DjangoSessionGuard/actions/runs/37310045460",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 56,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1213,
+          "sha256": "66e2e385c93df50fda36aeec915c081fa5854b18236f89785f463c880be78229"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 298,
+          "sha256": "dd2a3f4e7fb0ab084564ada18a3c2d178205ca955c229bc20f89ebf8e5cdc0d8"
+        },
+        {
+          "name": "django_session_guard-0.1.3-py3-none-any.whl",
+          "bytes": 17966,
+          "sha256": "963e6ece7b15b1a92bad5b41a991eccba6657e48ea84811aa08d21fe11e5a573"
+        },
+        {
+          "name": "django_session_guard-0.1.3.tar.gz",
+          "bytes": 50786,
+          "sha256": "54eb7ae616f366dec3849ce7127d067016353e2930f9fdba93be0b214337b159"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/DsseEnvelopeReview",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "0b161109ac1abf1f718c0c7c177f0890c8b7b658",
+      "release_url": "https://github.com/dhtfish-98/DsseEnvelopeReview/releases/tag/v0.1.3",
+      "release_id": 403695636,
+      "exact_main_ci": "https://github.com/dhtfish-98/DsseEnvelopeReview/actions/runs/37310047378",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 15,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1231,
+          "sha256": "91513a69985391a20e876285d1cb747fa45567213248ec414c283a17269fbe0f"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 306,
+          "sha256": "172efdc3ab0c1fca65e64c9a0ab72ed8f561051328009b4928cda1e35050daf1"
+        },
+        {
+          "name": "cvp_dsse_envelope_review-0.1.3-py3-none-any.whl",
+          "bytes": 12290,
+          "sha256": "f49cd108f6d5e2b8e0c8cb7b78b9c8e97db684983a3ef12fafcf41bb85bd3b37"
+        },
+        {
+          "name": "cvp_dsse_envelope_review-0.1.3.tar.gz",
+          "bytes": 29052,
+          "sha256": "3bebf49a357bff63da1a39adad7d7144eae327a9c8ca1dc10d1a693df8eb3f03"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/FinderStoreReview",
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "34ffeff32f17d764b10e0598bd4fb87aee30ad99",
+      "release_url": "https://github.com/dhtfish-98/FinderStoreReview/releases/tag/v1.0.3",
+      "release_id": 403695643,
+      "exact_main_ci": "https://github.com/dhtfish-98/FinderStoreReview/actions/runs/37310045937",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 23,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1227,
+          "sha256": "107bd2c485e46f4a4f54f16ddda325cd3b34b17a013c4e359e48478e0031eaf1"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 292,
+          "sha256": "8b583857dc78905ae82c59cd6f90cd8e12b3d2da19c1bde21d2ebf24d9481f60"
+        },
+        {
+          "name": "finderstorereview-1.0.3-py3-none-any.whl",
+          "bytes": 6811,
+          "sha256": "bdf053e5bb699cb234776112c2058d920a241dc5fb377612289ada24637a5427"
+        },
+        {
+          "name": "finderstorereview-1.0.3.tar.gz",
+          "bytes": 21559,
+          "sha256": "277023e2404c36c05b0a1766207f261e77345150c7cdb21e4f94be23fa725d5e"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/JksTrustStoreReview",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "cffbcda8f8db5c97d26541acf32801eff5da25b2",
+      "release_url": "https://github.com/dhtfish-98/JksTrustStoreReview/releases/tag/v0.1.3",
+      "release_id": 403695642,
+      "exact_main_ci": "https://github.com/dhtfish-98/JksTrustStoreReview/actions/runs/37310049760",
+      "exact_main_ci_pass": true,
+      "local_installed_tests_pass": 15,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1235,
+          "sha256": "186f8312f43516644d095899e9e0db8e9013ed617dc23f86fa65257c2349ad98"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 308,
+          "sha256": "0f31071a3d9aca9140336b7d44703fed7bc03cd36459fdc0b0257a251287bdcd"
+        },
+        {
+          "name": "cvp_jks_truststore_review-0.1.3-py3-none-any.whl",
+          "bytes": 13413,
+          "sha256": "96c0cdbc75a142a9c310966c9a01263683f6f13ec2fc310cbeb77d35d6ded189"
+        },
+        {
+          "name": "cvp_jks_truststore_review-0.1.3.tar.gz",
+          "bytes": 29335,
+          "sha256": "23c22b1f742c754e40e3ef1735cf214da14e001f1388ef0da26db5258fb03f84"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    }
+  ],
+  "counts": {
+    "released": 12,
+    "installed_tests_pass": 351,
+    "assets_redownload_identical": 48
+  }
+}
