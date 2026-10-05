@@ -1,0 +1,1727 @@
+{
+  "schema": "cvp_public_94_release_diff_matrix_v1",
+  "generated_at_utc": "2026-10-05T11:08:36+00:00",
+  "snapshot_source": "Full local read-only 94-repository collection retained outside this index; digest below.",
+  "snapshot_source_sha256": "ea3af51a8581b41183a7f27a6c031e5d91ff197a584e71dad8e6283fdb95cf43",
+  "head_and_release_list_snapshot_at_utc": "2026-10-05T10:55:09+00:00",
+  "tag_resolution_and_compare_completed_by_utc": "2026-10-05T11:05:06Z",
+  "method": "Resolve latest published Release tag to commit, compare that commit to repository main HEAD captured in the 94-repository snapshot. No GitHub re-query for this matrix.",
+  "category_rules": "documentation=项目文档 and top-level docs; build_and_layout=Build, 构建.py, 构建配置.json, .gitignore; workflow=.github/workflows; verification_or_build_code=tests, checks, scripts, tools, verification, backend.py, verify.py and other code paths in the original conservative classifier; other=remaining paths. Counts classify paths, not code semantics.",
+  "counts": {
+    "public_repositories_in_source_snapshot": 94,
+    "repositories_with_latest_release": 77,
+    "release_tag_equals_snapshot_head": 9,
+    "release_tag_behind_snapshot_head": 68,
+    "priority_republish_review": 24,
+    "tag_behind_without_verification_or_build_code_path": 44,
+    "comparison_errors": 0,
+    "comparison_truncated": 0
+  },
+  "priority_repositories": [
+    "AptSourceTrustAudit",
+    "AuditRuleCoverage",
+    "CertificateNamePolicy",
+    "CompoundDocumentReview",
+    "DeserializeCallReview",
+    "EvtxRecordReview",
+    "EvtxRecoveryReview",
+    "FirewalldZoneAudit",
+    "HandshakeEvidenceReview",
+    "LifecyclePolicyReview",
+    "ModelOpcodeReview",
+    "ModprobePolicyAudit",
+    "NftIngressAudit",
+    "ObjCAtlas",
+    "PamStackAudit",
+    "PEQuarry",
+    "PrefetchEvidenceReview",
+    "RegistryHiveReview",
+    "SourceReleaseReview",
+    "SudoScopeAudit",
+    "SysctlSnapshotAudit",
+    "UnitSandboxAudit",
+    "WindowsBaselineSnapshot",
+    "YaraRuleDraftReview"
+  ],
+  "repositories": [
+    {
+      "repository": "AdvisoryOfflineReview",
+      "head_sha_at_snapshot": "9d4a6e6105a49000b9b76c173dce8c4d611f74f6",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:03Z",
+      "release_commit_sha": "87105e9a97ea429eedf071bc094acac81a199cf5",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 18,
+      "changed_path_categories": {
+        "documentation": 10,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "AliasRecordReview",
+      "head_sha_at_snapshot": "f7cb952d38e93a00f91934f6839d1cd1aaf898fe",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:57:43Z",
+      "release_commit_sha": "bc3b16e7313242c6bdbad9fd174d771b3f6ddeac",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 4
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "AptSourceTrustAudit",
+      "head_sha_at_snapshot": "ba4077441e78e659a6e7888e21588fa50eaa777a",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:55:39Z",
+      "release_commit_sha": "47b0074afe49fdc3802946c3ae9077c396b33a16",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "ArchiveLens",
+      "head_sha_at_snapshot": "908c5bd9d3bf0f9b26cfd5e7d4b252bea81f7482",
+      "release_tag": "v1.0.4",
+      "release_published_at": "2026-10-04T15:45:25Z",
+      "release_commit_sha": "908c5bd9d3bf0f9b26cfd5e7d4b252bea81f7482",
+      "tag_equals_snapshot_head": true,
+      "commits_after_tag": 0,
+      "changed_path_count": 0,
+      "changed_path_categories": {
+        "documentation": 0,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "AuditEventReview",
+      "head_sha_at_snapshot": "e2b4437ef76f5edfd640a4c819f5023fa5f2bd88",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:14:03Z",
+      "release_commit_sha": "800dc81540694a33fb57d1112a79796f4c50181a",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "AuditRuleCoverage",
+      "head_sha_at_snapshot": "0b13db2324216f97406308001ac5e74826395a7c",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:55:39Z",
+      "release_commit_sha": "151c5c090afe8709c016291c50b6dda502b2a425",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "BodyfileTimelineReview",
+      "head_sha_at_snapshot": "7699eef7e129c0fca8fc4ce60e51fcc3539924e5",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:57:56Z",
+      "release_commit_sha": "4a5b6b049d13abc710c4dffe195bb93cc34d4c70",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 21,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 4
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "BranchLoom",
+      "head_sha_at_snapshot": "dd94ae1b8916f5404ec77c26586d805876610b78",
+      "release_tag": "v0.2.1",
+      "release_published_at": "2026-10-04T15:45:22Z",
+      "release_commit_sha": "dd94ae1b8916f5404ec77c26586d805876610b78",
+      "tag_equals_snapshot_head": true,
+      "commits_after_tag": 0,
+      "changed_path_count": 0,
+      "changed_path_categories": {
+        "documentation": 0,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "CDTranslator",
+      "head_sha_at_snapshot": "c57928148903bf8932316f6e661427147a74413a",
+      "release_tag": "v1.0.1",
+      "release_published_at": "2026-10-04T05:33:17Z",
+      "release_commit_sha": "c57928148903bf8932316f6e661427147a74413a",
+      "tag_equals_snapshot_head": true,
+      "commits_after_tag": 0,
+      "changed_path_count": 0,
+      "changed_path_categories": {
+        "documentation": 0,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "CertificateNamePolicy",
+      "head_sha_at_snapshot": "18a4f55cb9c40714289bb77ba011235ba4d59ac3",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:14:36Z",
+      "release_commit_sha": "38ffdb31e99bbd80acad081b41dd91a7b3b3b4e9",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 21,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 2,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "scripts/verify_package.py",
+        "tests/test_differential.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "CITrustBoundaryReview",
+      "head_sha_at_snapshot": "6266b40f079070e36d9d517353205ad59c93a6c4",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:13Z",
+      "release_commit_sha": "83980d9e81b399ae3403613ae403a71089105c32",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 17,
+      "changed_path_categories": {
+        "documentation": 9,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "CompoundDocumentReview",
+      "head_sha_at_snapshot": "e16f76fa5894e44b9d178c906f2ce06a6d7a925c",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:45Z",
+      "release_commit_sha": "af8292493cc6f335ca36c59acd12c08b04e2c413",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 21,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 2,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "scripts/differential_check.py",
+        "scripts/verify_package.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "CrlRevocationReview",
+      "head_sha_at_snapshot": "2afff37fbb274cc98e88f2090a73631dc40f5874",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:56:37Z",
+      "release_commit_sha": "84e17807497249bc67995f6a40bfee368b4b09ee",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "CryptoRegressionBench",
+      "head_sha_at_snapshot": "faae2cd746968fecf5e05348fa376d83e7b146fe",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T08:14:25Z",
+      "release_commit_sha": "2b4e4f422b15e7775dd66a67bbfb371180a44c61",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 22,
+      "changed_path_categories": {
+        "documentation": 14,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "CSPPolicyLens",
+      "head_sha_at_snapshot": "25740e6caed456c7623bc74c47c58b8d36cb9b1a",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:14:15Z",
+      "release_commit_sha": "1b68d9e7463624c3994239add2a14b46782e12d4",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 18,
+      "changed_path_categories": {
+        "documentation": 10,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "DeserializeCallReview",
+      "head_sha_at_snapshot": "12b0b28dd8a50a928910a5e569d76539e24b06b7",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:14Z",
+      "release_commit_sha": "a8b59883b0f293f046142d7b9f7f8031d45fe454",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 10,
+        "build_and_layout": 4,
+        "verification_or_build_code": 2,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "scripts/verify_package.py",
+        "tests/test_provenance.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "DfxmlExtentReview",
+      "head_sha_at_snapshot": "837eb926c8a7baaf0884f969dfc3f443720e8e4e",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:57:58Z",
+      "release_commit_sha": "d48f568160c2f29036c2ffd7965be0d91a489123",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 21,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 4
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "DjangoSessionGuard",
+      "head_sha_at_snapshot": "3f0947e4b2c76cd8966aac91f6be543116b5eb71",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:14:26Z",
+      "release_commit_sha": "a468e4db84a2bdebbf4d603fe3e44c795050c834",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 18,
+      "changed_path_categories": {
+        "documentation": 10,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "DOMSinkReview",
+      "head_sha_at_snapshot": "3d2509377749591d0ea80ddf0efab6f395e63eaf",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T08:13:24Z",
+      "release_commit_sha": "73eb703b49f8a20976a65a024e52580d85121e39",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "DsseEnvelopeReview",
+      "head_sha_at_snapshot": "7b9c9c60d2e4869fa0fe437697caa4b88abbadde",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:56:38Z",
+      "release_commit_sha": "67b24e41e8adf2b28d49c2011acfdef171400e70",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "EvtxRecordReview",
+      "head_sha_at_snapshot": "51a51fde69a75323dc93f80b07ab5b3d5f3e8e24",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T08:13:35Z",
+      "release_commit_sha": "b0cd52d5f5e547f2cb8ac9e64a3de10fcf42ba4e",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 27,
+      "changed_path_categories": {
+        "documentation": 17,
+        "build_and_layout": 4,
+        "verification_or_build_code": 2,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "tests/test_windows_compare.py",
+        "tools/windows_compare.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "EvtxRecoveryReview",
+      "head_sha_at_snapshot": "f7d54e72fa943d7b2b2766223fab54bba3581abe",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:35Z",
+      "release_commit_sha": "3c79929ea3fb43862bc360056f5bf38cb5adccda",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 26,
+      "changed_path_categories": {
+        "documentation": 16,
+        "build_and_layout": 4,
+        "verification_or_build_code": 2,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "tests/test_package_gate.py",
+        "tools/verify_install.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "FinderStoreReview",
+      "head_sha_at_snapshot": "69eaa8d2814d9fe7b7421c83b295a770f252bb90",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:58:04Z",
+      "release_commit_sha": "578cd6238a9f8e94ddd6148a78e97a5543bbb9f0",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 4
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "FirewalldZoneAudit",
+      "head_sha_at_snapshot": "1423c2d5e377e0216693c2794b4f15dd712a877a",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:55:39Z",
+      "release_commit_sha": "6fe7eed46bf5a503c60987afcf6b51262909d7e3",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "GoCryptoPolicyReview",
+      "head_sha_at_snapshot": "772a2a404736228d5df0a4e6feef3516ffe4fdee",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:25Z",
+      "release_commit_sha": "a7bbf1904a990b3d511cbc649bf883f1ffdd2769",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 22,
+      "changed_path_categories": {
+        "documentation": 16,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 1
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "HandshakeEvidenceReview",
+      "head_sha_at_snapshot": "9b88f5412b78a7e7389909b1414cc0b05d20e566",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:14:36Z",
+      "release_commit_sha": "538a6a10d49d3797827dbbf2362446d334f8ac31",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "tools/verify_consumer.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "HeaderPolicyReview",
+      "head_sha_at_snapshot": "fc1f66e49f27d469575fd7061ba51991dd8e8aa7",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-04T03:45:36Z",
+      "release_commit_sha": "a0caac59b644d6f8a126f1be354e1e276ab6f25a",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 1,
+      "changed_path_count": 2,
+      "changed_path_categories": {
+        "documentation": 1,
+        "build_and_layout": 1,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "IDBMeadow",
+      "head_sha_at_snapshot": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+      "release_tag": "v1.0.4",
+      "release_published_at": "2026-10-04T14:48:38Z",
+      "release_commit_sha": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+      "tag_equals_snapshot_head": true,
+      "commits_after_tag": 0,
+      "changed_path_count": 0,
+      "changed_path_categories": {
+        "documentation": 0,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "ImageQuay",
+      "head_sha_at_snapshot": "090e4d02492cce74d6fe9f123c8d9166259223f3",
+      "release_tag": "v1.0.5",
+      "release_published_at": "2026-10-04T04:04:20Z",
+      "release_commit_sha": "30619167cac87c6520f97b68f4401fd4316d105a",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 1,
+      "changed_path_count": 7,
+      "changed_path_categories": {
+        "documentation": 4,
+        "build_and_layout": 1,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 2
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "JksTrustStoreReview",
+      "head_sha_at_snapshot": "bb8c8d7115296cf82b53d404425fb3eb14c33137",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:56:56Z",
+      "release_commit_sha": "3e61a8781275a2605890ddaf4a44eed6656f8d63",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "JwkSetReview",
+      "head_sha_at_snapshot": "0f828abb0e757e58d3c2e7c014c21fde05e57a31",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:57:02Z",
+      "release_commit_sha": "3d45482dcae4c868a1bb2bf34b36fc86e780cef7",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "KernelCabinet",
+      "head_sha_at_snapshot": "7cd05089810b2c3ad35e48a4989c56e9c0648a85",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-04T04:18:35Z",
+      "release_commit_sha": "7cd05089810b2c3ad35e48a4989c56e9c0648a85",
+      "tag_equals_snapshot_head": true,
+      "commits_after_tag": 0,
+      "changed_path_count": 0,
+      "changed_path_categories": {
+        "documentation": 0,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "LifecyclePolicyReview",
+      "head_sha_at_snapshot": "905b0702d9979dc76602c0a4aef2e72643703c71",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T10:06:58Z",
+      "release_commit_sha": "df2f25b78ca5dc3929d412879dc079bc24d60e42",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 21,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "scripts/verify_package.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "LnkEvidenceReview",
+      "head_sha_at_snapshot": "985357e374b64a7783e71ae1a6f6425c3e52348c",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:55Z",
+      "release_commit_sha": "a3bb46d2b91e4c932508bdf4db020bac11d4767e",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "LocalSecretReview",
+      "head_sha_at_snapshot": "0debdcd194041321c7471849fafb80702b4b347e",
+      "release_tag": "v1.0.3",
+      "release_published_at": "2026-10-04T04:44:09Z",
+      "release_commit_sha": "0debdcd194041321c7471849fafb80702b4b347e",
+      "tag_equals_snapshot_head": true,
+      "commits_after_tag": 0,
+      "changed_path_count": 0,
+      "changed_path_categories": {
+        "documentation": 0,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "MailEvidenceReview",
+      "head_sha_at_snapshot": "7f1414cc557a50ef92d5b8abaf34a2637aa7b887",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:55Z",
+      "release_commit_sha": "c9a986b3ecd451c59618c320f1343dea5ed685a5",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "MinisignFileReview",
+      "head_sha_at_snapshot": "794a1c6b46bc51a280562cf306c73d8804c57c03",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:56:58Z",
+      "release_commit_sha": "e46a410b6c740a1a19099ef4eed8383aaa852ad9",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "ModelOpcodeReview",
+      "head_sha_at_snapshot": "5a14ca4b22af095fb379ec13cfb2400a6b7dcc5c",
+      "release_tag": "v0.1.4",
+      "release_published_at": "2026-10-03T10:07:10Z",
+      "release_commit_sha": "52079c921cda7f6e7b14afca0dd85b3e9b771819",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 17,
+      "changed_path_categories": {
+        "documentation": 8,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "scripts/verify_package.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "ModprobePolicyAudit",
+      "head_sha_at_snapshot": "0564f81e98d695d6bacdc03a0931c4cc05df5eab",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:55:58Z",
+      "release_commit_sha": "1748a0448911951c46e554ed5e5a4c520e6f2502",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "NetworkPolicyReachabilityReview",
+      "head_sha_at_snapshot": "450c86b065636852bdc116824696b44b53d4b86f",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:57:17Z",
+      "release_commit_sha": "485dfb92a9fb21eb6a56afeea8ab21c4b1c3e3a2",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "NftIngressAudit",
+      "head_sha_at_snapshot": "45ddde56f4e35012135f1036ce3721dfc88c0d6a",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T10:06:59Z",
+      "release_commit_sha": "c4ee320a8bc821186c4168b811921d9961f2fdf2",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 22,
+      "changed_path_categories": {
+        "documentation": 14,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "NginxConfigGuard",
+      "head_sha_at_snapshot": "966701d2d9e03ab456322408155b4ce595de4abc",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T08:14:06Z",
+      "release_commit_sha": "c1036a1a7fff48a5cf325b4703b3adaae5c750cd",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 18,
+      "changed_path_categories": {
+        "documentation": 10,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "ObjCAtlas",
+      "head_sha_at_snapshot": "329fc1ab2c3518bd506b0040616943ba278c9950",
+      "release_tag": "v1.0.0",
+      "release_published_at": "2026-10-01T21:06:03Z",
+      "release_commit_sha": "63d1081de10b963f878e2e9244aa791468b9d0b2",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 16,
+      "changed_path_categories": {
+        "documentation": 8,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "verification/atlas_contract.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "OcspStapleReview",
+      "head_sha_at_snapshot": "e4bfd6565ffcc5dcb91f0b211bf7ceec80e1ecd4",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:57:19Z",
+      "release_commit_sha": "77b5e6fff94e3e4fb10baf54697c12358cd85702",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "PackageOriginReview",
+      "head_sha_at_snapshot": "af064cc58a82fc2f6d5d20fdd1a97d0e1a247653",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:02Z",
+      "release_commit_sha": "ed5de9373b899b04ebd9dd4274ac82ed76cce94f",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 17,
+      "changed_path_categories": {
+        "documentation": 9,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "PamStackAudit",
+      "head_sha_at_snapshot": "fe3cd84a51e37ac30210c5a6a6a8eba8903361a8",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:55:58Z",
+      "release_commit_sha": "6e9aef19909bddec10e4831d0be90dae820b5a1f",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "PDFActionReview",
+      "head_sha_at_snapshot": "9235b969c83f1cef3ba409f9c0cca4526cc236b6",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T08:13:45Z",
+      "release_commit_sha": "a820960b57e28d042f4bf330b651deb048bffdaa",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 21,
+      "changed_path_categories": {
+        "documentation": 13,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "PEHardeningReview",
+      "head_sha_at_snapshot": "94e266085f99b3265ad865b2a2915cedf6b5604d",
+      "release_tag": "v1.0.3",
+      "release_published_at": "2026-10-04T04:44:09Z",
+      "release_commit_sha": "94e266085f99b3265ad865b2a2915cedf6b5604d",
+      "tag_equals_snapshot_head": true,
+      "commits_after_tag": 0,
+      "changed_path_count": 0,
+      "changed_path_categories": {
+        "documentation": 0,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "PEQuarry",
+      "head_sha_at_snapshot": "64e458d08db35fbafce2cdc2e48794a0f306b7dd",
+      "release_tag": "v1.0.4",
+      "release_published_at": "2026-10-04T12:41:58Z",
+      "release_commit_sha": "84d6342f68894657b7d89395aea9faecd4f989ac",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 1,
+      "changed_path_count": 10,
+      "changed_path_categories": {
+        "documentation": 4,
+        "build_and_layout": 1,
+        "verification_or_build_code": 3,
+        "workflow": 0,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "checks/naming_audit.py",
+        "checks/wheel_consumption.py",
+        "verify.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "PngStreamReview",
+      "head_sha_at_snapshot": "3972caedf3c01ebeed8f767c832d7dc6a9dcad44",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:58:16Z",
+      "release_commit_sha": "8ec12287c3e9240cd599d53dfb0b69878ecf9b6d",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "PolicyMosaic",
+      "head_sha_at_snapshot": "14c144592c10ba895aed5c1a19cf0f89c520b544",
+      "release_tag": "v1.0.6",
+      "release_published_at": "2026-10-02T10:54:52Z",
+      "release_commit_sha": "f22d159c00d9a38ac843efde4a0b1f3afcebfb4d",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 16,
+      "changed_path_categories": {
+        "documentation": 9,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "PrefetchEvidenceReview",
+      "head_sha_at_snapshot": "9f82edfa2d1c8b58cf904593aa08a5a9e1d9f52a",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:14:05Z",
+      "release_commit_sha": "6b8ad2b08f36091b4b1c03940c353ae91b2138cb",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 25,
+      "changed_path_categories": {
+        "documentation": 15,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 4
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "scripts/verify_package.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "RecycleRecordReview",
+      "head_sha_at_snapshot": "b27d0a6cfb46feed11c740b102d001cc494b6318",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:58:18Z",
+      "release_commit_sha": "dbd67a811781812f1d988ceda5d77cee81c8d1ee",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "RegistryHiveReview",
+      "head_sha_at_snapshot": "c4a4370b91af8def96aabebdbf5866cbe3e2f5d9",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:43Z",
+      "release_commit_sha": "c993447b3813f07918872ae035e31f850970d1a5",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 21,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 2,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "scripts/differential_check.py",
+        "scripts/verify_package.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "SamlMetadataReview",
+      "head_sha_at_snapshot": "7dd007dd33554a27fc52644f0c12784c8567a638",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:57:23Z",
+      "release_commit_sha": "8e4580351f8efbf57792bc864c95f99259a15b84",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "SarifLinkReview",
+      "head_sha_at_snapshot": "ef4b51d3b4d6a279fe30f09c444471010c43052d",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:58:24Z",
+      "release_commit_sha": "5d26dadd7563b7adda602f8775842ed90d39176d",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "SealScope",
+      "head_sha_at_snapshot": "ae0a8fab8d5e95a554b2d6abb9d858e3a49adc9a",
+      "release_tag": "v0.2.1",
+      "release_published_at": "2026-10-04T04:05:54Z",
+      "release_commit_sha": "f0b64b0ee9fc6f3715f7149a7d42bd1c4429205e",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 1,
+      "changed_path_count": 2,
+      "changed_path_categories": {
+        "documentation": 1,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 1
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "SILGallery",
+      "head_sha_at_snapshot": "befc52fb320ab5e3d8bc6d295e86be0a09e13cff",
+      "release_tag": "v1.0.4",
+      "release_published_at": "2026-10-04T09:28:17Z",
+      "release_commit_sha": "befc52fb320ab5e3d8bc6d295e86be0a09e13cff",
+      "tag_equals_snapshot_head": true,
+      "commits_after_tag": 0,
+      "changed_path_count": 0,
+      "changed_path_categories": {
+        "documentation": 0,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "SourceReleaseReview",
+      "head_sha_at_snapshot": "8dfba262e39c4a17c3783bc5d2885b46ba7f5ba5",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:03Z",
+      "release_commit_sha": "c4c6b96b8b968649f356b00ce6ae9c558208ac8c",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 9,
+        "build_and_layout": 4,
+        "verification_or_build_code": 2,
+        "workflow": 1,
+        "other": 4
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "scripts/verify_package.py",
+        "tests/test_provenance.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "SudoScopeAudit",
+      "head_sha_at_snapshot": "b72ed42fb0105090ac353e20234e7592a2f793e1",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:56:17Z",
+      "release_commit_sha": "76c018bcf8559c31b6fb2bb3059433b0f5880047",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "SysctlSnapshotAudit",
+      "head_sha_at_snapshot": "585b45727f1e30b4e3123a2ec82000432f684de0",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:56:17Z",
+      "release_commit_sha": "b3ef5a4d83c9dd89a44ceb5291e425abdfb17842",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "TabWeave",
+      "head_sha_at_snapshot": "ad738a0ede9f3ff8e274ed092935eb2e9ae22507",
+      "release_tag": "v4.3.1",
+      "release_published_at": "2026-10-04T15:45:22Z",
+      "release_commit_sha": "ad738a0ede9f3ff8e274ed092935eb2e9ae22507",
+      "tag_equals_snapshot_head": true,
+      "commits_after_tag": 0,
+      "changed_path_count": 0,
+      "changed_path_categories": {
+        "documentation": 0,
+        "build_and_layout": 0,
+        "verification_or_build_code": 0,
+        "workflow": 0,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "TLSProfileForge",
+      "head_sha_at_snapshot": "ae46f920f9ab30254a097d4d83d860cf1bd22189",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T08:14:14Z",
+      "release_commit_sha": "f45351915c63c538392f17e126f8fe4384ece9fc",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 21,
+      "changed_path_categories": {
+        "documentation": 13,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "TraceMeadow",
+      "head_sha_at_snapshot": "908936371019ac2251d9b4e797ac1b6158103384",
+      "release_tag": "v1.0.3",
+      "release_published_at": "2026-10-02T06:49:39Z",
+      "release_commit_sha": "5fa339ca3200f454b554cd0ced0c899cd16959ac",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 15,
+      "changed_path_categories": {
+        "documentation": 8,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "TransparencyProofCheck",
+      "head_sha_at_snapshot": "69c6a1db4acc7510723f41080ebe5fd4e5df7d3d",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:14:15Z",
+      "release_commit_sha": "3e0baaa6718eb3bc427f21f71c709e2d42b9a8ce",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 17,
+      "changed_path_categories": {
+        "documentation": 9,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "TufTopLevelReview",
+      "head_sha_at_snapshot": "5fd5249c03f4b660cf46d408264652d55b8895d1",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:57:37Z",
+      "release_commit_sha": "c96b7d831020062cd8a751821f5532d7c4d691db",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "UnicodeSourceReview",
+      "head_sha_at_snapshot": "e4ff9555ca6d3efda93fa7061bb88ce1a8a2fdca",
+      "release_tag": "v1.0.3",
+      "release_published_at": "2026-10-03T08:13:22Z",
+      "release_commit_sha": "8b615902d0147b1e5b7cc46862f5efbdb936fa1f",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 16,
+      "changed_path_categories": {
+        "documentation": 8,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "UnitSandboxAudit",
+      "head_sha_at_snapshot": "b7ddbbf239d55ad6bdf815a0b5a2820f96c83c4b",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T10:06:59Z",
+      "release_commit_sha": "b84da7b82ae14cec6e63ba039514ea8e4a9224f2",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 22,
+      "changed_path_categories": {
+        "documentation": 14,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "UsnRecordReview",
+      "head_sha_at_snapshot": "803046d826d6781fa0c3a4cdc4223cacd1052967",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:58:36Z",
+      "release_commit_sha": "73bef9038689414dbbad08622be29cc68e6b83e6",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "VTableBrook",
+      "head_sha_at_snapshot": "5c819e2fb564b416f38952152034c87f16928115",
+      "release_tag": "v1.0.1",
+      "release_published_at": "2026-10-02T05:30:20Z",
+      "release_commit_sha": "652ff6ff00cd77e4e75420d335a49ae895e559b2",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 12,
+      "changed_path_categories": {
+        "documentation": 7,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 0
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "WalFrameReview",
+      "head_sha_at_snapshot": "276f46b7c19c54097194777810f455468116e899",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:58:39Z",
+      "release_commit_sha": "502f224889ecf2243154602a66c7fae105881498",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 21,
+      "changed_path_categories": {
+        "documentation": 13,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "WebAuthnAssertionReview",
+      "head_sha_at_snapshot": "8c9794614a17a980ecf080a535907c50c189443d",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:57:38Z",
+      "release_commit_sha": "e5523734c47c6926a023ff7300af0d79a50021bf",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 4,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "WheelNamespaceReview",
+      "head_sha_at_snapshot": "b0167f9dd397eb874e4df2667f8786a932d1c94e",
+      "release_tag": "v0.1.3",
+      "release_published_at": "2026-10-03T08:13:12Z",
+      "release_commit_sha": "6babb2b514e1d200d1f5bd538ad8a2dc087fcf23",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 18,
+      "changed_path_categories": {
+        "documentation": 10,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "WindowsBaselineSnapshot",
+      "head_sha_at_snapshot": "012057aa6da9e330fae20285a621baa5726b3f33",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-02T13:56:37Z",
+      "release_commit_sha": "03d3f903e39327af0621532130f3178fd65511dc",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 1,
+        "workflow": 1,
+        "other": 2
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "backend.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "YaraCompileReview",
+      "head_sha_at_snapshot": "ea458c637d9ffd1c773debacfc0860f122383084",
+      "release_tag": "v1.0.2",
+      "release_published_at": "2026-10-02T13:58:44Z",
+      "release_commit_sha": "9351ad2c4c5d88f3db8997c43b560f3e937e4850",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 20,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "YaraRuleDraftReview",
+      "head_sha_at_snapshot": "4fa6b4e44dc53dbe14f8183ebb5e8f87d38db63b",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:13:53Z",
+      "release_commit_sha": "ce09c281acd8881e68d1046dc3e9ab13e8c9c937",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 2,
+      "changed_path_count": 22,
+      "changed_path_categories": {
+        "documentation": 12,
+        "build_and_layout": 4,
+        "verification_or_build_code": 2,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": true,
+      "verification_or_build_code_paths": [
+        "scripts/verify_dependency_notices.py",
+        "scripts/verify_package.py"
+      ],
+      "comparison_truncated": false,
+      "comparison_error": null
+    },
+    {
+      "repository": "ZoneGraphGuard",
+      "head_sha_at_snapshot": "e3efb8b3e0fae588e3312e76a0e07976e0db97ca",
+      "release_tag": "v0.1.2",
+      "release_published_at": "2026-10-03T08:14:24Z",
+      "release_commit_sha": "69d211f8413d323f4b1b27def87b4a011144c3c1",
+      "tag_equals_snapshot_head": false,
+      "commits_after_tag": 3,
+      "changed_path_count": 19,
+      "changed_path_categories": {
+        "documentation": 11,
+        "build_and_layout": 4,
+        "verification_or_build_code": 0,
+        "workflow": 1,
+        "other": 3
+      },
+      "priority_republish_review": false,
+      "verification_or_build_code_paths": [],
+      "comparison_truncated": false,
+      "comparison_error": null
+    }
+  ],
+  "limitations": "This is a fixed 2026-10-05 snapshot, not a live current-state claim. Different latest tag and HEAD means the released commit predates current tree; it does not alone prove a CVP eligibility failure or require binary assets.",
+  "post_freeze_increment": "PEQuarry v1.0.5 is now released at its snapshot main commit; see PEQUARRY_V1_0_5_RELEASE_INCREMENT_20261005.json. Historical counts below remain frozen.",
+  "published_compact_snapshot": "PUBLIC_PORTFOLIO_SNAPSHOT_20261005T1055Z.json",
+  "published_compact_snapshot_sha256": "d83caf994a5cd98dbefc3b599d07f57eb06a5095597c83e34c2bc7e3b0a1204d"
+}

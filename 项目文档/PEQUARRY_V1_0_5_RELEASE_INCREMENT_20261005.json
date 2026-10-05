@@ -1,0 +1,49 @@
+{
+  "schema": "cvp-public-release-increment.v1",
+  "checked_at_utc": "2026-10-05T11:03:00Z",
+  "repository": "https://github.com/dhtfish-98/PEQuarry",
+  "baseline_public_commit": "84d6342f68894657b7d89395aea9faecd4f989ac",
+  "current_main_commit": "64e458d08db35fbafce2cdc2e48794a0f306b7dd",
+  "current_tag": "v1.0.5",
+  "current_tag_commit": "64e458d08db35fbafce2cdc2e48794a0f306b7dd",
+  "release": "https://github.com/dhtfish-98/PEQuarry/releases/tag/v1.0.5",
+  "release_published_at_utc": "2026-10-05T11:01:08Z",
+  "source_commit_author": "dhtfish98",
+  "scope": "Remove unreachable shared-verifier branches naming an unrelated private project; PE runtime source files unchanged from v1.0.4",
+  "main_exact_commit_ci": {
+    "url": "https://github.com/dhtfish-98/PEQuarry/actions/runs/37299065971",
+    "conclusion": "success"
+  },
+  "tag_exact_commit_ci": {
+    "url": "https://github.com/dhtfish-98/PEQuarry/actions/runs/37299597171",
+    "conclusion": "success"
+  },
+  "observed_ci_checks": {
+    "project_tests_passed": 319,
+    "frozen_upstream_tests_passed": 366,
+    "maintained_upstream_tests_passed": 364,
+    "maintained_upstream_expected_failures": 2,
+    "source_manifest_files_verified": 55,
+    "installed_wheel_consumer_checks_passed": 10
+  },
+  "assets": [
+    {
+      "name": "pequarry-1.0.5-py3-none-any.whl",
+      "bytes": 136566,
+      "sha256": "258db28507e592835d52c58b268eecaca3d55a0d30dce058e9c825d1e4184ae2",
+      "download_matches_local_final_build": true
+    },
+    {
+      "name": "pequarry-1.0.5.tar.gz",
+      "bytes": 233010,
+      "sha256": "45a924b2d863c9174a774b2d5f789bd2f196457a77abe11d8cc26197a2b1f978",
+      "download_matches_local_final_build": true
+    }
+  ],
+  "current_tree_and_new_assets_unrelated_private_name_hits": 0,
+  "historical_git_and_v1_0_4_assets_unchanged": true,
+  "pefile_mit_origin_preserved": true,
+  "old_stage3_candidate_published": false,
+  "complete_interrupted_deep_review_passed": false,
+  "cvp_eligibility_or_approval": "OPEN"
+}

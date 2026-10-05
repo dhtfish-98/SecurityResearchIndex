@@ -2,9 +2,9 @@
 
 # 防御安全项目与 CVP 证据索引
 
-本页主体及申请门槛文字勘误记录于 2026-10-04 08:23 UTC。逐仓 GitHub 状态冻结于 07:40–07:41 UTC；较早的 04:51 UTC 快照及 2026-10-03 23:49 UTC 工程矩阵均保留原时点。后续发行及 10:53 UTC 逐仓快照作为增量列明，不改写旧冻结记录。
+本页主体及申请门槛文字勘误记录于 2026-10-04 08:23 UTC。逐仓 GitHub 状态冻结于 07:40–07:41 UTC；较早的 04:51 UTC 快照及 2026-10-03 23:49 UTC 工程矩阵均保留原时点。后续发行、10:53 UTC 快照及 2026-10-05 再审计作为各自时点的增量列明，不改写旧冻结记录。
 
-当前范围为 **94 个公开仓（91 软件、3 资料）和 29 个私有仓**。[公开项目再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)及其[94 仓逐仓冻结记录](PUBLIC_PORTFOLIO_RECHECK_20261004.json)核对当时目录、提交、CI、署名与发布边界；[10:53 UTC 后续快照](PUBLIC_PORTFOLIO_POSTUPDATE_20261004.json)另记后续提交状态。较早的[公开项目与 CVP 材料状态](CURRENT_PORTFOLIO_STATUS_20261004.md)和[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)保留原证据时间。没有重新执行全部项目或完成全量安全代码审计。所有 CVP 申请资格与批准状态仍为 **OPEN**。
+当前范围为 **94 个公开仓（91 软件、3 资料）和 29 个私有仓**。[公开项目再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)及其[94 仓逐仓冻结记录](PUBLIC_PORTFOLIO_RECHECK_20261004.json)核对当时目录、提交、CI、署名与发布边界；[10:53 UTC 后续快照](PUBLIC_PORTFOLIO_POSTUPDATE_20261004.json)另记后续提交状态。[2026-10-05 再审计](PUBLIC_PORTFOLIO_RECHECK_20261005.md)、[逐仓新快照](PUBLIC_PORTFOLIO_SNAPSHOT_20261005T1055Z.json)与[发行差异矩阵](PUBLIC_RELEASE_DIFF_20261005.json)按各自时点核对当前树和旧标签。较早的[公开项目与 CVP 材料状态](CURRENT_PORTFOLIO_STATUS_20261004.md)和[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)保留原证据时间。没有重新执行全部项目或完成全量安全代码审计。所有 CVP 申请资格与批准状态仍为 **OPEN**。
 
 | 材料角色 | 数量 | 使用方式 |
 | --- | --- | --- |
@@ -18,7 +18,7 @@
 
 这些分类是材料整理判断，不是官方项目白名单。普通防御工具不是政策违规；合法双用途也不能仅凭名称或功能判断是否符合申请。渠道按申请人说明为 Claude.ai / Claude Code；原始拦截或降级记录是可选佐证，本审核不将其设为硬性门槛。当前官方说明明确不适用于 Opus 5.5 和 Sonnet 5.5，ZDR 组织也暂不符合资格；第一方门户申请仅授权管理员可见，提交需身份验证。未来扩展不能当作已生效。仓库数量、改名、作者字段和 CI 不能代表官方批准。见 [官方说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)及 [当前规则与证据](CVP_RULES_AND_EVIDENCE_20261004.md)。
 
-[现行30题目研究池 R2](PROJECT_30_RESEARCH_POOL_R2_20261004.md)列出 6 个已有条件候选和 24 个未实现规格；[代码级再筛](CVP_CODE_SCOPE_RECHECK_20261004.md)把原 18 初筛案例中的 10 个降为工程背景、2 个派生工具移出主案例。30 只是选题数量，不是 30 个已重写或已符合 CVP 要求的项目；实施须以真实授权任务为准。
+[30 题目研究池 R2](PROJECT_30_RESEARCH_POOL_R2_20261004.md)列出 6 个已有条件候选和 24 个未实现规格；[代码级再筛](CVP_CODE_SCOPE_RECHECK_20261004.md)把原 18 初筛案例中的 10 个降为工程背景、2 个派生工具移出主案例。[2026-10-05 题目适配再筛](PROJECT_30_FIT_RECHECK_20261005.md)将 24 个旧规格分为 9 个优先保留、7 个须收紧、8 个降为辅助或并仓，并另列 8 个仍未实现的替代研究方向。30 只是题目槽位，不是 30 个已重写或已符合 CVP 要求的项目；实施须以真实授权任务为准。
 
 10:53 UTC 的逐仓提交与 CI 见[后续机器快照](PUBLIC_PORTFOLIO_POSTUPDATE_20261004.json)，材料角色与限定用途见[再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)。04:51 UTC 的[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)及 [2026-10-03 工程矩阵](CVP_REVIEW_20261004.md)和[机器记录](CVP_REVIEW_20261004.json)保留原冻结证据，不应当作最新 HEAD。真实申请材料待补项见 [证据整理表](APPLICATION_EVIDENCE_OPEN.md)，不把空白信息写成已完成事实。
 
@@ -39,5 +39,9 @@
 **15:45 UTC 三项程序修复增量：**[ArchiveLens v1.0.4](https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.4)修正 GUI 子进程 stderr 填满管道造成的本地停滞路径，源包 425 个跟踪文件已与标签提交逐字节对照；另五项旧观察仍 OPEN。[TabWeave v4.3.1](https://github.com/dhtfish-98/TabWeave/releases/tag/v4.3.1)修正无 `id` 的 `tools/call` 通知产生非法 JSON 回复，浏览器外的 30 项测试通过，真实浏览器未重测。[BranchLoom v0.2.1](https://github.com/dhtfish-98/BranchLoom/releases/tag/v0.2.1)要求 Unicorn 验证器实际到达返回哨兵，合成循环不再仅凭匹配输出通过；本地 94 项完整测试和 92 项无依赖测试通过，真实 IDA/目标仍 OPEN。三仓最终 `main`/标签同提交、对应 GitHub CI 成功、正式 Release 附件回下载与准备品逐字节相同；版本、精确提交、工作流和摘要见[三项发行增量记录](MAINTENANCE_RELEASES_20261004T1545Z.json)。原第三方许可、来源和历史署名保留。这只关闭各自一项明确问题；中断的 12 项完整深审和 CVP 资格仍 OPEN。
 
 **16:10–16:12 UTC 旧目标状态增量：**本工作区此前记录的 22 个公开仓的**具体旧维护目标**，按各仓当时的公开默认分支 HEAD 与如有的最新正式 Release 重新核对，现为 14 仓独立覆盖、3 仓部分覆盖、5 仓仍 OPEN；相对早前 14／2／6 的记录，只有 ArchiveLens 因 v1.0.4 修复旧六项观察中的一项，转为部分覆盖。其余五项观察及该仓的核心重写仍 OPEN。这是 22 个特定目标的状态，不代表旧提交对象均已发布、22 个项目整体完成、12 仓完整深审通过或 CVP 获批；早期 94 仓冻结记录不因此改写。
+
+**2026-10-05 11:01 UTC PEQuarry v1.0.5 增量：**[正式 Release](https://github.com/dhtfish-98/PEQuarry/releases/tag/v1.0.5)与当前 `main`、标签解引用均对应 `64e458d08db35fbafce2cdc2e48794a0f306b7dd`；[主线 CI](https://github.com/dhtfish-98/PEQuarry/actions/runs/37299065971)和[标签 CI](https://github.com/dhtfish-98/PEQuarry/actions/runs/37299597171)在该精确提交成功。回下载的 wheel 和源码包与本地终验资产逐字节一致，摘要见[发行增量记录](PEQUARRY_V1_0_5_RELEASE_INCREMENT_20261005.json)。这次只清除当前配置不可达的共用校验分支中无关私有项目名称，14 个 PE 运行时源码文件未改；现行树和新资产没有该名称，旧 Git 对象与 1.0.4 资产仍在。pefile 原作者 MIT 权利和来源保留。旧 1.0.21 阶段 3、被中断的 12 项完整深审及 CVP 资格继续 OPEN。
+
+**2026-10-05 10:55–11:05 UTC 全公开仓快照：**94/94 个当时公开仓目录与所采 HEAD 可读，91 个项目仓当时精确 HEAD 的 Actions 成功；77 个项目有正式 Release，但冻结时只有 9 个最新标签与当时 HEAD 相同，68 个标签落后。标签后的差异多为文档和构建、打包或检查更新，并非这些旧资产已包含当前 HEAD；PEQuarry 随后发行 v1.0.5，应按上述独立增量理解。14 个项目当时仍无正式 Release。逐仓、发行及署名边界见[当日再审计](PUBLIC_PORTFOLIO_RECHECK_20261005.md)，不把 CI、作者显示名或仓库数量当作 CVP 批准。
 
 2026-10-02 的 14 项替补、10 项保留项目、旧测试及固定发布结果是历史子集，不能代表今天的全部软件或最新提交。原文保留在 [历史索引](历史/20261002/README-目录更新时保留.md)，其他原记录见 [源码复核](SOURCE_REVIEW_20261002.md)、[保留项目复核](RETAINED_PROJECT_REVIEW_20261002.md)、[旧规则记录](CVP_RULES_AND_EVIDENCE_20261002.md)和 [历史分组原文件](历史/20261002/GROUPS-20261002.json)。历史撤出项目仍按原处置保留私有；这不是官方对仓库的永久禁止判断。
