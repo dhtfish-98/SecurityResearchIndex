@@ -10,3 +10,14 @@
 |XmlEntityResourceBoundary、PluginHandshakeTrustGate|独立目录内实施中|当前不计完成或验证。|待实现、独立复审与发布门槛。|
 
 新写代码作者字段为 `dhtfish98`；参考上游源码、第三方依赖与许可证按真实关系记载，不把其他作者材料改署为本项目作者。合成弱化基线只用于自有实验，不能证明上游漏洞、申请人真实任务受模型防护影响或官方审批通过。第三批项目目录彼此隔离，不改动另外两个对话所用的旧批次目录。
+
+## 15:46 UTC 发行增量
+
+上述 15:20 UTC 表格保留原时点。此后又有两项从本地验收进入正式 GitHub Release：
+
+|项目|版本与精确提交|核对结果|仍未证明|
+|---|---|---|---|
+|[WebSocketUpgradeOriginGate](https://github.com/dhtfish-98/WebSocketUpgradeOriginGate)|[v0.1.0](https://github.com/dhtfish-98/WebSocketUpgradeOriginGate/releases/tag/v0.1.0)，`9840fb8832fa7ad4e401a67b6853f79e37bcd326`|[主线 CI](https://github.com/dhtfish-98/WebSocketUpgradeOriginGate/actions/runs/37333512683)、[标签 CI](https://github.com/dhtfish-98/WebSocketUpgradeOriginGate/actions/runs/37334555749)均在 macOS/Python 3.11、3.14 成功，包含真 Chrome 两来源实验；本地源码/安装版各 13 项测试。回下载 wheel 和源码包 SHA-256 分别为 `6ad319d9c5ec87d38913b01d9da6edce62958eef65aae2b017ab0b187c9b8966`、`de806554c52ec18f3f8584787dd0dc8d2755cdda4bf6c233d87fb645393d2000`，与准备包一致。|WSS、代理、并发上限、生产会话和 CVP 资格。|
+|[GraphQLQueryCostGate](https://github.com/dhtfish-98/GraphQLQueryCostGate)|[v0.1.0](https://github.com/dhtfish-98/GraphQLQueryCostGate/releases/tag/v0.1.0)，`98395957ff8407e991a07c79fcc6b5c05f57780c`|[主线 CI](https://github.com/dhtfish-98/GraphQLQueryCostGate/actions/runs/37334817059)、[标签 CI](https://github.com/dhtfish-98/GraphQLQueryCostGate/actions/runs/37335120728)均在 Node 22、24 成功；本地 15 项测试、四组成对 HTTP 对照及两项资源限额回归，独立安装消费者通过。原 28 KB 变量放大请求现在在 0 次解析器调用前拒绝；回下载源码包 SHA-256 `ab6503f299815b2092ccd8ef3abfc6d1b23f417bf7af7b817291ef418e58f08d` 与本地一致，GraphQL-JS 原 MIT 权利随包保留。|响应大小限制在执行后生效，不能当峰值内存上限；真实部署、通用 schema 和 CVP 资格仍 OPEN。|
+
+截至这次增量，第三批 30 个题目中**3 项正式发布、2 项本地实现但有待修复/复核、1 项在独立目录实施、24 项尚未实施**；并非 30 项均符合 CVP。该账号公开仓库数现为 97，其中旧 94 仓快照仍只覆盖其原读取时点。XmlEntityResourceBoundary 的参数实体/重复声明预算和 PluginHandshakeTrustGate 的包内构建及插件端准入边界仍在修订，尚未发布。
