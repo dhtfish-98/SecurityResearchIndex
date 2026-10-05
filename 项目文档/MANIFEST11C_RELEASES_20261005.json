@@ -1,0 +1,648 @@
+{
+  "schema": "manifest11c-current-public-release-final/v1",
+  "generated_at_utc": "2026-10-05T13:06:26.056653+00:00",
+  "scope": "11 assigned C-group public repositories only; not CVP approval",
+  "repositories": [
+    {
+      "repository": "dhtfish-98/SamlMetadataReview",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "3bc59913f7e7ce56561fc2ac38669e478fea316c",
+      "release_url": "https://github.com/dhtfish-98/SamlMetadataReview/releases/tag/v0.1.3",
+      "release_id": 403712652,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/SamlMetadataReview/actions/runs/37312356158",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/SamlMetadataReview/actions/runs/37312806169",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 23,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1258,
+          "sha256": "911ba64655f34a0028ee1b1db450814da0cd98ee1afc85d180ca5dcf786f22ac"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 306,
+          "sha256": "1faff91e140a28b07467fc80c8c4ce6b64c1ea17a95cc9d20bd7d1407e549abb"
+        },
+        {
+          "name": "cvp_saml_metadata_review-0.1.3-py3-none-any.whl",
+          "bytes": 16059,
+          "sha256": "dcb2e013d0102ec1f613b7845e208f150b3ab57196caa52b8ac7ed30cf67744c"
+        },
+        {
+          "name": "cvp_saml_metadata_review-0.1.3.tar.gz",
+          "bytes": 35941,
+          "sha256": "eaac60e82eb4a863b5d197a82f5bc3acfa669605ce738f71a3df4c39ed892d4e"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/SarifLinkReview",
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "69e8e3dfb8619aa804064bb928c4fa11e75c7e63",
+      "release_url": "https://github.com/dhtfish-98/SarifLinkReview/releases/tag/v1.0.3",
+      "release_id": 403712646,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/SarifLinkReview/actions/runs/37312355571",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/SarifLinkReview/actions/runs/37312806210",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 32,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1246,
+          "sha256": "0ab44bd6c5425f3436b8c114d9822bbdc057e58b9311b848e2fe0d5abd404e54"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 288,
+          "sha256": "55ccde1b7450e7394166d8788f623a62778f79d4f04c7f4cdd848865a19513c1"
+        },
+        {
+          "name": "sariflinkreview-1.0.3-py3-none-any.whl",
+          "bytes": 8403,
+          "sha256": "4e317f8335979eb7d91911ac8469e12c5a6a33e29c2ec14bbc11888f54ca0720"
+        },
+        {
+          "name": "sariflinkreview-1.0.3.tar.gz",
+          "bytes": 25866,
+          "sha256": "b54ee1a9da2f04446fe2fee111b6971b839880206821a01ad111c032a4d7574a"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/TLSProfileForge",
+      "version": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "1c3de1f789e0730d1bf34181511b0b7f440490c7",
+      "release_url": "https://github.com/dhtfish-98/TLSProfileForge/releases/tag/v0.1.4",
+      "release_id": 403716286,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/TLSProfileForge/actions/runs/37312355749",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "official-syntax",
+            "conclusion": "success"
+          },
+          {
+            "name": "verify (3.14)",
+            "conclusion": "success"
+          },
+          {
+            "name": "verify (3.11)",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/TLSProfileForge/actions/runs/37313350038",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify (3.11)",
+            "conclusion": "success"
+          },
+          {
+            "name": "verify (3.14)",
+            "conclusion": "success"
+          },
+          {
+            "name": "official-syntax",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 22,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1556,
+          "sha256": "1f264f844fb2dceedd4d49a41d9e71ad00274c8d99f71160cd023ab12bcd62db"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 292,
+          "sha256": "2d78483fc66b853bd089d3af66fcf62f8f763adf0cdf268ce37c7039e87cc29b"
+        },
+        {
+          "name": "tls_profile_forge-0.1.4-py3-none-any.whl",
+          "bytes": 36434,
+          "sha256": "6e2c56f70c8c4e5a0cf5f2ff26c4b5bb23ec2e4dddec58e5d1aa4e39e230ac77"
+        },
+        {
+          "name": "tls_profile_forge-0.1.4.tar.gz",
+          "bytes": 102610,
+          "sha256": "91be6b36789ca8096bec6b22b4a778faa18d86f0a485ed23fd859104c6c2ce20"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/TransparencyProofCheck",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "1235b11cac42f905359ae50cf53ab8359f301c9e",
+      "release_url": "https://github.com/dhtfish-98/TransparencyProofCheck/releases/tag/v0.1.3",
+      "release_id": 403712651,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/TransparencyProofCheck/actions/runs/37312356322",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "test (3.14)",
+            "conclusion": "success"
+          },
+          {
+            "name": "test (3.11)",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/TransparencyProofCheck/actions/runs/37312806407",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "test (3.11)",
+            "conclusion": "success"
+          },
+          {
+            "name": "test (3.14)",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 25,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1256,
+          "sha256": "9b0da2258d6d93ff6482c244db7390bc76e1472f1229af43c112e7676ccc7ae9"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 306,
+          "sha256": "6ea8200f6cd27ecdb316712e17269af776df7c3e06684384dda2150dcf854662"
+        },
+        {
+          "name": "transparency_proof_check-0.1.3-py3-none-any.whl",
+          "bytes": 30447,
+          "sha256": "30ecac8b09cc49016a18a5a83753b105b6f217961c4ed514ef2a7afd34d6f28f"
+        },
+        {
+          "name": "transparency_proof_check-0.1.3.tar.gz",
+          "bytes": 75872,
+          "sha256": "cb206f687ad24a5c7aa23f61e1c8c56618a222a2c6743495af57319671078346"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/TufTopLevelReview",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "f37d6a281b174105b86af8144eb4b0c8d5bbba4e",
+      "release_url": "https://github.com/dhtfish-98/TufTopLevelReview/releases/tag/v0.1.3",
+      "release_id": 403712645,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/TufTopLevelReview/actions/runs/37312361274",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/TufTopLevelReview/actions/runs/37312806382",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 16,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1256,
+          "sha256": "94d2468b6e441e115e60f021407adfcd3ebd66da8a54299ae4c46c77a72279ab"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 306,
+          "sha256": "fbb252496a131291289b20616ec4dd75dca5bef8d881403f258adbc807b098ba"
+        },
+        {
+          "name": "cvp_tuf_top_level_review-0.1.3-py3-none-any.whl",
+          "bytes": 14318,
+          "sha256": "b05728fcfe2fefb184070eb4a096247d7a745286a040880d28edf336c2e29ce7"
+        },
+        {
+          "name": "cvp_tuf_top_level_review-0.1.3.tar.gz",
+          "bytes": 31334,
+          "sha256": "abc37f1933e2c5e7a39ae9f3f5efc551fa608449a31722bd53b153caee98794d"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/UnicodeSourceReview",
+      "version": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "80be270c1bddd1ed2b068b60a29e630e2e8d101c",
+      "release_url": "https://github.com/dhtfish-98/UnicodeSourceReview/releases/tag/v1.0.4",
+      "release_id": 403712724,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/UnicodeSourceReview/actions/runs/37312360540",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify (3.11)",
+            "conclusion": "success"
+          },
+          {
+            "name": "verify (3.14)",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/UnicodeSourceReview/actions/runs/37312810983",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify (3.14)",
+            "conclusion": "success"
+          },
+          {
+            "name": "verify (3.11)",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 27,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1244,
+          "sha256": "039ef0d058428b895ee862069de68ad5ef2abcf860bdcc9328fe9eb1ad7c23f4"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 300,
+          "sha256": "a0acfd2ff8d77eedf00a4696e101f679911e1275e0a49cbc65c4d66c204e6260"
+        },
+        {
+          "name": "unicode_source_review-1.0.4-py3-none-any.whl",
+          "bytes": 20156,
+          "sha256": "31792bd17c43e22ea7ae7cccb21994ff644a2a79782e9725ec7d759f5c0d11e5"
+        },
+        {
+          "name": "unicode_source_review-1.0.4.tar.gz",
+          "bytes": 36902,
+          "sha256": "c792662c4b726e08a016062e56cec2e47d9b4c13b5f9eb59e4392bfe9db36fb8"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/UsnRecordReview",
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "2455920c69bb77940537c47ce2a1dc30b3987f17",
+      "release_url": "https://github.com/dhtfish-98/UsnRecordReview/releases/tag/v1.0.3",
+      "release_id": 403712725,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/UsnRecordReview/actions/runs/37312360217",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/UsnRecordReview/actions/runs/37312811983",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 21,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1247,
+          "sha256": "95a9e5843bf599cb223a2f668c442882800b9d0c88191680a91959d5943e75fb"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 288,
+          "sha256": "14a1c5a99190b396f11ec07eb886d8fdf1c1f92493d4eb1fb45166779ecc1d8b"
+        },
+        {
+          "name": "usnrecordreview-1.0.3-py3-none-any.whl",
+          "bytes": 17062,
+          "sha256": "68f280af360434cc2b337b2f6415939f50c793ee676f0a5673b5bd7a17cac669"
+        },
+        {
+          "name": "usnrecordreview-1.0.3.tar.gz",
+          "bytes": 44239,
+          "sha256": "25de0415fa0361679334d46478a5528c3bdac9a5b95a5f4ca7c797ab3da4d529"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/WalFrameReview",
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "97a62158424cbb476f53c6c6316109ee7c656557",
+      "release_url": "https://github.com/dhtfish-98/WalFrameReview/releases/tag/v1.0.3",
+      "release_id": 403712726,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/WalFrameReview/actions/runs/37312360952",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/WalFrameReview/actions/runs/37312810804",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 16,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1392,
+          "sha256": "5eed43a56f41d04582a7d97f5996791d77a0706b05ff7a3ea62661ebd0daf4ef"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 286,
+          "sha256": "cd1af0a55d16c8adab338c50914a7cfb4346b73b15602139cbe270e456fb9970"
+        },
+        {
+          "name": "walframereview-1.0.3-py3-none-any.whl",
+          "bytes": 7439,
+          "sha256": "6352100a2256f369b6ef53add856a1db958fc98496ce5426daf161582e6b4507"
+        },
+        {
+          "name": "walframereview-1.0.3.tar.gz",
+          "bytes": 22036,
+          "sha256": "de1c97e3fa2286a746813fe6ab315aa12a8e67564407906042d04a45faf69581"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/WebAuthnAssertionReview",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "8947b868d5dcb92c1391a266c9781b4938990418",
+      "release_url": "https://github.com/dhtfish-98/WebAuthnAssertionReview/releases/tag/v0.1.3",
+      "release_id": 403712728,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/WebAuthnAssertionReview/actions/runs/37312365406",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/WebAuthnAssertionReview/actions/runs/37312811496",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 17,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1278,
+          "sha256": "3d4e7e2bc0c00054973b27460873b7699c0a444bfffe33278aaf49d7b7be0225"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 316,
+          "sha256": "5b20c2a52eef3a69472aabfd36fcaf7f135ac3ccb28367cd533bf5b45d73b68d"
+        },
+        {
+          "name": "cvp_webauthn_assertion_review-0.1.3-py3-none-any.whl",
+          "bytes": 14107,
+          "sha256": "25d50b21ab72707d7a99122eea1b465fbfb09214657e06fc70b5c6ca550789b7"
+        },
+        {
+          "name": "cvp_webauthn_assertion_review-0.1.3.tar.gz",
+          "bytes": 32251,
+          "sha256": "37f6d56af2c626ce2f25db865babf7666556404e76c9f98b9ca28b52e7108210"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/YaraCompileReview",
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "94e315464483beb0d3273806d8da0647069d4603",
+      "release_url": "https://github.com/dhtfish-98/YaraCompileReview/releases/tag/v1.0.3",
+      "release_id": 403712780,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/YaraCompileReview/actions/runs/37312366374",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/YaraCompileReview/actions/runs/37312817202",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "verify",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 28,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1255,
+          "sha256": "5b2768b41e5480444c389ec425aab3cacbd96246de4fa29bca19cb57a4162257"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 292,
+          "sha256": "ec18856f66400bf52a8a6bc3c373e4af2fde7d7cd03796c2c562827a8257d10e"
+        },
+        {
+          "name": "yaracompilereview-1.0.3-py3-none-any.whl",
+          "bytes": 18781,
+          "sha256": "e52feff02a3cab1df4402c605157a89128c9b912c6ace93cb8734a1207a04d34"
+        },
+        {
+          "name": "yaracompilereview-1.0.3.tar.gz",
+          "bytes": 48179,
+          "sha256": "2705204fc8e1cba1c5991664c2eead3a0fad0c470b2b602ff07d1c7e59aa39cb"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    },
+    {
+      "repository": "dhtfish-98/ZoneGraphGuard",
+      "version": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "3df880f1187e23c234c1c8127a40bd96cd0bd22d",
+      "release_url": "https://github.com/dhtfish-98/ZoneGraphGuard/releases/tag/v0.1.3",
+      "release_id": 403712783,
+      "exact_main_ci": {
+        "url": "https://github.com/dhtfish-98/ZoneGraphGuard/actions/runs/37312365003",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "review (3.14)",
+            "conclusion": "success"
+          },
+          {
+            "name": "review (3.11)",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "exact_tag_ci": {
+        "url": "https://github.com/dhtfish-98/ZoneGraphGuard/actions/runs/37312816243",
+        "status": "PASS",
+        "jobs": [
+          {
+            "name": "review (3.11)",
+            "conclusion": "success"
+          },
+          {
+            "name": "review (3.14)",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "local_installed_tests_pass": 69,
+      "package_rights_and_source_byte_identity": "PASS",
+      "release_assets_byte_identity": "PASS",
+      "assets": [
+        {
+          "name": "RELEASE_MANIFEST.json",
+          "bytes": 1224,
+          "sha256": "190b4c3c347d266a82cc3307e4952a40c7e512022520b60bbfd51d0cded3fe96"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 290,
+          "sha256": "af2112e7fc055cdf89e31307a21188b68cd094d3d9eaba3a1dac59d87911fcfe"
+        },
+        {
+          "name": "zone_graph_guard-0.1.3-py3-none-any.whl",
+          "bytes": 21236,
+          "sha256": "8a120685be2277a2848fe50dd22ee9093dd02ec1f1a5b84b9dab204983c63533"
+        },
+        {
+          "name": "zone_graph_guard-0.1.3.tar.gz",
+          "bytes": 59114,
+          "sha256": "0196afcff398c64cc6fa0e6e370d4c097438823ef3b0100a76bc8e1ccbb77351"
+        }
+      ],
+      "cvp_eligibility": "OPEN"
+    }
+  ],
+  "counts": {
+    "released": 11,
+    "exact_main_ci_pass": 11,
+    "exact_tag_ci_pass": 11,
+    "installed_tests_pass": 296,
+    "assets_redownload_identical": 44
+  }
+}
