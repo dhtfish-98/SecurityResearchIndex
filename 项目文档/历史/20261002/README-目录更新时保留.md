@@ -10,7 +10,7 @@
 
 ## 14 项替补防御项目
 
-原公开组合撤出的 14 个仓库均保留私有；下表 14 项是另建的防御项目。本轮完整源码复核修正了已确认的输入处理和漏检问题，当前共 101 项本地测试通过，14 个公开最新提交均有对应的成功 CI。具体问题、修正及边界见 [源码复核记录](<SOURCE_REVIEW_20261002.md>)。
+原公开组合撤出的 14 个仓库均保留私有；下表 14 项是另建的防御项目。本轮完整源码复核修正了已确认的输入处理和漏检问题，当前共 101 项本地测试通过，14 个公开最新提交均有对应的成功 CI。具体问题、修正及边界见 [源码复核记录](../../SOURCE_REVIEW_20261002.md)。
 
 | 项目 | 实际用途 | 当前工程证据 |
 | --- | --- | --- |
@@ -44,6 +44,6 @@
 
 ## 其他公开项目
 
-ArchiveLens、ObjCAtlas、ImageQuay、PolicyMosaic、TraceMeadow、KernelCabinet、SILGallery、VTableBrook、IDBMeadow、PEQuarry 继续公开。本轮已逐项核对实际能力、来源和许可证，已有 9 项发布具体运行时或入口改写，包含 VTableBrook 全部运行时 C 文件及共享头的有界重写，以及 ImageQuay、PolicyMosaic、TraceMeadow、PEQuarry、IDBMeadow 的有限解析和输出等实改；固定发布提交均有相符的成功 CI。尚继承的核心算法继续迭代，完整项目重写仍 OPEN。具体修改、历史软件包及仍未完成的边界见 [保留项目复核记录](<RETAINED_PROJECT_REVIEW_20261002.md>)。这些工具包含各自声明的输出、编辑、脚本或外部助手能力，不能统一描述为纯只读项目。[SealScope](https://github.com/dhtfish-98/SealScope) 是现有的只读 Mach-O 审计工具，也只作为相关工作背景。历史的 BranchLoom、TabWeave、A64Dispatch、ChromeRelay 等也不因公开而自动成为 CVP 项目。
+ArchiveLens、ObjCAtlas、ImageQuay、PolicyMosaic、TraceMeadow、KernelCabinet、SILGallery、VTableBrook、IDBMeadow、PEQuarry 继续公开。本轮已逐项核对实际能力、来源和许可证，已有 9 项发布具体运行时或入口改写，包含 VTableBrook 全部运行时 C 文件及共享头的有界重写，以及 ImageQuay、PolicyMosaic、TraceMeadow、PEQuarry、IDBMeadow 的有限解析和输出等实改；固定发布提交均有相符的成功 CI。尚继承的核心算法继续迭代，完整项目重写仍 OPEN。具体修改、历史软件包及仍未完成的边界见 [保留项目复核记录](../../RETAINED_PROJECT_REVIEW_20261002.md)。这些工具包含各自声明的输出、编辑、脚本或外部助手能力，不能统一描述为纯只读项目。[SealScope](https://github.com/dhtfish-98/SealScope) 是现有的只读 Mach-O 审计工具，也只作为相关工作背景。历史的 BranchLoom、TabWeave、A64Dispatch、ChromeRelay 等也不因公开而自动成为 CVP 项目。
 
 14 项替补项目的代码、说明、来源和自动测试已按各自 `VALIDATION.md` 核查，公开仓库与对应提交的 CI 已核对。其中两项还完成了独立 wheel 安装检查。对本次申请，仍未核实与实际模型、渠道、申请人和组织一致的原始受限任务记录；因此这里只能标记项目工程检查完成，不能标记 CVP 申请条件完成。GitHub 结果和申请结果分别记录，绝不以自动测试推断 CVP 审核结论。

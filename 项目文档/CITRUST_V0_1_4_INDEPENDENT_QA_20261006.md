@@ -17,7 +17,7 @@
 
 下载 wheel、sdist 和公开提交的八个 Python 运行模块逐字节一致。wheel 的 `ORIGIN.md`、`NOTICE`、`LICENSE` 与公开提交文档逐字节一致。包元数据为 0.1.4，Author/Maintainer 都是 `dhtfish98`。固定 zizmor 上游 `56941012a98a93ccb3846dc625f64ee1d97f623e` 的原 MIT LICENSE 前 1109 字节在包 LICENSE 中逐字保留；原 William Woodruff 版权、PyYAML 独立依赖、维护者代码归属在 ORIGIN/NOTICE 中分列。作者字段仅是包署名，不能单独证明实际个人贡献。
 
-下载 wheel 的 `review.py` 由 wheel 压缩包直接导入，再运行六个独立构造的惰性输入。`pull_request` 默认 checkout 后 `./inert.sh "${{ secrets.GITHUB_TOKEN }}"` 得到 `FAIL / privileged_workspace_execution`、零 OPEN；同 secret 经 step `env` 传入也得到相同结果。仅 `echo` 数据和无 secret 脚本均 `PASS`。`pull_request_target` 默认 checkout 的相同直接 secret 没有该 finding，因未提供 workspace 程序体为 `OPEN`。`github.token` 变体为 `OPEN`（未解析表达式），没有被误报为 PASS。输入未执行、没有提供实际令牌；逐项 SHA、状态及模块路径见 [independent-replay.json](independent-replay.json)。
+下载 wheel 的 `review.py` 由 wheel 压缩包直接导入，再运行六个独立构造的惰性输入。`pull_request` 默认 checkout 后 `./inert.sh "${{ secrets.GITHUB_TOKEN }}"` 得到 `FAIL / privileged_workspace_execution`、零 OPEN；同 secret 经 step `env` 传入也得到相同结果。仅 `echo` 数据和无 secret 脚本均 `PASS`。`pull_request_target` 默认 checkout 的相同直接 secret 没有该 finding，因未提供 workspace 程序体为 `OPEN`。`github.token` 变体为 `OPEN`（未解析表达式），没有被误报为 PASS。输入未执行、没有提供实际令牌；逐项 SHA、状态及模块路径见 [内含 `independent-replay.json` 的 v1.0.4 独立证据包](https://github.com/dhtfish-98/SecurityResearchIndex/releases/download/v1.0.4/CITRUST_V0_1_4_INDEPENDENT_EVIDENCE_20261006.tar.gz)。
 
 ## 边界与残留
 
