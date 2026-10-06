@@ -1,0 +1,35 @@
+{
+  "schema": "xlm-layout-portable-rebuild-v1",
+  "checked_at_utc": "2026-10-06T00:16:43.164260+00:00",
+  "status": "PASS_LOCAL_STRICT_OOXML_PROFILE",
+  "central_source_files": 21,
+  "central_doc_files": 7,
+  "combined_candidate_files": 28,
+  "central_candidate_stage_parity": true,
+  "source_and_package_byte_parity": true,
+  "clean_source_and_candidate": true,
+  "source_unit_tests": "23/23 PASS Python 3.14",
+  "packages": {
+    "xlm_formula_trace-0.2.0.tar.gz": {
+      "bytes": 27233,
+      "sha256": "04b791dac06af251654a8b04e5a7971e39ad3b28a488339853dfbdbb1376d7ea"
+    },
+    "xlm_formula_trace-0.2.0-py3-none-any.whl": {
+      "bytes": 12754,
+      "sha256": "2d83a8fde7d4823d36b2eb74fa6a3d03ebea283ab09da2279a8602066c790660"
+    }
+  },
+  "installed_wheel_cases": "14/14 PASS",
+  "installed_sdist_cases": "14/14 PASS",
+  "installed_receipt_sha256": {
+    "wheel": "ca853cd9c499a5d587ca2049760a20158f641a8614592c249d5a74dcde557cde",
+    "sdist": "92da4e28fcd7dc83d3b6807fbb5f97ed0b205272455370817fd637074a30a0b9"
+  },
+  "stray_pycache_relocation_manifest_sha256": "52e4c96c1e918a83d8ed03b2219b71ac508cc80ea07d66a77697bf775f920016",
+  "limits": [
+    "Self-authored strict five-part OOXML XLM profile only",
+    "No Excel runtime or broad .xlsm/.xls/.xlsb compatibility",
+    "No GitHub repository, hosted CI or Release",
+    "CVP eligibility and approval OPEN"
+  ]
+}

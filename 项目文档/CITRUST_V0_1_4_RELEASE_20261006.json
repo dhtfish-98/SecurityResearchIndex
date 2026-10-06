@@ -1,0 +1,49 @@
+{
+  "schema": "ci-trust-boundary-review-v0.1.4-publication-v1",
+  "verified_at_utc": "2026-10-06T00:17:05.583426+00:00",
+  "repository": "https://github.com/dhtfish-98/CITrustBoundaryReview",
+  "release_url": "https://github.com/dhtfish-98/CITrustBoundaryReview/releases/tag/v0.1.4",
+  "published_at": "2026-10-06T00:12:27Z",
+  "main_head": "5a18be56c75d4814e321010f2f3def090b50615a",
+  "tag_object": "4dc4c25877f4e7ef53be3b382acdb578359e586f",
+  "tag_target": "5a18be56c75d4814e321010f2f3def090b50615a",
+  "main_ci": {
+    "url": "https://github.com/dhtfish-98/CITrustBoundaryReview/actions/runs/37392093765",
+    "result": "success"
+  },
+  "tag_ci": {
+    "url": "https://github.com/dhtfish-98/CITrustBoundaryReview/actions/runs/37392549828",
+    "result": "success"
+  },
+  "assets": [
+    {
+      "name": "ci_trust_boundary_review-0.1.4-py3-none-any.whl",
+      "bytes": 49256,
+      "sha256": "75b953f29baa47ebe4a27a6d6fa608503b223d2d18907fee385e819033560c36",
+      "redownload_equal": true
+    },
+    {
+      "name": "ci_trust_boundary_review-0.1.4.tar.gz",
+      "bytes": 68649,
+      "sha256": "3f13282a29ee3e5c92e63e55d3e7f77986f29d62a3f0c0818ac81372b7607d21",
+      "redownload_equal": true
+    },
+    {
+      "name": "RELEASE_MANIFEST.json",
+      "bytes": 1347,
+      "sha256": "eb25b358a234b3812b1b468ced5fdb3916d6def66efa815197569c7e0e7ea7bb",
+      "redownload_equal": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 306,
+      "sha256": "aa592bfae414da181f358fcaa75b288c55f6c4be615834f4190555f51c0045f8",
+      "redownload_equal": true
+    }
+  ],
+  "local_validation_receipt_sha256": "d25c2e7f28afdee5aea47303ab9f6b03c230c35249862fb3c34cc96f0656797a",
+  "limitations": [
+    "Synthetic parser and fixture validation only",
+    "Live target workflow, credential authority, exploitability and CVP decision OPEN"
+  ]
+}
