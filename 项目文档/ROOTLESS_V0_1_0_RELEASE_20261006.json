@@ -1,0 +1,79 @@
+{
+  "schema": "rootless-idmap-publication-v1",
+  "captured_utc": "2026-10-06T01:33:07.675074+00:00",
+  "result": "PASS_PUBLIC_ENGINEERING",
+  "repository": "https://github.com/dhtfish-98/RootlessIdMapBoundary",
+  "release_url": "https://github.com/dhtfish-98/RootlessIdMapBoundary/releases/tag/v0.1.0",
+  "published_at": "2026-10-06T01:32:09Z",
+  "version": "v0.1.0",
+  "head_and_tag_commit": "708811e9ec24bd9b5fe28ed2e56efe5c2b7666e1",
+  "tag_object": "b307a4577b76a6f3b01767cdfe5d68e29c8678b9",
+  "tagger": "dhtfish98 <109978225+dhtfish-98@users.noreply.github.com>",
+  "source_archive_file_count": 21,
+  "tracked_build_files": [
+    "Build/.gitignore"
+  ],
+  "assets": {
+    "EVIDENCE-MANIFEST.json": {
+      "sha256": "341fc4233ba0e616e4aa0cdff00cc76d0f90f4df7c5066a846e515826f381910",
+      "size": 1122,
+      "github_digest": "sha256:341fc4233ba0e616e4aa0cdff00cc76d0f90f4df7c5066a846e515826f381910",
+      "download_equal_local": true,
+      "url": "https://github.com/dhtfish-98/RootlessIdMapBoundary/releases/download/v0.1.0/EVIDENCE-MANIFEST.json"
+    },
+    "RootlessIdMapBoundary-0.1.0-evidence.tar.gz": {
+      "sha256": "97e914650301749961740dcc31222b7f78007999ab2694d1c518d910101eb481",
+      "size": 104633,
+      "github_digest": "sha256:97e914650301749961740dcc31222b7f78007999ab2694d1c518d910101eb481",
+      "download_equal_local": true,
+      "url": "https://github.com/dhtfish-98/RootlessIdMapBoundary/releases/download/v0.1.0/RootlessIdMapBoundary-0.1.0-evidence.tar.gz"
+    },
+    "RootlessIdMapBoundary-0.1.0.tar.gz": {
+      "sha256": "e490711fc5bbe95ca31c730ee8266efa05596c09060ede1ab8a880c27b718498",
+      "size": 25943,
+      "github_digest": "sha256:e490711fc5bbe95ca31c730ee8266efa05596c09060ede1ab8a880c27b718498",
+      "download_equal_local": true,
+      "url": "https://github.com/dhtfish-98/RootlessIdMapBoundary/releases/download/v0.1.0/RootlessIdMapBoundary-0.1.0.tar.gz"
+    },
+    "SHA256SUMS": {
+      "sha256": "3503d4fedb9593b3fbdfe1215003c7cd213a2abb7304292ca3ab28ea7fa4dea2",
+      "size": 300,
+      "github_digest": "sha256:3503d4fedb9593b3fbdfe1215003c7cd213a2abb7304292ca3ab28ea7fa4dea2",
+      "download_equal_local": true,
+      "url": "https://github.com/dhtfish-98/RootlessIdMapBoundary/releases/download/v0.1.0/SHA256SUMS"
+    }
+  },
+  "main_and_tag_ci": [
+    {
+      "kind": "main",
+      "run_id": 37398953021,
+      "url": "https://github.com/dhtfish-98/RootlessIdMapBoundary/actions/runs/37398953021",
+      "head": "708811e9ec24bd9b5fe28ed2e56efe5c2b7666e1",
+      "jobs_success": 2,
+      "native_receipt_sha256": "37448e41b340fd83b4ca3d8aa7c79c2bacb61d8844b03d3396a3ca24db587be8",
+      "native_status": "PASS",
+      "native_artifact_zip_sha256": "ba1654f9efe1c97369f5d6044274126f08bc354804f85edf1e87123ea1f352cd",
+      "independent_report_sha256": "1fe77a0e8604403562adc4b1ec92cab11a4c11c6f69d3000ced782ddb91039b0",
+      "acl_restored_byte_equal": true
+    },
+    {
+      "kind": "tag",
+      "run_id": 37399263180,
+      "url": "https://github.com/dhtfish-98/RootlessIdMapBoundary/actions/runs/37399263180",
+      "head": "708811e9ec24bd9b5fe28ed2e56efe5c2b7666e1",
+      "jobs_success": 2,
+      "native_receipt_sha256": "391f0c05f5380fa190ddf1abaa5bc87a3eb0ad074379c9fbaf6202b6081ea9bb",
+      "native_status": "PASS",
+      "native_artifact_zip_sha256": "201b82c6c165e35f8547cf0739b586b20d8e63428ef3a98dfc4777e3bc89fdc3",
+      "independent_report_sha256": "5cd5367917eb2abf78c67d2f3cee6228830ce3b5618b8ccf5b768caad79f11bb",
+      "acl_restored_byte_equal": true
+    }
+  ],
+  "local_vm_receipt_sha256": "b0ba2bf0247cd6094ad128f4f42def1e4eeb491c35e169d0c61594c79617bec6",
+  "local_vm_serial_sha256": "4bbf64b3da3a8fd67c19987d3dff7045eee8e1e917f8539c39773cd17f3e681d",
+  "source_and_central_mirror_equal": true,
+  "apparmor_post_unload_kernel_status": "OPEN",
+  "remote_branch_tag_protection": "OPEN",
+  "production_rootless_engine": "OPEN",
+  "cvp_eligibility_and_approval": "OPEN"
+}

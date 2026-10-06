@@ -1,0 +1,51 @@
+{
+  "schema": "xlm-local-strict-final-index-v1",
+  "captured_utc": "2026-10-06T01:33:02.016223+00:00",
+  "candidate_status": "LOCAL_STRICT_OOXML_PASS_EXCEL_RUNTIME_OPEN",
+  "local_commit": "ca53ffa28dcc17d4d98fe4f312b27a7d0fbf3623",
+  "tree": "83a1d82206053dc2754c06d81b827b2ea742275b",
+  "tracked_files": 28,
+  "split_mirror_parity": true,
+  "git_clean_no_remote": true,
+  "unit_tests": {
+    "python_3_11": "24/24 PASS",
+    "python_3_14": "24/24 PASS"
+  },
+  "packages": {
+    "xlm_formula_trace-0.2.0-py3-none-any.whl": {
+      "sha256": "78ed586d6de4d1d224043c7654dd14a41d6ad500ce42ec716aae4bd149bf6b44",
+      "bytes": 13189
+    },
+    "xlm_formula_trace-0.2.0.tar.gz": {
+      "sha256": "e5ab54a32a6891e7c48f9ec42e1e9d954778dfa6a2f167dcfe89ba4d513ab14b",
+      "bytes": 28428
+    }
+  },
+  "installed_cli_receipt_sha256": {
+    "wheel311": "2371c16bd9ed95fc8c33c757deba50fa988ba613cfd71d86c6612d832e6a49c5",
+    "wheel314": "ae52f063f6a4418d6dc8da7008f46f11a9146c3e7445951ef6d8036677e1e4b3",
+    "sdist311": "47fb73c0bbfcf835248d086513861b7aaf648dd2ebc126a64b0b37564512c881"
+  },
+  "direct_entrypoint_cases": 9,
+  "self_built_workbook_sha256": {
+    "external_ref.xlsm": "982a2c10f0241e5764461865af2b2b6f1d3edd30988bd7d4f131d1687e08dd0d",
+    "known_false.xlsm": "33ad07c16f02e7a44aa34871ba3409e594f1c1c08fcf27beb34b88766e39f185",
+    "known_true.xlsm": "8f52bc51e2db229940644d00273b49f6bd1456a2035fcc1b009f4dc36dae0e1f",
+    "loop.xlsm": "01a0ff8281bee22c3c2286f8ccba64bd6d5646a718a8d63814768512215d9094",
+    "malformed_ref.xlsm": "6121acc3178f28abede5f880e0d725f30b4d9ff09ebd6c6cf22795f0a9a9a554",
+    "missing_target.xlsm": "392b1c12b1293a924fbcf4f074d4d070069e94890498564b72aea14f4625f9e6"
+  },
+  "pinned_upstream_read_only_parser_check_sha256": "b9e2402da693aad0a3a3cbb60c62756d5477c29c66fab8d6a68ca928411dd5d3",
+  "third_party": {
+    "upstream": "DissectMalware/XLMMacroDeobfuscator",
+    "commit": "43114164d89b8b3b426144f1fdfeb2ca75d28b92",
+    "license": "Apache-2.0",
+    "license_mirror_sha256": "2ff92ebb44242ab6d053f0d79683f0e71aaf78d268003352563d220f45abdc18",
+    "no_upstream_files_or_runtime_dependency_bundled": true
+  },
+  "excel_open_or_runtime": "OPEN_NOT_TESTED",
+  "excel_generated_or_real_world_workbook_compatibility": "OPEN_NOT_TESTED",
+  "biff_xls_xlsb": "OPEN_NOT_SUPPORTED",
+  "public_repo_ci_release_cvp": "OPEN_NOT_CLAIMED",
+  "local_freeze_sha256": "dd3f1149996e663c2850d368001a36d106f969de0231385a958b1ed552b42ac1"
+}

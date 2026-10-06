@@ -1,5 +1,5 @@
-# SecurityResearchIndex v1.0.3
+# SecurityResearchIndex v1.0.5
 
-本版新增 2026-10-05 23:44 UTC 的公开 117 仓冻结读取、HeadscaleEnrollmentGate v0.1.0 的精确发行回执、历史六项的定向深审与两份发行说明更正，并修正上一版遗留的索引版本说明。第三批固定 30 题为 23 项正式发行、7 项待完成。v1.0.2 的 116 仓快照与此前历史报告继续按各自时点保留。
+本版新增 2026-10-06 01:33:34–01:33:49 UTC 的 119 个公开仓冻结快照、ContainerCapabilityDropGate v0.1.0 与 RootlessIdMapBoundary v0.1.0 的精确发行回执。第三批固定 30 题在该冻结点为 **25 项正式发行、5 项待完成**；数字只表示工程发行，不表示 25 项通过 CVP 申请。
 
-当前主要入口：[117 仓状态报告](PUBLIC_117_POST_HEADSCALE_STATUS_20261006.md)、[逐仓矩阵](PUBLIC_117_POST_HEADSCALE_METADATA_20261006.json)、[申请待补事实](APPLICATION_EVIDENCE_OPEN.md)。这是资料仓；版本标识和文档校验不代表 114 个软件仓完成全量功能审计，也不代表 Anthropic CVP 批准。索引仓自身在该矩阵中仍是读取时的 v1.0.2；本版发行后 HEAD 会前进。
+当前入口：[119 仓状态](PUBLIC_119_POST_ROOTLESS_STATUS_20261006.md)、[逐仓矩阵](PUBLIC_119_POST_ROOTLESS_METADATA_20261006.json)、[申请待补事实](APPLICATION_EVIDENCE_OPEN.md)。前次冻结记录仍按原时点保存。本索引在矩阵里仍是 v1.0.4；v1.0.5 发行后索引自身 HEAD 前进。116 个软件项目的完整语义深审、第三方历史权利和官方 CVP 资格仍 OPEN。

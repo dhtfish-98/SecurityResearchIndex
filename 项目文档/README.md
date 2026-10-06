@@ -2,7 +2,7 @@
 
 # 防御安全项目与 CVP 证据索引
 
-**索引版本 v1.0.3；最新公开状态：**[2026-10-05 23:44 UTC 的 117 仓续审](PUBLIC_117_POST_HEADSCALE_STATUS_20261006.md)及[逐仓机器矩阵](PUBLIC_117_POST_HEADSCALE_METADATA_20261006.json)记录 114 个软件仓、3 个资料仓；第三批固定 30 题中 23 项已有正式版本，7 项尚未发行。HeadscaleEnrollmentGate v0.1.0 的精确主线／标签 CI、回下载资产和源码包已核对；FederatedConnectorIdentityGate 公开文档状态落后于实际发行，待负责对话更正。账号关联、软件仓版本标签与检查汇总按冻结窗口复核；申请资格和全量语义深审继续 OPEN。下文按时间保留旧快照和发行过程，不应把旧数字当作实时结论。
+**索引版本 v1.0.5；最新公开元数据冻结于 2026-10-06 01:33:34–01:33:49 UTC：**[119 仓续审](PUBLIC_119_POST_ROOTLESS_STATUS_20261006.md)和[逐仓机器矩阵](PUBLIC_119_POST_ROOTLESS_METADATA_20261006.json)记录 116 个软件仓、3 个资料仓；第三批固定 30 题中 25 项有正式版本，5 项未发行。[RootlessIdMapBoundary v0.1.0](ROOTLESS_V0_1_0_RELEASE_20261006.json) 的同提交主线／标签真实 Linux 对照、原始日志和回下载资产已核对。此前[ContainerCapabilityDropGate v0.1.0](CONTAINER_V0_1_0_RELEASE_20261006.json)及[119 仓旧冻结](PUBLIC_119_POST_CONTAINER_STATUS_20261006.md)保留各自时点。本索引行在新矩阵中仍是 v1.0.4，发布 v1.0.5 后自身 HEAD 将前进；旧段落和旧数字为历史证据，不是实时结论。CVP 资格与全量语义深审继续 OPEN。
 
 本页主体及申请门槛文字勘误记录于 2026-10-04 08:23 UTC。逐仓 GitHub 状态冻结于 07:40–07:41 UTC；较早的 04:51 UTC 快照及 2026-10-03 23:49 UTC 工程矩阵均保留原时点。后续发行、10:53 UTC 快照及 2026-10-05 再审计作为各自时点的增量列明，不改写旧冻结记录。
 
@@ -115,3 +115,8 @@
 [HeadscaleEnrollmentGate v0.1.0](HEADSCALE_V0_1_0_RELEASE_20261006.json)完成固定服务上的 16 项合成注册实验、精确提交的主线／标签 CI 和五个附件回下载核验。[117 仓状态](PUBLIC_117_POST_HEADSCALE_STATUS_20261006.md)与[逐仓矩阵](PUBLIC_117_POST_HEADSCALE_METADATA_20261006.json)重新读取全部公开 HEAD 与最新 Release。第三批变为 **23/30 正式发行**，剩余七项继续按实际实验和独立审核门槛推进。本次索引 v1.0.3 发布会使自身 HEAD 在矩阵冻结后前进；所有官方 CVP 资格与批准、历史版权深审和全部软件语义深审仍 OPEN。
 
 [历史 30 项中六个条件技术附件的独立复核](HISTORICAL_30_SIX_DEEP_AUDIT_20261006.md)发现 CITrustBoundaryReview v0.1.3 对直接插值的敏感值会错误 PASS；该版不可用来证明相应规则正确。另两项旧发行说明把 `Build` 说成包内目录的文字错误已经[更正](HISTORICAL_RELEASE_TEXT_CORRECTIONS_20261006.json)。
+
+
+## 2026-10-06 01:33 UTC 的 119 仓续审
+
+[RootlessIdMapBoundary v0.1.0](ROOTLESS_V0_1_0_RELEASE_20261006.json)完成同源码本地 Linux VM、公开主线／标签七模式真实内核对照、临时 ACL 原样恢复、正式附件回下载及独立复核。[119 仓状态](PUBLIC_119_POST_ROOTLESS_STATUS_20261006.md)和[逐仓矩阵](PUBLIC_119_POST_ROOTLESS_METADATA_20261006.json)重新读取全部公开 HEAD 与最新正式 Release；与前次冻结相比，仅 Rootless 的 HEAD/版本变化。第三批变为 **25/30 正式发行**，其余五项不因本地候选或测试通过而计入。本索引 v1.0.5 发行后自身 HEAD 将前进；官方 CVP 资格与批准、历史权利深查和全部软件语义深审仍 OPEN。

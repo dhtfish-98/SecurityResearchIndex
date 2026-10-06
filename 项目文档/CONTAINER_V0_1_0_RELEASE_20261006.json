@@ -1,0 +1,97 @@
+{
+  "schema": "container-capability-publication-v1",
+  "captured_utc": "2026-10-06T01:08:31.593031+00:00",
+  "result": "PASS_PUBLIC_ENGINEERING",
+  "repository": "https://github.com/dhtfish-98/ContainerCapabilityDropGate",
+  "release_url": "https://github.com/dhtfish-98/ContainerCapabilityDropGate/releases/tag/v0.1.0",
+  "release_published_at": "2026-10-06T01:00:57Z",
+  "version": "v0.1.0",
+  "commit": "c2a49435bdf40ca7892c064151cad8a8dd41fa46",
+  "tag_object_sha": "41f76b65f947d4cac82c596a524c4cec6c65d647",
+  "tagger": {
+    "name": "dhtfish98",
+    "email": "109978225+dhtfish-98@users.noreply.github.com",
+    "date": "2026-10-06T00:57:43Z"
+  },
+  "source_archive_file_count": 19,
+  "assets": {
+    "ContainerCapabilityDropGate-0.1.0-evidence.tar.gz": {
+      "sha256": "95b2e71793574b2b82ac99e9d3683ad69c4e7a38071d4fa176f2919010d59bbf",
+      "size": 4648,
+      "github_digest": "sha256:95b2e71793574b2b82ac99e9d3683ad69c4e7a38071d4fa176f2919010d59bbf",
+      "download_equal_local": true,
+      "url": "https://github.com/dhtfish-98/ContainerCapabilityDropGate/releases/download/v0.1.0/ContainerCapabilityDropGate-0.1.0-evidence.tar.gz"
+    },
+    "ContainerCapabilityDropGate-0.1.0.tar.gz": {
+      "sha256": "dc46673d309c1dbb372b5ca130d5d37c1cc355cb1ed3d59b62d2cbfcfcfefb33",
+      "size": 26272,
+      "github_digest": "sha256:dc46673d309c1dbb372b5ca130d5d37c1cc355cb1ed3d59b62d2cbfcfcfefb33",
+      "download_equal_local": true,
+      "url": "https://github.com/dhtfish-98/ContainerCapabilityDropGate/releases/download/v0.1.0/ContainerCapabilityDropGate-0.1.0.tar.gz"
+    },
+    "EVIDENCE-MANIFEST.json": {
+      "sha256": "afa6145ee751203e6d3d75e7ec1c2f4066dacc690986ef52bc8b54e2abea8516",
+      "size": 1845,
+      "github_digest": "sha256:afa6145ee751203e6d3d75e7ec1c2f4066dacc690986ef52bc8b54e2abea8516",
+      "download_equal_local": true,
+      "url": "https://github.com/dhtfish-98/ContainerCapabilityDropGate/releases/download/v0.1.0/EVIDENCE-MANIFEST.json"
+    },
+    "SHA256SUMS": {
+      "sha256": "b86394b1e2c7a84a54d32379177cbe8e29081c47ff14cefa66df8a906791b8a4",
+      "size": 312,
+      "github_digest": "sha256:b86394b1e2c7a84a54d32379177cbe8e29081c47ff14cefa66df8a906791b8a4",
+      "download_equal_local": true,
+      "url": "https://github.com/dhtfish-98/ContainerCapabilityDropGate/releases/download/v0.1.0/SHA256SUMS"
+    }
+  },
+  "main_and_tag_ci": [
+    {
+      "kind": "main",
+      "run_id": 37396568344,
+      "url": "https://github.com/dhtfish-98/ContainerCapabilityDropGate/actions/runs/37396568344",
+      "head_sha": "c2a49435bdf40ca7892c064151cad8a8dd41fa46",
+      "conclusion": "success",
+      "receipt_sha256": "4dd425fb1131ad33dc8b1fce816a39182d26d93ea889a90e048a03448757afd0",
+      "receipt_status": "PASS",
+      "probe_rows": 10,
+      "raw_log_sha_matches": {
+        "baseline": true,
+        "guard": true,
+        "allow": true,
+        "exec-safe-via-run-exec": true,
+        "exec-unsafe-direct": true
+      },
+      "unsafe_run_exec_exit": 2,
+      "held_kill_exit": 0,
+      "held_delete_exit": 0
+    },
+    {
+      "kind": "tag",
+      "run_id": 37396721905,
+      "url": "https://github.com/dhtfish-98/ContainerCapabilityDropGate/actions/runs/37396721905",
+      "head_sha": "c2a49435bdf40ca7892c064151cad8a8dd41fa46",
+      "conclusion": "success",
+      "receipt_sha256": "fecbc8f0d12c2d364d12ddaff6961b4e299c026e26b5fad9079fa9dde87ae06a",
+      "receipt_status": "PASS",
+      "probe_rows": 10,
+      "raw_log_sha_matches": {
+        "baseline": true,
+        "guard": true,
+        "allow": true,
+        "exec-safe-via-run-exec": true,
+        "exec-unsafe-direct": true
+      },
+      "unsafe_run_exec_exit": 2,
+      "held_kill_exit": 0,
+      "held_delete_exit": 0
+    }
+  ],
+  "local_vm_receipt_sha256": "c2176f5603fdb6a5a59363e81cff78656a950b912470e1bdbda660782e529342",
+  "local_vm_serial_sha256": "dcf99878fd001cd7796a542ba93c811704cb5e232f9b902a24075051e59d2539",
+  "independent_report_sha256": "9da3b8afa0db029a14589ff6b76511fd8ca9df89f4384f91dadbbf60470cd6e2",
+  "source_and_central_mirror_equal": true,
+  "tracked_build_only_gitignore": true,
+  "remote_branch_tag_protection": "OPEN",
+  "production_creation_record_binding": "OPEN",
+  "cvp_eligibility_and_approval": "OPEN"
+}
