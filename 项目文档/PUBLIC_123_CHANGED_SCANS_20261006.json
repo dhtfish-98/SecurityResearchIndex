@@ -1,0 +1,119 @@
+{
+  "captured_utc": "2026-10-06T03:18:36.839091+00:00",
+  "repositories": [
+    {
+      "name": "BuildSecretMountLifetimeGate",
+      "head": "c4289359b5e115fc1e44026f87890fa316adb9b7",
+      "archive_sha256": "60af057b96be2f80218f79873baf2940e5203ed27143975f3c497192b99c0649",
+      "archive_path": "archives/BuildSecretMountLifetimeGate-c4289359b5e1.tar.gz",
+      "tree_truncated": false,
+      "tree_sha": "c4289359b5e115fc1e44026f87890fa316adb9b7",
+      "tree_response_sha256": "3aecfe6e7bd338b3c1fecdd38a96bf736d4e0c92309fad0391ab828a6165d1bf",
+      "git_blob_paths": 20,
+      "archive_paths": 20,
+      "missing": [],
+      "extra": [],
+      "blob_mismatch": [],
+      "submodules": [],
+      "text_files": 20,
+      "non_utf8": [],
+      "product_term_hits": [],
+      "author_pattern_hits": [],
+      "rights_paths": [
+        "LICENSE",
+        "项目文档/LICENSE",
+        "项目文档/ORIGIN.md",
+        "项目文档/THIRD_PARTY_NOTICES.md"
+      ],
+      "generated_candidates": [],
+      "build_tracked": [],
+      "docs_outside": []
+    },
+    {
+      "name": "HTTPMessageFramingGate",
+      "head": "2a0b2ca722ca1ff9380fea77bfb065678ed18655",
+      "archive_sha256": "7e9b26737b2bd535fccac7b2f3cd08f48ece0aa5afb8896feecf204e1905519b",
+      "archive_path": "archives/HTTPMessageFramingGate-2a0b2ca722ca.tar.gz",
+      "tree_truncated": false,
+      "tree_sha": "2a0b2ca722ca1ff9380fea77bfb065678ed18655",
+      "tree_response_sha256": "e81655e8550095d8c20b6faca813fa7648893cbbb67c7bd3541b0725fad11eff",
+      "git_blob_paths": 14,
+      "archive_paths": 14,
+      "missing": [],
+      "extra": [],
+      "blob_mismatch": [],
+      "submodules": [],
+      "text_files": 14,
+      "non_utf8": [],
+      "product_term_hits": [],
+      "author_pattern_hits": [],
+      "rights_paths": [
+        "项目文档/LICENSE",
+        "项目文档/ORIGIN.md"
+      ],
+      "generated_candidates": [],
+      "build_tracked": [],
+      "docs_outside": []
+    },
+    {
+      "name": "UnixPeerCredentialBoundary",
+      "head": "8f5262dbdea481d47ee7ebf487a3eb8023e16e08",
+      "archive_sha256": "3d130d320d944314d01d9c9d61ee526b1aededc07b45e0e92130a980b9907133",
+      "archive_path": "archives/UnixPeerCredentialBoundary-8f5262dbdea4.tar.gz",
+      "tree_truncated": false,
+      "tree_sha": "8f5262dbdea481d47ee7ebf487a3eb8023e16e08",
+      "tree_response_sha256": "36c004c2b7da1ef70267687b6bf14f4f3631d317a06cc5634d607247df305da5",
+      "git_blob_paths": 18,
+      "archive_paths": 18,
+      "missing": [],
+      "extra": [],
+      "blob_mismatch": [],
+      "submodules": [],
+      "text_files": 18,
+      "non_utf8": [],
+      "product_term_hits": [
+        {
+          "path": "项目文档/ORIGIN.md",
+          "line": 7,
+          "text": "No third-party project vulnerability or remote-service behavior is claimed. The file contents, accounts, UIDs and request markers are synthetic. The project has no affiliation with Anthropic and its existence does not demonstrate an accepted Cyber Verification Program application."
+        }
+      ],
+      "author_pattern_hits": [],
+      "rights_paths": [
+        "LICENSE",
+        "项目文档/ORIGIN.md"
+      ],
+      "generated_candidates": [],
+      "build_tracked": [],
+      "docs_outside": []
+    },
+    {
+      "name": "VpnPeerPrefixBindingGate",
+      "head": "625c4568d73346ac44f8703d5bb1835060375de9",
+      "archive_sha256": "e74c2340e78b3467b03ca58ca297bf4dd0b22e47c78e723d9835eef4deda9099",
+      "archive_path": "archives/VpnPeerPrefixBindingGate-625c4568d733.tar.gz",
+      "tree_truncated": false,
+      "tree_sha": "625c4568d73346ac44f8703d5bb1835060375de9",
+      "tree_response_sha256": "dfa4e0eee56d8120d61a75c2b926453f71c79d6d87f73534d7a1489ee9db238c",
+      "git_blob_paths": 28,
+      "archive_paths": 28,
+      "missing": [],
+      "extra": [],
+      "blob_mismatch": [],
+      "submodules": [],
+      "text_files": 28,
+      "non_utf8": [],
+      "product_term_hits": [],
+      "author_pattern_hits": [],
+      "rights_paths": [
+        "LICENSE",
+        "项目文档/LICENSE",
+        "项目文档/ORIGIN.md",
+        "项目文档/THIRD_PARTY_NOTICES.md"
+      ],
+      "generated_candidates": [],
+      "build_tracked": [],
+      "docs_outside": []
+    }
+  ]
+}

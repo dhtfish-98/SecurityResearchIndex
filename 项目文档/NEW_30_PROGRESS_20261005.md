@@ -111,3 +111,17 @@ SFTP 实验以真实回环 SFTP v3 服务验证句柄授权，不代表外部服
 ## 2026-10-05 22:23 UTC 起的 115 仓续审
 
 [PgPoolPrincipalIsolation v0.1.0](PGPOOL_V0_1_0_RELEASE_20261006.json)的独立真实服务复跑、精确提交主线与标签 CI、正式附件回下载已完成，第三批变为 **21/30 正式发行**。[115 仓增量矩阵](PUBLIC_115_CURRENT_METADATA_20261006.json)在确认旧 114 仓 HEAD 和最新版本未漂移后，核对新增仓的精确树、版本与检查；112 软件仓最新正式 Release 均指向所读 HEAD。剩余 9 项未发行；ImageQuay 的四个编译测试夹具仍是项目源码树整理例外。真实 CVP 资格、申请批准及被中断的整仓深审仍 OPEN，具体边界见[115 仓报告](PUBLIC_115_CURRENT_STATUS_20261006.md)。
+
+## 2026-10-06 03:40 UTC：修订后的第三批 30 项工程发行
+
+此前[119 仓冻结](PUBLIC_119_POST_ROOTLESS_STATUS_20261006.md)记录原固定题目 **25/30** 正式发行。余下五个槽位经过审计后，BuildSecretMountLifetimeGate 保留；四个原题 CsiSecretNamespaceGate、RemoteDesktopTransferGate、WireGuardPeerPrefixBinding、XlmFormulaTrace 分别由 HTTPMessageFramingGate、UnixPeerCredentialBoundary、VpnPeerPrefixBindingGate、WebhookSignatureReplayGate 取代，原题只保留研究史，不与替代项目双计。准确映射及旧题排除理由见[修订 30 项](THIRD_BATCH_30_REVISED_20261006.md)。
+
+| 当前项目 | 正式发行与精确提交 | 同提交公开检查 |
+| --- | --- | --- |
+| [HTTPMessageFramingGate](https://github.com/dhtfish-98/HTTPMessageFramingGate/releases/tag/v0.1.0) | v0.1.0 · `2a0b2ca722ca1ff9380fea77bfb065678ed18655` | [主线](https://github.com/dhtfish-98/HTTPMessageFramingGate/actions/runs/37403381382)、[标签](https://github.com/dhtfish-98/HTTPMessageFramingGate/actions/runs/37403714972) 成功 |
+| [BuildSecretMountLifetimeGate](https://github.com/dhtfish-98/BuildSecretMountLifetimeGate/releases/tag/v0.1.1) | v0.1.1 · `c4289359b5e115fc1e44026f87890fa316adb9b7` | [主线](https://github.com/dhtfish-98/BuildSecretMountLifetimeGate/actions/runs/37406994859)、[标签](https://github.com/dhtfish-98/BuildSecretMountLifetimeGate/actions/runs/37407087103) 成功 |
+| [UnixPeerCredentialBoundary](https://github.com/dhtfish-98/UnixPeerCredentialBoundary/releases/tag/v0.1.1) | v0.1.1 · `6c47b5b8e3b5246e673ca145bf91a2d0e5e43be8` | [主线](https://github.com/dhtfish-98/UnixPeerCredentialBoundary/actions/runs/37409186574)、[标签](https://github.com/dhtfish-98/UnixPeerCredentialBoundary/actions/runs/37409261122) 成功 |
+| [VpnPeerPrefixBindingGate](https://github.com/dhtfish-98/VpnPeerPrefixBindingGate/releases/tag/v0.1.0) | v0.1.0 · `09ed5b347fa4b97f23e731052e1d1c535ff57fe4` | [主线](https://github.com/dhtfish-98/VpnPeerPrefixBindingGate/actions/runs/37409424481)、[标签](https://github.com/dhtfish-98/VpnPeerPrefixBindingGate/actions/runs/37409644916) 成功 |
+| [WebhookSignatureReplayGate](https://github.com/dhtfish-98/WebhookSignatureReplayGate/releases/tag/v0.1.0) | v0.1.0 · `fec3fa73c95181cacbb4923ac77f03816f97df69` | [主线](https://github.com/dhtfish-98/WebhookSignatureReplayGate/actions/runs/37409845504)、[标签](https://github.com/dhtfish-98/WebhookSignatureReplayGate/actions/runs/37409890447) 成功 |
+
+这五个项目的本地、公开与独立验收收据保存在各自 `Build/验证` 目录；随后[03:56 UTC 全公开仓机器快照](PUBLIC_PORTFOLIO_POST_119_20261006.json)记录 124 仓、121 软件和四仓 14 份新复下载附件的范围，其中 SshHostCertTrustBoundary 已升级 v0.1.1 修复旧发布文案。第三批现为 **30/30 独立工程发行**，其中按现有技术证据暂分 13 项有条件技术附件和 17 项防御工程背景；**不是** 30 个已证明符合 CVP 的真实案例。[公开文档终审](THIRD_BATCH_30_DOC_STATUS_20261006.json)仅 FederatedConnectorIdentityGate 的旧发布文案仍 OPEN。历史接管的另 30 个软件仓仍是六项有条件技术附件、24 项工程背景；旧候选题目队列与这两组有重叠，不能简单相加。真实授权高风险双用途任务、保障措施影响、组织身份、官方资格和批准均 OPEN。真正引用的第三方权利和许可证继续保留。

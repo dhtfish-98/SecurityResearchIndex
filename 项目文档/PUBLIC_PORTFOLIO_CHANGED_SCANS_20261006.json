@@ -1,0 +1,121 @@
+{
+  "captured_utc": "2026-10-06T03:56:43.235752+00:00",
+  "baseline_123_sha256": "a694c2bae3d80659efee9857884058dd62da0179ee3d9ce5a1aeda7f9c810187",
+  "repositories": [
+    {
+      "name": "SshHostCertTrustBoundary",
+      "head": "a1f2d5fcd93684450670bc2444a6c30f3bc55fd7",
+      "archive_sha256": "a99a88281b08ea73de1559479d7da5887081839f27ecac2a06f415f85e9a0b77",
+      "archive_path": "archives/SshHostCertTrustBoundary-a1f2d5fcd936.tar.gz",
+      "tree_truncated": false,
+      "tree_sha": "a1f2d5fcd93684450670bc2444a6c30f3bc55fd7",
+      "tree_response_sha256": "b73d07fbc45e6bc09709156217a41e672dc8d88c877c7ab6dc5cbf85fcfa7aba",
+      "git_blob_paths": 19,
+      "archive_paths": 19,
+      "missing": [],
+      "extra": [],
+      "blob_mismatch": [],
+      "submodules": [],
+      "text_files": 19,
+      "non_utf8": [],
+      "product_term_hits": [],
+      "author_pattern_hits": [],
+      "rights_paths": [
+        "项目文档/LICENSE",
+        "项目文档/ORIGIN.md",
+        "项目文档/THIRD_PARTY.md"
+      ],
+      "generated_candidates": [],
+      "build_tracked": [
+        "Build/.gitignore"
+      ],
+      "docs_outside": []
+    },
+    {
+      "name": "UnixPeerCredentialBoundary",
+      "head": "6c47b5b8e3b5246e673ca145bf91a2d0e5e43be8",
+      "archive_sha256": "c6d0fa295471eeead40900ed2beceb1427eaba6e121f69b32d66bc165c77b94e",
+      "archive_path": "archives/UnixPeerCredentialBoundary-6c47b5b8e3b5.tar.gz",
+      "tree_truncated": false,
+      "tree_sha": "6c47b5b8e3b5246e673ca145bf91a2d0e5e43be8",
+      "tree_response_sha256": "3dd4178487d6afb53af5e94231b2182d9a03f696e36c7dbff64214a446021f21",
+      "git_blob_paths": 18,
+      "archive_paths": 18,
+      "missing": [],
+      "extra": [],
+      "blob_mismatch": [],
+      "submodules": [],
+      "text_files": 18,
+      "non_utf8": [],
+      "product_term_hits": [
+        {
+          "path": "项目文档/ORIGIN.md",
+          "line": 7,
+          "text": "No third-party project vulnerability or remote-service behavior is claimed. The file contents, accounts, UIDs and request markers are synthetic. The project has no affiliation with Anthropic and its existence does not demonstrate an accepted Cyber Verification Program application."
+        }
+      ],
+      "author_pattern_hits": [],
+      "rights_paths": [
+        "LICENSE",
+        "项目文档/ORIGIN.md"
+      ],
+      "generated_candidates": [],
+      "build_tracked": [],
+      "docs_outside": []
+    },
+    {
+      "name": "VpnPeerPrefixBindingGate",
+      "head": "09ed5b347fa4b97f23e731052e1d1c535ff57fe4",
+      "archive_sha256": "0b77528256b8157f2afcc14bf9f8c655079b551f0c9ab0a11b7b90adeb1ff6e3",
+      "archive_path": "archives/VpnPeerPrefixBindingGate-09ed5b347fa4.tar.gz",
+      "tree_truncated": false,
+      "tree_sha": "09ed5b347fa4b97f23e731052e1d1c535ff57fe4",
+      "tree_response_sha256": "7851412e0bc0c018a618f6a7b3bd9af47293353576a73ee79b10700d40497f4d",
+      "git_blob_paths": 29,
+      "archive_paths": 29,
+      "missing": [],
+      "extra": [],
+      "blob_mismatch": [],
+      "submodules": [],
+      "text_files": 29,
+      "non_utf8": [],
+      "product_term_hits": [],
+      "author_pattern_hits": [],
+      "rights_paths": [
+        "LICENSE",
+        "项目文档/LICENSE",
+        "项目文档/ORIGIN.md",
+        "项目文档/THIRD_PARTY_NOTICES.md"
+      ],
+      "generated_candidates": [],
+      "build_tracked": [],
+      "docs_outside": []
+    },
+    {
+      "name": "WebhookSignatureReplayGate",
+      "head": "fec3fa73c95181cacbb4923ac77f03816f97df69",
+      "archive_sha256": "8b275a1597b12683a069dbbafff2cb726688beb41ca9ec643ed75362ae99a58f",
+      "archive_path": "archives/WebhookSignatureReplayGate-fec3fa73c951.tar.gz",
+      "tree_truncated": false,
+      "tree_sha": "fec3fa73c95181cacbb4923ac77f03816f97df69",
+      "tree_response_sha256": "0e73526c1edc7524fff571b5d724afe38430f7e47490fbf06411a0359c360089",
+      "git_blob_paths": 17,
+      "archive_paths": 17,
+      "missing": [],
+      "extra": [],
+      "blob_mismatch": [],
+      "submodules": [],
+      "text_files": 17,
+      "non_utf8": [],
+      "product_term_hits": [],
+      "author_pattern_hits": [],
+      "rights_paths": [
+        "项目文档/LICENSE",
+        "项目文档/ORIGIN.md"
+      ],
+      "generated_candidates": [],
+      "build_tracked": [],
+      "docs_outside": []
+    }
+  ]
+}

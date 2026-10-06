@@ -1,0 +1,173 @@
+{
+  "schema": "index-v106-changed-release-assets-v1",
+  "assets": [
+    {
+      "repo": "UnixPeerCredentialBoundary",
+      "tag": "v0.1.1",
+      "published_at": "2026-10-06T03:31:51Z",
+      "name": "EVIDENCE-MANIFEST.json",
+      "size": 2150,
+      "api_size": 2150,
+      "sha256": "f7ec25b0842fca32c839a2916351a52c8c35eefad08954a6b48dcdb42d961b21",
+      "api_digest": "sha256:f7ec25b0842fca32c839a2916351a52c8c35eefad08954a6b48dcdb42d961b21",
+      "url": "https://github.com/dhtfish-98/UnixPeerCredentialBoundary/releases/download/v0.1.1/EVIDENCE-MANIFEST.json",
+      "pass": true
+    },
+    {
+      "repo": "UnixPeerCredentialBoundary",
+      "tag": "v0.1.1",
+      "published_at": "2026-10-06T03:31:51Z",
+      "name": "SHA256SUMS",
+      "size": 310,
+      "api_size": 310,
+      "sha256": "fddc6aef673c7b7c75f6988967f2dec5540aaff0ee223754988a4726ea9c62bb",
+      "api_digest": "sha256:fddc6aef673c7b7c75f6988967f2dec5540aaff0ee223754988a4726ea9c62bb",
+      "url": "https://github.com/dhtfish-98/UnixPeerCredentialBoundary/releases/download/v0.1.1/SHA256SUMS",
+      "pass": true
+    },
+    {
+      "repo": "UnixPeerCredentialBoundary",
+      "tag": "v0.1.1",
+      "published_at": "2026-10-06T03:31:51Z",
+      "name": "UnixPeerCredentialBoundary-0.1.1-evidence.tar.gz",
+      "size": 12882,
+      "api_size": 12882,
+      "sha256": "48e068ad5e87bc0b69b3e5bb92d0a236f195e1f376447603b07cd08edbbf2488",
+      "api_digest": "sha256:48e068ad5e87bc0b69b3e5bb92d0a236f195e1f376447603b07cd08edbbf2488",
+      "url": "https://github.com/dhtfish-98/UnixPeerCredentialBoundary/releases/download/v0.1.1/UnixPeerCredentialBoundary-0.1.1-evidence.tar.gz",
+      "pass": true
+    },
+    {
+      "repo": "UnixPeerCredentialBoundary",
+      "tag": "v0.1.1",
+      "published_at": "2026-10-06T03:31:51Z",
+      "name": "UnixPeerCredentialBoundary-0.1.1.tar.gz",
+      "size": 19135,
+      "api_size": 19135,
+      "sha256": "f80c9676b4fedfec48a3449f062656b6cb3a801525d8e7f63e3703dbe10a7242",
+      "api_digest": "sha256:f80c9676b4fedfec48a3449f062656b6cb3a801525d8e7f63e3703dbe10a7242",
+      "url": "https://github.com/dhtfish-98/UnixPeerCredentialBoundary/releases/download/v0.1.1/UnixPeerCredentialBoundary-0.1.1.tar.gz",
+      "pass": true
+    },
+    {
+      "repo": "WebhookSignatureReplayGate",
+      "tag": "v0.1.0",
+      "published_at": "2026-10-06T03:39:42Z",
+      "name": "evidence.json",
+      "size": 2795,
+      "api_size": 2795,
+      "sha256": "f82ba8d621095efcb98a042bd9b264c1101bbab8b2e50664366df55b3856419e",
+      "api_digest": "sha256:f82ba8d621095efcb98a042bd9b264c1101bbab8b2e50664366df55b3856419e",
+      "url": "https://github.com/dhtfish-98/WebhookSignatureReplayGate/releases/download/v0.1.0/evidence.json",
+      "pass": true
+    },
+    {
+      "repo": "WebhookSignatureReplayGate",
+      "tag": "v0.1.0",
+      "published_at": "2026-10-06T03:39:42Z",
+      "name": "WebhookSignatureReplayGate-0.1.0-source.tar.gz",
+      "size": 13013,
+      "api_size": 13013,
+      "sha256": "fb3ebe22417e022a6cefc86158faaba23ce8bd236027b796713fc760333d21ee",
+      "api_digest": "sha256:fb3ebe22417e022a6cefc86158faaba23ce8bd236027b796713fc760333d21ee",
+      "url": "https://github.com/dhtfish-98/WebhookSignatureReplayGate/releases/download/v0.1.0/WebhookSignatureReplayGate-0.1.0-source.tar.gz",
+      "pass": true
+    },
+    {
+      "repo": "WebhookSignatureReplayGate",
+      "tag": "v0.1.0",
+      "published_at": "2026-10-06T03:39:42Z",
+      "name": "webhook_signature_replay_gate-0.1.0-py3-none-any.whl",
+      "size": 7600,
+      "api_size": 7600,
+      "sha256": "f1a912ba88511b4169d44f6c77e9f67920de7563a66f92659601a1f3e615d90f",
+      "api_digest": "sha256:f1a912ba88511b4169d44f6c77e9f67920de7563a66f92659601a1f3e615d90f",
+      "url": "https://github.com/dhtfish-98/WebhookSignatureReplayGate/releases/download/v0.1.0/webhook_signature_replay_gate-0.1.0-py3-none-any.whl",
+      "pass": true
+    },
+    {
+      "repo": "WebhookSignatureReplayGate",
+      "tag": "v0.1.0",
+      "published_at": "2026-10-06T03:39:42Z",
+      "name": "webhook_signature_replay_gate-0.1.0.tar.gz",
+      "size": 15884,
+      "api_size": 15884,
+      "sha256": "d47096b6b5757110130bbfd4cf52ca766c7e3a582d272becc819987410e04f6f",
+      "api_digest": "sha256:d47096b6b5757110130bbfd4cf52ca766c7e3a582d272becc819987410e04f6f",
+      "url": "https://github.com/dhtfish-98/WebhookSignatureReplayGate/releases/download/v0.1.0/webhook_signature_replay_gate-0.1.0.tar.gz",
+      "pass": true
+    },
+    {
+      "repo": "VpnPeerPrefixBindingGate",
+      "tag": "v0.1.0",
+      "published_at": "2026-10-06T03:37:20Z",
+      "name": "machine-receipt-main.json",
+      "size": 1881,
+      "api_size": 1881,
+      "sha256": "0d0c5ab7159cb33630e2f6642fca81efa50ebd36a5b8b8eb015fd03c9a9d7425",
+      "api_digest": "sha256:0d0c5ab7159cb33630e2f6642fca81efa50ebd36a5b8b8eb015fd03c9a9d7425",
+      "url": "https://github.com/dhtfish-98/VpnPeerPrefixBindingGate/releases/download/v0.1.0/machine-receipt-main.json",
+      "pass": true
+    },
+    {
+      "repo": "VpnPeerPrefixBindingGate",
+      "tag": "v0.1.0",
+      "published_at": "2026-10-06T03:37:20Z",
+      "name": "machine-receipt-tag.json",
+      "size": 1881,
+      "api_size": 1881,
+      "sha256": "f241801fd048637e2822faff2faae4b706fab3d84f9db82bb11345f96a1632a4",
+      "api_digest": "sha256:f241801fd048637e2822faff2faae4b706fab3d84f9db82bb11345f96a1632a4",
+      "url": "https://github.com/dhtfish-98/VpnPeerPrefixBindingGate/releases/download/v0.1.0/machine-receipt-tag.json",
+      "pass": true
+    },
+    {
+      "repo": "VpnPeerPrefixBindingGate",
+      "tag": "v0.1.0",
+      "published_at": "2026-10-06T03:37:20Z",
+      "name": "SHA256SUMS",
+      "size": 287,
+      "api_size": 287,
+      "sha256": "72f8b316a413bf53a8fc5794b7e8326a87a4279321612c9e5dc17f520d3bea7b",
+      "api_digest": "sha256:72f8b316a413bf53a8fc5794b7e8326a87a4279321612c9e5dc17f520d3bea7b",
+      "url": "https://github.com/dhtfish-98/VpnPeerPrefixBindingGate/releases/download/v0.1.0/SHA256SUMS",
+      "pass": true
+    },
+    {
+      "repo": "VpnPeerPrefixBindingGate",
+      "tag": "v0.1.0",
+      "published_at": "2026-10-06T03:37:20Z",
+      "name": "VpnPeerPrefixBindingGate-0.1.0.tar.gz",
+      "size": 28691,
+      "api_size": 28691,
+      "sha256": "fbf6085d9504aba845fb203fd198d89e1ade15790bb237057dd4758977ec640b",
+      "api_digest": "sha256:fbf6085d9504aba845fb203fd198d89e1ade15790bb237057dd4758977ec640b",
+      "url": "https://github.com/dhtfish-98/VpnPeerPrefixBindingGate/releases/download/v0.1.0/VpnPeerPrefixBindingGate-0.1.0.tar.gz",
+      "pass": true
+    },
+    {
+      "repo": "SshHostCertTrustBoundary",
+      "tag": "v0.1.1",
+      "published_at": "2026-10-06T03:54:49Z",
+      "name": "SHA256SUMS",
+      "size": 101,
+      "api_size": 101,
+      "sha256": "aad33cea55f8da76aa75e592a9e377c96d4d170f015922b44bebe403768af7bd",
+      "api_digest": "sha256:aad33cea55f8da76aa75e592a9e377c96d4d170f015922b44bebe403768af7bd",
+      "url": "https://github.com/dhtfish-98/SshHostCertTrustBoundary/releases/download/v0.1.1/SHA256SUMS",
+      "pass": true
+    },
+    {
+      "repo": "SshHostCertTrustBoundary",
+      "tag": "v0.1.1",
+      "published_at": "2026-10-06T03:54:49Z",
+      "name": "SshHostCertTrustBoundary-0.1.1.tar",
+      "size": 71680,
+      "api_size": 71680,
+      "sha256": "137b740844ee209c0a08c2f26d4635be1b3bf93d1e3cfe091d5c7ad506d0f654",
+      "api_digest": "sha256:137b740844ee209c0a08c2f26d4635be1b3bf93d1e3cfe091d5c7ad506d0f654",
+      "url": "https://github.com/dhtfish-98/SshHostCertTrustBoundary/releases/download/v0.1.1/SshHostCertTrustBoundary-0.1.1.tar",
+      "pass": true
+    }
+  ]
+}

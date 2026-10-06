@@ -1,0 +1,124 @@
+{
+  "capture_started_utc": "2026-10-06T03:22:09.727258+00:00",
+  "snapshot_window_utc": [
+    "2026-10-06T03:18:15.677328+00:00",
+    "2026-10-06T03:18:30.636501+00:00"
+  ],
+  "repository_releases": [
+    {
+      "name": "BuildSecretMountLifetimeGate",
+      "snapshot_head": "c4289359b5e115fc1e44026f87890fa316adb9b7",
+      "snapshot_release_tag": "v0.1.1",
+      "download_tag": "v0.1.1",
+      "snapshot_tag_commit": "c4289359b5e115fc1e44026f87890fa316adb9b7",
+      "assets": [
+        {
+          "name": "BuildSecretMountLifetimeGate-0.1.1-evidence.tar.gz",
+          "size": 16517,
+          "github_size": 16517,
+          "download_sha256": "sha256:a936df6c68e10488038299f2e8b4bf832015e87d65939efc5300b13c3e61c8c8",
+          "github_digest": "sha256:a936df6c68e10488038299f2e8b4bf832015e87d65939efc5300b13c3e61c8c8",
+          "match": true
+        },
+        {
+          "name": "BuildSecretMountLifetimeGate-0.1.1.tar.gz",
+          "size": 19468,
+          "github_size": 19468,
+          "download_sha256": "sha256:c99d0ac73bb7c5cf0bfbba690f91732e27a14dd42b2d252c76ef2b4f22f9f753",
+          "github_digest": "sha256:c99d0ac73bb7c5cf0bfbba690f91732e27a14dd42b2d252c76ef2b4f22f9f753",
+          "match": true
+        },
+        {
+          "name": "build_secret_mount_lifetime_gate-0.1.1-py3-none-any.whl",
+          "size": 13400,
+          "github_size": 13400,
+          "download_sha256": "sha256:22fbac45eb967d33ede2fa51752cd9bb95ff17956ae2bf0d45dd001e900ab23c",
+          "github_digest": "sha256:22fbac45eb967d33ede2fa51752cd9bb95ff17956ae2bf0d45dd001e900ab23c",
+          "match": true
+        },
+        {
+          "name": "build_secret_mount_lifetime_gate-0.1.1.tar.gz",
+          "size": 20214,
+          "github_size": 20214,
+          "download_sha256": "sha256:009102696148c9e7d0cfc026a6b55a9ec6052f6d8e807fac430914b4b56bdbb6",
+          "github_digest": "sha256:009102696148c9e7d0cfc026a6b55a9ec6052f6d8e807fac430914b4b56bdbb6",
+          "match": true
+        },
+        {
+          "name": "EVIDENCE-MANIFEST.json",
+          "size": 2819,
+          "github_size": 2819,
+          "download_sha256": "sha256:2cd723ecfa322f5876c09eba97bb020be61917c6dc5868894fe03bff9d81ebf3",
+          "github_digest": "sha256:2cd723ecfa322f5876c09eba97bb020be61917c6dc5868894fe03bff9d81ebf3",
+          "match": true
+        },
+        {
+          "name": "SHA256SUMS",
+          "size": 548,
+          "github_size": 548,
+          "download_sha256": "sha256:f4f246f77255248e3433672bbc428f0d3c0a4a127b54472da75df86b2e9bdb3a",
+          "github_digest": "sha256:f4f246f77255248e3433672bbc428f0d3c0a4a127b54472da75df86b2e9bdb3a",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "HTTPMessageFramingGate",
+      "snapshot_head": "2a0b2ca722ca1ff9380fea77bfb065678ed18655",
+      "snapshot_release_tag": "v0.1.0",
+      "download_tag": "v0.1.0",
+      "snapshot_tag_commit": "2a0b2ca722ca1ff9380fea77bfb065678ed18655",
+      "assets": [
+        {
+          "name": "EVIDENCE-MANIFEST.json",
+          "size": 2823,
+          "github_size": 2823,
+          "download_sha256": "sha256:5fd5809da3ed730d7231022f97ed9156d0da84daf16a1d0b618e177556f3ac50",
+          "github_digest": "sha256:5fd5809da3ed730d7231022f97ed9156d0da84daf16a1d0b618e177556f3ac50",
+          "match": true
+        },
+        {
+          "name": "HTTPMessageFramingGate-0.1.0-evidence.tar.gz",
+          "size": 74671,
+          "github_size": 74671,
+          "download_sha256": "sha256:ee3e3dddc7910ecac4f5e378b2622fcc1af6916ae0c2ef98d9410b2564e2d9a4",
+          "github_digest": "sha256:ee3e3dddc7910ecac4f5e378b2622fcc1af6916ae0c2ef98d9410b2564e2d9a4",
+          "match": true
+        },
+        {
+          "name": "HTTPMessageFramingGate-0.1.0.tar.gz",
+          "size": 13959,
+          "github_size": 13959,
+          "download_sha256": "sha256:2a065f9ae4922f6d028dba31301e553cd0b89407241086e8318943094f7096e3",
+          "github_digest": "sha256:2a065f9ae4922f6d028dba31301e553cd0b89407241086e8318943094f7096e3",
+          "match": true
+        },
+        {
+          "name": "http_message_framing_gate-0.1.0-py3-none-any.whl",
+          "size": 6405,
+          "github_size": 6405,
+          "download_sha256": "sha256:487a48ac3f87cbe01ebe3ab69f80ddefa2f216b583c8a507d1e8338dae0ddcfd",
+          "github_digest": "sha256:487a48ac3f87cbe01ebe3ab69f80ddefa2f216b583c8a507d1e8338dae0ddcfd",
+          "match": true
+        },
+        {
+          "name": "http_message_framing_gate-0.1.0.tar.gz",
+          "size": 6202,
+          "github_size": 6202,
+          "download_sha256": "sha256:3ad8772bc812f7c65d977e457caee7f5a9dc99368e739ffdb2560dc3ad6857b7",
+          "github_digest": "sha256:3ad8772bc812f7c65d977e457caee7f5a9dc99368e739ffdb2560dc3ad6857b7",
+          "match": true
+        },
+        {
+          "name": "SHA256SUMS",
+          "size": 522,
+          "github_size": 522,
+          "download_sha256": "sha256:8f9824c8867b4f745e2c267508867dfa3a32cf352fe65f9b1529f374cec6336f",
+          "github_digest": "sha256:8f9824c8867b4f745e2c267508867dfa3a32cf352fe65f9b1529f374cec6336f",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "capture_finished_utc": "2026-10-06T03:22:14.684061+00:00"
+}

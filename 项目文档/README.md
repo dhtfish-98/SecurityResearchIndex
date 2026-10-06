@@ -2,7 +2,9 @@
 
 # 防御安全项目与 CVP 证据索引
 
-**索引版本 v1.0.5；最新公开元数据冻结于 2026-10-06 01:33:34–01:33:49 UTC：**[119 仓续审](PUBLIC_119_POST_ROOTLESS_STATUS_20261006.md)和[逐仓机器矩阵](PUBLIC_119_POST_ROOTLESS_METADATA_20261006.json)记录 116 个软件仓、3 个资料仓；第三批固定 30 题中 25 项有正式版本，5 项未发行。[RootlessIdMapBoundary v0.1.0](ROOTLESS_V0_1_0_RELEASE_20261006.json) 的同提交主线／标签真实 Linux 对照、原始日志和回下载资产已核对。此前[ContainerCapabilityDropGate v0.1.0](CONTAINER_V0_1_0_RELEASE_20261006.json)及[119 仓旧冻结](PUBLIC_119_POST_CONTAINER_STATUS_20261006.md)保留各自时点。本索引行在新矩阵中仍是 v1.0.4，发布 v1.0.5 后自身 HEAD 将前进；旧段落和旧数字为历史证据，不是实时结论。CVP 资格与全量语义深审继续 OPEN。
+**索引版本 v1.0.6；最新公开元数据冻结于 2026-10-06 03:56:15–03:56:27 UTC（非原子）：**[124 仓续审](PUBLIC_PORTFOLIO_POST_119_20261006.md)及[逐仓机器快照](PUBLIC_PORTFOLIO_POST_119_20261006.json)记录 121 个软件仓、3 个资料仓。修订后的[第三批 30 项](THIRD_BATCH_30_REVISED_20261006.md)与[机器矩阵](THIRD_BATCH_30_REVISED_20261006.json)核到 **30/30 正式工程发行、30/30 同提交主线与标签 CI 成功**；四个原题目被替换后不双计。按技术证据暂分为 **13 项有条件技术附件、17 项防御工程背景**，并非 30 个经 CVP 认定的申请案例。[公开文档状态复核](THIRD_BATCH_30_DOC_STATUS_20261006.json)仍有 FederatedConnectorIdentityGate 一仓的旧发布措辞 OPEN。第三方实际权利继续保留。真实授权工作、保障措施影响、账号/身份条件、官方资格与批准，以及全部软件的语义深审仍 **OPEN**。快照中的索引自身仍是 v1.0.5；v1.0.6 发布后该行是历史时点，须用本版发行收据核对新 HEAD。
+
+**v1.0.5 历史冻结（2026-10-06 01:33:34–01:33:49 UTC）：**[119 仓续审](PUBLIC_119_POST_ROOTLESS_STATUS_20261006.md)和[逐仓机器矩阵](PUBLIC_119_POST_ROOTLESS_METADATA_20261006.json)记录当时 116 个软件仓、3 个资料仓；第三批固定 30 题当时有 25 项正式发行、5 项未发行。[RootlessIdMapBoundary v0.1.0](ROOTLESS_V0_1_0_RELEASE_20261006.json) 的同提交主线／标签真实 Linux 对照、原始日志和回下载资产已核对。此前[ContainerCapabilityDropGate v0.1.0](CONTAINER_V0_1_0_RELEASE_20261006.json)及[119 仓旧冻结](PUBLIC_119_POST_CONTAINER_STATUS_20261006.md)保留各自时点。本索引在旧矩阵中仍是 v1.0.4；旧段落和旧数字只代表历史证据。
 
 本页主体及申请门槛文字勘误记录于 2026-10-04 08:23 UTC。逐仓 GitHub 状态冻结于 07:40–07:41 UTC；较早的 04:51 UTC 快照及 2026-10-03 23:49 UTC 工程矩阵均保留原时点。后续发行、10:53 UTC 快照及 2026-10-05 再审计作为各自时点的增量列明，不改写旧冻结记录。
 
