@@ -1,0 +1,128 @@
+{
+  "schema": "nginx-v015-independent-public-byte-review.v1",
+  "started_utc": "2026-10-07T22:46:58.405701+00:00",
+  "finished_utc": "2026-10-07T22:47:04.820466+00:00",
+  "status": "PASS_PUBLIC_BYTE_IDENTITY_AND_METADATA",
+  "repository": "dhtfish-98/NginxConfigGuard",
+  "commit": "c5cbc098010a1025bdd030d5ba172f7cb9d96f6c",
+  "tag": "v0.1.5",
+  "git_tree": "fd94c62de6bb79e54d1090ecd35ad72b21b4bc25",
+  "release_url": "https://github.com/dhtfish-98/NginxConfigGuard/releases/tag/v0.1.5",
+  "published_at_utc": "2026-10-07T22:40:32Z",
+  "assets": [
+    {
+      "name": "NginxConfigGuard-v0.1.5-source.zip",
+      "bytes": 53871,
+      "sha256": "92907ca35f5005f0847ca4a3ab9b9c2c840b160f628522f018f40550e20c05ab",
+      "github_digest_match": true,
+      "url": "https://github.com/dhtfish-98/NginxConfigGuard/releases/download/v0.1.5/NginxConfigGuard-v0.1.5-source.zip"
+    },
+    {
+      "name": "nginx_config_guard-0.1.5-py3-none-any.whl",
+      "bytes": 28291,
+      "sha256": "2d07fdadcf5d515b60082e9ae6808a0f9177831981dd027d6dfa2f413296e51f",
+      "github_digest_match": true,
+      "url": "https://github.com/dhtfish-98/NginxConfigGuard/releases/download/v0.1.5/nginx_config_guard-0.1.5-py3-none-any.whl"
+    },
+    {
+      "name": "nginx_config_guard-0.1.5.tar.gz",
+      "bytes": 61627,
+      "sha256": "13aa21718e5e7b4a22382a4d67dafdc33e342c33e489d19e9d696155fd517891",
+      "github_digest_match": true,
+      "url": "https://github.com/dhtfish-98/NginxConfigGuard/releases/download/v0.1.5/nginx_config_guard-0.1.5.tar.gz"
+    },
+    {
+      "name": "RELEASE_MANIFEST.json",
+      "bytes": 2054,
+      "sha256": "3bd82aa9ececae9293dc9b7a6524152b0a944565b1dc4257ceecadc71461f2f3",
+      "github_digest_match": true,
+      "url": "https://github.com/dhtfish-98/NginxConfigGuard/releases/download/v0.1.5/RELEASE_MANIFEST.json"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 395,
+      "sha256": "36a4648e8abb40f211a92fb43d9992ce255c363c47ea7b6240e6ed597ef95d8a",
+      "github_digest_match": true,
+      "url": "https://github.com/dhtfish-98/NginxConfigGuard/releases/download/v0.1.5/SHA256SUMS.txt"
+    }
+  ],
+  "checksum_entries_verified": 4,
+  "release_manifest_assets_verified": 3,
+  "git_files": 26,
+  "zip_files": 26,
+  "zip_exact_git_blob_matches": 26,
+  "source_manifest_entries_verified": 25,
+  "sdist_files_total": 38,
+  "sdist_exact_git_file_matches": 26,
+  "sdist_restored_inputs": 5,
+  "sdist_extra_paths": [
+    "DEFENSIVE_SCOPE.md",
+    "LICENSE",
+    "ORIGIN.md",
+    "PKG-INFO",
+    "README.md",
+    "VALIDATION.md",
+    "setup.cfg",
+    "src/nginx_config_guard.egg-info/PKG-INFO",
+    "src/nginx_config_guard.egg-info/SOURCES.txt",
+    "src/nginx_config_guard.egg-info/dependency_links.txt",
+    "src/nginx_config_guard.egg-info/entry_points.txt",
+    "src/nginx_config_guard.egg-info/top_level.txt"
+  ],
+  "wheel_total_files": 16,
+  "wheel_runtime_modules": 7,
+  "wheel_exact_source_modules": 7,
+  "wheel_record_entries_verified": 16,
+  "metadata": [
+    {
+      "location": "wheel",
+      "version": "0.1.5",
+      "author": "dhtfish98",
+      "maintainer": "dhtfish98",
+      "license_expression": "MIT",
+      "license_file": "项目文档/LICENSE"
+    },
+    {
+      "location": "sdist-root",
+      "version": "0.1.5",
+      "author": "dhtfish98",
+      "maintainer": "dhtfish98",
+      "license_expression": "MIT",
+      "license_file": "项目文档/LICENSE"
+    },
+    {
+      "location": "sdist-egg",
+      "version": "0.1.5",
+      "author": "dhtfish98",
+      "maintainer": "dhtfish98",
+      "license_expression": "MIT",
+      "license_file": "项目文档/LICENSE"
+    }
+  ],
+  "license_sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298",
+  "license_same_in_git_sdist_wheel": true,
+  "ci": [
+    {
+      "run_id": 37697028206,
+      "head_branch": "main",
+      "commit": "c5cbc098010a1025bdd030d5ba172f7cb9d96f6c",
+      "conclusion": "success",
+      "job_count": 2,
+      "url": "https://github.com/dhtfish-98/NginxConfigGuard/actions/runs/37697028206"
+    },
+    {
+      "run_id": 37697098701,
+      "head_branch": "v0.1.5",
+      "commit": "c5cbc098010a1025bdd030d5ba172f7cb9d96f6c",
+      "conclusion": "success",
+      "job_count": 2,
+      "url": "https://github.com/dhtfish-98/NginxConfigGuard/actions/runs/37697098701"
+    }
+  ],
+  "main_stable_during_review": true,
+  "project_or_tests_executed": false,
+  "limits": [
+    "This read-only review verifies public asset bytes, metadata and recorded CI state; it does not rerun the previously tested code.",
+    "No complete Nginx semantics, actual deployment, CVP qualification or approval is established."
+  ]
+}

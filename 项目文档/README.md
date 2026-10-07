@@ -2,7 +2,13 @@
 
 # 防御安全项目与 CVP 证据索引
 
-**索引文档版本 v1.0.7；最新公开元数据冻结于 2026-10-06 03:56:15–03:56:27 UTC（非原子）：**[124 仓续审](PUBLIC_PORTFOLIO_POST_119_20261006.md)及[逐仓机器快照](PUBLIC_PORTFOLIO_POST_119_20261006.json)记录 121 个软件仓、3 个资料仓。修订后的[第三批 30 项](THIRD_BATCH_30_REVISED_20261006.md)与[机器矩阵](THIRD_BATCH_30_REVISED_20261006.json)核到 **30/30 正式工程发行、30/30 同提交主线与标签 CI 成功**；四个原题目被替换后不双计。按技术证据暂分为 **13 项有条件技术附件、17 项防御工程背景**，并非 30 个经 CVP 认定的申请案例。[公开文档状态复核](THIRD_BATCH_30_DOC_STATUS_20261006.json)仍有 FederatedConnectorIdentityGate 一仓的旧发布措辞 OPEN。第三方实际权利继续保留。真实授权工作、保障措施影响、账号/身份条件、官方资格与批准，以及全部软件的语义深审仍 **OPEN**。快照中的索引自身仍是 v1.0.5；该行只代表冻结时点，后续版本须按相应 Release 收据核对 HEAD。
+**v1.0.8 证据汇编；公开元数据冻结于 2026-10-07 22:25:48–22:26:08 UTC（2026-10-08 JST，非原子）：**[128 仓续核](PUBLIC_PORTFOLIO_128_20261008.md)及[逐仓记录](PUBLIC_PORTFOLIO_128_20261008.json)仍为 125 个软件仓、3 个资料仓；127 个 HEAD 沿用同一提交的既有文件证据，ObjCAtlas 新增 [v1.0.6 正式发行回执](OBJCATLAS_V1_0_6_RELEASE_20261008.json)，3 个附件及 255 个源码 blob 重新核对。[深审进展](DEEP12_PROGRESS_20261008.md)确认旧八项问题有 8/8 项有限修复证据，原 12 仓完整深审仍 0/12 有完成证明。历史两批 60 项维持 **19 项有条件技术附件、41 项工程背景**；PEQuarry 旧阶段、全部软件完整语义深审、真实申请事实及官方 CVP 资格/批准继续 **OPEN**。
+
+**2026-10-07 22:40 UTC 后续发行增量：**[NginxConfigGuard v0.1.5](NGINX_V0_1_5_RELEASE_20261008.md)已正式发布，五项附件、源码 ZIP 的 26 个 Git 文件、sdist 的 26 个来源文件和 wheel 的 7 个运行模块在后续独立回下载中核对通过；精确提交主线和标签 CI 成功。该增量不改写上述 22:25–22:26 UTC 的快照。
+
+**v1.0.8 草案的前一历史冻结：公开元数据采于 2026-10-06 08:18:13–08:18:33 UTC（非原子）：**[128 仓续审](PUBLIC_PORTFOLIO_128_20261006.md)及[逐仓机器快照](PUBLIC_PORTFOLIO_128_20261006.json)记录 125 个软件仓、3 个资料仓。与此前 124 仓冻结相比，新增四项[已验证工程发行](NEXT_4_RELEASES_20261006.md)，其 [16 个附件与 74 个源码 blob](NEW_4_RELEASES_20261006.json)逐项核对；当时索引公开最新版为 [v1.0.7](https://github.com/dhtfish-98/SecurityResearchIndex/releases/tag/v1.0.7)。历史两批 60 项仍按旧矩阵保留 **19 项有条件技术附件、41 项工程背景**；新四项没有倒填，也没有自动获得 CVP 资格。真实授权用途、保障措施影响、账号/身份条件、第三方权利完整深审、官方资格与批准，以及 125 个软件仓的全量语义深审仍 **OPEN**。该文档当时尚未发布；此处保留的是历史冻结状态。
+
+**v1.0.7 的历史冻结：**[03:56 UTC 的 124 仓续审](PUBLIC_PORTFOLIO_POST_119_20261006.md)及[逐仓机器快照](PUBLIC_PORTFOLIO_POST_119_20261006.json)记录当时 121 个软件仓、3 个资料仓。修订后的[第三批 30 项](THIRD_BATCH_30_REVISED_20261006.md)与[机器矩阵](THIRD_BATCH_30_REVISED_20261006.json)核到 **30/30 正式工程发行、30/30 同提交主线与标签 CI 成功**；四个原题目被替换后不双计。按技术证据暂分为 **13 项有条件技术附件、17 项防御工程背景**，并非 30 个经 CVP 认定的申请案例。[公开文档状态复核](THIRD_BATCH_30_DOC_STATUS_20261006.json)仍有 FederatedConnectorIdentityGate 一仓的旧发布措辞 OPEN。第三方实际权利继续保留。该旧快照中的索引自身仍是 v1.0.5；旧行只代表冻结时点，不应当作现在的 HEAD。
 
 **v1.0.7 链接勘误：** 修复 CITrustBoundaryReview 独立重放证据的入口，明确 `independent-replay.json` 位于 [v1.0.4 正式证据包](https://github.com/dhtfish-98/SecurityResearchIndex/releases/download/v1.0.4/CITRUST_V0_1_4_INDEPENDENT_EVIDENCE_20261006.tar.gz)内；另修复历史索引迁移后的两处相对文档链接。本次不重新冻结或改写 124 仓和第三批 30 项的机器数据。[v1.0.6 正式发行](https://github.com/dhtfish-98/SecurityResearchIndex/releases/tag/v1.0.6)及其公开回验仍按原时点保留。
 
@@ -22,11 +28,11 @@
 | 非网络安全背景 | 2 | CDTranslator、SILGallery 不作为主 CVP 资格证据 |
 | 资料仓库 | 3 | .github、dhtfish-98、SecurityResearchIndex 不计独立软件项目 |
 
-这些分类是材料整理判断，不是官方项目白名单。普通防御工具不是政策违规；合法双用途也不能仅凭名称或功能判断是否符合申请。渠道按申请人说明为 Claude.ai / Claude Code；原始拦截或降级记录是可选佐证，本审核不将其设为硬性门槛。当前官方说明明确不适用于 Opus 5.5 和 Sonnet 5.5，ZDR 组织也暂不符合资格；第一方门户申请仅授权管理员可见，提交需身份验证。未来扩展不能当作已生效。仓库数量、改名、作者字段和 CI 不能代表官方批准。见 [官方说明](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)及 [当前规则与证据](CVP_RULES_AND_EVIDENCE_20261004.md)。
+这些分类是材料整理判断，不是官方项目白名单。**当前规则已按 2026-10-08 重新核对：**个人目前仅能以付费计划申请 Defense Access，组织统一提交；官方材料清单未列固定 30 项目或逐项目拦截截图。旧版模型排除、单一层级和所有 ZDR 组织一律排除的表述不再作为现行要求。渠道按申请人说明为 Claude.ai / Claude Code；适用安全控制、真实申请事实和批准状态见[当前规则](CVP_RULES_AND_EVIDENCE_20261008.md)及[当前待核表](APPLICATION_EVIDENCE_OPEN_20261008.md)。[官方项目说明](https://support.claude.com/en/articles/14604842-cyber-verification-program)是判断依据；仓库数量、作者字段和 CI 不代表官方批准。历史规则和冻结记录按各自时点保留。
 
 [30 题目研究池 R2](PROJECT_30_RESEARCH_POOL_R2_20261004.md)列出 6 个已有条件候选和 24 个未实现规格；[代码级再筛](CVP_CODE_SCOPE_RECHECK_20261004.md)把原 18 初筛案例中的 10 个降为工程背景、2 个派生工具移出主案例。[2026-10-05 题目适配再筛](PROJECT_30_FIT_RECHECK_20261005.md)将 24 个旧规格分为 9 个优先保留、7 个须收紧、8 个降为辅助或并仓，并另列 8 个仍未实现的替代研究方向。[逐项 30 候选状态表](CVP_30_CANDIDATE_TRACKER_20261005.md)标明每个题目的实施状态与独立验收所需证据。30 只是题目槽位，不是 30 个已重写或已符合 CVP 要求的项目；实施须以真实授权任务为准。
 
-10:53 UTC 的逐仓提交与 CI 见[后续机器快照](PUBLIC_PORTFOLIO_POSTUPDATE_20261004.json)，材料角色与限定用途见[再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)。04:51 UTC 的[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)及 [2026-10-03 工程矩阵](CVP_REVIEW_20261004.md)和[机器记录](CVP_REVIEW_20261004.json)保留原冻结证据，不应当作最新 HEAD。真实申请材料待补项见 [证据整理表](APPLICATION_EVIDENCE_OPEN.md)，不把空白信息写成已完成事实。
+10:53 UTC 的逐仓提交与 CI 见[后续机器快照](PUBLIC_PORTFOLIO_POSTUPDATE_20261004.json)，材料角色与限定用途见[再审计](PUBLIC_PORTFOLIO_RECHECK_20261004.md)。04:51 UTC 的[旧快照](PUBLIC_PORTFOLIO_STATUS_20261004.json)及 [2026-10-03 工程矩阵](CVP_REVIEW_20261004.md)和[机器记录](CVP_REVIEW_20261004.json)保留原冻结证据，不应当作最新 HEAD。真实申请材料待补项见 [当前证据整理表](APPLICATION_EVIDENCE_OPEN_20261008.md)，不把空白信息写成已完成事实。
 
 在 07:40–07:41 UTC 主体冻结时，91 个软件仓各自精确 HEAD 的 Actions **91 项成功、0 项失败或运行中**；3 个资料仓没有相应运行。10:53 UTC 后续快照另得 94/94 公开仓可读、91 个软件仓各自当时精确 HEAD 的 CI 成功、3 个资料仓无工作流。两个窗口都不是现在的实时状态。94 个当时提交的显示名与所有者账号关联均核实，跟踪树中未见新编译输出；ImageQuay 保留一份测试固定夹具。CI 只验证所执行范围；ArchiveLens 6 项、BranchLoom 1 项、TabWeave 1 项已保存未修观察继续标注，12 个深层项目的完整审核仍 OPEN。
 

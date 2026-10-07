@@ -1,0 +1,230 @@
+{
+  "schema": "security-research-index-four-new-releases-verification-v1",
+  "captured_utc": "2026-10-06T08:19:22.936663+00:00",
+  "source_graphql_snapshot_sha256": "f0f347b651e3a1a44cde14bba944ecc2135b962de6be625ff5663ebf546a6446",
+  "rows": [
+    {
+      "repo": "OAuthCodePkceReplayReview",
+      "head_sha": "d247cffdbfd6bab16751f243e6fcac71a92f5a19",
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/OAuthCodePkceReplayReview/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-06T04:48:00Z",
+      "git_tree_blob_count": 17,
+      "source_archive_blob_count": 17,
+      "source_archive_exact_git_blob_match": true,
+      "assets": [
+        {
+          "name": "OAuthCodePkceReplayReview-v0.1.0-source.tar.gz",
+          "bytes": 16535,
+          "sha256": "f01d9c66c4bc2f162135e66a60b3462424d303e25d64d92f904da3189e0b2a0e",
+          "url": "https://github.com/dhtfish-98/OAuthCodePkceReplayReview/releases/download/v0.1.0/OAuthCodePkceReplayReview-v0.1.0-source.tar.gz",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "oauth_code_pkce_replay_review-0.1.0-py3-none-any.whl",
+          "bytes": 8984,
+          "sha256": "d7e6d6b017e2f601b108ff181b5ec0921706fba123dbdac21face9707d9a9311",
+          "url": "https://github.com/dhtfish-98/OAuthCodePkceReplayReview/releases/download/v0.1.0/oauth_code_pkce_replay_review-0.1.0-py3-none-any.whl",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "oauth_code_pkce_replay_review-0.1.0.tar.gz",
+          "bytes": 20155,
+          "sha256": "5f866aa3f2c3a725c486df7829b0d3ce63b6e3fd036dbce17e124820d8ca7966",
+          "url": "https://github.com/dhtfish-98/OAuthCodePkceReplayReview/releases/download/v0.1.0/oauth_code_pkce_replay_review-0.1.0.tar.gz",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "SHA256SUMS",
+          "bytes": 341,
+          "sha256": "ab021ffb0271bdf158547f05b809d9ab2c1c08b4fc004c02aa7533a0cd9648a9",
+          "url": "https://github.com/dhtfish-98/OAuthCodePkceReplayReview/releases/download/v0.1.0/SHA256SUMS",
+          "downloaded_and_verified": true
+        }
+      ],
+      "sha256sums_rows_verified": 3,
+      "exact_commit_ci": {
+        "main": {
+          "id": 37415214300,
+          "url": "https://github.com/dhtfish-98/OAuthCodePkceReplayReview/actions/runs/37415214300",
+          "conclusion": "success",
+          "head_sha": "d247cffdbfd6bab16751f243e6fcac71a92f5a19"
+        },
+        "v0.1.0": {
+          "id": 37415300246,
+          "url": "https://github.com/dhtfish-98/OAuthCodePkceReplayReview/actions/runs/37415300246",
+          "conclusion": "success",
+          "head_sha": "d247cffdbfd6bab16751f243e6fcac71a92f5a19"
+        }
+      }
+    },
+    {
+      "repo": "JwtVerifierConfusionReview",
+      "head_sha": "f1a28dca52874699b0de7ca2b177666463163512",
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/JwtVerifierConfusionReview/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-06T05:13:05Z",
+      "git_tree_blob_count": 19,
+      "source_archive_blob_count": 19,
+      "source_archive_exact_git_blob_match": true,
+      "assets": [
+        {
+          "name": "JwtVerifierConfusionReview-v0.1.0-source.tar.gz",
+          "bytes": 17465,
+          "sha256": "8c9bf61c035e3417d9d345f03fb8a7edee71a34ad602afad67d2a8d9e36765d1",
+          "url": "https://github.com/dhtfish-98/JwtVerifierConfusionReview/releases/download/v0.1.0/JwtVerifierConfusionReview-v0.1.0-source.tar.gz",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "jwt_verifier_confusion_review-0.1.0-py3-none-any.whl",
+          "bytes": 8068,
+          "sha256": "659a3285a60a1f605bd77d093c2fa23f0693e6d2d946c933d0d1aff25033c9a8",
+          "url": "https://github.com/dhtfish-98/JwtVerifierConfusionReview/releases/download/v0.1.0/jwt_verifier_confusion_review-0.1.0-py3-none-any.whl",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "jwt_verifier_confusion_review-0.1.0.tar.gz",
+          "bytes": 24157,
+          "sha256": "c0a089593e07b12cc123cbb609e58f953787c34a98061cbe499999f2d27b1191",
+          "url": "https://github.com/dhtfish-98/JwtVerifierConfusionReview/releases/download/v0.1.0/jwt_verifier_confusion_review-0.1.0.tar.gz",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "SHA256SUMS",
+          "bytes": 342,
+          "sha256": "8d164950018f6f1dac1d214f84dfe3a7a864ffa5f64afa144bc4b08cde132394",
+          "url": "https://github.com/dhtfish-98/JwtVerifierConfusionReview/releases/download/v0.1.0/SHA256SUMS",
+          "downloaded_and_verified": true
+        }
+      ],
+      "sha256sums_rows_verified": 3,
+      "exact_commit_ci": {
+        "main": {
+          "id": 37417252160,
+          "url": "https://github.com/dhtfish-98/JwtVerifierConfusionReview/actions/runs/37417252160",
+          "conclusion": "success",
+          "head_sha": "f1a28dca52874699b0de7ca2b177666463163512"
+        },
+        "v0.1.0": {
+          "id": 37417321779,
+          "url": "https://github.com/dhtfish-98/JwtVerifierConfusionReview/actions/runs/37417321779",
+          "conclusion": "success",
+          "head_sha": "f1a28dca52874699b0de7ca2b177666463163512"
+        }
+      }
+    },
+    {
+      "repo": "SSRFConnectionBoundaryReview",
+      "head_sha": "915cd51a2e7bd7d67360ef85f6c761e49ea342b8",
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/SSRFConnectionBoundaryReview/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-06T05:31:55Z",
+      "git_tree_blob_count": 19,
+      "source_archive_blob_count": 19,
+      "source_archive_exact_git_blob_match": true,
+      "assets": [
+        {
+          "name": "SHA256SUMS",
+          "bytes": 348,
+          "sha256": "5d8eddbf136b6e677826c81f93900cfec36f359c9fe2f185ddcc329a1c4f5ca6",
+          "url": "https://github.com/dhtfish-98/SSRFConnectionBoundaryReview/releases/download/v0.1.0/SHA256SUMS",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "SSRFConnectionBoundaryReview-v0.1.0-source.tar.gz",
+          "bytes": 24719,
+          "sha256": "29d86a3429481ba986d979c12f9758c05436b445d8348a8dd15bd698937465ef",
+          "url": "https://github.com/dhtfish-98/SSRFConnectionBoundaryReview/releases/download/v0.1.0/SSRFConnectionBoundaryReview-v0.1.0-source.tar.gz",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "ssrf_connection_boundary_review-0.1.0-py3-none-any.whl",
+          "bytes": 16103,
+          "sha256": "099f427d5f9e54495104764a17517003c890c40d9efc3ff3cb5ff614231d6f91",
+          "url": "https://github.com/dhtfish-98/SSRFConnectionBoundaryReview/releases/download/v0.1.0/ssrf_connection_boundary_review-0.1.0-py3-none-any.whl",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "ssrf_connection_boundary_review-0.1.0.tar.gz",
+          "bytes": 29731,
+          "sha256": "bd7e803d3864a7b3f79279f29214ed828b256ac0eeb13bcbcb88e3fcc59a5129",
+          "url": "https://github.com/dhtfish-98/SSRFConnectionBoundaryReview/releases/download/v0.1.0/ssrf_connection_boundary_review-0.1.0.tar.gz",
+          "downloaded_and_verified": true
+        }
+      ],
+      "sha256sums_rows_verified": 3,
+      "exact_commit_ci": {
+        "main": {
+          "id": 37418679262,
+          "url": "https://github.com/dhtfish-98/SSRFConnectionBoundaryReview/actions/runs/37418679262",
+          "conclusion": "success",
+          "head_sha": "915cd51a2e7bd7d67360ef85f6c761e49ea342b8"
+        },
+        "v0.1.0": {
+          "id": 37418811377,
+          "url": "https://github.com/dhtfish-98/SSRFConnectionBoundaryReview/actions/runs/37418811377",
+          "conclusion": "success",
+          "head_sha": "915cd51a2e7bd7d67360ef85f6c761e49ea342b8"
+        }
+      }
+    },
+    {
+      "repo": "WebSessionDastReview",
+      "head_sha": "34b03062be554d1cb37ee7ca9e48575321abfdb6",
+      "release_tag": "v0.1.0",
+      "release_url": "https://github.com/dhtfish-98/WebSessionDastReview/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-06T08:16:00Z",
+      "git_tree_blob_count": 19,
+      "source_archive_blob_count": 19,
+      "source_archive_exact_git_blob_match": true,
+      "assets": [
+        {
+          "name": "SHA256SUMS",
+          "bytes": 324,
+          "sha256": "8dfef3a4a07bb20f7a9626ef295cf52924626ca77f8fee0f17e6357ad937d3cc",
+          "url": "https://github.com/dhtfish-98/WebSessionDastReview/releases/download/v0.1.0/SHA256SUMS",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "WebSessionDastReview-v0.1.0-source.tar.gz",
+          "bytes": 19787,
+          "sha256": "635b7e220e6c7843011b181b6180de6737ce3d4bb49fd59bde5981db6ef55fe4",
+          "url": "https://github.com/dhtfish-98/WebSessionDastReview/releases/download/v0.1.0/WebSessionDastReview-v0.1.0-source.tar.gz",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "web_session_dast_review-0.1.0-py3-none-any.whl",
+          "bytes": 11008,
+          "sha256": "5cb6e8bf6c5ee03fd168a5cd831b851780d72c54db462778793fdc8fb56dc6fc",
+          "url": "https://github.com/dhtfish-98/WebSessionDastReview/releases/download/v0.1.0/web_session_dast_review-0.1.0-py3-none-any.whl",
+          "downloaded_and_verified": true
+        },
+        {
+          "name": "web_session_dast_review-0.1.0.tar.gz",
+          "bytes": 24625,
+          "sha256": "210c1808fdab77f0bcf1cf3dd7401b0659fc5ad8884e5485d085c7522b757de8",
+          "url": "https://github.com/dhtfish-98/WebSessionDastReview/releases/download/v0.1.0/web_session_dast_review-0.1.0.tar.gz",
+          "downloaded_and_verified": true
+        }
+      ],
+      "sha256sums_rows_verified": 3,
+      "exact_commit_ci": {
+        "main": {
+          "id": 37434340217,
+          "url": "https://github.com/dhtfish-98/WebSessionDastReview/actions/runs/37434340217",
+          "conclusion": "success",
+          "head_sha": "34b03062be554d1cb37ee7ca9e48575321abfdb6"
+        },
+        "v0.1.0": {
+          "id": 37434753064,
+          "url": "https://github.com/dhtfish-98/WebSessionDastReview/actions/runs/37434753064",
+          "conclusion": "success",
+          "head_sha": "34b03062be554d1cb37ee7ca9e48575321abfdb6"
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Engineering publication only; not deployment, external identity, CVP eligibility, or full semantic audit"
+  ]
+}

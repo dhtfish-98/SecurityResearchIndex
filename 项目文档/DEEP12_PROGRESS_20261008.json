@@ -1,0 +1,155 @@
+{
+  "schema": "public-deep12-progress-20261008.v1",
+  "metadata_window_utc": [
+    "2026-10-07T22:25:48.064844+00:00",
+    "2026-10-07T22:26:08.900135+00:00"
+  ],
+  "original_known_findings": 8,
+  "bounded_fix_evidence_present": 8,
+  "complete_original_deep_review_proven": 0,
+  "original_deep_review_projects": 12,
+  "complete_original_deep_review_open": 12,
+  "bounded_fix_groups": [
+    {
+      "repository": "ArchiveLens",
+      "fixed_findings": 6,
+      "fix_releases": [
+        {
+          "tag": "v1.0.4",
+          "commit": "908c5bd9d3bf0f9b26cfd5e7d4b252bea81f7482",
+          "url": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.4"
+        },
+        {
+          "tag": "v1.0.6",
+          "commit": "6107b618d3dab2c205ce0e364f90a818cdade9cf",
+          "url": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.6"
+        }
+      ],
+      "current_runtime_identity": {
+        "current_commit": "4a2a2d3dc7dc7f6fe8de56822626b0b6d80eb8f6",
+        "fixed_commit": "6107b618d3dab2c205ce0e364f90a818cdade9cf",
+        "rust_files": 29,
+        "all_paths_modes_blobs_equal": true
+      }
+    },
+    {
+      "repository": "BranchLoom",
+      "fixed_findings": 1,
+      "release": "v0.2.1",
+      "commit": "dd94ae1b8916f5404ec77c26586d805876610b78",
+      "url": "https://github.com/dhtfish-98/BranchLoom/releases/tag/v0.2.1"
+    },
+    {
+      "repository": "TabWeave",
+      "fixed_findings": 1,
+      "release": "v4.3.1",
+      "commit": "ad738a0ede9f3ff8e274ed092935eb2e9ae22507",
+      "url": "https://github.com/dhtfish-98/TabWeave/releases/tag/v4.3.1"
+    }
+  ],
+  "projects": [
+    {
+      "name": "A64Dispatch",
+      "current_head": "ac8ca8c66b2927e386ea404630b0b20d4ad4535e",
+      "latest_release_tag": "v1.0.1",
+      "latest_release_url": "https://github.com/dhtfish-98/A64Dispatch/releases/tag/v1.0.1",
+      "latest_release_commit": "ac8ca8c66b2927e386ea404630b0b20d4ad4535e",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "ArchiveLens",
+      "current_head": "4a2a2d3dc7dc7f6fe8de56822626b0b6d80eb8f6",
+      "latest_release_tag": "v1.0.8",
+      "latest_release_url": "https://github.com/dhtfish-98/ArchiveLens/releases/tag/v1.0.8",
+      "latest_release_commit": "4a2a2d3dc7dc7f6fe8de56822626b0b6d80eb8f6",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "BranchLoom",
+      "current_head": "dd94ae1b8916f5404ec77c26586d805876610b78",
+      "latest_release_tag": "v0.2.1",
+      "latest_release_url": "https://github.com/dhtfish-98/BranchLoom/releases/tag/v0.2.1",
+      "latest_release_commit": "dd94ae1b8916f5404ec77c26586d805876610b78",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "ChromeRelay",
+      "current_head": "53f3479a654f7b0011a2c831792bedce5449cd64",
+      "latest_release_tag": "v1.0.1",
+      "latest_release_url": "https://github.com/dhtfish-98/ChromeRelay/releases/tag/v1.0.1",
+      "latest_release_commit": "53f3479a654f7b0011a2c831792bedce5449cd64",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "IDBMeadow",
+      "current_head": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+      "latest_release_tag": "v1.0.4",
+      "latest_release_url": "https://github.com/dhtfish-98/IDBMeadow/releases/tag/v1.0.4",
+      "latest_release_commit": "1528dda445af89b20be9ba9b18d8a388755a7b14",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "MachOInspect",
+      "current_head": "0df36ecba4279496951cbaeda8dd594aa5ba6ba3",
+      "latest_release_tag": "v1.0.1",
+      "latest_release_url": "https://github.com/dhtfish-98/MachOInspect/releases/tag/v1.0.1",
+      "latest_release_commit": "0df36ecba4279496951cbaeda8dd594aa5ba6ba3",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "ObjCAtlas",
+      "current_head": "c23696035a31729ef2068e1403ab9832c3e857c1",
+      "latest_release_tag": "v1.0.6",
+      "latest_release_url": "https://github.com/dhtfish-98/ObjCAtlas/releases/tag/v1.0.6",
+      "latest_release_commit": "c23696035a31729ef2068e1403ab9832c3e857c1",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "PEQuarry",
+      "current_head": "146f01aa3fbb95e991e5bb139c56d095e2fbce2c",
+      "latest_release_tag": "v1.0.7",
+      "latest_release_url": "https://github.com/dhtfish-98/PEQuarry/releases/tag/v1.0.7",
+      "latest_release_commit": "146f01aa3fbb95e991e5bb139c56d095e2fbce2c",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "PolicyMosaic",
+      "current_head": "f3f2b80d4527ab1e4afefd3e4c08f66798f51485",
+      "latest_release_tag": "v1.0.7",
+      "latest_release_url": "https://github.com/dhtfish-98/PolicyMosaic/releases/tag/v1.0.7",
+      "latest_release_commit": "f3f2b80d4527ab1e4afefd3e4c08f66798f51485",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "TabWeave",
+      "current_head": "ad738a0ede9f3ff8e274ed092935eb2e9ae22507",
+      "latest_release_tag": "v4.3.1",
+      "latest_release_url": "https://github.com/dhtfish-98/TabWeave/releases/tag/v4.3.1",
+      "latest_release_commit": "ad738a0ede9f3ff8e274ed092935eb2e9ae22507",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "TraceMeadow",
+      "current_head": "7d502d29e653b3a36b945ba8044893e1ecc0d895",
+      "latest_release_tag": "v1.0.4",
+      "latest_release_url": "https://github.com/dhtfish-98/TraceMeadow/releases/tag/v1.0.4",
+      "latest_release_commit": "7d502d29e653b3a36b945ba8044893e1ecc0d895",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    },
+    {
+      "name": "VTableBrook",
+      "current_head": "2576c786c1ef7f6098f9b51191143f0f46456cb2",
+      "latest_release_tag": "v1.0.2",
+      "latest_release_url": "https://github.com/dhtfish-98/VTableBrook/releases/tag/v1.0.2",
+      "latest_release_commit": "2576c786c1ef7f6098f9b51191143f0f46456cb2",
+      "complete_original_deep_review": "OPEN_NO_COMPLETE_EVIDENCE"
+    }
+  ],
+  "PEQuarry_old_stage_status": "OPEN: exact distribution scope, provenance and complete verification remain unresolved. This update concerns the current public release only.",
+  "limits": [
+    "Eight bounded fixes are separate from full original review completion.",
+    "Current Git/Release metadata was read; prior tests remain historical receipts, not tests rerun for this index.",
+    "Old dated matrices are retained unchanged.",
+    "No applicant identity, authorized real-world task or CVP approval is established."
+  ]
+}

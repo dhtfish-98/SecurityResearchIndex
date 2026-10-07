@@ -1,8 +1,4 @@
-
-
-# All generated build outputs and staging are local.
-!/Build/
-/Build/*
-!/Build/.gitignore
+# Generated outputs stay in the external central Build directory.
+/Build/
 __pycache__/
 *.py[cod]

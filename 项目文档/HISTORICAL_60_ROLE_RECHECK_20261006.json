@@ -1,0 +1,28 @@
+{
+  "schema": "security-research-index-historical-60-roles-v1",
+  "historic_30_document_sha256": "b0ec69b34792e3f11458aae3640b86f11c064c030415689c69096a926bf1a58f",
+  "historic_role_matrix_sha256": "50f7bfd883a9770d8142fb0846939db5cacd2b7335ad401d9f71815e64f024e6",
+  "third_30_matrix_sha256": "416661f9d2db26d3de9d44666f1caa5d6bc4e4f46541d987a406f2a5c4ab2469",
+  "names_disjoint": true,
+  "historic_30": {
+    "conditional_technical": 6,
+    "engineering_background": 24
+  },
+  "third_30": {
+    "conditional_technical": 13,
+    "engineering_background": 17
+  },
+  "combined_60": {
+    "conditional_technical": 19,
+    "engineering_background": 41
+  },
+  "new_4_not_in_historical_60": [
+    "JwtVerifierConfusionReview",
+    "OAuthCodePkceReplayReview",
+    "SSRFConnectionBoundaryReview",
+    "WebSessionDastReview"
+  ],
+  "cvp_qualification_verified": 0,
+  "official_approval_verified": 0,
+  "limits": "This recomputes historical material roles from frozen records; it is not a current 125-software semantic audit or official CVP decision."
+}
